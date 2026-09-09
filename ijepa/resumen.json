@@ -1,0 +1,61 @@
+{
+ "semilla": 20260910,
+ "lotes": 40,
+ "lote": 128,
+ "imagenes": 5120,
+ "rejilla": [
+  16,
+  16
+ ],
+ "parches": 256,
+ "contexto_bruto": {
+  "media": 110.431640625,
+  "mediana": 110.0,
+  "min": 51,
+  "max": 171
+ },
+ "contexto_truncado": {
+  "media": 68.25,
+  "min": 51,
+  "max": 93
+ },
+ "objetivo_bruto": {
+  "media": 44.025,
+  "min": 35,
+  "max": 54
+ },
+ "min_enc_por_lote": {
+  "media": 68.25,
+  "min": 51
+ },
+ "relajaciones": 0,
+ "tam_pred": [
+  [
+   5,
+   7
+  ],
+  [
+   6,
+   7
+  ],
+  [
+   7,
+   6
+  ],
+  [
+   8,
+   6
+  ],
+  [
+   9,
+   6
+  ]
+ ],
+ "tam_enc": [
+  [
+   15,
+   15
+  ]
+ ],
+ "extraido": "2026-09-10"
+}

@@ -1,0 +1,30 @@
+{
+ "semilla": 20260825,
+ "dim": 64,
+ "ambitos": [
+  "público",
+  "finanzas",
+  "salud laboral"
+ ],
+ "por_ambito": 200,
+ "corpus": 600,
+ "k": 10,
+ "n_consultas": 300,
+ "sigma_fragmento": 0.15,
+ "consultas": "uniformes en la esfera",
+ "usuario_acl": [
+  "grupo-publico"
+ ],
+ "cos_dentro_ambito": 0.411,
+ "cos_entre_ambitos": -0.047,
+ "motor": "qdrant-client 1.19.0, modo local (:memory:)",
+ "post_exp_media": 6.29,
+ "post_exp_total": 1886,
+ "post_exp_max": 10,
+ "post_con_exposicion": 280,
+ "post_utiles_media": 3.71,
+ "post_vacias": 88,
+ "pre_exp_total": 0,
+ "pre_utiles_media": 10.0,
+ "extraido": "2026-09-12"
+}

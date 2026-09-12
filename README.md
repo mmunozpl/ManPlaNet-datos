@@ -8,6 +8,7 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--5714--912X-a6ce39)](https://orcid.org/0009-0000-5714-912X)
 [![License](https://img.shields.io/badge/License-Apache--2.0-009e73)](LICENSE)
 [![Binder](https://img.shields.io/badge/Binder-Notebooks-009e73)](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Space-ffd21e)](https://huggingface.co/spaces/ManPla/rag-sintetico)
 [![Cite](https://img.shields.io/badge/Cite-BibTeX-009e73)](#how-to-cite)
 
 **Abstract:** Every article at [manpla.net](https://manpla.net) that states
@@ -58,7 +59,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [The shop window and the counter](https://manpla.net/en/posts/the-shop-window-and-the-counter/) | `hf-tendencia/generar.py` | `hf-tendencia/tendencia.csv` |
 | [Four terms have already peaked](https://manpla.net/en/posts/four-terms-have-already-peaked/) | `agi-tendencias/generar.py` | `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | [Predicting without drawing](https://manpla.net/en/posts/predicting-without-drawing/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |
-| [A RAG that survives an audit](https://manpla.net/en/posts/a-rag-that-survives-an-audit/) | `rag-sintetico/generar.py` | `rag-sintetico/corpus.csv`, `consultas.csv`, `resumen.json` |
+| [A RAG that survives an audit](https://manpla.net/en/posts/a-rag-that-survives-an-audit/) | `rag-sintetico/generar.py` · [demo](https://huggingface.co/spaces/ManPla/rag-sintetico) | `rag-sintetico/corpus.csv`, `consultas.csv`, `resumen.json` |
 | [Before the first layer](https://manpla.net/en/posts/before-the-first-layer/) | procedure in `INSTANTANEA.md`; the survey script was not kept | `transformers/configs.csv` |
 | article in preparation | procedure in `INSTANTANEA.md`; the extraction script was not kept | `sigma/reglas.csv` |
 | [Looking is already processing](https://manpla.net/en/posts/looking-is-already-processing/) | none: downloaded from UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
@@ -103,6 +104,11 @@ nothing has to be downloaded and no account is needed — or locally with
 - [`adult/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=adult%2Freproducir.ipynb)
 - [`rag-sintetico/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=rag-sintetico%2Freproducir.ipynb)
 - [`vigencia-boe/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=vigencia-boe%2Freproducir.ipynb)
+
+The synthetic-RAG measurement also has a demo on Hugging Face,
+[ManPla/rag-sintetico](https://huggingface.co/spaces/ManPla/rag-sintetico): the same corpus and the same in-memory index,
+to pick a query and who launches it and see what the system reads under each
+variant.
 
 Binder's first launch takes a few minutes, because it builds the image; the
 following ones come from its cache.

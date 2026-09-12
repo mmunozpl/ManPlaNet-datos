@@ -8,6 +8,7 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--5714--912X-a6ce39)](https://orcid.org/0009-0000-5714-912X)
 [![License](https://img.shields.io/badge/License-Apache--2.0-009e73)](LICENSE)
 [![Binder](https://img.shields.io/badge/Binder-Cuadernos-009e73)](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Space-ffd21e)](https://huggingface.co/spaces/ManPla/rag-sintetico)
 [![Cite](https://img.shields.io/badge/Cite-BibTeX-009e73)](#cómo-citar)
 
 **Resumen:** Cada artículo de [manpla.net](https://manpla.net) que afirma una
@@ -58,7 +59,7 @@ con la semilla y los parámetros de la simulación.
 | [El escaparate y el contador](https://manpla.net/posts/el-escaparate-y-el-contador/) | `hf-tendencia/generar.py` | `hf-tendencia/tendencia.csv` |
 | [Cuatro términos ya han tocado techo](https://manpla.net/posts/cuatro-terminos-ya-han-tocado-techo/) | `agi-tendencias/generar.py` | `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | [Predecir sin dibujar](https://manpla.net/posts/predecir-sin-dibujar/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |
-| [Un RAG que aguante una inspección](https://manpla.net/posts/un-rag-que-aguante-una-inspeccion/) | `rag-sintetico/generar.py` | `rag-sintetico/corpus.csv`, `consultas.csv`, `resumen.json` |
+| [Un RAG que aguante una inspección](https://manpla.net/posts/un-rag-que-aguante-una-inspeccion/) | `rag-sintetico/generar.py` · [demo](https://huggingface.co/spaces/ManPla/rag-sintetico) | `rag-sintetico/corpus.csv`, `consultas.csv`, `resumen.json` |
 | [Antes de la primera capa](https://manpla.net/posts/antes-de-la-primera-capa/) | procedimiento en `INSTANTANEA.md`; el guion del sondeo no se conservó | `transformers/configs.csv` |
 | artículo en preparación | procedimiento en `INSTANTANEA.md`; el guion de la extracción no se conservó | `sigma/reglas.csv` |
 | [Mirar ya es tratar](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
@@ -102,6 +103,11 @@ para volver a tomar la instantánea está `generar.py`.
 - [`adult/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=adult%2Freproducir.ipynb)
 - [`rag-sintetico/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=rag-sintetico%2Freproducir.ipynb)
 - [`vigencia-boe/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=vigencia-boe%2Freproducir.ipynb)
+
+La medición del RAG sintético tiene además una demo en Hugging Face,
+[ManPla/rag-sintetico](https://huggingface.co/spaces/ManPla/rag-sintetico): el mismo corpus y el mismo índice en memoria,
+para elegir una consulta y quién la lanza y ver qué lee el sistema en cada
+variante.
 
 La primera arrancada de Binder tarda unos minutos, porque construye la
 imagen; las siguientes salen de su caché.

@@ -10,8 +10,8 @@ authors:
     family-names: Muñoz Plá
     email: mmunozpl@uoc.edu
     orcid: "https://orcid.org/0009-0000-5714-912X"
-version: 2026.09.12
-date-released: "2026-09-12"
+version: 2026.09.13
+date-released: "2026-09-13"
 license: Apache-2.0
 url: "https://manpla.net"
 repository-code: "https://github.com/mmunozpl/ManPlaNet-datos"

@@ -33,6 +33,7 @@ el guion:
 ├── agi-tendencias/   # cuota anual de nueve términos en los resúmenes de arXiv
 ├── ijepa/            # simulación del muestreo de máscaras de I-JEPA
 ├── rag-sintetico/    # permisos en un RAG: 600 fragmentos sintéticos, 300 consultas, filtro antes o después
+├── deepseek-kv/      # caché KV global por token en cuatro generaciones de DeepSeek, desde sus configs
 ├── transformers/     # configuración de los 600 modelos más descargados del Hub
 ├── sigma/            # metadatos de las 3 760 reglas de detección de SigmaHQ
 ├── adult/            # el conjunto Adult de UCI, sin modificar
@@ -60,6 +61,7 @@ con la semilla y los parámetros de la simulación.
 | [Cuatro términos ya han tocado techo](https://manpla.net/posts/cuatro-terminos-ya-han-tocado-techo/) | `agi-tendencias/generar.py` | `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | [Predecir sin dibujar](https://manpla.net/posts/predecir-sin-dibujar/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |
 | [Un RAG que aguante una inspección](https://manpla.net/posts/un-rag-que-aguante-una-inspeccion/) | `rag-sintetico/generar.py` · [demo](https://huggingface.co/spaces/ManPla/rag-sintetico) | `rag-sintetico/corpus.csv`, `consultas.csv`, `resumen.json` |
+| [Cuatro capas de cuarenta](https://manpla.net/posts/cuatro-capas-de-cuarenta/) | `deepseek-kv/generar.py` | `deepseek-kv/generaciones.csv`, `configs/*.json` |
 | [Antes de la primera capa](https://manpla.net/posts/antes-de-la-primera-capa/) | procedimiento en `INSTANTANEA.md`; el guion del sondeo no se conservó | `transformers/configs.csv` |
 | artículo en preparación | procedimiento en `INSTANTANEA.md`; el guion de la extracción no se conservó | `sigma/reglas.csv` |
 | [Mirar ya es tratar](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
@@ -82,10 +84,12 @@ python hf-tendencia/generar.py
 python agi-tendencias/generar.py     # unos ocho minutos: arXiv pide pausa
 python ijepa/generar.py              # determinista: semilla 20260910
 python rag-sintetico/generar.py      # determinista: semilla 20260825; índice en memoria
+python deepseek-kv/generar.py        # descarga cuatro config.json públicos de Hugging Face
 ```
 
-Ninguno necesita credenciales. Los dos primeros y el tercero consultan una API
-pública. El cuarto no sale de la máquina.
+Ninguno necesita credenciales. `kev`, `hf-tendencia`, `agi-tendencias` y
+`deepseek-kv` consultan una API o descargan ficheros públicos; `ijepa` y
+`rag-sintetico` no salen de la máquina.
 
 ## Cuadernos
 
@@ -102,6 +106,7 @@ para volver a tomar la instantánea está `generar.py`.
 - [`sigma/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=sigma%2Freproducir.ipynb)
 - [`adult/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=adult%2Freproducir.ipynb)
 - [`rag-sintetico/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=rag-sintetico%2Freproducir.ipynb)
+- [`deepseek-kv/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=deepseek-kv%2Freproducir.ipynb)
 - [`vigencia-boe/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=vigencia-boe%2Freproducir.ipynb)
 
 La medición del RAG sintético tiene además una demo en Hugging Face,
@@ -120,7 +125,7 @@ imagen; las siguientes salen de su caché.
   title  = {Mediciones que respaldan los artículos de manpla.net},
   year   = {2026},
   url    = {https://github.com/mmunozpl/ManPlaNet-datos},
-  note   = {Versión 2026.09.12}
+  note   = {Versión 2026.09.13}
 }
 ```
 

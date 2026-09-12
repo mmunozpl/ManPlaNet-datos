@@ -31,6 +31,20 @@ form of each term, and it is the one `README.md` uses.
 | `fila`, `columna`, `veces_objetivo`, `veces_contexto` | row, column, times as target, times as context | `ijepa/cobertura.csv` |
 | `contexto_bruto`, `contexto_truncado` | raw context, truncated context | `ijepa/muestras.csv` |
 | lote, semilla | batch, seed | `ijepa/resumen.json` |
+| fragmento, consulta | chunk, query | `rag-sintetico` |
+| ámbito, `acl` | scope, ACL (access-control list) | `rag-sintetico/corpus.csv` |
+| `v0`…`v63`, `q0`…`q63` | embedding coordinates of the chunk, of the query | `rag-sintetico/corpus.csv`, `consultas.csv` |
+| `post_utiles`, `post_expuestos`, `post_vacia` | useful, exposed, empty — filter after retrieval | `rag-sintetico/consultas.csv` |
+| `pre_utiles`, `pre_expuestos` | useful, exposed — filter before retrieval | `rag-sintetico/consultas.csv` |
+| generación | generation | `deepseek-kv` |
+| razón de compresión | compression ratio | `deepseek-kv` |
+| `capas`, `capas_kv` | layers, layers with global cache | `deepseek-kv/generaciones.csv` |
+| `entradas_por_token` | cache entries per token | `deepseek-kv/generaciones.csv` |
+| `latente`, `bits` | latent width, storage bits | `deepseek-kv/generaciones.csv` |
+| `bytes_token_ficha` | bytes per token, from the model card | `deepseek-kv/generaciones.csv` |
+| `bytes_entrada_implicitos`, `bytes_entrada_declarados` | implied bytes per entry, documented bytes per entry | `deepseek-kv/generaciones.csv` |
+| `residuo_por_entrada`, `indexador` | unaccounted bytes per entry, indexer key bytes | `deepseek-kv/generaciones.csv` |
+| `contexto_1M_MiB` | global cache for one million tokens, in MiB | `deepseek-kv/generaciones.csv` |
 | sondeo | survey (of model configurations) | `transformers` |
 | `params_reales`, `params_predichos` | actual parameters, predicted parameters | `transformers/configs.csv` |
 | regla, colección, nivel, estado | rule, collection, level, status | `sigma/reglas.csv` |

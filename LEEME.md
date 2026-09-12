@@ -31,6 +31,7 @@ el guion:
 ├── hf-tendencia/     # los 100 repositorios en tendencia del Hub de Hugging Face
 ├── agi-tendencias/   # cuota anual de nueve términos en los resúmenes de arXiv
 ├── ijepa/            # simulación del muestreo de máscaras de I-JEPA
+├── rag-sintetico/    # permisos en un RAG: 600 fragmentos sintéticos, 300 consultas, filtro antes o después
 ├── transformers/     # configuración de los 600 modelos más descargados del Hub
 ├── sigma/            # metadatos de las 3 760 reglas de detección de SigmaHQ
 ├── adult/            # el conjunto Adult de UCI, sin modificar
@@ -57,6 +58,7 @@ con la semilla y los parámetros de la simulación.
 | [El escaparate y el contador](https://manpla.net/posts/el-escaparate-y-el-contador/) | `hf-tendencia/generar.py` | `hf-tendencia/tendencia.csv` |
 | [Cuatro términos ya han tocado techo](https://manpla.net/posts/cuatro-terminos-ya-han-tocado-techo/) | `agi-tendencias/generar.py` | `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | [Predecir sin dibujar](https://manpla.net/posts/predecir-sin-dibujar/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |
+| [Un RAG que aguante una inspección](https://manpla.net/posts/un-rag-que-aguante-una-inspeccion/) | `rag-sintetico/generar.py` | `rag-sintetico/corpus.csv`, `consultas.csv`, `resumen.json` |
 | [Antes de la primera capa](https://manpla.net/posts/antes-de-la-primera-capa/) | procedimiento en `INSTANTANEA.md`; el guion del sondeo no se conservó | `transformers/configs.csv` |
 | artículo en preparación | procedimiento en `INSTANTANEA.md`; el guion de la extracción no se conservó | `sigma/reglas.csv` |
 | [Mirar ya es tratar](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
@@ -69,7 +71,8 @@ ejecutar un guion toma la instantánea de hoy y la sobrescribe.
 ## Reproducir
 
 Python 3.10 o posterior. Los guiones usan la biblioteca estándar, salvo
-`ijepa/generar.py`, que necesita NumPy. Cada uno escribe junto a sí mismo, así
+`ijepa/generar.py`, que necesita NumPy, y `rag-sintetico/generar.py`, que
+necesita NumPy y `qdrant-client`. Cada uno escribe junto a sí mismo, así
 que se lanza desde cualquier sitio:
 
 ```bash
@@ -77,6 +80,7 @@ python kev/generar.py
 python hf-tendencia/generar.py
 python agi-tendencias/generar.py     # unos ocho minutos: arXiv pide pausa
 python ijepa/generar.py              # determinista: semilla 20260910
+python rag-sintetico/generar.py      # determinista: semilla 20260825; índice en memoria
 ```
 
 Ninguno necesita credenciales. Los dos primeros y el tercero consultan una API
@@ -96,6 +100,7 @@ para volver a tomar la instantánea está `generar.py`.
 - [`transformers/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=transformers%2Freproducir.ipynb)
 - [`sigma/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=sigma%2Freproducir.ipynb)
 - [`adult/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=adult%2Freproducir.ipynb)
+- [`rag-sintetico/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=rag-sintetico%2Freproducir.ipynb)
 - [`vigencia-boe/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=vigencia-boe%2Freproducir.ipynb)
 
 La primera arrancada de Binder tarda unos minutos, porque construye la
@@ -116,8 +121,8 @@ imagen; las siguientes salen de su caché.
 ## Licencia
 
 Los guiones, bajo [Apache-2.0](LICENSE). Las mediciones propias —`kev`,
-`hf-tendencia`, `agi-tendencias`, `ijepa`, `transformers`, `sigma` y
-`vigencia-boe`—, bajo
+`hf-tendencia`, `agi-tendencias`, `ijepa`, `transformers`, `sigma`,
+`rag-sintetico` y `vigencia-boe`—, bajo
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). El material de terceros conserva sus condiciones, y cada ficha las declara:
 
 - **KEV**: el recuento por día se toma del feed que CISA publica con la

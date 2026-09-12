@@ -31,6 +31,7 @@ kept — the script:
 ├── hf-tendencia/     # the Hub's 100 trending repositories
 ├── agi-tendencias/   # yearly share of nine terms in arXiv abstracts
 ├── ijepa/            # simulation of I-JEPA's mask sampling
+├── rag-sintetico/    # permissions in a RAG: 600 synthetic chunks, 300 queries, filter before or after
 ├── transformers/     # configs of the Hub's 600 most downloaded models
 ├── sigma/            # metadata of SigmaHQ's 3,760 detection rules
 ├── adult/            # UCI's Adult data set, unmodified
@@ -57,6 +58,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [The shop window and the counter](https://manpla.net/en/posts/the-shop-window-and-the-counter/) | `hf-tendencia/generar.py` | `hf-tendencia/tendencia.csv` |
 | [Four terms have already peaked](https://manpla.net/en/posts/four-terms-have-already-peaked/) | `agi-tendencias/generar.py` | `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | [Predicting without drawing](https://manpla.net/en/posts/predicting-without-drawing/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |
+| [A RAG that survives an audit](https://manpla.net/en/posts/a-rag-that-survives-an-audit/) | `rag-sintetico/generar.py` | `rag-sintetico/corpus.csv`, `consultas.csv`, `resumen.json` |
 | [Before the first layer](https://manpla.net/en/posts/before-the-first-layer/) | procedure in `INSTANTANEA.md`; the survey script was not kept | `transformers/configs.csv` |
 | article in preparation | procedure in `INSTANTANEA.md`; the extraction script was not kept | `sigma/reglas.csv` |
 | [Looking is already processing](https://manpla.net/en/posts/looking-is-already-processing/) | none: downloaded from UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
@@ -69,7 +71,8 @@ Running a script again takes today's snapshot and overwrites it.
 ## Reproducing
 
 Python 3.10 or later. The scripts use the standard library, except
-`ijepa/generar.py`, which needs NumPy. Each one writes next to itself, so it
+`ijepa/generar.py`, which needs NumPy, and `rag-sintetico/generar.py`, which
+needs NumPy and `qdrant-client`. Each one writes next to itself, so it
 can be launched from anywhere:
 
 ```bash
@@ -77,6 +80,7 @@ python kev/generar.py
 python hf-tendencia/generar.py
 python agi-tendencias/generar.py     # ~8 min: arXiv asks for a pause
 python ijepa/generar.py              # deterministic: seed 20260910
+python rag-sintetico/generar.py      # deterministic: seed 20260825; in-memory index
 ```
 
 None needs credentials. The first two and the third query a public API. The
@@ -97,6 +101,7 @@ nothing has to be downloaded and no account is needed — or locally with
 - [`transformers/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=transformers%2Freproducir.ipynb)
 - [`sigma/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=sigma%2Freproducir.ipynb)
 - [`adult/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=adult%2Freproducir.ipynb)
+- [`rag-sintetico/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=rag-sintetico%2Freproducir.ipynb)
 - [`vigencia-boe/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=vigencia-boe%2Freproducir.ipynb)
 
 Binder's first launch takes a few minutes, because it builds the image; the
@@ -117,8 +122,8 @@ following ones come from its cache.
 ## Licence
 
 The scripts, under [Apache-2.0](LICENSE). The own measurements — `kev`,
-`hf-tendencia`, `agi-tendencias`, `ijepa`, `transformers`, `sigma` and
-`vigencia-boe` — under
+`hf-tendencia`, `agi-tendencias`, `ijepa`, `transformers`, `sigma`,
+`rag-sintetico` and `vigencia-boe` — under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material keeps its terms, and each record declares them:
 
 - **KEV**: the daily count is taken from the feed CISA publishes under the

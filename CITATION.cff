@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: >-
+  Si utiliza estos datos, por favor cítelos como se indica a
+  continuación.
+title: >-
+  Mediciones que respaldan los artículos de manpla.net
+type: dataset
+authors:
+  - given-names: Manuel
+    family-names: Muñoz Plá
+    email: mmunozpl@uoc.edu
+    orcid: "https://orcid.org/0009-0000-5714-912X"
+version: 2026.09.12
+date-released: "2026-09-12"
+license: Apache-2.0
+url: "https://manpla.net"
+repository-code: "https://github.com/mmunozpl/ManPlaNet-datos"
+keywords:
+  - reproducibility
+  - known exploited vulnerabilities
+  - hugging face hub
+  - arxiv
+  - i-jepa
+  - transformers
+  - sigma rules
+  - boe

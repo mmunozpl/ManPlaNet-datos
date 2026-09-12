@@ -7,6 +7,7 @@
 [![Web](https://img.shields.io/badge/Web-manpla.net-009e73)](https://manpla.net)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--5714--912X-a6ce39)](https://orcid.org/0009-0000-5714-912X)
 [![License](https://img.shields.io/badge/License-Apache--2.0-009e73)](LICENSE)
+[![Binder](https://img.shields.io/badge/Binder-Notebooks-009e73)](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main)
 [![Cite](https://img.shields.io/badge/Cite-BibTeX-009e73)](#how-to-cite)
 
 **Abstract:** Every article at [manpla.net](https://manpla.net) that states
@@ -38,6 +39,10 @@ kept — the script:
 ├── CITATION.cff
 └── LICENSE
 ```
+
+Each folder also carries a notebook, `reproducir.ipynb`, which loads the data
+next to it, prints the record and draws one figure; `requirements.txt` at the
+root is what Binder needs to launch them.
 
 Each folder's record is called `INSTANTANEA.md` and carries the source, the
 extraction date, the source's version when it publishes one, and a table
@@ -76,6 +81,26 @@ python ijepa/generar.py              # deterministic: seed 20260910
 
 None needs credentials. The first two and the third query a public API. The
 fourth never leaves the machine.
+
+## Notebooks
+
+One reading notebook per measurement, runnable in the browser with Binder —
+it launches on this very repository, so the data sit next to the notebook and
+nothing has to be downloaded and no account is needed — or locally with
+`jupyter lab`. They only read; to take the snapshot again there is
+`generar.py`.
+
+- [`kev/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=kev%2Freproducir.ipynb)
+- [`hf-tendencia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-tendencia%2Freproducir.ipynb)
+- [`agi-tendencias/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=agi-tendencias%2Freproducir.ipynb)
+- [`ijepa/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=ijepa%2Freproducir.ipynb)
+- [`transformers/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=transformers%2Freproducir.ipynb)
+- [`sigma/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=sigma%2Freproducir.ipynb)
+- [`adult/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=adult%2Freproducir.ipynb)
+- [`vigencia-boe/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=vigencia-boe%2Freproducir.ipynb)
+
+Binder's first launch takes a few minutes, because it builds the image; the
+following ones come from its cache.
 
 ## How to cite
 

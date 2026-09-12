@@ -7,6 +7,7 @@
 [![Web](https://img.shields.io/badge/Web-manpla.net-009e73)](https://manpla.net)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--5714--912X-a6ce39)](https://orcid.org/0009-0000-5714-912X)
 [![License](https://img.shields.io/badge/License-Apache--2.0-009e73)](LICENSE)
+[![Binder](https://img.shields.io/badge/Binder-Cuadernos-009e73)](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main)
 [![Cite](https://img.shields.io/badge/Cite-BibTeX-009e73)](#cómo-citar)
 
 **Resumen:** Cada artículo de [manpla.net](https://manpla.net) que afirma una
@@ -38,6 +39,10 @@ el guion:
 ├── CITATION.cff
 └── LICENSE
 ```
+
+Cada carpeta lleva además un cuaderno, `reproducir.ipynb`, que carga el dato
+de al lado, muestra la ficha y dibuja una figura; `requirements.txt` en la
+raíz es lo que Binder necesita para arrancarlos.
 
 La ficha de cada carpeta se llama `INSTANTANEA.md` y lleva la fuente, la
 fecha de extracción, la versión de la fuente cuando la publica, y una tabla
@@ -76,6 +81,25 @@ python ijepa/generar.py              # determinista: semilla 20260910
 
 Ninguno necesita credenciales. Los dos primeros y el tercero consultan una API
 pública. El cuarto no sale de la máquina.
+
+## Cuadernos
+
+Un cuaderno de lectura por medición, ejecutable en el navegador con Binder
+—arranca sobre este mismo repositorio, así que el dato está al lado y no hay
+que descargar nada ni tener cuenta— o en local con `jupyter lab`. Solo leen;
+para volver a tomar la instantánea está `generar.py`.
+
+- [`kev/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=kev%2Freproducir.ipynb)
+- [`hf-tendencia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-tendencia%2Freproducir.ipynb)
+- [`agi-tendencias/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=agi-tendencias%2Freproducir.ipynb)
+- [`ijepa/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=ijepa%2Freproducir.ipynb)
+- [`transformers/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=transformers%2Freproducir.ipynb)
+- [`sigma/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=sigma%2Freproducir.ipynb)
+- [`adult/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=adult%2Freproducir.ipynb)
+- [`vigencia-boe/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=vigencia-boe%2Freproducir.ipynb)
+
+La primera arrancada de Binder tarda unos minutos, porque construye la
+imagen; las siguientes salen de su caché.
 
 ## Cómo citar
 

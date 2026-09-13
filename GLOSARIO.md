@@ -45,6 +45,14 @@ form of each term, and it is the one `README.md` uses.
 | `bytes_entrada_implicitos`, `bytes_entrada_declarados` | implied bytes per entry, documented bytes per entry | `deepseek-kv/generaciones.csv` |
 | `residuo_por_entrada`, `indexador` | unaccounted bytes per entry, indexer key bytes | `deepseek-kv/generaciones.csv` |
 | `contexto_1M_MiB` | global cache for one million tokens, in MiB | `deepseek-kv/generaciones.csv` |
+| explotada, marca (de explotación) | exploited, (exploitation) flag | `euvd-kev` |
+| alta, fecha límite, ventana | addition, due date, window | `euvd-kev` |
+| `alta_eu_kev`, `alta_cisa_kev`, `eu_menos_cisa_dias` | EU KEV addition date, CISA KEV addition date, EU minus CISA in days | `euvd-kev/eu-kev.csv` |
+| `asignador`, `proveedor`, `honeypot` | CVE assigner, vendor, has honeypot observation | `euvd-kev/eu-kev.csv` |
+| `3 días` … `6 meses`, `otros` | deadline window bands | `euvd-kev/ventanas-kev.csv` |
+| `anios_desde_el_cve` | years since the CVE identifier | `euvd-kev/antiguedad-kev.csv` |
+| `cisa_kev`, `eu_kev` (por mes) | monthly additions to each list | `euvd-kev/altas-mensuales.csv` |
+| triaje forense | forensic triage | `euvd-kev/resumen.json` |
 | sondeo | survey (of model configurations) | `transformers` |
 | `params_reales`, `params_predichos` | actual parameters, predicted parameters | `transformers/configs.csv` |
 | regla, colección, nivel, estado | rule, collection, level, status | `sigma/reglas.csv` |

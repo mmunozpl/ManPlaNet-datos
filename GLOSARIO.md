@@ -53,6 +53,15 @@ form of each term, and it is the one `README.md` uses.
 | `anios_desde_el_cve` | years since the CVE identifier | `euvd-kev/antiguedad-kev.csv` |
 | `cisa_kev`, `eu_kev` (por mes) | monthly additions to each list | `euvd-kev/altas-mensuales.csv` |
 | triaje forense | forensic triage | `euvd-kev/resumen.json` |
+| parámetros activos por token, guardados | active parameters per token, stored | `hf-activos` |
+| expertos enrutados, compartidos | routed experts, shared experts | `hf-activos` |
+| tablas de consulta | lookup tables (input embedding, n-gram memories) | `hf-activos/activos.csv` |
+| `tipo` (moe, denso, cuantizado, gguf, sin safetensors, sin acceso, incompleto) | kind (MoE, dense, quantised, GGUF, no safetensors, gated, incomplete) | `hf-activos/activos.csv` |
+| `params_total`, `params_activos`, `fraccion_activa` | total, active, active fraction | `hf-activos/activos.csv` |
+| `params_expertos`, `params_tablas`, `params_activos_con_tablas` | expert, table and active-including-tables parameters | `hf-activos/activos.csv` |
+| `capas_moe`, `expertos_por_capa`, `activos_por_token` | MoE layers, experts per layer, active experts per token (k) | `hf-activos/activos.csv` |
+| `declarado_total_B`, `declarado_activo_B` | declared in the repository name, in billions | `hf-activos/activos.csv` |
+| `shards`, `tensores`, `params_total_hub`, `params_elementos` | shards read, tensors, the Hub's total, elements (quantised) | `hf-activos/activos.csv` |
 | sondeo | survey (of model configurations) | `transformers` |
 | `params_reales`, `params_predichos` | actual parameters, predicted parameters | `transformers/configs.csv` |
 | regla, colección, nivel, estado | rule, collection, level, status | `sigma/reglas.csv` |

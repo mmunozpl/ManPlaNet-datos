@@ -1,0 +1,19 @@
+{
+ "extraido": "2026-09-15",
+ "modelos": 100,
+ "por_tipo": {
+  "moe": 13,
+  "denso": 31,
+  "cuantizado": 11,
+  "gguf": 19,
+  "sin safetensors": 18,
+  "sin acceso": 8,
+  "incompleto": 0
+ },
+ "moe_fraccion_activa_mediana": 0.0543,
+ "moe_fraccion_activa_min": 0.0307,
+ "moe_fraccion_activa_max": 0.1423,
+ "con_A_en_el_nombre": 5,
+ "params_total_suma_B": 5409.1,
+ "params_activos_suma_B": 520.4
+}

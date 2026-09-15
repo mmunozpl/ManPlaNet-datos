@@ -1,0 +1,101 @@
+puesto,modelo,pipeline,creado,likes,arquitectura,tipo,gguf,params_total_hub,params_elementos,params_total,params_activos,fraccion_activa,params_activos_con_tablas,params_expertos,params_tablas,capas_moe,expertos_por_capa,activos_por_token,declarado_total_B,declarado_activo_B,shards,tensores
+1,deepseek-ai/DeepSeek-V4.1-Flash,image-text-to-text,2026-09-10,2452,DeepseekV41ForCausalLM,cuantizado,0,763205315794,508182659298,,,,,,,,,,,,48,96085
+2,Edge0/Edge0-35B-A3B-preview,text-generation,2026-09-08,2012,Qwen3_5MoeForConditionalGeneration,cuantizado,0,34660610688,5419330688,,,,,,,,,,35.0,3.0,4,1757
+3,openbmb/MiniCPM5-2B,text-generation,2026-09-06,1394,LlamaForCausalLM,denso,0,2516756480,,2516756480,2249369600,0.8938,2516756480,0,267386880,0,,,2.0,,1,381
+4,nex-agi/Nex-N2.5-mini,text-generation,2026-09-08,781,Qwen3_5MoeForConditionalGeneration,moe,0,35107181936,,35107181936,3393000816,0.0966,3901560176,32212254720,508559360,40,256,8,,,16,1026
+5,Qwen/Qwen3.8-27B,image-text-to-text,2026-08-05,15142,Qwen3_5ForConditionalGeneration,denso,0,27781427952,,27781427952,26510029552,0.9542,27781427952,0,1271398400,0,,,27.0,,18,1199
+6,nex-agi/Nex-N2.5-Pro,text-generation,2026-09-08,633,Qwen3_5MoeForConditionalGeneration,moe,0,396802360816,,396825953776,16788393456,0.0423,17805512176,386570649600,1017118720,60,512,10,,,122,185571
+7,ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF,image-text-to-text,2026-08-28,1047,—,gguf,1,,,,,,,,,,,,27.0,,,
+8,m-a-p/YuE2-3B,text-to-audio,2026-09-09,473,YuE2ForCausalLM,denso,0,3630684224,,3630684224,3252410432,0.8958,3630684224,0,378273792,0,,,3.0,,1,628
+9,XHToken/Spark-X2.5-4B,text-generation,2026-08-24,1171,Spark2_5ForCausalLM,denso,0,4112079360,,4112079360,4112079360,1.0,4112079360,0,0,0,,,4.0,,5,290
+10,Lightricks/LTX-2.5,image-to-video,2026-07-23,3871,—,sin safetensors,0,,,,,,,,,,,,,,,
+11,unsloth/Qwen3.8-27B-GGUF,,2026-08-13,4102,—,gguf,1,,,,,,,,,,,,27.0,,,
+12,DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF,image-text-to-text,2026-09-01,682,—,gguf,1,,,,,,,,,,,,27.0,,,
+13,WarmBloodAban/Minimax-h3_Singularity,image-to-video,2026-09-05,396,—,cuantizado,0,,33130903862,,,,,,,,,,,,2,1036
+14,sentence-transformers/all-MiniLM-L6-v2,sentence-similarity,2022-03-02,5970,BertModel,denso,0,22713728,,22713728,10993280,0.484,22713728,0,11720448,0,,,,,1,104
+15,tencent/AuK,text-to-speech,2026-08-18,219,—,denso,0,,,1689838426,1689838426,1.0,1689838426,0,0,0,,,,,2,1557
+16,MiniMaxAI/MiniMax-H3,image-text-to-video,2026-07-28,5291,—,sin safetensors,0,33122992896,,,,,,,,,,,,,,
+17,openai-community/gpt2,text-generation,2022-03-02,4076,GPT2LMHeadModel,denso,0,137022720,,137022720,98425344,0.7183,137022720,0,38597376,0,,,,,1,160
+18,Qwen/Qwen3.8-Flash-Next,image-text-to-text,2026-08-24,5229,Qwen4ExpForConditionalGeneration,moe,0,179999981459,,179999981459,7259946864,0.0403,59095891859,123312537600,51835944995,49,512,10,,,131,1658
+19,google/timesfm-3.0-pytorch,time-series-forecasting,2026-08-24,789,—,denso,0,330710976,,330710976,330710976,1.0,330710976,0,0,0,,,,,1,445
+20,google-bert/bert-base-uncased,fill-mask,2022-03-02,3337,BertForMaskedLM,denso,0,110106428,,110106428,86665532,0.7871,110106428,0,23440896,0,,,,,1,206
+21,facebook/mms-300m,,2023-05-22,536,Wav2Vec2ForPreTraining,sin safetensors,0,,,,,,,,,,,,,,,
+22,TokenRhythm/NeoHorse-1-4B,text-generation,2026-09-05,1815,Qwen3_5ForCausalLM,denso,0,4205751296,,4205751296,3570052096,0.8489,4205751296,0,635699200,0,,,4.0,,2,426
+23,openai/clip-vit-base-patch32,zero-shot-image-classification,2022-03-02,1529,CLIPModel,sin safetensors,0,,,,,,,,,,,,,,,
+24,meta-llama/Llama-3.1-8B-Instruct,text-generation,2024-07-18,7602,—,sin acceso,0,8030261248,,,,,,,,,,,8.0,,,
+25,distilbert/distilbert-base-uncased,fill-mask,2022-03-02,1440,DistilBertForMaskedLM,denso,0,66985530,,66985530,43544634,0.6501,66985530,0,23440896,0,,,,,1,105
+26,zai-org/GLM-5.3-Flash,image-text-to-text,2026-08-25,2334,Glm5NextForConditionalGeneration,moe,0,321323031390,,321342220638,17692817758,0.0551,18327206238,311672586240,634388480,43,288,8,,,62,76108
+27,Agnes-AI/Agnes-3.0-Flash,image-text-to-text,2026-09-11,157,AgnesForConditionalGeneration,denso,0,33090501680,,33090501680,31819103280,0.9616,33090501680,0,1271398400,0,,,,,20,1521
+28,dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8,image-text-to-text,2026-09-10,174,DeepseekV41ForCausalLM,cuantizado,0,763205315794,508182659298,,,,,,,,,,,,48,96085
+29,ukisai/Swift-Qwen3.8-27b,image-text-to-text,2026-09-08,152,Qwen3_5ForConditionalGeneration,denso,0,27781427952,,27781427952,26510029552,0.9542,27781427952,0,1271398400,0,,,27.0,,18,1199
+30,openbmb/MiniCPM5-2B-GGUF,text-generation,2026-09-05,226,—,gguf,1,,,,,,,,,,,,2.0,,,
+31,dealignai/GLM-5.3-CYBERSECURITY-FP8,text-generation,2026-08-30,448,GlmMoeDsaForCausalLM,moe,0,753329940480,,753375793584,40892608944,0.0543,41844191664,734484234240,951582720,76,256,8,,,282,118629
+32,Alissonerdx/Minimax-H3-ComfyUI,,2026-09-06,152,—,sin safetensors,0,,,,,,,,,,,,,,,
+33,HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF,image-text-to-text,2026-08-17,1175,—,gguf,1,,,,,,,,,,,,27.0,,,
+34,Qwen/Qwen-Drive-1.0-4B,image-text-to-text,2026-08-27,202,QwenDriveForPlanning,denso,0,4539265536,,4539265536,3903566336,0.86,4539265536,0,635699200,0,,,4.0,,1,723
+35,deepseek-ai/DeepSeek-R1,text-generation,2025-01-20,14234,DeepseekV3ForCausalLM,moe,0,684489845504,,684531386000,38242607760,0.0559,40095965840,665223659520,1853358080,59,256,8,,,163,91991
+36,Viggle/Viggle-Animate,video-to-video,2026-08-31,230,—,sin safetensors,0,33122992896,,,,,,,,,,,,,,
+37,thesysdev/OUI-1,text-generation,2026-09-07,109,DiffusionGemmaForBlockDiffusion,moe,0,25823778864,,25823781228,3674972524,0.1423,4413170028,22837985280,738197504,30,128,8,,,2,1047
+38,DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF,image-text-to-text,2026-09-10,112,—,gguf,1,,,,,,,,,,,,27.0,,,
+39,IFM/K2-Horizon-MoVA-36B-A4B,text-generation,2026-09-01,318,K2HorizonForCausalLM,moe,0,37444792020,,37444792020,5306592980,0.1417,5948190420,34091827200,641597440,90,100,8,36.0,4.0,48,16998
+40,orcarouter/Qwen3.8-27B-Uncensored-GGUF,image-text-to-text,2026-08-16,969,—,gguf,1,,,,,,,,,,,,27.0,,,
+41,huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF,image-text-to-text,2026-08-16,726,—,gguf,1,,,,,,,,,,,,27.0,,,
+42,ukisai/Swift-Qwen3.8-27B-GGUF,image-text-to-text,2026-09-11,97,—,gguf,1,,,,,,,,,,,,27.0,,,
+43,krea/Krea-2-Turbo,text-to-image,2026-06-18,1223,—,sin acceso,0,12820073036,,,,,,,,,,,,,,
+44,unsloth/Qwen3.8-Flash-Next-GGUF,image-text-to-text,2026-08-26,936,—,gguf,1,,,,,,,,,,,,,,,
+45,inclusionAI/Ling-3.0-flash-VL,image-text-to-text,2026-09-04,93,BailingMoeV3VLForConditionalGeneration,moe,0,124848460496,,124848460496,5537551056,0.0444,5939942096,120795955200,402391040,40,512,8,,,64,62563
+46,facebook/sam3,mask-generation,2025-11-07,3148,—,sin acceso,0,859922360,,,,,,,,,,,,,,
+47,nvidia/Qwen3.8-Flash-Next-NVFP4,image-text-to-text,2026-09-02,239,Qwen4ExpForConditionalGeneration,cuantizado,0,119602003859,127152052116,,,,,,,,,,,,11,299545
+48,pyannote/speaker-diarization-community-1,automatic-speech-recognition,2025-04-15,1703,—,sin safetensors,0,,,,,,,,,,,,,,,
+49,nvidia/Qwen3.8-27B-NVFP4,text-generation,2026-09-04,92,Qwen3_5ForConditionalGeneration,cuantizado,0,18164649200,19738359314,,,,,,,,,,27.0,,3,2194
+50,yandex/AliceAI-T5-35B-A0.6B,,2026-09-10,93,AliceAIT5MoEForConditionalGeneration,moe,0,34561885184,,34561885184,1060078592,0.0307,1267500032,33822867456,207421440,28,512,8,35.0,0.6,15,400
+51,Comfy-Org/YuE2,,2026-09-11,91,—,sin safetensors,0,,,,,,,,,,,,,,,
+52,microsoft/VibeVoice-ASR-Streaming-7B,automatic-speech-recognition,2026-09-02,239,VibeVoiceForASRStreamingTraining,denso,0,8674021857,,8674021857,8129024481,0.9372,8674021857,0,544997376,0,,,7.0,,8,1177
+53,XHToken/Spark-X2.5-4B-GGUF,text-generation,2026-08-28,169,—,gguf,1,,,,,,,,,,,,4.0,,,
+54,agentionai/Signal-3.8-27B-GGUF,image-text-to-text,2026-09-09,84,—,gguf,1,,,,,,,,,,,,27.0,,,
+55,Comfy-Org/MiniMax-H3,,2026-07-30,1841,—,sin safetensors,0,,,,,,,,,,,,,,,
+56,tencent/AuK-Flash,text-to-speech,2026-08-21,81,—,denso,0,,,1689838426,1689838426,1.0,1689838426,0,0,0,,,,,2,1557
+57,orcarouter/Qwen3.8-27B-Uncensored-FP8,image-text-to-text,2026-08-15,1603,—,sin acceso,0,27781427952,,,,,,,,,,,27.0,,,
+58,nvidia/GLM-5.3-Flash-NVFP4,image-text-to-text,2026-09-02,78,Glm5NextForConditionalGeneration,cuantizado,0,168893635422,187947382512,,,,,,,,,,,,33,147661
+59,Jackrong/Qwopus3.8-27B-Flash-GGUF,image-text-to-text,2026-09-04,223,—,gguf,1,,,,,,,,,,,,27.0,,,
+60,Mothersuperior/yue2-mothersuperior-realaudio-tokenizer-v4,,2026-09-13,75,—,sin safetensors,0,,,,,,,,,,,,,,,
+61,huawei-bayerlab/marigold-v2-0,depth-estimation,2026-08-27,76,—,sin safetensors,0,,,,,,,,,,,,,,,
+62,deepseek-ai/DeepSeek-V4-Flash-Vision-Exp,image-text-to-text,2026-08-31,902,DeepseekV4ForCausalLM,cuantizado,0,304646824126,165731860414,,,,,,,,,,,,48,72633
+63,pyannote/speaker-diarization-3.1,automatic-speech-recognition,2023-11-16,3628,—,sin safetensors,0,,,,,,,,,,,,,,,
+64,OpenVDN/vdn-minimax-h3,text-to-video,2026-09-02,303,—,sin safetensors,0,,,,,,,,,,,,,,,
+65,black-forest-labs/FLUX.1-dev,text-to-image,2024-07-31,14692,—,sin acceso,0,11901408320,,,,,,,,,,,,,,
+66,zai-org/GLM-5.3,text-generation,2026-08-25,1832,GlmMoeDsaForCausalLM,moe,0,753329940480,,753375793584,40892608944,0.0543,41844191664,734484234240,951582720,76,256,8,,,141,118629
+67,moonshotai/Kimi-K3,image-text-to-text,2026-06-13,11351,KimiK3ForConditionalGeneration,cuantizado,0,2779931837184,1503647073024,,,,,,,,,,,,96,497220
+68,lightx2v/Minimax-h3-Turbo,image-to-video,2026-08-07,934,—,denso,0,,,34800735184,34800735184,1.0,34800735184,0,0,0,,,,,16,2236
+69,BreezeBlue/Breeze-TTS-2,text-to-speech,2026-08-25,552,BreezeForConditionalGeneration,denso,0,3466363713,,3483206497,3113992161,0.894,3483206497,0,369214336,0,,,,,2,1115
+70,peculiar-ragdoll/Cyber-Tiel-Coder-35B-A3B-GGUF-MTP,image-text-to-text,2026-08-31,68,—,gguf,1,,,,,,,,,,,,35.0,3.0,,
+71,froggeric/Qwen-Fixed-Chat-Templates,,2026-04-23,1678,—,sin safetensors,0,,,,,,,,,,,,,,,
+72,m-a-p/SheetSage2,feature-extraction,2026-09-09,66,SheetSage2Model,denso,0,57174553,,57174553,57174553,1.0,57174553,0,0,0,,,,,1,355
+73,JonathanColetti/Qwen3.8-27B-Uncensored-GGUF,text-generation,2026-08-14,1109,—,gguf,1,,,,,,,,,,,,27.0,,,
+74,medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic,text-generation,2026-09-06,70,Qwen3_5ForConditionalGeneration,denso,0,27781427952,,27781427952,26510029552,0.9542,27781427952,0,1271398400,0,,,27.0,,29,1199
+75,black-forest-labs/FLUX.2-klein-base-9b-fp8,image-to-image,2026-01-14,658,—,sin acceso,0,,,,,,,,,,,,9.0,,,
+76,zai-org/glm-4-9b-chat,,2024-06-04,1318,ChatGLMModel,denso,0,9399951392,,9399951392,8779194400,0.934,9399951392,0,620756992,0,,,9.0,,10,284
+77,mistralai/Mistral-7B-Instruct-v0.3,,2024-05-22,3483,MistralForCausalLM,denso,0,7248023552,,7248023552,7113805824,0.9815,7248023552,0,134217728,0,,,7.0,,3,291
+78,Qwen/Qwen3-8B,text-generation,2025-04-27,1996,Qwen3ForCausalLM,denso,0,8190735360,,8190735360,7568405504,0.924,8190735360,0,622329856,0,,,8.0,,5,399
+79,OBLITERATUS/Qwen3.8-27B-OBLITERATED,text-generation,2026-08-19,1207,—,gguf,1,27781427952,,,,,,,,,,,27.0,,,
+80,Qwen/Qwen2.5-7B-Instruct,text-generation,2024-09-16,2206,Qwen2ForCausalLM,denso,0,7615616512,,7615616512,7070619136,0.9284,7615616512,0,544997376,0,,,7.0,,4,339
+81,moonshotai/Kimi-K2-Instruct,text-generation,2025-07-11,2985,DeepseekV3ForCausalLM,moe,0,1026408235864,,1026470731056,31688953136,0.0309,32863358256,1014747955200,1174405120,60,384,8,,,61,139644
+82,TokenRhythm/NeoHorse-1-9B,text-generation,2026-09-05,601,Qwen3_5ForCausalLM,denso,0,8953803264,,8953803264,7936684544,0.8864,8953803264,0,1017118720,0,,,9.0,,4,427
+83,TaoLiveAIGC/TaoMate-H3,text-to-video,2026-09-07,59,—,denso,0,,,620232704,620232704,1.0,620232704,0,0,0,,,,,1,416
+84,MATLOWAI/minimax-h3-fused-turbo-int8-convrot,image-text-to-video,2026-08-29,184,—,sin safetensors,0,,,,,,,,,,,,,,,
+85,Edge0/Edge0-8B-A1B-preview,text-generation,2026-09-08,59,BailingMoeV3ForCausalLM,cuantizado,0,7923998112,1268239776,,,,,,,,,,8.0,1.0,1,1196
+86,internlm/Atria-Dawn-Preview,,2026-09-11,57,GlmMoeDsaForCausalLM,moe,0,753329940480,,753329940480,40890181632,0.0543,41841764352,734439407616,951582720,76,256,8,,,353,59585
+87,drowzeys/DeepSeek-V4.1-Flash-Abliterated-Cybersecurity-Unleashed,image-text-to-text,2026-09-13,66,—,sin acceso,0,,,,,,,,,,,,,,,
+88,rumik-ai/rumik-oss-1,text-to-speech,2026-09-06,59,RumikOSSForCausalLM,denso,0,3381533697,,3381533697,2813410305,0.832,3381533697,0,568123392,0,,,,,2,296
+89,peonist-ai/halogen-qwen3.8-flash-next,text-generation,2026-09-01,65,—,sin safetensors,0,,,,,,,,,,,,,,,
+90,ornith-ai/Ornith-1.5-9B-GGUF,text-generation,2026-08-19,380,—,gguf,1,,,,,,,,,,,,9.0,,,
+91,OrionLLM/OxCoder-9B,text-generation,2026-09-07,55,Qwen3_5ForConditionalGeneration,denso,0,9409813744,,9409813744,8392695024,0.8919,9409813744,0,1017118720,0,,,9.0,,1,760
+92,DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF,image-text-to-text,2026-07-19,651,—,gguf,1,,,,,,,,,,,,9.0,,,
+93,nex-agi/Nex-N2.5-Max,text-generation,2026-09-07,51,DeepseekV4ForCausalLM,cuantizado,0,1600787478430,1600787478430,,,,,,,,,,,,644,143438
+94,lvladikov/Krea2-Turbo-Distill-4step-LoRA,text-to-image,2026-08-20,146,—,denso,0,,,438083812,438083812,1.0,438083812,0,0,0,,,,,2,1140
+95,pyannote/segmentation-3.0,voice-activity-detection,2023-09-22,1811,—,sin safetensors,0,,,,,,,,,,,,,,,
+96,krea/Krea-2-Raw,text-to-image,2026-06-18,728,—,sin acceso,0,12820073036,,,,,,,,,,,,,,
+97,IFM/K2-Horizon-7B,text-generation,2026-09-01,138,K2HorizonForCausalLM,denso,0,8999178240,,8999178240,7972622336,0.8859,8999178240,0,1026555904,0,,,7.0,,36,327
+98,orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF,image-text-to-text,2026-08-26,318,—,gguf,1,,,,,,,,,,,,,,,
+99,google/gemma-4-31B-it,image-text-to-text,2026-03-11,3827,Gemma4ForConditionalGeneration,denso,0,31273088876,,31273088876,29863802732,0.9549,31273088876,0,1409286144,0,,,31.0,,2,1188
+100,peculiar-ragdoll/Qwen-Sharp-Chat-Templates,,2026-08-10,358,—,sin safetensors,0,,,,,,,,,,,,,,,

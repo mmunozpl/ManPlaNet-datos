@@ -1,0 +1,146 @@
+{
+  "fecha": "2026-09-17",
+  "semilla": 20260917,
+  "repeticiones_semillas": 20000,
+  "repeticiones_asalto": 20,
+  "mejor_de_k": {
+    "n500_p07_k5": 2.374,
+    "n500_p07_k10": 3.132,
+    "n500_p07_k100": 5.058,
+    "n100_p07_k10": 6.933,
+    "n5000_p07_k10": 0.996,
+    "esperanza_maximo": {
+      "1": 0.0,
+      "2": 0.564,
+      "3": 0.846,
+      "5": 1.163,
+      "10": 1.539,
+      "20": 1.867,
+      "50": 2.249,
+      "100": 2.508
+    }
+  },
+  "asalto": {
+    "n": 1000,
+    "consultas": 2000,
+    "eta": 0.01,
+    "epoca": 100,
+    "final": {
+      "ingenuo": 79.21,
+      "escalera": 55.15,
+      "anclado": 49.47,
+      "rotado": 71.22,
+      "real": 49.977
+    },
+    "por_tamano": [
+      {
+        "n": 200,
+        "consultas": 100,
+        "ingenuo": 67.78,
+        "escalera": 59.1,
+        "anclado": 49.88,
+        "rotado": 50.55,
+        "real": 49.89
+      },
+      {
+        "n": 200,
+        "consultas": 500,
+        "ingenuo": 83.35,
+        "escalera": 60.4,
+        "anclado": 48.85,
+        "rotado": 70.15,
+        "real": 49.93
+      },
+      {
+        "n": 200,
+        "consultas": 1000,
+        "ingenuo": 92.08,
+        "escalera": 61.6,
+        "anclado": 50.9,
+        "rotado": 81.6,
+        "real": 49.97
+      },
+      {
+        "n": 200,
+        "consultas": 2000,
+        "ingenuo": 97.93,
+        "escalera": 62.4,
+        "anclado": 50.58,
+        "rotado": 90.9,
+        "real": 49.93
+      },
+      {
+        "n": 1000,
+        "consultas": 100,
+        "ingenuo": 58.09,
+        "escalera": 53.65,
+        "anclado": 50.49,
+        "rotado": 50.8,
+        "real": 49.99
+      },
+      {
+        "n": 1000,
+        "consultas": 500,
+        "ingenuo": 66.5,
+        "escalera": 54.5,
+        "anclado": 49.59,
+        "rotado": 59.66,
+        "real": 50.11
+      },
+      {
+        "n": 1000,
+        "consultas": 1000,
+        "ingenuo": 72.04,
+        "escalera": 54.7,
+        "anclado": 50.17,
+        "rotado": 65.83,
+        "real": 50.02
+      },
+      {
+        "n": 1000,
+        "consultas": 2000,
+        "ingenuo": 79.21,
+        "escalera": 55.15,
+        "anclado": 49.47,
+        "rotado": 71.22,
+        "real": 49.98
+      },
+      {
+        "n": 5000,
+        "consultas": 100,
+        "ingenuo": 53.81,
+        "escalera": 51.45,
+        "anclado": 50.22,
+        "rotado": 50.19,
+        "real": 49.97
+      },
+      {
+        "n": 5000,
+        "consultas": 500,
+        "ingenuo": 57.5,
+        "escalera": 51.9,
+        "anclado": 49.88,
+        "rotado": 54.14,
+        "real": 50.02
+      },
+      {
+        "n": 5000,
+        "consultas": 1000,
+        "ingenuo": 60.35,
+        "escalera": 52.15,
+        "anclado": 50.04,
+        "rotado": 57.29,
+        "real": 49.98
+      },
+      {
+        "n": 5000,
+        "consultas": 2000,
+        "ingenuo": 64.1,
+        "escalera": 52.15,
+        "anclado": 50.16,
+        "rotado": 60.08,
+        "real": 50.05
+      }
+    ]
+  }
+}

@@ -38,6 +38,7 @@ el guion:
 ├── hf-activos/       # parámetros totales y activos por token en los 100 modelos en tendencia del Hub, tensor a tensor
 ├── nvd-fichas/       # estado de enriquecimiento de cada CVE publicado desde 2023 en el NVD, y si consta como explotado
 ├── parque-instalado/ # edad del fallo al entrar en el catálogo de explotadas, y cuota de cada versión de Windows en escritorio
+├── evaluador-bucle/  # dos simulaciones sobre el evaluador dentro del bucle: el mejor de k semillas y el asaltante sin modelo
 ├── transformers/     # configuración de los 600 modelos más descargados del Hub
 ├── sigma/            # metadatos de las 3 760 reglas de detección de SigmaHQ
 ├── adult/            # el conjunto Adult de UCI, sin modificar
@@ -70,6 +71,7 @@ con la semilla y los parámetros de la simulación.
 | artículo en preparación | procedimiento en `INSTANTANEA.md`; el guion de la extracción no se conservó | `sigma/reglas.csv` |
 | [Cinco de cada cien](https://manpla.net/posts/cinco-de-cada-cien/) | `hf-activos/generar.py` | `hf-activos/activos.csv`, `resumen.json` |
 | [La llave dopada con IA y la cerradura con tecnología obsoleta](https://manpla.net/posts/treinta-y-tres-mil-sin-ficha/) | `parque-instalado/generar.py` · `nvd-fichas/generar.py` | `parque-instalado/edades-por-anio.csv`, `altas-edades.csv`, `windows-versiones.csv` · `nvd-fichas/por-anio.csv`, `por-mes.csv`, `cve-estados.csv.gz` |
+| [Quién vigila al evaluador](https://manpla.net/posts/quien-vigila-al-evaluador/) | `evaluador-bucle/generar.py` | `evaluador-bucle/semillas.csv`, `asalto-serie.csv`, `asalto-por-tamano.csv`, `resumen.json` |
 | artículo en preparación | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
 | [Mirar ya es tratar](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
@@ -96,11 +98,12 @@ python euvd-kev/generar.py           # el JSON del KEV y la API pública de la E
 python hf-activos/generar.py         # cabeceras safetensors de 100 repositorios; una hora, o minutos con HF_ACTIVOS_CACHE
 python nvd-fichas/generar.py         # API 2.0 del NVD, sin clave; unos veinte minutos por el límite de peticiones
 python parque-instalado/generar.py   # catálogo KEV de CISA y serie de StatCounter; segundos
+python evaluador-bucle/generar.py    # determinista: semilla 20260917; medio minuto, sin red
 ```
 
 Ninguno necesita credenciales. `kev`, `hf-tendencia`, `agi-tendencias`,
-`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas` y `parque-instalado` consultan una API o descargan ficheros públicos; `ijepa` y
-`rag-sintetico` no salen de la máquina.
+`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas` y `parque-instalado` consultan una API o descargan ficheros públicos; `ijepa`,
+`rag-sintetico` y `evaluador-bucle` no salen de la máquina.
 
 ## Cuadernos
 
@@ -122,6 +125,7 @@ para volver a tomar la instantánea está `generar.py`.
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)
 - [`nvd-fichas/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=nvd-fichas%2Freproducir.ipynb)
 - [`parque-instalado/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=parque-instalado%2Freproducir.ipynb)
+- [`evaluador-bucle/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=evaluador-bucle%2Freproducir.ipynb)
 - [`vigencia-boe/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=vigencia-boe%2Freproducir.ipynb)
 
 La medición del RAG sintético tiene además una demo en Hugging Face,

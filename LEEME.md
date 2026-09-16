@@ -68,7 +68,7 @@ con la semilla y los parámetros de la simulación.
 | [Antes de la primera capa](https://manpla.net/posts/antes-de-la-primera-capa/) | procedimiento en `INSTANTANEA.md`; el guion del sondeo no se conservó | `transformers/configs.csv` |
 | artículo en preparación | procedimiento en `INSTANTANEA.md`; el guion de la extracción no se conservó | `sigma/reglas.csv` |
 | [Cinco de cada cien](https://manpla.net/posts/cinco-de-cada-cien/) | `hf-activos/generar.py` | `hf-activos/activos.csv`, `resumen.json` |
-| [Treinta y tres mil sin ficha](https://manpla.net/posts/treinta-y-tres-mil-sin-ficha/) | `nvd-fichas/generar.py` | `nvd-fichas/por-anio.csv`, `por-mes.csv`, `cve-estados.csv.gz` |
+| [La llave y la cerradura](https://manpla.net/posts/treinta-y-tres-mil-sin-ficha/) | `nvd-fichas/generar.py` | `nvd-fichas/por-anio.csv`, `por-mes.csv`, `cve-estados.csv.gz` |
 | artículo en preparación | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
 | [Mirar ya es tratar](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |

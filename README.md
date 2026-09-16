@@ -68,7 +68,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [Before the first layer](https://manpla.net/en/posts/before-the-first-layer/) | procedure in `INSTANTANEA.md`; the survey script was not kept | `transformers/configs.csv` |
 | article in preparation | procedure in `INSTANTANEA.md`; the extraction script was not kept | `sigma/reglas.csv` |
 | [Five in every hundred](https://manpla.net/en/posts/five-in-every-hundred/) | `hf-activos/generar.py` | `hf-activos/activos.csv`, `resumen.json` |
-| [Thirty-three thousand without a record](https://manpla.net/en/posts/thirty-three-thousand-without-a-record/) | `nvd-fichas/generar.py` | `nvd-fichas/por-anio.csv`, `por-mes.csv`, `cve-estados.csv.gz` |
+| [The key and the lock](https://manpla.net/en/posts/thirty-three-thousand-without-a-record/) | `nvd-fichas/generar.py` | `nvd-fichas/por-anio.csv`, `por-mes.csv`, `cve-estados.csv.gz` |
 | article in preparation | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
 | [Looking is already processing](https://manpla.net/en/posts/looking-is-already-processing/) | none: downloaded from UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Currency of the BOE legal codes](https://manpla.net/en/temas/boe-legal-codes-currency/) | the live page's own, daily | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |

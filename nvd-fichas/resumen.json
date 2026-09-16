@@ -1,0 +1,128 @@
+{
+ "extraccion": "2026-09-16",
+ "corte": "2026-09-15",
+ "kev_entradas": 1710,
+ "por_anio": [
+  {
+   "anio": "2023",
+   "publicados": 28816,
+   "ficha_completa": 28816,
+   "analizados": 565,
+   "modificados": 28251,
+   "aplazados": 0,
+   "recibidos": 0,
+   "en_espera": 0,
+   "en_analisis": 0,
+   "explotados": 165,
+   "pct_ficha_completa": 100.0,
+   "pct_aplazados": 0.0
+  },
+  {
+   "anio": "2024",
+   "publicados": 39953,
+   "ficha_completa": 32177,
+   "analizados": 17744,
+   "modificados": 14433,
+   "aplazados": 7770,
+   "recibidos": 0,
+   "en_espera": 0,
+   "en_analisis": 6,
+   "explotados": 160,
+   "pct_ficha_completa": 80.54,
+   "pct_aplazados": 19.45
+  },
+  {
+   "anio": "2025",
+   "publicados": 48153,
+   "ficha_completa": 30168,
+   "analizados": 23639,
+   "modificados": 6529,
+   "aplazados": 17976,
+   "recibidos": 0,
+   "en_espera": 1,
+   "en_analisis": 8,
+   "explotados": 195,
+   "pct_ficha_completa": 62.65,
+   "pct_aplazados": 37.33
+  },
+  {
+   "anio": "2026",
+   "publicados": 65786,
+   "ficha_completa": 32684,
+   "analizados": 28547,
+   "modificados": 4137,
+   "aplazados": 22964,
+   "recibidos": 5004,
+   "en_espera": 3833,
+   "en_analisis": 1301,
+   "explotados": 156,
+   "pct_ficha_completa": 49.68,
+   "pct_aplazados": 34.91
+  }
+ ],
+ "por_mes": [
+  {
+   "mes": "2026-01",
+   "publicados": 4302,
+   "aplazados": 1732,
+   "ficha_completa": 2569,
+   "pct_aplazados": 40.26
+  },
+  {
+   "mes": "2026-02",
+   "publicados": 4616,
+   "aplazados": 1568,
+   "ficha_completa": 3046,
+   "pct_aplazados": 33.97
+  },
+  {
+   "mes": "2026-03",
+   "publicados": 6234,
+   "aplazados": 1590,
+   "ficha_completa": 4438,
+   "pct_aplazados": 25.51
+  },
+  {
+   "mes": "2026-04",
+   "publicados": 5810,
+   "aplazados": 1610,
+   "ficha_completa": 3947,
+   "pct_aplazados": 27.71
+  },
+  {
+   "mes": "2026-05",
+   "publicados": 6939,
+   "aplazados": 2642,
+   "ficha_completa": 3851,
+   "pct_aplazados": 38.07
+  },
+  {
+   "mes": "2026-06",
+   "publicados": 7943,
+   "aplazados": 3235,
+   "ficha_completa": 4367,
+   "pct_aplazados": 40.73
+  },
+  {
+   "mes": "2026-07",
+   "publicados": 9770,
+   "aplazados": 3745,
+   "ficha_completa": 5175,
+   "pct_aplazados": 38.33
+  },
+  {
+   "mes": "2026-08",
+   "publicados": 12260,
+   "aplazados": 4811,
+   "ficha_completa": 3791,
+   "pct_aplazados": 39.24
+  },
+  {
+   "mes": "2026-09",
+   "publicados": 7912,
+   "aplazados": 2031,
+   "ficha_completa": 1500,
+   "pct_aplazados": 25.67
+  }
+ ]
+}

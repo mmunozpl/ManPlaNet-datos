@@ -36,6 +36,7 @@ kept — the script:
 ├── deepseek-kv/      # global KV cache per token across four DeepSeek generations, from their configs
 ├── euvd-kev/         # the two lists of exploited vulnerabilities, CISA's KEV and ENISA's EUVD, entry by entry
 ├── hf-activos/       # total and per-token active parameters of the Hub's 100 trending models, tensor by tensor
+├── nvd-fichas/       # enrichment status of every CVE published since 2023 in the NVD, and whether it is listed as exploited
 ├── transformers/     # configs of the Hub's 600 most downloaded models
 ├── sigma/            # metadata of SigmaHQ's 3,760 detection rules
 ├── adult/            # UCI's Adult data set, unmodified
@@ -67,6 +68,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [Before the first layer](https://manpla.net/en/posts/before-the-first-layer/) | procedure in `INSTANTANEA.md`; the survey script was not kept | `transformers/configs.csv` |
 | article in preparation | procedure in `INSTANTANEA.md`; the extraction script was not kept | `sigma/reglas.csv` |
 | [Five in every hundred](https://manpla.net/en/posts/five-in-every-hundred/) | `hf-activos/generar.py` | `hf-activos/activos.csv`, `resumen.json` |
+| [Thirty-three thousand without a record](https://manpla.net/en/posts/thirty-three-thousand-without-a-record/) | `nvd-fichas/generar.py` | `nvd-fichas/por-anio.csv`, `por-mes.csv`, `cve-estados.csv.gz` |
 | article in preparation | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
 | [Looking is already processing](https://manpla.net/en/posts/looking-is-already-processing/) | none: downloaded from UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Currency of the BOE legal codes](https://manpla.net/en/temas/boe-legal-codes-currency/) | the live page's own, daily | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
@@ -91,10 +93,11 @@ python rag-sintetico/generar.py      # deterministic: seed 20260825; in-memory i
 python deepseek-kv/generar.py        # downloads four public config.json files from Hugging Face
 python euvd-kev/generar.py           # the KEV JSON and the EUVD's public API; about two minutes
 python hf-activos/generar.py         # safetensors headers of 100 repositories; an hour, or minutes with HF_ACTIVOS_CACHE
+python nvd-fichas/generar.py         # NVD API 2.0, no key; about twenty minutes because of the request limit
 ```
 
 None needs credentials. `kev`, `hf-tendencia`, `agi-tendencias`,
-`deepseek-kv`, `euvd-kev` and `hf-activos` query an API or download public files; `ijepa` and
+`deepseek-kv`, `euvd-kev`, `hf-activos` and `nvd-fichas` query an API or download public files; `ijepa` and
 `rag-sintetico` never leave the machine.
 
 ## Notebooks
@@ -116,6 +119,7 @@ nothing has to be downloaded and no account is needed — or locally with
 - [`deepseek-kv/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=deepseek-kv%2Freproducir.ipynb)
 - [`euvd-kev/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=euvd-kev%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)
+- [`nvd-fichas/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=nvd-fichas%2Freproducir.ipynb)
 - [`vigencia-boe/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=vigencia-boe%2Freproducir.ipynb)
 
 The synthetic-RAG measurement also has a demo on Hugging Face,

@@ -66,6 +66,12 @@ form of each term, and it is the one `README.md` uses.
 | aplazado (`Deferred`) | deferred | `nvd-fichas` |
 | `cve`, `publicado`, `estado`, `en_kev`, `kev_alta` | CVE id, published, NVD status, in the KEV catalogue, KEV addition date | `nvd-fichas/cve-estados.csv.gz` |
 | `publicados`, `ficha_completa`, `aplazados`, `recibidos`, `en_espera`, `en_analisis`, `explotados` | published, complete record, deferred, received, awaiting analysis, undergoing analysis, exploited | `nvd-fichas/por-anio.csv`, `por-mes.csv` |
+| parque instalado | installed base | `parque-instalado` |
+| edad (del fallo al entrar en el catálogo) | age (of the flaw at catalogue entry: year added minus CVE year) | `parque-instalado/altas-edades.csv` |
+| `anio_cve`, `anio_alta`, `fecha_alta`, `edad`, `proveedor`, `producto`, `borde_red` | CVE year, year added, date added, age, vendor, product, network-edge device | `parque-instalado/altas-edades.csv` |
+| `edad_0`, `edad_1_4`, `edad_5_9`, `edad_10_mas`, `pct_5_mas`, `mas_antiguo` | age bands, share five years or older, oldest CVE | `parque-instalado/edades-por-anio.csv` |
+| dispositivos de borde de red | network-edge devices (firewalls, VPNs, routers) | `parque-instalado` |
+| `region`, `mes`, `win11`, `win10`, `win7`, `winxp`, `win8`, `win81`, `otros` | region, month, share of each Windows version | `parque-instalado/windows-versiones.csv` |
 | sondeo | survey (of model configurations) | `transformers` |
 | `params_reales`, `params_predichos` | actual parameters, predicted parameters | `transformers/configs.csv` |
 | regla, colección, nivel, estado | rule, collection, level, status | `sigma/reglas.csv` |

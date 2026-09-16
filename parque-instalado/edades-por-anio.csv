@@ -1,0 +1,5 @@
+anio_alta,altas,edad_0,edad_1_4,edad_5_9,edad_10_mas,pct_5_mas,edad_mediana,borde_red,pct_borde_red,mas_antiguo,mas_antiguo_proveedor
+2023,187,121,48,15,3,9.6,0,32,17.1,CVE-2004-1464,Cisco
+2024,186,116,52,11,7,9.7,0,39,21.0,CVE-2012-4792,Microsoft
+2025,245,151,64,21,9,12.2,0,53,21.6,CVE-2007-0671,Microsoft
+2026,226,147,54,13,12,11.1,0,46,20.4,CVE-2008-4128,Cisco

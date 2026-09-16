@@ -1,0 +1,86 @@
+{
+ "extraccion": "2026-09-16",
+ "kev_version": "2026.09.14",
+ "por_anio": [
+  {
+   "anio_alta": 2023,
+   "altas": 187,
+   "edad_0": 121,
+   "edad_1_4": 48,
+   "edad_5_9": 15,
+   "edad_10_mas": 3,
+   "pct_5_mas": 9.6,
+   "edad_mediana": 0,
+   "borde_red": 32,
+   "pct_borde_red": 17.1,
+   "mas_antiguo": "CVE-2004-1464",
+   "mas_antiguo_proveedor": "Cisco"
+  },
+  {
+   "anio_alta": 2024,
+   "altas": 186,
+   "edad_0": 116,
+   "edad_1_4": 52,
+   "edad_5_9": 11,
+   "edad_10_mas": 7,
+   "pct_5_mas": 9.7,
+   "edad_mediana": 0,
+   "borde_red": 39,
+   "pct_borde_red": 21.0,
+   "mas_antiguo": "CVE-2012-4792",
+   "mas_antiguo_proveedor": "Microsoft"
+  },
+  {
+   "anio_alta": 2025,
+   "altas": 245,
+   "edad_0": 151,
+   "edad_1_4": 64,
+   "edad_5_9": 21,
+   "edad_10_mas": 9,
+   "pct_5_mas": 12.2,
+   "edad_mediana": 0,
+   "borde_red": 53,
+   "pct_borde_red": 21.6,
+   "mas_antiguo": "CVE-2007-0671",
+   "mas_antiguo_proveedor": "Microsoft"
+  },
+  {
+   "anio_alta": 2026,
+   "altas": 226,
+   "edad_0": 147,
+   "edad_1_4": 54,
+   "edad_5_9": 13,
+   "edad_10_mas": 12,
+   "pct_5_mas": 11.1,
+   "edad_mediana": 0,
+   "borde_red": 46,
+   "pct_borde_red": 20.4,
+   "mas_antiguo": "CVE-2008-4128",
+   "mas_antiguo_proveedor": "Cisco"
+  }
+ ],
+ "windows_ultimo_mes": [
+  {
+   "region": "mundo",
+   "mes": "2026-08",
+   "win11": "68.6",
+   "win10": "30.15",
+   "win7": "0.95",
+   "winxp": "0.14",
+   "win8": "0.03",
+   "win81": "0.11",
+   "otros": "0.01"
+  },
+  {
+   "region": "espana",
+   "mes": "2026-08",
+   "win11": "65.85",
+   "win10": "30.54",
+   "win7": "3.22",
+   "winxp": "0.03",
+   "win8": "0.19",
+   "win81": "0.07",
+   "otros": "0"
+  }
+ ]
+}

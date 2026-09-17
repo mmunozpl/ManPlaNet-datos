@@ -37,6 +37,17 @@ TERMINOS = {
     "self-supervised": 'abs:"self-supervised"',
     "neurosymbolic": '(abs:"neurosymbolic" OR abs:"neuro-symbolic")',
     "artificial general intelligence": 'abs:"artificial general intelligence"',
+    # añadidos el 18-09-2026, segunda entrega de la serie: el vocabulario de la
+    # automejora. el buscador lematiza, así que «self-improvement» devuelve
+    # también «self-improving» y «self-improve» (véase comprobaciones.csv)
+    "self-improvement": 'abs:"self-improvement"',
+    "recursive self-improvement": 'abs:"recursive self-improvement"',
+    "self-evolving": 'abs:"self-evolving"',
+    "reward hacking": 'abs:"reward hacking"',
+    # el nombre del destino, frase o sigla, con un OR que deduplica: es la
+    # fila que la primera entrega llevaba a mano (5,5 → 21,3 → 24,6 → 17,1)
+    "artificial general intelligence o AGI":
+        '(abs:"artificial general intelligence" OR abs:"AGI")',
 }
 
 # comprobaciones del buscador, que se guardan como evidencia
@@ -47,6 +58,9 @@ COMPROBACIONES = [
     ("neuro-symbolic", 'abs:"neuro-symbolic"'),
     ("chain-of-thought", 'abs:"chain-of-thought"'),
     ("chain of thought", 'abs:"chain of thought"'),
+    ("self-improvement", 'abs:"self-improvement"'),
+    ("self-improving", 'abs:"self-improving"'),
+    ("self-improve", 'abs:"self-improve"'),
 ]
 
 

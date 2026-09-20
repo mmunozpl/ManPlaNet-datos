@@ -1,0 +1,59 @@
+cve,proveedor,producto,fecha_alta,vencimiento,ventana_dias,ransomware,cwe,componente_compartido
+CVE-2026-45659,Microsoft,SharePoint Server,2026-07-01,2026-07-04,3,Known,CWE-502,False
+CVE-2026-48282,Adobe,ColdFusion,2026-07-07,2026-07-10,3,Unknown,CWE-22,False
+CVE-2026-48908,JoomShaper,SP Page Builder,2026-07-07,2026-07-10,3,Unknown,CWE-434,False
+CVE-2026-55255,Langflow,Langflow,2026-07-07,2026-07-10,3,Unknown,CWE-639,False
+CVE-2026-56290,Joomlack,Page Builder,2026-07-07,2026-07-10,3,Unknown,CWE-284,False
+CVE-2026-48939,iCagenda,iCagenda,2026-07-10,2026-07-13,3,Unknown,CWE-434,False
+CVE-2026-56291,Balbooa,Forms,2026-07-10,2026-07-13,3,Unknown,CWE-434,False
+CVE-2008-4128,Cisco,IOS,2026-07-13,2026-07-16,3,Unknown,CWE-352,False
+CVE-2026-15409,SonicWall,SMA1000 Appliances,2026-07-14,2026-07-17,3,Known,CWE-918,False
+CVE-2026-15410,SonicWall,SMA1000 Appliances,2026-07-14,2026-07-17,3,Known,CWE-94,False
+CVE-2026-56164,Microsoft,SharePoint Server,2026-07-14,2026-07-17,3,Unknown,CWE-306,False
+CVE-2026-46817,Oracle,E-Business Suite,2026-07-15,2026-07-18,3,Unknown,CWE-269;CWE-287;CWE-306,False
+CVE-2026-25089,Fortinet,FortiSandbox,2026-07-16,2026-07-19,3,Unknown,CWE-78,False
+CVE-2026-39808,Fortinet,FortiSandbox,2026-07-16,2026-07-19,3,Unknown,CWE-78,False
+CVE-2026-58644,Microsoft,SharePoint,2026-07-16,2026-07-19,3,Unknown,CWE-502,False
+CVE-2021-27137,DD-WRT,DD-WRT,2026-07-21,2026-07-24,3,Unknown,CWE-121,True
+CVE-2026-0770,Langflow,Langflow,2026-07-21,2026-07-24,3,Unknown,CWE-829,False
+CVE-2026-63030,WordPress,Core,2026-07-21,2026-07-24,3,Unknown,CWE-436,False
+CVE-2026-16232,Check Point,SmartConsole,2026-07-22,2026-07-25,3,Unknown,CWE-287,False
+CVE-2026-50522,Microsoft,SharePoint,2026-07-22,2026-07-25,3,Unknown,CWE-502,False
+CVE-2026-16812,Arista,VeloCloud Orchestrator,2026-07-27,2026-07-30,3,Unknown,CWE-78,False
+CVE-2026-18577,N-able,N-central,2026-08-03,2026-08-06,3,Unknown,CWE-288,False
+CVE-2026-18556,N-able,N-central,2026-08-04,2026-08-07,3,Unknown,CWE-288,False
+CVE-2026-9198,IBM,Langflow,2026-08-04,2026-08-07,3,Unknown,CWE-94,False
+CVE-2026-63077,JetBrains,TeamCity,2026-08-05,2026-08-08,3,Unknown,CWE-502,False
+CVE-2026-8037,Progress,LoadMaster,2026-08-07,2026-08-10,3,Unknown,CWE-77,False
+CVE-2026-72898,Metabase,Metabase,2026-08-11,2026-08-14,3,Unknown,CWE-89,False
+CVE-2025-62593,Ray-Project,Ray,2026-08-17,2026-08-20,3,Unknown,CWE-94;CWE-352,False
+CVE-2026-55040,Microsoft,SharePoint,2026-08-18,2026-08-21,3,Unknown,CWE-1390,False
+CVE-2026-59310,Broadcom,VMware vCenter,2026-08-18,2026-08-21,3,Known,CWE-22,False
+CVE-2026-65400,Apple,macOS,2026-08-18,2026-08-21,3,Unknown,CWE-287,False
+CVE-2026-72529,TrueConf,Server,2026-08-20,2026-08-23,3,Unknown,CWE-306,False
+CVE-2026-73570,Synacor,Zimbra Collaboration Suite (ZCS),2026-08-21,2026-08-24,3,Unknown,CWE-78,False
+CVE-2026-21962,Oracle,HTTP Server and Oracle Weblogic Server Proxy Plug-in,2026-08-24,2026-08-27,3,Unknown,CWE-284,False
+CVE-2026-60004,Gitea,Gitea,2026-08-25,2026-08-28,3,Unknown,CWE-94,False
+CVE-2019-1068,Microsoft,SQL Server,2026-08-26,2026-08-29,3,Unknown,,False
+CVE-2023-49105,ownCloud,ownCloud,2026-08-27,2026-08-30,3,Unknown,CWE-287,False
+CVE-2026-53362,Linux,Kernel,2026-08-27,2026-08-30,3,Unknown,,True
+CVE-2026-49869,Kestra,Kestra OSS,2026-09-02,2026-09-05,3,Unknown,CWE-78;CWE-184;CWE-287;CWE-918,True
+CVE-2026-82329,JFrog,Artifactory,2026-09-02,2026-09-05,3,Unknown,CWE-287,False
+CVE-2026-83548,SonicWall,SMA1000 Appliances,2026-09-02,2026-09-05,3,Unknown,CWE-918;CWE-441,False
+CVE-2026-83549,SonicWall,SMA1000 Appliances,2026-09-02,2026-09-05,3,Unknown,CWE-78,False
+CVE-2026-9586,Sangoma,Switchvox,2026-09-02,2026-09-05,3,Unknown,CWE-89,False
+CVE-2026-75650,Adobe,Commerce and Magento,2026-09-08,2026-09-11,3,Unknown,CWE-1336,False
+CVE-2026-86218,N-able,N-central,2026-09-08,2026-09-11,3,Unknown,CWE-96,False
+CVE-2025-25249,Fortinet,Multiple Products,2026-09-09,2026-09-12,3,Unknown,CWE-122;CWE-787,False
+CVE-2026-19490,Citrix,NetScaler,2026-09-09,2026-09-12,3,Unknown,CWE-288,False
+CVE-2026-20079,Cisco,Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management,2026-09-09,2026-09-12,3,Unknown,CWE-288,False
+CVE-2026-86060,MikroTik,RouterOS,2026-09-10,2026-09-13,3,Unknown,CWE-88,False
+CVE-2026-84869,ConnectWise,ScreenConnect,2026-09-11,2026-09-14,3,Unknown,CWE-269;CWE-862,False
+CVE-2026-85706,GitLab,Community Edition and Enterprise Edition,2026-09-11,2026-09-14,3,Unknown,CWE-35,False
+CVE-2026-76461,Cisco,Secure Email Gateway,2026-09-14,2026-09-17,3,Unknown,CWE-89,False
+CVE-2026-58704,Google,Pixel,2026-09-16,2026-09-19,3,Unknown,CWE-693,False
+CVE-2026-76460,Cisco,Identity Services Engine,2026-09-16,2026-09-19,3,Unknown,CWE-648,False
+CVE-2026-87886,Acronis,Backup,2026-09-16,2026-09-19,3,Unknown,CWE-276,False
+CVE-2025-39682,Linux,Kernel,2026-09-18,2026-09-21,3,Unknown,CWE-754,True
+CVE-2025-39964,Linux,Kernel,2026-09-18,2026-09-21,3,Unknown,CWE-362,True
+CVE-2026-53266,Linux,Kernel,2026-09-18,2026-09-21,3,Unknown,CWE-787,True

@@ -28,7 +28,7 @@ el guion:
 
 ```
 .
-├── kev/              # altas por día en el catálogo KEV de CISA
+├── kev/              # altas por día en el catálogo KEV de CISA, ventana mensual y entradas con triaje forense
 ├── hf-tendencia/     # los 100 repositorios en tendencia del Hub de Hugging Face
 ├── agi-tendencias/   # cuota anual de nueve términos en los resúmenes de arXiv
 ├── ijepa/            # simulación del muestreo de máscaras de I-JEPA
@@ -62,7 +62,7 @@ con la semilla y los parámetros de la simulación.
 
 | Artículo | Guion | Dato |
 |---|---|---|
-| [Limpio, y ya estaba dentro](https://manpla.net/posts/limpio-y-ya-estaba-dentro/) · [Veinticuatro horas y un formulario](https://manpla.net/posts/veinticuatro-horas-y-un-formulario/) | `kev/generar.py` | `kev/altas.csv` |
+| [Tres días y un triaje forense](https://manpla.net/posts/tres-dias-y-un-triaje/) · [Limpio, y ya estaba dentro](https://manpla.net/posts/limpio-y-ya-estaba-dentro/) · [Veinticuatro horas y un formulario](https://manpla.net/posts/veinticuatro-horas-y-un-formulario/) | `kev/generar.py` | `kev/altas.csv`, `ventanas-mensuales.csv`, `triaje-forense.csv`, `resumen.json` |
 | [El escaparate y el contador](https://manpla.net/posts/el-escaparate-y-el-contador/) | `hf-tendencia/generar.py` | `hf-tendencia/tendencia.csv` |
 | [Cuatro términos ya han tocado techo](https://manpla.net/posts/cuatro-terminos-ya-han-tocado-techo/) | `agi-tendencias/generar.py` | `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | [Predecir sin dibujar](https://manpla.net/posts/predecir-sin-dibujar/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |

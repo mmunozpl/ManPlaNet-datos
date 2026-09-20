@@ -1,0 +1,99 @@
+{
+  "version_catalogo": "2026.09.18",
+  "publicado_por_cisa": "2026-09-18T19:00:05.0974Z",
+  "extraido": "2026-09-21",
+  "entradas": 1716,
+  "dias_con_altas": 472,
+  "altas_en_fin_de_semana": 1,
+  "triaje_forense": {
+    "si": 58,
+    "no": 1658,
+    "sin_campo": 0,
+    "primera_marca": "2026-07-01",
+    "ultima_marca": "2026-09-18",
+    "dias_con_marca": 31,
+    "ventanas_de_las_marcadas": {
+      "3": 58
+    },
+    "por_mes": {
+      "2026-07": 21,
+      "2026-08": 17,
+      "2026-09": 20
+    },
+    "por_proveedor": {
+      "Microsoft": 6,
+      "Cisco": 4,
+      "SonicWall": 4,
+      "Linux": 4,
+      "Fortinet": 3,
+      "N-able": 3,
+      "Adobe": 2,
+      "Langflow": 2,
+      "Oracle": 2,
+      "JoomShaper": 1,
+      "Joomlack": 1,
+      "iCagenda": 1,
+      "Balbooa": 1,
+      "DD-WRT": 1,
+      "WordPress": 1,
+      "Check Point": 1,
+      "Arista": 1,
+      "IBM": 1,
+      "JetBrains": 1,
+      "Progress": 1,
+      "Metabase": 1,
+      "Ray-Project": 1,
+      "Broadcom": 1,
+      "Apple": 1,
+      "TrueConf": 1,
+      "Synacor": 1,
+      "Gitea": 1,
+      "ownCloud": 1,
+      "Kestra": 1,
+      "JFrog": 1,
+      "Sangoma": 1,
+      "Citrix": 1,
+      "MikroTik": 1,
+      "ConnectWise": 1,
+      "GitLab": 1,
+      "Google": 1,
+      "Acronis": 1
+    },
+    "ransomware_conocido": 4,
+    "componente_compartido": 6,
+    "por_anio_del_cve": {
+      "2008": 1,
+      "2019": 1,
+      "2021": 1,
+      "2023": 1,
+      "2025": 4,
+      "2026": 50
+    },
+    "por_dia_semana": {
+      "miércoles": 17,
+      "martes": 19,
+      "viernes": 9,
+      "lunes": 6,
+      "jueves": 7
+    }
+  },
+  "desde_bod_26_04": {
+    "desde": "2026-06-10",
+    "altas": 99,
+    "ventana_3_con_triaje": 58,
+    "ventana_3_sin_triaje": 18,
+    "ventana_14": 23,
+    "otras": 0
+  },
+  "ventana_mediana_por_mes_2026": {
+    "2026-01": 21,
+    "2026-02": 21,
+    "2026-03": 14,
+    "2026-04": 14,
+    "2026-05": 14,
+    "2026-06": 3,
+    "2026-07": 3,
+    "2026-08": 3,
+    "2026-09": 3
+  }
+}

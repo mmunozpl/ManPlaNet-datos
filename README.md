@@ -31,6 +31,7 @@ kept — the script:
 ├── kev/              # daily additions to CISA's KEV catalogue, monthly window and entries flagged for forensic triage
 ├── hf-tendencia/     # the Hub's 100 trending repositories
 ├── agi-tendencias/   # yearly share of nine terms in arXiv abstracts
+├── arc-agi/          # the verified ARC-AGI leaderboard: score, cost and harness of every evaluation, and the head of the 2026 Kaggle tables
 ├── ijepa/            # simulation of I-JEPA's mask sampling
 ├── rag-sintetico/    # permissions in a RAG: 600 synthetic chunks, 300 queries, filter before or after
 ├── deepseek-kv/      # global KV cache per token across four DeepSeek generations, from their configs
@@ -74,6 +75,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [The key doped with AI and the lock with obsolete technology](https://manpla.net/en/posts/thirty-three-thousand-without-a-record/) | `parque-instalado/generar.py` · `nvd-fichas/generar.py` | `parque-instalado/edades-por-anio.csv`, `altas-edades.csv`, `windows-versiones.csv` · `nvd-fichas/por-anio.csv`, `por-mes.csv`, `cve-estados.csv.gz` |
 | [The last AI built by humans, read in depth](https://manpla.net/en/posts/the-last-ai-read-from-the-inside/) | `rsi-survey/generar.py` · `agi-tendencias/generar.py` | `rsi-survey/l5-sistemas.csv`, `hci-eq4.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | [Who watches the evaluator](https://manpla.net/en/posts/who-watches-the-evaluator/) | `evaluador-bucle/generar.py` | `evaluador-bucle/semillas.csv`, `asalto-serie.csv`, `asalto-por-tamano.csv`, `resumen.json` |
+| [Same model, 62.7 or 99.9](https://manpla.net/en/posts/same-model-two-harnesses/) | `arc-agi/generar.py` · `agi-tendencias/generar.py` | `arc-agi/marcador.csv`, `frontera.csv`, `hueco-v2.csv`, `kaggle-2026.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | article in preparation | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
 | [Looking is already processing](https://manpla.net/en/posts/looking-is-already-processing/) | none: downloaded from UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Currency of the BOE legal codes](https://manpla.net/en/temas/boe-legal-codes-currency/) | the live page's own, daily | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
@@ -102,10 +104,11 @@ python nvd-fichas/generar.py         # NVD API 2.0, no key; about twenty minutes
 python parque-instalado/generar.py   # CISA's KEV catalogue and the StatCounter series; seconds
 python evaluador-bucle/generar.py    # deterministic: seed 20260917; half a minute, no network
 python rsi-survey/generar.py         # coded transcription of the survey; instant, no network
+python arc-agi/generar.py            # the four JSON files behind arcprize.org's leaderboard; seconds; the Kaggle table only if the client is configured
 ```
 
 None needs credentials. `kev`, `hf-tendencia`, `agi-tendencias`,
-`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas` and `parque-instalado` query an API or download public files; `ijepa`,
+`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas`, `parque-instalado` and `arc-agi` query an API or download public files — `arc-agi` adds the head of the Kaggle tables only if it finds the client configured —; `ijepa`,
 `rag-sintetico`, `evaluador-bucle` and `rsi-survey` never leave the machine.
 
 ## Notebooks
@@ -169,5 +172,7 @@ The scripts, under [Apache-2.0](LICENSE). The own measurements — `kev`,
   no detection logic.
 - **Adult**: Becker and Kohavi, UCI Machine Learning Repository, 1996,
   [CC BY 4.0](https://doi.org/10.24432/C5XW20); kept unmodified.
+- **ARC Prize**: the figures it publishes in the JSON files behind its
+  verified leaderboard and the head of its Kaggle tables; no ARC-AGI task.
 - **BOE**: metadata and links from the Biblioteca Jurídica Digital, reusable
   under the terms of its legal notice and of Law 37/2007, citing the source.

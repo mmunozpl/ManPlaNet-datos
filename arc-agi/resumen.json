@@ -1,0 +1,26 @@
+{
+ "extraido": "2026-09-25",
+ "lanzamiento": {
+  "v1": "2019-11-05",
+  "v2": "2025-03-24",
+  "v3": "2026-03-25"
+ },
+ "evaluaciones": 980,
+ "v3_mejor": {
+  "standard": {
+   "modelo": "GPT-6 Astra (Max)",
+   "puntuacion": 0.6271280210060628,
+   "coste_total": 26097.501720000007
+  },
+  "provider-adapter": {
+   "modelo": "GPT-6 Astra - Provider Adapter (High)",
+   "puntuacion": 0.99945712321257,
+   "coste_total": 18816.63138
+  }
+ },
+ "v3_lanzamiento_mejor": 0.0051,
+ "kaggle_cabeza": {
+  "ARC-AGI-3": 19.4,
+  "ARC-AGI-2": 83.06
+ }
+}

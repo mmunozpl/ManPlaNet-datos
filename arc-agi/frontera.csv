@@ -1,0 +1,37 @@
+conjunto,arnes,publicacion,modelo,puntuacion
+v1_Semi_Private,,2024-09-12,o1-mini,0.14
+v1_Semi_Private,,2025-01-22,Deepseek R1,0.158
+v1_Semi_Private,,2025-01-31,o3-mini (High),0.345
+v1_Semi_Private,,2025-04-16,o3 (High),0.6083
+v1_Semi_Private,,2025-07-09,Grok 4 (Thinking),0.6667
+v1_Semi_Private,,2025-08-07,Grok 4 (Refine.),0.796
+v1_Semi_Private,,2025-11-24,"Opus 4.5 (Thinking, 64K)",0.8
+v1_Semi_Private,,2025-12-11,GPT-5.2 Pro (XHigh),0.905
+v1_Semi_Private,,2026-02-03,GPT-5.2 (Refine.),0.945
+v1_Semi_Private,,2026-02-12,Gemini 3 Deep Think (2/26),0.96
+v1_Semi_Private,,2026-02-19,Gemini 3.1 Pro (Preview),0.98
+v1_Semi_Private,,2026-06-09,Claude Fable 5 (Max),0.985
+v2_Semi_Private,,2024-07-18,GPT-4o-mini,0
+v2_Semi_Private,,2024-09-12,o1-mini,0.0083
+v2_Semi_Private,,2025-01-22,Deepseek R1,0.013
+v2_Semi_Private,,2025-01-31,o3-mini (High),0.0299
+v2_Semi_Private,,2025-04-16,o3 (High),0.0653
+v2_Semi_Private,,2025-05-14,Claude Opus 4 (Thinking 16K),0.0861
+v2_Semi_Private,,2025-07-09,Grok 4 (Thinking),0.15975
+v2_Semi_Private,,2025-08-07,Grok 4 (Refine.),0.2944
+v2_Semi_Private,,2025-11-18,Gemini 3 Pro,0.3111
+v2_Semi_Private,,2025-11-24,"Opus 4.5 (Thinking, 64K)",0.3764
+v2_Semi_Private,,2025-12-04,Gemini 3 Pro (Refine.),0.54
+v2_Semi_Private,,2025-12-11,GPT-5.2 Pro (High),0.5416
+v2_Semi_Private,,2026-02-03,GPT-5.2 (Refine.),0.729
+v2_Semi_Private,,2026-02-12,Gemini 3 Deep Think (2/26),0.8458
+v2_Semi_Private,,2026-04-22,GPT-5.5 (XHigh),0.85
+v2_Semi_Private,,2026-06-09,Claude Fable 5 (Max),0.8916666666666667
+v2_Semi_Private,,2026-07-09,GPT-5.6 Sol (Max),0.925
+v2_Semi_Private,,2026-09-02,GPT-6 Astra (Max),0.95
+v3_Semi_Private,provider-adapter,2026-09-02,GPT-6 Astra - Provider Adapter (High),0.99945712321257
+v3_Semi_Private,standard,2025-12-17,Anthropic Opus 4.6 (Max),0.0051
+v3_Semi_Private,standard,2026-06-01,Claude Opus 4.8 (High),0.0152
+v3_Semi_Private,standard,2026-07-09,GPT-5.6 Sol (Max),0.0778
+v3_Semi_Private,standard,2026-07-24,Claude Opus 5 (High),0.3016
+v3_Semi_Private,standard,2026-09-02,GPT-6 Astra (Max),0.6271280210060628

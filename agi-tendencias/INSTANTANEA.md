@@ -5,8 +5,8 @@ cs.AI, cs.CL y cs.CV contienen cada término por año, el total de artículos de
 esas categorías ese año, y la cuota por diez mil. No guarda ningún artículo.
 
 - API: https://export.arxiv.org/api/query
-- Extraído: 2026-09-18
-- Años: 2018-2026 · el 2026 es parcial, hasta el 2026-09-18
+- Extraído: 2026-09-25
+- Años: 2018-2026 · el 2026 es parcial, hasta el 2026-09-25
 - Categorías del denominador: cs.LG, cs.AI, cs.CL, cs.CV (unión)
 - Términos: 14
 

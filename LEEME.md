@@ -31,6 +31,7 @@ el guion:
 ├── kev/              # altas por día en el catálogo KEV de CISA, ventana mensual y entradas con triaje forense
 ├── hf-tendencia/     # los 100 repositorios en tendencia del Hub de Hugging Face
 ├── agi-tendencias/   # cuota anual de nueve términos en los resúmenes de arXiv
+├── arc-agi/          # el marcador verificado de ARC-AGI: puntuación, coste y arnés de cada evaluación, y la cabecera de Kaggle 2026
 ├── ijepa/            # simulación del muestreo de máscaras de I-JEPA
 ├── rag-sintetico/    # permisos en un RAG: 600 fragmentos sintéticos, 300 consultas, filtro antes o después
 ├── deepseek-kv/      # caché KV global por token en cuatro generaciones de DeepSeek, desde sus configs
@@ -74,6 +75,7 @@ con la semilla y los parámetros de la simulación.
 | [La llave dopada con IA y la cerradura con tecnología obsoleta](https://manpla.net/posts/treinta-y-tres-mil-sin-ficha/) | `parque-instalado/generar.py` · `nvd-fichas/generar.py` | `parque-instalado/edades-por-anio.csv`, `altas-edades.csv`, `windows-versiones.csv` · `nvd-fichas/por-anio.csv`, `por-mes.csv`, `cve-estados.csv.gz` |
 | [La última IA construida por humanos, leída en profundidad](https://manpla.net/posts/la-ultima-ia-leida-por-dentro/) | `rsi-survey/generar.py` · `agi-tendencias/generar.py` | `rsi-survey/l5-sistemas.csv`, `hci-eq4.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | [Quién vigila al evaluador](https://manpla.net/posts/quien-vigila-al-evaluador/) | `evaluador-bucle/generar.py` | `evaluador-bucle/semillas.csv`, `asalto-serie.csv`, `asalto-por-tamano.csv`, `resumen.json` |
+| [El mismo modelo, 62,7 o 99,9](https://manpla.net/posts/el-mismo-modelo-dos-arneses/) | `arc-agi/generar.py` · `agi-tendencias/generar.py` | `arc-agi/marcador.csv`, `frontera.csv`, `hueco-v2.csv`, `kaggle-2026.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | artículo en preparación | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
 | [Mirar ya es tratar](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
@@ -102,10 +104,11 @@ python nvd-fichas/generar.py         # API 2.0 del NVD, sin clave; unos veinte m
 python parque-instalado/generar.py   # catálogo KEV de CISA y serie de StatCounter; segundos
 python evaluador-bucle/generar.py    # determinista: semilla 20260917; medio minuto, sin red
 python rsi-survey/generar.py         # transcripción codificada del survey; instantáneo, sin red
+python arc-agi/generar.py            # los cuatro JSON del marcador de arcprize.org; segundos; la tabla de Kaggle solo si el cliente está configurado
 ```
 
 Ninguno necesita credenciales. `kev`, `hf-tendencia`, `agi-tendencias`,
-`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas` y `parque-instalado` consultan una API o descargan ficheros públicos; `ijepa`,
+`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas`, `parque-instalado` y `arc-agi` consultan una API o descargan ficheros públicos —`arc-agi` añade la cabecera de Kaggle solo si encuentra el cliente configurado—; `ijepa`,
 `rag-sintetico`, `evaluador-bucle` y `rsi-survey` no salen de la máquina.
 
 ## Cuadernos
@@ -170,5 +173,7 @@ Los guiones, bajo [Apache-2.0](LICENSE). Las mediciones propias —`kev`,
 - **Adult**: Becker y Kohavi, repositorio de aprendizaje automático de UCI,
   1996, [CC BY 4.0](https://doi.org/10.24432/C5XW20); se guarda sin
   modificar.
+- **ARC Prize**: las cifras que publica en los JSON de su marcador verificado
+  y la cabecera de sus tablas de Kaggle; ninguna tarea del ARC-AGI.
 - **BOE**: metadatos y enlaces de la Biblioteca Jurídica Digital, reutilizables
   en los términos de su aviso legal y de la Ley 37/2007, citando la fuente.

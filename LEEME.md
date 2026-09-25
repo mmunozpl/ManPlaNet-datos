@@ -63,7 +63,7 @@ con la semilla y los parámetros de la simulación.
 
 | Artículo | Guion | Dato |
 |---|---|---|
-| [Tres días y un triaje forense](https://manpla.net/posts/tres-dias-y-un-triaje/) · [Limpio, y ya estaba dentro](https://manpla.net/posts/limpio-y-ya-estaba-dentro/) · [Veinticuatro horas y un formulario](https://manpla.net/posts/veinticuatro-horas-y-un-formulario/) | `kev/generar.py` | `kev/altas.csv`, `ventanas-mensuales.csv`, `triaje-forense.csv`, `resumen.json` |
+| [CISA marca 58 fallos en los que parchear no basta: en tres días toca buscar al intruso](https://manpla.net/posts/tres-dias-y-un-triaje/) · [Limpio, y ya estaba dentro](https://manpla.net/posts/limpio-y-ya-estaba-dentro/) · [Veinticuatro horas y un formulario](https://manpla.net/posts/veinticuatro-horas-y-un-formulario/) | `kev/generar.py` | `kev/altas.csv`, `ventanas-mensuales.csv`, `triaje-forense.csv`, `resumen.json` |
 | [El escaparate y el contador](https://manpla.net/posts/el-escaparate-y-el-contador/) | `hf-tendencia/generar.py` | `hf-tendencia/tendencia.csv` |
 | [Cuatro términos ya han tocado techo](https://manpla.net/posts/cuatro-terminos-ya-han-tocado-techo/) | `agi-tendencias/generar.py` | `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | [Predecir sin dibujar](https://manpla.net/posts/predecir-sin-dibujar/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |

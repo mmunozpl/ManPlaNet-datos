@@ -63,7 +63,7 @@ with the origin of each column. In `ijepa/` that role is played by
 
 | Article | Script | Data |
 |---|---|---|
-| [Three days and a forensic triage](https://manpla.net/en/posts/three-days-and-a-forensic-triage/) · [Clean, and already inside](https://manpla.net/en/posts/clean-and-already-inside/) · [Twenty-four hours and a web form](https://manpla.net/en/posts/twenty-four-hours-and-a-web-form/) | `kev/generar.py` | `kev/altas.csv`, `ventanas-mensuales.csv`, `triaje-forense.csv`, `resumen.json` |
+| [CISA marks 58 flaws where patching is not enough: within three days, look for the intruder](https://manpla.net/en/posts/three-days-and-a-forensic-triage/) · [Clean, and already inside](https://manpla.net/en/posts/clean-and-already-inside/) · [Twenty-four hours and a web form](https://manpla.net/en/posts/twenty-four-hours-and-a-web-form/) | `kev/generar.py` | `kev/altas.csv`, `ventanas-mensuales.csv`, `triaje-forense.csv`, `resumen.json` |
 | [The shop window and the counter](https://manpla.net/en/posts/the-shop-window-and-the-counter/) | `hf-tendencia/generar.py` | `hf-tendencia/tendencia.csv` |
 | [Four terms have already peaked](https://manpla.net/en/posts/four-terms-have-already-peaked/) | `agi-tendencias/generar.py` | `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | [Predicting without drawing](https://manpla.net/en/posts/predicting-without-drawing/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |

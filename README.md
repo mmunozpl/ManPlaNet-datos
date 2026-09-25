@@ -31,6 +31,7 @@ kept — the script:
 ├── kev/              # daily additions to CISA's KEV catalogue, monthly window and entries flagged for forensic triage
 ├── hf-tendencia/     # the Hub's 100 trending repositories
 ├── agi-tendencias/   # yearly share of nine terms in arXiv abstracts
+│   └── instantaneas/ # dated snapshots anchored by a specific entry (2026-09-18)
 ├── arc-agi/          # the verified ARC-AGI leaderboard: score, cost and harness of every evaluation, and the head of the 2026 Kaggle tables
 ├── ijepa/            # simulation of I-JEPA's mask sampling
 ├── rag-sintetico/    # permissions in a RAG: 600 synthetic chunks, 300 queries, filter before or after
@@ -73,7 +74,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | article in preparation | procedure in `INSTANTANEA.md`; the extraction script was not kept | `sigma/reglas.csv` |
 | [Five in every hundred](https://manpla.net/en/posts/five-in-every-hundred/) | `hf-activos/generar.py` | `hf-activos/activos.csv`, `resumen.json` |
 | [The key improves in months and the lock is replaced in decades: 12 of the 226 flaws exploited this year are ten years old or more](https://manpla.net/en/posts/thirty-three-thousand-without-a-record/) | `parque-instalado/generar.py` · `nvd-fichas/generar.py` | `parque-instalado/edades-por-anio.csv`, `altas-edades.csv`, `windows-versiones.csv` · `nvd-fichas/por-anio.csv`, `por-mes.csv`, `cve-estados.csv.gz` |
-| [Six of eight self-improving AIs inherit the mechanism and none accelerates: the “last AI” survey, read in full](https://manpla.net/en/posts/the-last-ai-read-from-the-inside/) | `rsi-survey/generar.py` · `agi-tendencias/generar.py` | `rsi-survey/l5-sistemas.csv`, `hci-eq4.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
+| [Six of eight self-improving AIs inherit the mechanism and none accelerates: the “last AI” survey, read in full](https://manpla.net/en/posts/the-last-ai-read-from-the-inside/) | `rsi-survey/generar.py` · `agi-tendencias/generar.py` | `rsi-survey/l5-sistemas.csv`, `hci-eq4.csv`, `resumen.json` · `agi-tendencias/instantaneas/2026-09-18/cuotas.csv`, `comprobaciones.csv` |
 | [Climbing to 79.2 per cent on an AI leaderboard knowing nothing: how an evaluator is fooled and what stops it](https://manpla.net/en/posts/who-watches-the-evaluator/) | `evaluador-bucle/generar.py` | `evaluador-bucle/semillas.csv`, `asalto-serie.csv`, `asalto-por-tamano.csv`, `resumen.json` |
 | [The same AI scores 62.7 or 99.9 depending on who wires it to the exam](https://manpla.net/en/posts/same-model-two-harnesses/) | `arc-agi/generar.py` · `agi-tendencias/generar.py` | `arc-agi/marcador.csv`, `frontera.csv`, `hueco-v2.csv`, `kaggle-2026.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | article in preparation | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |

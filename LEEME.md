@@ -31,6 +31,7 @@ el guion:
 ├── kev/              # altas por día en el catálogo KEV de CISA, ventana mensual y entradas con triaje forense
 ├── hf-tendencia/     # los 100 repositorios en tendencia del Hub de Hugging Face
 ├── agi-tendencias/   # cuota anual de nueve términos en los resúmenes de arXiv
+│   └── instantaneas/ # tomas fechadas que ancla una entrada concreta (2026-09-18)
 ├── arc-agi/          # el marcador verificado de ARC-AGI: puntuación, coste y arnés de cada evaluación, y la cabecera de Kaggle 2026
 ├── ijepa/            # simulación del muestreo de máscaras de I-JEPA
 ├── rag-sintetico/    # permisos en un RAG: 600 fragmentos sintéticos, 300 consultas, filtro antes o después
@@ -73,7 +74,7 @@ con la semilla y los parámetros de la simulación.
 | artículo en preparación | procedimiento en `INSTANTANEA.md`; el guion de la extracción no se conservó | `sigma/reglas.csv` |
 | [Cinco de cada cien](https://manpla.net/posts/cinco-de-cada-cien/) | `hf-activos/generar.py` | `hf-activos/activos.csv`, `resumen.json` |
 | [La llave mejora en meses y la cerradura se cambia en décadas: 12 de los 226 fallos explotados este año tienen diez años o más](https://manpla.net/posts/treinta-y-tres-mil-sin-ficha/) | `parque-instalado/generar.py` · `nvd-fichas/generar.py` | `parque-instalado/edades-por-anio.csv`, `altas-edades.csv`, `windows-versiones.csv` · `nvd-fichas/por-anio.csv`, `por-mes.csv`, `cve-estados.csv.gz` |
-| [Seis de ocho IA que se mejoran a sí mismas heredan el mecanismo y ninguna acelera: el survey de “la última IA”, leído entero](https://manpla.net/posts/la-ultima-ia-leida-por-dentro/) | `rsi-survey/generar.py` · `agi-tendencias/generar.py` | `rsi-survey/l5-sistemas.csv`, `hci-eq4.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
+| [Seis de ocho IA que se mejoran a sí mismas heredan el mecanismo y ninguna acelera: el survey de “la última IA”, leído entero](https://manpla.net/posts/la-ultima-ia-leida-por-dentro/) | `rsi-survey/generar.py` · `agi-tendencias/generar.py` | `rsi-survey/l5-sistemas.csv`, `hci-eq4.csv`, `resumen.json` · `agi-tendencias/instantaneas/2026-09-18/cuotas.csv`, `comprobaciones.csv` |
 | [Subir al 79,2 % en un marcador de IA sin saber nada: cómo se engaña a un evaluador y qué lo frena](https://manpla.net/posts/quien-vigila-al-evaluador/) | `evaluador-bucle/generar.py` | `evaluador-bucle/semillas.csv`, `asalto-serie.csv`, `asalto-por-tamano.csv`, `resumen.json` |
 | [La misma IA saca un 62,7 o un 99,9 según quién la conecte al examen](https://manpla.net/posts/el-mismo-modelo-dos-arneses/) | `arc-agi/generar.py` · `agi-tendencias/generar.py` | `arc-agi/marcador.csv`, `frontera.csv`, `hueco-v2.csv`, `kaggle-2026.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | artículo en preparación | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |

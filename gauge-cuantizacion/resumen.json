@@ -1,0 +1,109 @@
+{
+  "fuente": "ManPla/gauge-orbit-quantization-results (Hugging Face)",
+  "deposito": "10.5281/zenodo.22904208",
+  "extraido": "2026-09-23",
+  "imagenes_validacion": 5000,
+  "llanura": {
+    "pythia_q1_4": {
+      "celdas": 384,
+      "estrechas": 384,
+      "p50": 1.0209,
+      "min": 0.9707,
+      "max": 1.0811
+    },
+    "pythia_q2_4": {
+      "celdas": 384,
+      "estrechas": 384,
+      "p50": 1.0207,
+      "min": 0.9813,
+      "max": 1.0882
+    },
+    "vitb_q1_4": {
+      "celdas": 144,
+      "estrechas": 144,
+      "p50": 1.0048,
+      "min": 0.7649,
+      "max": 1.0623
+    },
+    "vitb_q2_4": {
+      "celdas": 144,
+      "estrechas": 137,
+      "p50": 1.0394,
+      "min": 1.003,
+      "max": 1.4217
+    }
+  },
+  "cola_int4": {
+    "pythia_escala32": {
+      "mediana": 0.1909,
+      "maximo": 0.22
+    },
+    "pythia_escala8": {
+      "mediana": 1.1004,
+      "maximo": 16167.01
+    },
+    "pythia_escala2": {
+      "mediana": 2.8527,
+      "maximo": 329037.51
+    },
+    "vitb_escala32": {
+      "mediana": 0.1865,
+      "maximo": 0.29
+    },
+    "vitb_escala8": {
+      "mediana": 1.0812,
+      "maximo": 1877.74
+    },
+    "vitb_escala2": {
+      "mediana": 2.7213,
+      "maximo": 9539.37
+    }
+  },
+  "cota": {
+    "exponente_producto": 0.9979,
+    "r2_producto": 0.9993,
+    "exponente_kappa": 0.7137,
+    "r2_kappa": 0.9769,
+    "medidas_usadas": 101376,
+    "p_minimo": 1.0488,
+    "p_maximo": 122833.63
+  },
+  "por_cabeza_int4": {
+    "pythia": {
+      "mediana_pct": 1.343,
+      "p10_pct": 0.159,
+      "p90_pct": 2.459,
+      "con_la_implementacion_anterior_pct": -0.025
+    },
+    "vitb": {
+      "mediana_pct": 1.346,
+      "p10_pct": 0.196,
+      "p90_pct": 2.761,
+      "con_la_implementacion_anterior_pct": -0.057
+    }
+  },
+  "punto_balanceado": {
+    "pythia": {
+      "p_mediano": 0.9847,
+      "ratio_medido": 1.0271,
+      "veredicto": "no_mejora"
+    },
+    "vitb": {
+      "p_mediano": 0.989,
+      "ratio_medido": 1.066,
+      "veredicto": "no_mejora"
+    }
+  },
+  "e2e": {
+    "identidad_int4_top1": 93.08,
+    "gl_escala2_int4_top1": 0.82,
+    "caida_pp": 92.26,
+    "acuerdo_int4": 0.0088,
+    "acuerdo_fp32": 1.0,
+    "discordantes_fp32": 0,
+    "coste_de_cuantizar_pp": 0.06,
+    "rango_ortogonal_pp": 0.08,
+    "mcnemar_ortogonal": 0.6778,
+    "imagenes_de_acuerdo_int4": 44
+  }
+}

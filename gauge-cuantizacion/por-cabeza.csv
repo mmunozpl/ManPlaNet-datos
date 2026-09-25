@@ -1,0 +1,5 @@
+modelo,bits,celdas,mejora_p10,mejora_p50,mejora_p90,mejora_vieja_p50
+pythia,4,384,0.159,1.343,2.459,-0.025
+pythia,8,384,0.088,1.315,2.458,-0.026
+vitb,4,144,0.196,1.346,2.761,-0.057
+vitb,8,144,0.066,1.457,2.61,-0.072

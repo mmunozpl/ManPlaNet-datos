@@ -1,0 +1,8 @@
+condicion_a,condicion_b,top1_a,top1_b,dif_pp,discordantes_a,discordantes_b,mcnemar_p,acuerdo_argmax,indistinguibles
+mejor_orto_muestreado,peor_orto_muestreado,93.06,92.98,0.08,28,24,0.6778,0.9856,True
+identidad,mejor_orto_muestreado,93.08,93.06,0.02,29,28,1.0,0.984,True
+identidad,peor_orto_muestreado,93.08,92.98,0.1,22,17,0.5224,0.9886,True
+identidad,balanceado,93.08,93.06,0.02,28,27,1.0,0.9842,True
+identidad_fp32,identidad,93.14,93.08,0.06,21,18,0.7493,0.9894,True
+identidad_fp32,gl_escala2_fp32,93.14,93.14,0.0,0,0,1.0,1.0,True
+identidad,gl_escala2,93.08,0.82,92.26,4615,2,0.0,0.0088,False

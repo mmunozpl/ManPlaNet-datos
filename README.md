@@ -33,6 +33,7 @@ kept — the script:
 ├── agi-tendencias/   # yearly share of nine terms in arXiv abstracts
 │   └── instantaneas/ # dated snapshots anchored by a specific entry (2026-09-10, 2026-09-18)
 ├── arc-agi/          # the verified ARC-AGI leaderboard: score, cost and harness of every evaluation, and the head of the 2026 Kaggle tables
+├── gauge-cuantizacion/ # the gauge orbit under quantisation: aggregates of the results of deposit 10.5281/zenodo.22904208
 ├── ijepa/            # simulation of I-JEPA's mask sampling
 ├── rag-sintetico/    # permissions in a RAG: 600 synthetic chunks, 300 queries, filter before or after
 ├── deepseek-kv/      # global KV cache per token across four DeepSeek generations, from their configs
@@ -77,6 +78,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [Six of eight self-improving AIs inherit the mechanism and none accelerates: the “last AI” survey, read in full](https://manpla.net/en/posts/the-last-ai-read-from-the-inside/) | `rsi-survey/generar.py` · `agi-tendencias/generar.py` | `rsi-survey/l5-sistemas.csv`, `hci-eq4.csv`, `resumen.json` · `agi-tendencias/instantaneas/2026-09-18/cuotas.csv`, `comprobaciones.csv` |
 | [Climbing to 79.2 per cent on an AI leaderboard knowing nothing: how an evaluator is fooled and what stops it](https://manpla.net/en/posts/who-watches-the-evaluator/) | `evaluador-bucle/generar.py` | `evaluador-bucle/semillas.csv`, `asalto-serie.csv`, `asalto-por-tamano.csv`, `resumen.json` |
 | [The same AI scores 62.7 or 99.9 depending on who wires it to the exam](https://manpla.net/en/posts/same-model-two-harnesses/) | `arc-agi/generar.py` · `agi-tendencias/generar.py` | `arc-agi/marcador.csv`, `frontera.csv`, `hueco-v2.csv`, `kaggle-2026.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
+| [Why 4-bit compression breaks an exact symmetry of networks: a 92.26-point drop between two copies of the same model](https://manpla.net/en/posts/quantisation-breaks-gauge-equivalence/) | `gauge-cuantizacion/generar.py` | `gauge-cuantizacion/orbita-ortogonal.csv`, `por-cabeza.csv`, `cola-gl.csv`, `cota-producto.csv`, `contraste-e2e.csv`, `resumen.json` |
 | article in preparation | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
 | [Looking is already processing: exploratory analysis as the first legal obligation and the first source of errors](https://manpla.net/en/posts/looking-is-already-processing/) | none: downloaded from UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Currency of the BOE legal codes](https://manpla.net/en/temas/boe-legal-codes-currency/) | the live page's own, daily | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
@@ -106,10 +108,11 @@ python parque-instalado/generar.py   # CISA's KEV catalogue and the StatCounter 
 python evaluador-bucle/generar.py    # deterministic: seed 20260917; half a minute, no network
 python rsi-survey/generar.py         # coded transcription of the survey; instant, no network
 python arc-agi/generar.py            # the four JSON files behind arcprize.org's leaderboard; seconds; the Kaggle table only if the client is configured
+python gauge-cuantizacion/generar.py # reading tables of the results data set on Hugging Face; aggregates, no raw data; seconds
 ```
 
 None needs credentials. `kev`, `hf-tendencia`, `agi-tendencias`,
-`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas`, `parque-instalado` and `arc-agi` query an API or download public files — `arc-agi` adds the head of the Kaggle tables only if it finds the client configured —; `ijepa`,
+`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas`, `parque-instalado`, `arc-agi` and `gauge-cuantizacion` query an API or download public files — `arc-agi` adds the head of the Kaggle tables only if it finds the client configured —; `ijepa`,
 `rag-sintetico`, `evaluador-bucle` and `rsi-survey` never leave the machine.
 
 ## Notebooks
@@ -136,6 +139,7 @@ nothing has to be downloaded and no account is needed — or locally with
 - [`evaluador-bucle/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=evaluador-bucle%2Freproducir.ipynb)
 - [`rsi-survey/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=rsi-survey%2Freproducir.ipynb)
 - [`vigencia-boe/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=vigencia-boe%2Freproducir.ipynb)
+- [`gauge-cuantizacion/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=gauge-cuantizacion%2Freproducir.ipynb)
 
 The synthetic-RAG measurement also has a demo on Hugging Face,
 [ManPla/rag-sintetico](https://huggingface.co/spaces/ManPla/rag-sintetico): the same corpus and the same in-memory index,
@@ -161,7 +165,7 @@ following ones come from its cache.
 
 The scripts, under [Apache-2.0](LICENSE). The own measurements — `kev`,
 `hf-tendencia`, `agi-tendencias`, `ijepa`, `transformers`, `sigma`,
-`rag-sintetico` and `vigencia-boe` — under
+`rag-sintetico`, `gauge-cuantizacion` and `vigencia-boe` — under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material keeps its terms, and each record declares them:
 
 - **KEV**: the daily count is taken from the feed CISA publishes under the

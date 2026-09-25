@@ -1,0 +1,82 @@
+termino,consulta,anio,recuento,denominador,por_diez_mil,anio_parcial
+world model,"abs:""world model""",2018,17,21872,7.77,0
+world model,"abs:""world model""",2019,21,32043,6.55,0
+world model,"abs:""world model""",2020,36,42913,8.39,0
+world model,"abs:""world model""",2021,43,47666,9.02,0
+world model,"abs:""world model""",2022,66,52657,12.53,0
+world model,"abs:""world model""",2023,151,66213,22.81,0
+world model,"abs:""world model""",2024,274,85966,31.87,0
+world model,"abs:""world model""",2025,698,106028,65.83,0
+world model,"abs:""world model""",2026,1284,91305,140.63,1
+chain-of-thought,"abs:""chain-of-thought""",2018,1,21872,0.46,0
+chain-of-thought,"abs:""chain-of-thought""",2019,0,32043,0.0,0
+chain-of-thought,"abs:""chain-of-thought""",2020,0,42913,0.0,0
+chain-of-thought,"abs:""chain-of-thought""",2021,2,47666,0.42,0
+chain-of-thought,"abs:""chain-of-thought""",2022,48,52657,9.12,0
+chain-of-thought,"abs:""chain-of-thought""",2023,408,66213,61.62,0
+chain-of-thought,"abs:""chain-of-thought""",2024,901,85966,104.81,0
+chain-of-thought,"abs:""chain-of-thought""",2025,2352,106028,221.83,0
+chain-of-thought,"abs:""chain-of-thought""",2026,1799,91305,197.03,1
+test-time compute,"abs:""test-time compute""",2018,1,21872,0.46,0
+test-time compute,"abs:""test-time compute""",2019,0,32043,0.0,0
+test-time compute,"abs:""test-time compute""",2020,2,42913,0.47,0
+test-time compute,"abs:""test-time compute""",2021,2,47666,0.42,0
+test-time compute,"abs:""test-time compute""",2022,0,52657,0.0,0
+test-time compute,"abs:""test-time compute""",2023,4,66213,0.6,0
+test-time compute,"abs:""test-time compute""",2024,26,85966,3.02,0
+test-time compute,"abs:""test-time compute""",2025,231,106028,21.79,0
+test-time compute,"abs:""test-time compute""",2026,199,91305,21.8,1
+scaling law,"abs:""scaling law""",2018,2,21872,0.91,0
+scaling law,"abs:""scaling law""",2019,6,32043,1.87,0
+scaling law,"abs:""scaling law""",2020,5,42913,1.17,0
+scaling law,"abs:""scaling law""",2021,21,47666,4.41,0
+scaling law,"abs:""scaling law""",2022,32,52657,6.08,0
+scaling law,"abs:""scaling law""",2023,80,66213,12.08,0
+scaling law,"abs:""scaling law""",2024,280,85966,32.57,0
+scaling law,"abs:""scaling law""",2025,430,106028,40.56,0
+scaling law,"abs:""scaling law""",2026,405,91305,44.36,1
+in-context learning,"abs:""in-context learning""",2018,4,21872,1.83,0
+in-context learning,"abs:""in-context learning""",2019,5,32043,1.56,0
+in-context learning,"abs:""in-context learning""",2020,8,42913,1.86,0
+in-context learning,"abs:""in-context learning""",2021,17,47666,3.57,0
+in-context learning,"abs:""in-context learning""",2022,88,52657,16.71,0
+in-context learning,"abs:""in-context learning""",2023,590,66213,89.11,0
+in-context learning,"abs:""in-context learning""",2024,1052,85966,122.37,0
+in-context learning,"abs:""in-context learning""",2025,1052,106028,99.22,0
+in-context learning,"abs:""in-context learning""",2026,679,91305,74.37,1
+continual learning,"abs:""continual learning""",2018,50,21872,22.86,0
+continual learning,"abs:""continual learning""",2019,113,32043,35.27,0
+continual learning,"abs:""continual learning""",2020,222,42913,51.73,0
+continual learning,"abs:""continual learning""",2021,305,47666,63.99,0
+continual learning,"abs:""continual learning""",2022,373,52657,70.84,0
+continual learning,"abs:""continual learning""",2023,557,66213,84.12,0
+continual learning,"abs:""continual learning""",2024,664,85966,77.24,0
+continual learning,"abs:""continual learning""",2025,812,106028,76.58,0
+continual learning,"abs:""continual learning""",2026,643,91305,70.42,1
+self-supervised,"abs:""self-supervised""",2018,114,21872,52.12,0
+self-supervised,"abs:""self-supervised""",2019,334,32043,104.23,0
+self-supervised,"abs:""self-supervised""",2020,958,42913,223.24,0
+self-supervised,"abs:""self-supervised""",2021,1549,47666,324.97,0
+self-supervised,"abs:""self-supervised""",2022,2074,52657,393.87,0
+self-supervised,"abs:""self-supervised""",2023,2372,66213,358.24,0
+self-supervised,"abs:""self-supervised""",2024,2274,85966,264.52,0
+self-supervised,"abs:""self-supervised""",2025,2302,106028,217.11,0
+self-supervised,"abs:""self-supervised""",2026,1749,91305,191.56,1
+neurosymbolic,"(abs:""neurosymbolic"" OR abs:""neuro-symbolic"")",2018,3,21872,1.37,0
+neurosymbolic,"(abs:""neurosymbolic"" OR abs:""neuro-symbolic"")",2019,9,32043,2.81,0
+neurosymbolic,"(abs:""neurosymbolic"" OR abs:""neuro-symbolic"")",2020,38,42913,8.86,0
+neurosymbolic,"(abs:""neurosymbolic"" OR abs:""neuro-symbolic"")",2021,50,47666,10.49,0
+neurosymbolic,"(abs:""neurosymbolic"" OR abs:""neuro-symbolic"")",2022,79,52657,15.0,0
+neurosymbolic,"(abs:""neurosymbolic"" OR abs:""neuro-symbolic"")",2023,134,66213,20.24,0
+neurosymbolic,"(abs:""neurosymbolic"" OR abs:""neuro-symbolic"")",2024,221,85966,25.71,0
+neurosymbolic,"(abs:""neurosymbolic"" OR abs:""neuro-symbolic"")",2025,341,106028,32.16,0
+neurosymbolic,"(abs:""neurosymbolic"" OR abs:""neuro-symbolic"")",2026,438,91305,47.97,1
+artificial general intelligence,"abs:""artificial general intelligence""",2018,14,21872,6.4,0
+artificial general intelligence,"abs:""artificial general intelligence""",2019,16,32043,4.99,0
+artificial general intelligence,"abs:""artificial general intelligence""",2020,24,42913,5.59,0
+artificial general intelligence,"abs:""artificial general intelligence""",2021,32,47666,6.71,0
+artificial general intelligence,"abs:""artificial general intelligence""",2022,23,52657,4.37,0
+artificial general intelligence,"abs:""artificial general intelligence""",2023,115,66213,17.37,0
+artificial general intelligence,"abs:""artificial general intelligence""",2024,148,85966,17.22,0
+artificial general intelligence,"abs:""artificial general intelligence""",2025,182,106028,17.17,0
+artificial general intelligence,"abs:""artificial general intelligence""",2026,56,91305,6.13,1

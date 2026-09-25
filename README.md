@@ -31,7 +31,7 @@ kept — the script:
 ├── kev/              # daily additions to CISA's KEV catalogue, monthly window and entries flagged for forensic triage
 ├── hf-tendencia/     # the Hub's 100 trending repositories
 ├── agi-tendencias/   # yearly share of nine terms in arXiv abstracts
-│   └── instantaneas/ # dated snapshots anchored by a specific entry (2026-09-18)
+│   └── instantaneas/ # dated snapshots anchored by a specific entry (2026-09-10, 2026-09-18)
 ├── arc-agi/          # the verified ARC-AGI leaderboard: score, cost and harness of every evaluation, and the head of the 2026 Kaggle tables
 ├── ijepa/            # simulation of I-JEPA's mask sampling
 ├── rag-sintetico/    # permissions in a RAG: 600 synthetic chunks, 300 queries, filter before or after
@@ -66,11 +66,11 @@ with the origin of each column. In `ijepa/` that role is played by
 |---|---|---|
 | [CISA marks 58 flaws where patching is not enough: within three days, look for the intruder](https://manpla.net/en/posts/three-days-and-a-forensic-triage/) · [Clean, and already inside](https://manpla.net/en/posts/clean-and-already-inside/) · [Twenty-four hours and a web form](https://manpla.net/en/posts/twenty-four-hours-and-a-web-form/) | `kev/generar.py` | `kev/altas.csv`, `ventanas-mensuales.csv`, `triaje-forense.csv`, `resumen.json` |
 | [The shop window and the counter](https://manpla.net/en/posts/the-shop-window-and-the-counter/) | `hf-tendencia/generar.py` | `hf-tendencia/tendencia.csv` |
-| [Four terms have already peaked](https://manpla.net/en/posts/four-terms-have-already-peaked/) | `agi-tendencias/generar.py` | `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
-| [Predicting without drawing](https://manpla.net/en/posts/predicting-without-drawing/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |
+| [Where AI research is looking, counted across 546,663 abstracts: four terms fall and world model rises](https://manpla.net/en/posts/four-terms-have-already-peaked/) | `agi-tendencias/generar.py` | `agi-tendencias/instantaneas/2026-09-10/cuotas.csv`, `comprobaciones.csv` |
+| [I-JEPA predicts the image without drawing it, and its masking recipe always leaves an edge uncovered](https://manpla.net/en/posts/predicting-without-drawing/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |
 | [A RAG that survives an audit](https://manpla.net/en/posts/a-rag-that-survives-an-audit/) | `rag-sintetico/generar.py` · [demo](https://huggingface.co/spaces/ManPla/rag-sintetico) | `rag-sintetico/corpus.csv`, `consultas.csv`, `resumen.json` |
 | [Four layers out of forty](https://manpla.net/en/posts/four-layers-out-of-forty/) | `deepseek-kv/generar.py` | `deepseek-kv/generaciones.csv`, `configs/*.json` |
-| [Before the first layer](https://manpla.net/en/posts/before-the-first-layer/) | procedure in `INSTANTANEA.md`; the survey script was not kept | `transformers/configs.csv` |
+| [What is inside an AI model before the first layer, and why text and image share the rest](https://manpla.net/en/posts/before-the-first-layer/) | procedure in `INSTANTANEA.md`; the survey script was not kept | `transformers/configs.csv` |
 | article in preparation | procedure in `INSTANTANEA.md`; the extraction script was not kept | `sigma/reglas.csv` |
 | [Five in every hundred](https://manpla.net/en/posts/five-in-every-hundred/) | `hf-activos/generar.py` | `hf-activos/activos.csv`, `resumen.json` |
 | [The key improves in months and the lock is replaced in decades: 12 of the 226 flaws exploited this year are ten years old or more](https://manpla.net/en/posts/thirty-three-thousand-without-a-record/) | `parque-instalado/generar.py` · `nvd-fichas/generar.py` | `parque-instalado/edades-por-anio.csv`, `altas-edades.csv`, `windows-versiones.csv` · `nvd-fichas/por-anio.csv`, `por-mes.csv`, `cve-estados.csv.gz` |

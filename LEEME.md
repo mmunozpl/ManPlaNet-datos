@@ -78,7 +78,7 @@ con la semilla y los parámetros de la simulación.
 | [Subir al 79,2 % en un marcador de IA sin saber nada: cómo se engaña a un evaluador y qué lo frena](https://manpla.net/posts/quien-vigila-al-evaluador/) | `evaluador-bucle/generar.py` | `evaluador-bucle/semillas.csv`, `asalto-serie.csv`, `asalto-por-tamano.csv`, `resumen.json` |
 | [La misma IA saca un 62,7 o un 99,9 según quién la conecte al examen](https://manpla.net/posts/el-mismo-modelo-dos-arneses/) | `arc-agi/generar.py` · `agi-tendencias/generar.py` | `arc-agi/marcador.csv`, `frontera.csv`, `hueco-v2.csv`, `kaggle-2026.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | artículo en preparación | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
-| [Mirar ya es tratar](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
+| [Mirar ya es tratar: el análisis exploratorio como primera obligación legal y primera fuente de errores](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 Las cifras de cada artículo corresponden a la instantánea de su fecha, que

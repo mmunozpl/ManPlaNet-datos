@@ -78,7 +78,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [Climbing to 79.2 per cent on an AI leaderboard knowing nothing: how an evaluator is fooled and what stops it](https://manpla.net/en/posts/who-watches-the-evaluator/) | `evaluador-bucle/generar.py` | `evaluador-bucle/semillas.csv`, `asalto-serie.csv`, `asalto-por-tamano.csv`, `resumen.json` |
 | [The same AI scores 62.7 or 99.9 depending on who wires it to the exam](https://manpla.net/en/posts/same-model-two-harnesses/) | `arc-agi/generar.py` · `agi-tendencias/generar.py` | `arc-agi/marcador.csv`, `frontera.csv`, `hueco-v2.csv`, `kaggle-2026.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | article in preparation | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
-| [Looking is already processing](https://manpla.net/en/posts/looking-is-already-processing/) | none: downloaded from UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
+| [Looking is already processing: exploratory analysis as the first legal obligation and the first source of errors](https://manpla.net/en/posts/looking-is-already-processing/) | none: downloaded from UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Currency of the BOE legal codes](https://manpla.net/en/temas/boe-legal-codes-currency/) | the live page's own, daily | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 The figures in each article correspond to the snapshot of its date, which is

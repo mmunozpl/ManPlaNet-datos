@@ -8,6 +8,7 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--5714--912X-a6ce39)](https://orcid.org/0009-0000-5714-912X)
 [![License](https://img.shields.io/badge/License-Apache--2.0-009e73)](LICENSE)
 [![Binder](https://img.shields.io/badge/Binder-Notebooks-009e73)](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main)
+[![Reproducibility](https://img.shields.io/badge/Reproducibility-monthly-009e73)](https://github.com/mmunozpl/ManPlaNet-datos/actions/workflows/reproducibilidad.yml)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Space-ffd21e)](https://huggingface.co/spaces/ManPla/rag-sintetico)
 [![Cite](https://img.shields.io/badge/Cite-BibTeX-009e73)](#how-to-cite)
 
@@ -47,14 +48,22 @@ kept — the script:
 ├── sigma/            # metadata of SigmaHQ's 3,760 detection rules
 ├── adult/            # UCI's Adult data set, unmodified
 ├── vigencia-boe/     # daily manifest of the BOE's 350 electronic codes
+├── pyproject.toml    # the exact versions the figures were drawn with
+├── uv.lock           # the lock: those versions and those of everything they pull in
+├── requirements.txt  # mirror of the lock, for Binder
+├── Dockerfile        # the same environment, in a container
+├── comprobar.py      # runs the notebooks and compares what they print
+├── huellas.json      # the fingerprint of what each notebook prints
+├── comprobar_fuentes.py  # asks each public source whether it still answers
+├── fuentes.csv       # the sources that are checked
 ├── GLOSARIO.md       # the English form of every term and every column
 ├── CITATION.cff
 └── LICENSE
 ```
 
 Each folder also carries a notebook, `reproducir.ipynb`, which loads the data
-next to it, prints the record and draws one figure; `requirements.txt` at the
-root is what Binder needs to launch them.
+next to it, prints the record and draws one figure. The environment they
+run in is fixed at the root: `pyproject.toml` and `uv.lock`.
 
 Each folder's record is called `INSTANTANEA.md` and carries the source, the
 extraction date, the source's version when it publishes one, and a table
@@ -91,8 +100,10 @@ Running a script again takes today's snapshot and overwrites it.
 
 Python 3.10 or later. The scripts use the standard library, except
 `ijepa/generar.py`, which needs NumPy, and `rag-sintetico/generar.py`, which
-needs NumPy and `qdrant-client`. Each one writes next to itself, so it
-can be launched from anywhere:
+needs NumPy and `qdrant-client`. With [uv](https://docs.astral.sh/uv/),
+`uv sync --group generadores` installs those dependencies at the fixed
+versions. Each script writes next to itself, so it can be launched from
+anywhere:
 
 ```bash
 python kev/generar.py
@@ -150,6 +161,58 @@ variant.
 Binder's first launch takes a few minutes, because it builds the image; the
 following ones come from its cache.
 
+## Fixed environment
+
+The published figures were drawn with Python 3.11.14, pandas 2.3.3,
+matplotlib 3.10.7 and NumPy 2.3.3, on CPU. Those versions, and those of
+everything they pull in, are in `uv.lock`. There are three ways to run the
+notebooks with them:
+
+| Way | What is needed | Command |
+|---|---|---|
+| Binder | a browser | the links above |
+| uv | [uv](https://docs.astral.sh/uv/) installed | `uv sync --group interactivo` and `uv run jupyter lab` |
+| Docker | Docker installed | `docker build -t manplanet-datos .` and `docker run --rm -p 8888:8888 manplanet-datos jupyter lab --ip 0.0.0.0 --no-browser` |
+
+Binder reads `requirements.txt`, which is generated from the lock and is
+not edited by hand, and `runtime.txt`, which fixes its interpreter.
+
+Each layer guarantees a different thing, and none guarantees everything:
+
+- **The lock** gives the same versions for as long as the Python package
+  index keeps those files.
+- **The Dockerfile** adds the base system. Its two starting images are
+  referenced by digest and not by tag, and they can be built for as long as
+  their registries serve them.
+- **An image already built and stored** depends on no registry.
+
+## Monthly check
+
+`comprobar.py` runs the seventeen notebooks and computes a fingerprint of
+what each one prints, tables and text, without the figures. With the
+environment of the lock, it compares it with the one stored in
+`huellas.json`: the notebook has to work and has to keep saying the same.
+`vigencia-boe` is run but not compared, because its data are renewed daily.
+
+```bash
+uv run python comprobar.py          # all seventeen
+uv run python comprobar.py kev      # one
+python comprobar_fuentes.py         # the ten public sources
+```
+
+On the 1st of each month four checks run in this repository:
+
+| Check | What it runs | What a failure indicates |
+|---|---|---|
+| fixed versions | the notebooks with the lock, and their fingerprints | that a notebook no longer gives what was published |
+| latest versions | the notebooks with Python 3.14 and the latest of each library | that a new version breaks them, before it is fixed in the lock |
+| container | the image build and the notebooks inside it | that the Dockerfile no longer builds |
+| sources | a minimal request to each source in `fuentes.csv` | that a source has stopped answering |
+
+The sources check does not take any snapshot again. When a script
+regenerates its data, its fingerprints are fixed again with
+`uv run python comprobar.py --fijar`, in the same change.
+
 ## How to cite
 
 ```bibtex
@@ -158,7 +221,7 @@ following ones come from its cache.
   title  = {Mediciones que respaldan los artículos de manpla.net},
   year   = {2026},
   url    = {https://github.com/mmunozpl/ManPlaNet-datos},
-  note   = {Versión 2026.09.13}
+  note   = {Versión 2026.09.29}
 }
 ```
 

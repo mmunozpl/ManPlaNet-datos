@@ -13,6 +13,13 @@ form of each term, and it is the one `README.md` uses.
 | ficha de procedencia | provenance record | `INSTANTANEA.md` |
 | recuento agregado | aggregate count | `kev`, `agi-tendencias` |
 | guion | script | `generar.py` |
+| bloqueo | lock | `uv.lock` |
+| entorno fijado | fixed environment | `pyproject.toml`, `uv.lock` |
+| huella (de lo que imprime un cuaderno) | fingerprint | `huellas.json` |
+| huella (de una imagen de contenedor) | digest | `Dockerfile` |
+| dato vivo | living data | `vigencia-boe` |
+| comprobación mensual | monthly check | `comprobar.py`, `comprobar_fuentes.py` |
+| `fuente`, `mediciones`, `url` | source, measurements, url | `fuentes.csv` |
 | alta | addition (to the catalogue) | `kev/altas.csv` |
 | `fecha`, `dia_semana`, `altas` | date, weekday, additions | `kev/altas.csv` |
 | escaparate | shop window (the Hub's trending list) | `hf-tendencia` |

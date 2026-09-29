@@ -8,6 +8,7 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--5714--912X-a6ce39)](https://orcid.org/0009-0000-5714-912X)
 [![License](https://img.shields.io/badge/License-Apache--2.0-009e73)](LICENSE)
 [![Binder](https://img.shields.io/badge/Binder-Cuadernos-009e73)](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main)
+[![Reproducibilidad](https://img.shields.io/badge/Reproducibilidad-mensual-009e73)](https://github.com/mmunozpl/ManPlaNet-datos/actions/workflows/reproducibilidad.yml)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Space-ffd21e)](https://huggingface.co/spaces/ManPla/rag-sintetico)
 [![Cite](https://img.shields.io/badge/Cite-BibTeX-009e73)](#cómo-citar)
 
@@ -47,14 +48,22 @@ el guion:
 ├── sigma/            # metadatos de las 3 760 reglas de detección de SigmaHQ
 ├── adult/            # el conjunto Adult de UCI, sin modificar
 ├── vigencia-boe/     # manifiesto diario de los 350 códigos electrónicos del BOE
+├── pyproject.toml    # las versiones exactas con que se dibujaron las figuras
+├── uv.lock           # el bloqueo: esas versiones y las de todo lo que arrastran
+├── requirements.txt  # reflejo del bloqueo, para Binder
+├── Dockerfile        # el mismo entorno, en un contenedor
+├── comprobar.py      # ejecuta los cuadernos y compara lo que imprimen
+├── huellas.json      # la huella de lo que imprime cada cuaderno
+├── comprobar_fuentes.py  # pregunta a cada fuente pública si sigue respondiendo
+├── fuentes.csv       # las fuentes que se comprueban
 ├── GLOSARIO.md       # la forma inglesa de cada término y cada columna
 ├── CITATION.cff
 └── LICENSE
 ```
 
 Cada carpeta lleva además un cuaderno, `reproducir.ipynb`, que carga el dato
-de al lado, muestra la ficha y dibuja una figura; `requirements.txt` en la
-raíz es lo que Binder necesita para arrancarlos.
+de al lado, muestra la ficha y dibuja una figura. El entorno en que se
+ejecutan está fijado en la raíz: `pyproject.toml` y `uv.lock`.
 
 La ficha de cada carpeta se llama `INSTANTANEA.md` y lleva la fuente, la
 fecha de extracción, la versión de la fuente cuando la publica, y una tabla
@@ -91,8 +100,10 @@ ejecutar un guion toma la instantánea de hoy y la sobrescribe.
 
 Python 3.10 o posterior. Los guiones usan la biblioteca estándar, salvo
 `ijepa/generar.py`, que necesita NumPy, y `rag-sintetico/generar.py`, que
-necesita NumPy y `qdrant-client`. Cada uno escribe junto a sí mismo, así
-que se lanza desde cualquier sitio:
+necesita NumPy y `qdrant-client`. Con [uv](https://docs.astral.sh/uv/),
+`uv sync --group generadores` instala esas dependencias en las versiones
+fijadas. Cada guion escribe junto a sí mismo, así que se lanza desde
+cualquier sitio:
 
 ```bash
 python kev/generar.py
@@ -149,6 +160,59 @@ variante.
 La primera arrancada de Binder tarda unos minutos, porque construye la
 imagen; las siguientes salen de su caché.
 
+## Entorno fijado
+
+Las figuras publicadas se dibujaron con Python 3.11.14, pandas 2.3.3,
+matplotlib 3.10.7 y NumPy 2.3.3, en CPU. Esas versiones, y las de todo lo
+que arrastran, están en `uv.lock`. Hay tres maneras de ejecutar los
+cuadernos con ellas:
+
+| Manera | Qué hace falta | Orden |
+|---|---|---|
+| Binder | un navegador | los enlaces de arriba |
+| uv | [uv](https://docs.astral.sh/uv/) instalado | `uv sync --group interactivo` y `uv run jupyter lab` |
+| Docker | Docker instalado | `docker build -t manplanet-datos .` y `docker run --rm -p 8888:8888 manplanet-datos jupyter lab --ip 0.0.0.0 --no-browser` |
+
+Binder lee `requirements.txt`, que se genera desde el bloqueo y no se
+edita a mano, y `runtime.txt`, que le fija el intérprete.
+
+Cada capa garantiza una cosa distinta, y ninguna lo garantiza todo:
+
+- **El bloqueo** da las mismas versiones mientras el índice de paquetes de
+  Python conserve esos ficheros.
+- **El Dockerfile** añade el sistema base. Sus dos imágenes de partida van
+  por huella y no por etiqueta, y se pueden construir mientras sus
+  registros las sirvan.
+- **Una imagen ya construida y guardada** no depende de ningún registro.
+
+## Comprobación mensual
+
+`comprobar.py` ejecuta los diecisiete cuadernos y calcula una huella de lo
+que cada uno imprime, tablas y texto, sin las figuras. Con el entorno del
+bloqueo, la compara con la guardada en `huellas.json`: el cuaderno tiene
+que funcionar y tiene que seguir diciendo lo mismo. `vigencia-boe` se
+ejecuta pero no se compara, porque su dato se renueva a diario.
+
+```bash
+uv run python comprobar.py          # los diecisiete
+uv run python comprobar.py kev      # uno
+python comprobar_fuentes.py         # las diez fuentes públicas
+```
+
+El día 1 de cada mes se ejecutan cuatro comprobaciones en este
+repositorio:
+
+| Comprobación | Qué ejecuta | Qué indica si falla |
+|---|---|---|
+| versiones fijadas | los cuadernos con el bloqueo, y sus huellas | que un cuaderno ya no da lo publicado |
+| versiones más recientes | los cuadernos con Python 3.14 y lo último de cada biblioteca | que una versión nueva los rompe, antes de fijarla |
+| contenedor | la construcción de la imagen y los cuadernos dentro | que el Dockerfile ya no se construye |
+| fuentes | una petición mínima a cada fuente de `fuentes.csv` | que una fuente ha dejado de responder |
+
+La comprobación de fuentes no vuelve a tomar ninguna instantánea. Cuando
+un guion regenera un dato, sus huellas se fijan de nuevo con
+`uv run python comprobar.py --fijar`, en el mismo cambio.
+
 ## Cómo citar
 
 ```bibtex
@@ -157,7 +221,7 @@ imagen; las siguientes salen de su caché.
   title  = {Mediciones que respaldan los artículos de manpla.net},
   year   = {2026},
   url    = {https://github.com/mmunozpl/ManPlaNet-datos},
-  note   = {Versión 2026.09.13}
+  note   = {Versión 2026.09.29}
 }
 ```
 

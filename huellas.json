@@ -1,0 +1,27 @@
+{
+  "entorno": {
+    "python": "3.11",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.7",
+    "numpy": "2.3.3"
+  },
+  "cuadernos": {
+    "adult": "386da3e449f1cc88",
+    "agi-tendencias": "6d440828e21631fd",
+    "deepseek-kv": "a26c9e2fe87728d5",
+    "euvd-kev": "925b8c373fa9e071",
+    "evaluador-bucle": "c51c7a49b57dd961",
+    "gauge-cuantizacion": "757d54b021bdc95a",
+    "hf-activos": "ec1a3f54c5e1e417",
+    "hf-tendencia": "3f95f75016702768",
+    "ijepa": "82a3881cce72fd9c",
+    "kev": "e5bab7b7dfd2409f",
+    "nvd-fichas": "04b1e027b0466fc2",
+    "parque-instalado": "77704f99e28111c8",
+    "rag-sintetico": "64b464d68e0d0a49",
+    "rsi-survey": "12e4769b6ea91f8a",
+    "sigma": "dac40b417667a55c",
+    "transformers": "4aa9f1528d57bef0",
+    "vigencia-boe": "dato vivo"
+  }
+}

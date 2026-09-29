@@ -1,0 +1,81 @@
+# Comprueba una vez al mes que los cuadernos siguen funcionando y que las
+# fuentes siguen respondiendo. Si un trabajo falla, GitHub avisa por correo.
+name: Reproducibilidad
+
+on:
+  schedule:
+    - cron: "17 5 1 * *"        # el día 1 de cada mes, 05:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "**/reproducir.ipynb"
+      - "pyproject.toml"
+      - "uv.lock"
+      - "Dockerfile"
+      - "comprobar.py"
+      - "comprobar_fuentes.py"
+      - "fuentes.csv"
+      - ".github/workflows/reproducibilidad.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: reproducibilidad-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  bloqueado:
+    name: Cuadernos con las versiones fijadas
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+        with:
+          version: "0.9.8"
+      - name: Entorno del bloqueo
+        run: uv sync --frozen
+      - name: Ejecutar los cuadernos
+        run: uv run --frozen python comprobar.py
+      - name: El fichero de Binder refleja el bloqueo
+        run: |
+          uv export --frozen --no-hashes --no-default-groups \
+            --no-emit-project -o /tmp/requirements.txt
+          diff <(grep -v '^#' requirements.txt) \
+               <(grep -v '^#' /tmp/requirements.txt)
+
+  canario:
+    name: Cuadernos con las versiones más recientes
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+      - name: Ejecutar los cuadernos sin fijar nada
+        run: |
+          uv run --no-project --python 3.14 \
+            --with pandas --with matplotlib --with numpy \
+            --with nbclient --with nbformat --with ipykernel \
+            python comprobar.py
+
+  contenedor:
+    name: Imagen de Docker
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - name: Construir la imagen
+        run: docker build -t manplanet-datos .
+      - name: Ejecutar los cuadernos dentro
+        run: docker run --rm manplanet-datos
+
+  fuentes:
+    name: Fuentes públicas
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - name: Preguntar a cada fuente   # solo biblioteca estándar
+        run: python3 comprobar_fuentes.py

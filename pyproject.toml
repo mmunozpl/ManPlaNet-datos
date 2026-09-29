@@ -1,0 +1,35 @@
+[project]
+name = "manplanet-datos"
+version = "2026.9.29"
+description = "Mediciones que respaldan los artículos de manpla.net"
+license = "Apache-2.0"
+requires-python = ">=3.11,<3.12"
+# las versiones exactas con que se dibujaron las figuras publicadas
+dependencies = [
+    "pandas==2.3.3",
+    "matplotlib==3.10.7",
+    "numpy==2.3.3",
+]
+
+[dependency-groups]
+# lo necesario para ejecutar los cuadernos fuera de Binder
+cuadernos = [
+    "nbclient==0.10.2",
+    "nbformat==5.10.4",
+    "ipykernel==7.1.0",
+]
+# para abrir los cuadernos en el navegador, en local o en el contenedor
+interactivo = [
+    "jupyterlab==4.4.10",
+]
+# lo que piden los generadores que no se bastan con la biblioteca estándar
+generadores = [
+    "qdrant-client==1.19.0",
+    "scipy==1.17.1",
+    "tqdm==4.67.3",
+]
+
+[tool.uv]
+# no es un paquete instalable: es un entorno
+package = false
+default-groups = ["cuadernos"]

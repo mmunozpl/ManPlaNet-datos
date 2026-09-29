@@ -12,6 +12,7 @@ on:
       - "**/reproducir.ipynb"
       - "pyproject.toml"
       - "uv.lock"
+      - "binder/**"
       - "Dockerfile"
       - "comprobar.py"
       - "comprobar_fuentes.py"
@@ -43,7 +44,7 @@ jobs:
         run: |
           uv export --frozen --no-hashes --no-default-groups \
             --no-emit-project -o /tmp/requirements.txt
-          diff <(grep -v '^#' requirements.txt) \
+          diff <(grep -v '^#' binder/requirements.txt) \
                <(grep -v '^#' /tmp/requirements.txt)
 
   canario:

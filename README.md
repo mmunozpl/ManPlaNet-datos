@@ -50,7 +50,7 @@ kept — the script:
 ├── vigencia-boe/     # daily manifest of the BOE's 350 electronic codes
 ├── pyproject.toml    # the exact versions the figures were drawn with
 ├── uv.lock           # the lock: those versions and those of everything they pull in
-├── requirements.txt  # mirror of the lock, for Binder
+├── binder/           # what Binder reads: mirror of the lock and interpreter
 ├── Dockerfile        # the same environment, in a container
 ├── comprobar.py      # runs the notebooks and compares what they print
 ├── huellas.json      # the fingerprint of what each notebook prints
@@ -174,8 +174,10 @@ notebooks with them:
 | uv | [uv](https://docs.astral.sh/uv/) installed | `uv sync --group interactivo` and `uv run jupyter lab` |
 | Docker | Docker installed | `docker build -t manplanet-datos .` and `docker run --rm -p 8888:8888 manplanet-datos jupyter lab --ip 0.0.0.0 --no-browser` |
 
-Binder reads `requirements.txt`, which is generated from the lock and is
-not edited by hand, and `runtime.txt`, which fixes its interpreter.
+Binder reads the `binder/` folder: `requirements.txt`, which is generated
+from the lock and is not edited by hand, and `runtime.txt`, which fixes its
+interpreter. Without uv, `pip install -r binder/requirements.txt` installs
+the same versions.
 
 Each layer guarantees a different thing, and none guarantees everything:
 

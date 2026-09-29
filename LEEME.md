@@ -50,7 +50,7 @@ el guion:
 ├── vigencia-boe/     # manifiesto diario de los 350 códigos electrónicos del BOE
 ├── pyproject.toml    # las versiones exactas con que se dibujaron las figuras
 ├── uv.lock           # el bloqueo: esas versiones y las de todo lo que arrastran
-├── requirements.txt  # reflejo del bloqueo, para Binder
+├── binder/           # lo que lee Binder: reflejo del bloqueo e intérprete
 ├── Dockerfile        # el mismo entorno, en un contenedor
 ├── comprobar.py      # ejecuta los cuadernos y compara lo que imprimen
 ├── huellas.json      # la huella de lo que imprime cada cuaderno
@@ -173,8 +173,10 @@ cuadernos con ellas:
 | uv | [uv](https://docs.astral.sh/uv/) instalado | `uv sync --group interactivo` y `uv run jupyter lab` |
 | Docker | Docker instalado | `docker build -t manplanet-datos .` y `docker run --rm -p 8888:8888 manplanet-datos jupyter lab --ip 0.0.0.0 --no-browser` |
 
-Binder lee `requirements.txt`, que se genera desde el bloqueo y no se
-edita a mano, y `runtime.txt`, que le fija el intérprete.
+Binder lee la carpeta `binder/`: `requirements.txt`, que se genera desde el
+bloqueo y no se edita a mano, y `runtime.txt`, que le fija el intérprete.
+Sin uv, `pip install -r binder/requirements.txt` instala las mismas
+versiones.
 
 Cada capa garantiza una cosa distinta, y ninguna lo garantiza todo:
 

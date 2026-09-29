@@ -25,5 +25,5 @@ ningún dato de ninguna persona.
 | `residuo_por_entrada` | implícitos − declarados: lo que el config y FlashMLA no fijan |
 | `contexto_1M_MiB` | caché global para un millón de tokens, a la cifra de la ficha |
 
-La clave del indexador se cuenta a 128 valores por entrada —FP8 en V3.2, cuatro
-bits después—; sus bytes de escala son el residuo, y se declaran como tal.
+La clave del indexador se cuenta a 128 valores por entrada (FP8 en V3.2, cuatro
+bits después); sus bytes de escala son el residuo, y se declaran como tal.

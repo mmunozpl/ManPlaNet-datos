@@ -17,10 +17,10 @@ CISA y se consulta en la fuente.
 - Entradas dadas de alta en sábado o domingo: 1
 - Entradas con marca de triaje forense: 58 (la primera, el
   2026-07-01; la última, el 2026-09-18)
-- Altas desde la BOD 26-04 (2026-06-10): 99 —
-  58 con ventana de tres días y marca,
+- Altas desde la BOD 26-04 (2026-06-10): 99
+  (58 con ventana de tres días y marca,
   18 con tres días sin marca, 23
-  con catorce días—
+  con catorce días)
 
 ## Campos
 

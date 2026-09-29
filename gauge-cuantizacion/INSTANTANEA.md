@@ -3,8 +3,8 @@
 Agregados, no el dato crudo: las tablas de este directorio resumen el
 conjunto de resultados que acompaña al depósito
 [10.5281/zenodo.22904208](https://doi.org/10.5281/zenodo.22904208), publicado
-por su autor en Hugging Face. El barrido completo —170 016 medidas del
-principal y 642 048 del de condicionamiento controlado— se consulta en la
+por su autor en Hugging Face. El barrido completo (170 016 medidas del
+principal y 642 048 del de condicionamiento controlado) se consulta en la
 fuente; aquí van los percentiles, los bins y la tabla de contraste que
 sostienen las figuras del artículo.
 

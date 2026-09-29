@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Lectura agregada del conjunto de resultados de la órbita de gauge.
 
-El dato crudo lo publica su autor en Hugging Face con DOI —177 000 medidas
-del barrido principal y 642 000 del de condicionamiento controlado—, así que
+El dato crudo lo publica su autor en Hugging Face con DOI (177 000 medidas
+del barrido principal y 642 000 del de condicionamiento controlado), así que
 aquí no se redistribuye: se descargan las tablas de lectura, se agregan las
 cifras que sostienen las figuras del artículo y se escribe la ficha de
 procedencia al lado.
@@ -279,8 +279,8 @@ def main() -> None:
 Agregados, no el dato crudo: las tablas de este directorio resumen el
 conjunto de resultados que acompaña al depósito
 [10.5281/zenodo.22904208](https://doi.org/10.5281/zenodo.22904208), publicado
-por su autor en Hugging Face. El barrido completo —170 016 medidas del
-principal y 642 048 del de condicionamiento controlado— se consulta en la
+por su autor en Hugging Face. El barrido completo (170 016 medidas del
+principal y 642 048 del de condicionamiento controlado) se consulta en la
 fuente; aquí van los percentiles, los bins y la tabla de contraste que
 sostienen las figuras del artículo.
 

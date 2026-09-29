@@ -4,8 +4,8 @@
 Descarga el feed público del «Known Exploited Vulnerabilities Catalog» y
 deja tres cosas al lado: la cadencia (una fila por día con altas), la
 ventana entre el alta y la fecha límite mes a mes, y las entradas que
-llevan la marca de triaje forense —`forensicTriage`, la columna que el
-catálogo trae desde la directiva BOD 26-04—. No redistribuye el catálogo:
+llevan la marca de triaje forense (`forensicTriage`, la columna que el
+catálogo trae desde la directiva BOD 26-04). No redistribuye el catálogo:
 `altas.csv` y `ventanas-mensuales.csv` son recuentos, y
 `triaje-forense.csv` lleva solo el identificador público, el proveedor, el
 producto y las fechas de las entradas marcadas.
@@ -181,10 +181,10 @@ CISA y se consulta en la fuente.
 - Entradas dadas de alta en sábado o domingo: {finde}
 - Entradas con marca de triaje forense: {t['si']} (la primera, el
   {t['primera_marca']}; la última, el {t['ultima_marca']})
-- Altas desde la BOD 26-04 ({b['desde']}): {b['altas']} —
-  {b['ventana_3_con_triaje']} con ventana de tres días y marca,
+- Altas desde la BOD 26-04 ({b['desde']}): {b['altas']}
+  ({b['ventana_3_con_triaje']} con ventana de tres días y marca,
   {b['ventana_3_sin_triaje']} con tres días sin marca, {b['ventana_14']}
-  con catorce días—
+  con catorce días)
 
 ## Campos
 

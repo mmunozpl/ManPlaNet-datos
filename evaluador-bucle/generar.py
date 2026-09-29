@@ -5,7 +5,7 @@
    sobre un banco de n preguntas y se publica la mejor de las k. Sin que la
    capacidad cambie, la cifra publicada sube: es el máximo de k variables
    con ruido. Se calcula la inflación esperada por la aproximación normal
-   —desviación sqrt(p(1-p)/n) por la esperanza del máximo de k normales—
+   (desviación sqrt(p(1-p)/n) por la esperanza del máximo de k normales)
    y se contrasta con la simulación binomial exacta.
 
 2. El asaltante sin modelo. Un participante que no sabe nada de la tarea
@@ -268,7 +268,7 @@ def main() -> None:
         f"Simulaciones con `numpy` {np.__version__}, semilla {SEMILLA}, "
         f"generadas el {res['fecha']}. No interviene ningún dato de ninguna "
         "persona: las etiquetas, los envíos y las tiradas son aleatorios.", "",
-        "## `semillas.csv` — el mejor de k", "",
+        "## `semillas.csv`: el mejor de k", "",
         "Un modelo con exactitud real `p` evaluado `k` veces sobre `n` "
         "preguntas; cada evaluación es una binomial(n, p)/n y se publica la "
         f"mejor de las k. {REPETICIONES} repeticiones por celda.", "",
@@ -282,7 +282,7 @@ def main() -> None:
         "| `inflacion_simulada_puntos` | media de (mejor de k − p), en "
         "puntos, sobre las repeticiones |",
         "| `percentil_90_puntos` | percentil 90 de la misma diferencia |", "",
-        "## `asalto-serie.csv` y `asalto-por-tamano.csv` — el asaltante "
+        "## `asalto-serie.csv` y `asalto-por-tamano.csv`: el asaltante "
         "sin modelo", "",
         "Marcador con `n` ejemplos de respuesta binaria equilibrada; el "
         f"asaltante envía {CONSULTAS} vectores al azar, lee lo que el "

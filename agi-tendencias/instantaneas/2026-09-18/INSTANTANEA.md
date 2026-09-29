@@ -24,8 +24,8 @@ esas categorías ese año, y la cuota por diez mil. No guarda ningún artículo.
 ## `comprobaciones.csv`
 
 Evidencia de dos propiedades del buscador que gobiernan el método, medidas
-sobre 2025: lematiza —`agentic` y `agent` devuelven lo mismo, y `reasoning` y
-`reason` también—, y el guion crea tokens distintos en `neurosymbolic` frente
+sobre 2025: lematiza (`agentic` y `agent` devuelven lo mismo, y `reasoning` y
+`reason` también), y el guion crea tokens distintos en `neurosymbolic` frente
 a `neuro-symbolic` pero no en `chain-of-thought` frente a `chain of thought`.
 Por eso `agentic` y `reasoning` no están en la tabla, y `neurosymbolic` suma
 las dos grafías con un OR.

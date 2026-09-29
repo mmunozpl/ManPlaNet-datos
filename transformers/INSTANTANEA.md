@@ -45,7 +45,7 @@ plausibles y falsas.
 ## Sesgo del muestreo, declarado
 
 «Más descargado» no significa «más reciente» ni «mejor». El orden está
-dominado por modelos pequeños de incrustación —la primera posición supera los
-250 millones de descargas—, de modo que la muestra retrata **lo que se
+dominado por modelos pequeños de incrustación (la primera posición supera los
+250 millones de descargas), de modo que la muestra retrata **lo que se
 ejecuta**, no lo que se publica. Las cifras de adopción de cada componente se
 leen con esa salvedad.

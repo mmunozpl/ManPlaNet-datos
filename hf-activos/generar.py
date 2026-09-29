@@ -6,8 +6,8 @@ No descarga pesos: lee la cabecera de cada fichero `.safetensors` con una
 petición de rango (los primeros bytes llevan la lista de tensores con su
 forma), suma los elementos de cada tensor y separa dos clases que un token
 no usa enteras: los expertos enrutados que no se seleccionan, y las tablas
-de consulta —el embedding de entrada y las memorias de n-gramas, como PLE o
-Engram— de las que cada token lee unas pocas filas. Con el número de
+de consulta (el embedding de entrada y las memorias de n-gramas, como PLE o
+Engram) de las que cada token lee unas pocas filas. Con el número de
 expertos activos por token que declara `config.json`, los parámetros
 activos son el total menos esas dos partes. Los expertos compartidos, la
 atención, los MLP densos y la cabeza de salida cuentan siempre.

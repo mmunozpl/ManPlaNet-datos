@@ -2,7 +2,7 @@
 
 Transcripción del arXiv 2609.11873v2 (15-09-2026) generada el 2026-09-18. No interviene ningún dato de ninguna persona ni ninguna consulta a la red: las cifras son las publicadas y la codificación es propia y explícita.
 
-## `l5-sistemas.csv` — los ocho mecanismos L5 de la tabla 7
+## `l5-sistemas.csv`: los ocho mecanismos L5 de la tabla 7
 
 | Columna | Origen |
 |---|---|
@@ -12,7 +12,7 @@ Transcripción del arXiv 2609.11873v2 (15-09-2026) generada el 2026-09-18. No in
 | `efectivo` | codificación propia: evidencia de sucesores mejores con presupuesto comparable y evaluación independiente, con significación (sí / parcial / no) |
 | `evidencia` | la frase del survey o de la fuente primaria en la que se apoya la codificación |
 
-## `hci-eq4.csv` — la figura 3 y la ecuación 4
+## `hci-eq4.csv`: la figura 3 y la ecuación 4
 
 | Columna | Origen |
 |---|---|

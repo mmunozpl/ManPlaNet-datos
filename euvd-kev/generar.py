@@ -3,8 +3,8 @@
 
 Descarga el catálogo KEV de CISA y el conjunto de vulnerabilidades marcadas
 como explotadas en la base de datos europea de vulnerabilidades (EUVD) de
-ENISA, con la fuente que la EUVD declara para cada marca —el KEV de CISA, el
-«EU KEV» propio de ENISA o las dos— y las observaciones de honeypot que la
+ENISA, con la fuente que la EUVD declara para cada marca (el KEV de CISA, el
+«EU KEV» propio de ENISA o las dos) y las observaciones de honeypot que la
 misma API sirve. Cuenta la intersección, las entradas que solo tiene una de
 las dos listas, la diferencia de fechas entre ambas cuando comparten entrada,
 y las ventanas de plazo del KEV por año y la antigüedad del CVE al entrar.
@@ -212,10 +212,10 @@ redistribuye ninguno de los dos catálogos: `eu-kev.csv` lleva solo las
 entradas que la EUVD atribuye a su lista propia, el «EU KEV», y el resto son
 agregados. No interviene ningún dato de ninguna persona.
 
-- KEV: {KEV} — versión `{kev['catalogVersion']}`, publicada
+- KEV: {KEV}, versión `{kev['catalogVersion']}`, publicada
   {kev['dateReleased']}, {len(K)} entradas
 - EUVD: `{EUVD}/search?exploited=true`, más `kevEntries/batch` y
-  `honeypotObservations/batch` — {len(E)} entradas explotadas
+  `honeypotObservations/batch`: {len(E)} entradas explotadas
 - Extraído: {hoy}
 
 ## Ficheros

@@ -2,7 +2,7 @@
 """Instantánea del escaparate de Hugging Face: los 100 en tendencia.
 
 Lee la API pública del Hub y guarda, de cada repositorio, los tres números
-que el propio Hub muestra —tendencia, descargas y likes—, su fecha de
+que el propio Hub muestra (tendencia, descargas y likes), su fecha de
 creación y si contiene alguno de los ficheros de consulta con los que el Hub
 cuenta descargas. No descarga pesos ni código: solo metadatos.
 

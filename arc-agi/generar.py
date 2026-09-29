@@ -2,7 +2,7 @@
 """Instantánea del marcador verificado de ARC-AGI: puntuación, coste y arnés.
 
 Descarga los cuatro JSON públicos con que arcprize.org pinta su marcador
-—conjuntos, modelos, proveedores y evaluaciones— y deja al lado tres
+(conjuntos, modelos, proveedores y evaluaciones) y deja al lado tres
 tablas: el marcador de las tres versiones con su arnés, la frontera por
 fecha de publicación del modelo, y el hueco entre el conjunto público y el
 semiprivado de ARC-AGI-2, que la propia política de pruebas de ARC Prize
@@ -203,8 +203,8 @@ verificado. No contiene ninguna tarea del ARC-AGI.
 | `resumen.json` | las cifras que cita el artículo |
 
 La puntuación de ARC-AGI-3 no es un porcentaje de juegos resueltos: pondera
-cada nivel por la eficiencia en acciones frente a la línea base humana —el
-cociente al cuadrado, con tope en 1,15 por nivel—, pondera los niveles por su
+cada nivel por la eficiencia en acciones frente a la línea base humana (el
+cociente al cuadrado, con tope en 1,15 por nivel), pondera los niveles por su
 número y promedia por juego. El conjunto semiprivado tiene 55 entornos. La
 tabla pública de Kaggle no es la clasificación final del premio.
 """, encoding="utf-8")

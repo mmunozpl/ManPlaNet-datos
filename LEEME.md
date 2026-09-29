@@ -24,7 +24,7 @@ redistribuir y que se guarda tal como lo publica su repositorio.
 
 ## Contenido
 
-Una carpeta por medición. Dentro, el dato, su ficha y —cuando se conservó—
+Una carpeta por medición. Dentro, el dato, su ficha y (cuando se conservó)
 el guion:
 
 ```
@@ -124,14 +124,14 @@ python gauge-cuantizacion/extraer_fila.py  # 64 pesos de una fila de W_O de Pyth
 ```
 
 Ninguno necesita credenciales. `kev`, `hf-tendencia`, `agi-tendencias`,
-`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas`, `parque-instalado`, `arc-agi` y `gauge-cuantizacion` consultan una API o descargan ficheros públicos —`arc-agi` añade la cabecera de Kaggle solo si encuentra el cliente configurado—; `ijepa`,
+`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas`, `parque-instalado`, `arc-agi` y `gauge-cuantizacion` consultan una API o descargan ficheros públicos (`arc-agi` añade la cabecera de Kaggle solo si encuentra el cliente configurado); `ijepa`,
 `rag-sintetico`, `evaluador-bucle` y `rsi-survey` no salen de la máquina.
 
 ## Cuadernos
 
 Un cuaderno de lectura por medición, ejecutable en el navegador con Binder
-—arranca sobre este mismo repositorio, así que el dato está al lado y no hay
-que descargar nada ni tener cuenta— o en local con `jupyter lab`. Solo leen;
+(arranca sobre este mismo repositorio, así que el dato está al lado y no hay
+que descargar nada ni tener cuenta) o en local con `jupyter lab`. Solo leen;
 para volver a tomar la instantánea está `generar.py`.
 
 - [`kev/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=kev%2Freproducir.ipynb)
@@ -229,9 +229,9 @@ un guion regenera un dato, sus huellas se fijan de nuevo con
 
 ## Licencia
 
-Los guiones, bajo [Apache-2.0](LICENSE). Las mediciones propias —`kev`,
+Los guiones, bajo [Apache-2.0](LICENSE). Las mediciones propias (`kev`,
 `hf-tendencia`, `agi-tendencias`, `ijepa`, `transformers`, `sigma`,
-`rag-sintetico`, `gauge-cuantizacion` y `vigencia-boe`—, bajo
+`rag-sintetico`, `gauge-cuantizacion` y `vigencia-boe`), bajo
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). El material de terceros conserva sus condiciones, y cada ficha las declara:
 
 - **KEV**: el recuento por día se toma del feed que CISA publica con la

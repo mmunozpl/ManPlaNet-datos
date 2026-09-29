@@ -3,8 +3,8 @@
 desde sus ficheros de configuración.
 
 Descarga el `config.json` público de cada modelo, cuenta cuántas capas
-guardan caché global y cuántas entradas de caché produce cada token —según
-las razones de compresión declaradas—, y deduce los bytes por entrada que
+guardan caché global y cuántas entradas de caché produce cada token (según
+las razones de compresión declaradas), y deduce los bytes por entrada que
 implica la cifra que publica la ficha de DeepSeek-V4.1-Flash. Después
 contrasta esa cifra implícita con los formatos de caché que documenta el
 repositorio FlashMLA de DeepSeek, a los que suma una clave de indexador
@@ -146,8 +146,8 @@ ningún dato de ninguna persona.
 ## Campos de `generaciones.csv`
 
 {CAMPOS_INSTANTANEA}
-La clave del indexador se cuenta a 128 valores por entrada —FP8 en V3.2, cuatro
-bits después—; sus bytes de escala son el residuo, y se declaran como tal.
+La clave del indexador se cuenta a 128 valores por entrada (FP8 en V3.2, cuatro
+bits después); sus bytes de escala son el residuo, y se declaran como tal.
 """, encoding="utf-8")
 
 

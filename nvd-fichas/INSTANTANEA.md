@@ -1,4 +1,4 @@
-# Instantánea — estado de enriquecimiento de los CVE en el NVD
+# Instantánea: estado de enriquecimiento de los CVE en el NVD
 
 - Extracción: 16-09-2026, contra la API 2.0 del NVD (`https://services.nvd.nist.gov/rest/json/cves/2.0`), sin clave.
 - Periodo: CVE publicados desde el 01-01-2023 hasta el 2026-09-15, sin los rechazados (`noRejected`).

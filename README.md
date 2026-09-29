@@ -24,8 +24,8 @@ redistributed and which is kept exactly as its repository publishes it.
 
 ## Contents
 
-One folder per measurement. Inside, the data, its record and — where it was
-kept — the script:
+One folder per measurement. Inside, the data, its record and (where it was
+kept) the script:
 
 ```
 .
@@ -124,14 +124,14 @@ python gauge-cuantizacion/extraer_fila.py  # 64 weights of one row of Pythia-410
 ```
 
 None needs credentials. `kev`, `hf-tendencia`, `agi-tendencias`,
-`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas`, `parque-instalado`, `arc-agi` and `gauge-cuantizacion` query an API or download public files — `arc-agi` adds the head of the Kaggle tables only if it finds the client configured —; `ijepa`,
+`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas`, `parque-instalado`, `arc-agi` and `gauge-cuantizacion` query an API or download public files (`arc-agi` adds the head of the Kaggle tables only if it finds the client configured); `ijepa`,
 `rag-sintetico`, `evaluador-bucle` and `rsi-survey` never leave the machine.
 
 ## Notebooks
 
-One reading notebook per measurement, runnable in the browser with Binder —
-it launches on this very repository, so the data sit next to the notebook and
-nothing has to be downloaded and no account is needed — or locally with
+One reading notebook per measurement, runnable in the browser with Binder
+(it launches on this very repository, so the data sit next to the notebook and
+nothing has to be downloaded and no account is needed) or locally with
 `jupyter lab`. They only read; to take the snapshot again there is
 `generar.py`.
 
@@ -229,9 +229,9 @@ regenerates its data, its fingerprints are fixed again with
 
 ## Licence
 
-The scripts, under [Apache-2.0](LICENSE). The own measurements — `kev`,
+The scripts, under [Apache-2.0](LICENSE). The own measurements (`kev`,
 `hf-tendencia`, `agi-tendencias`, `ijepa`, `transformers`, `sigma`,
-`rag-sintetico`, `gauge-cuantizacion` and `vigencia-boe` — under
+`rag-sintetico`, `gauge-cuantizacion` and `vigencia-boe`) under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material keeps its terms, and each record declares them:
 
 - **KEV**: the daily count is taken from the feed CISA publishes under the

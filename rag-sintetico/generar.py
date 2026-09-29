@@ -2,11 +2,11 @@
 """Medición del RAG sintético: permisos aplicados después de recuperar frente
 a permisos aplicados dentro de la consulta.
 
-Monta un corpus sintético de 600 fragmentos en tres ámbitos —público,
-finanzas y salud laboral— con vectores de 64 dimensiones agrupados por ámbito
+Monta un corpus sintético de 600 fragmentos en tres ámbitos (público,
+finanzas y salud laboral) con vectores de 64 dimensiones agrupados por ámbito
 alrededor de un centroide, y un usuario autorizado solo al ámbito público que
-lanza 300 consultas aleatorias —uniformes en la esfera, sin sesgo hacia su
-ámbito— con k = 10. Con el permiso aplicado después de recuperar,
+lanza 300 consultas aleatorias (uniformes en la esfera, sin sesgo hacia su
+ámbito) con k = 10. Con el permiso aplicado después de recuperar,
 cuenta cuántos fragmentos ajenos lee el sistema y cuántos útiles entrega; con
 el permiso dentro de la consulta, cuenta lo mismo. El índice es Qdrant en el
 modo local de su cliente, con la misma API de filtro que el servidor.
@@ -124,7 +124,7 @@ guarda las {N_CONSULTAS} consultas de un usuario autorizado solo al ámbito
 público y, para cada una, cuántos fragmentos ajenos leyó el sistema y cuántos
 útiles entregó en cada variante. No interviene ningún dato de ninguna persona.
 
-- Motor: {res['motor']} — misma API de filtro que el servidor
+- Motor: {res['motor']}, misma API de filtro que el servidor
 - Semilla: {SEMILLA} · dimensiones: {DIM} · fragmentos: {len(ambs)} ({POR_AMBITO} por ámbito) · k = {K}
 - Dispersión de los fragmentos alrededor de su centroide: {SIGMA_FRAGMENTO} por dimensión, que deja el coseno medio en {cos_dentro} dentro de un ámbito y {cos_entre} entre ámbitos · consultas uniformes en la esfera
 - Extraído: {res['extraido']}

@@ -117,7 +117,7 @@ def escribe_csv(ruta: Path, filas: list[dict]) -> None:
 def instantanea(hoy: str, version: str, por_anio: list[dict],
                 win: list[dict]) -> str:
     lineas = [
-        "# Instantánea — el parque instalado", "",
+        "# Instantánea: el parque instalado", "",
         f"- Extracción: {hoy}.",
         f"- Catálogo de explotadas de CISA, versión {version} (`{KEV}`). La edad"
         " es el año de alta menos el año del identificador CVE; es una cota"

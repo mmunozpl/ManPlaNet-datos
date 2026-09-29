@@ -138,7 +138,7 @@ def instantanea(hoy: str, corte: str, n_kev: int, por_anio: list[dict],
                 por_mes: list[dict]) -> str:
     u = por_anio[-1]
     lineas = [
-        "# Instantánea — estado de enriquecimiento de los CVE en el NVD", "",
+        "# Instantánea: estado de enriquecimiento de los CVE en el NVD", "",
         f"- Extracción: {hoy}, contra la API 2.0 del NVD "
         f"(`{NVD}`), sin clave.",
         f"- Periodo: CVE publicados desde el 01-01-{ANIO_INICIAL} hasta el "

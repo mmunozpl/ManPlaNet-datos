@@ -2,7 +2,7 @@
 
 Simulaciones con `numpy` 2.3.3, semilla 20260917, generadas el 2026-09-17. No interviene ningún dato de ninguna persona: las etiquetas, los envíos y las tiradas son aleatorios.
 
-## `semillas.csv` — el mejor de k
+## `semillas.csv`: el mejor de k
 
 Un modelo con exactitud real `p` evaluado `k` veces sobre `n` preguntas; cada evaluación es una binomial(n, p)/n y se publica la mejor de las k. 20000 repeticiones por celda.
 
@@ -14,7 +14,7 @@ Un modelo con exactitud real `p` evaluado `k` veces sobre `n` preguntas; cada ev
 | `inflacion_simulada_puntos` | media de (mejor de k − p), en puntos, sobre las repeticiones |
 | `percentil_90_puntos` | percentil 90 de la misma diferencia |
 
-## `asalto-serie.csv` y `asalto-por-tamano.csv` — el asaltante sin modelo
+## `asalto-serie.csv` y `asalto-por-tamano.csv`: el asaltante sin modelo
 
 Marcador con `n` ejemplos de respuesta binaria equilibrada; el asaltante envía 2000 vectores al azar, lee lo que el evaluador publica y combina por mayoría los que le convienen (Blum y Hardt, 2015). Cuatro evaluadores sobre la misma secuencia de envíos; cada columna es la cifra que ese evaluador publica tras cada consulta, y el asaltante solo ve esa cifra:
 

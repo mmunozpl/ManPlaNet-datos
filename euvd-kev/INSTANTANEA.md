@@ -6,10 +6,10 @@ redistribuye ninguno de los dos catálogos: `eu-kev.csv` lleva solo las
 entradas que la EUVD atribuye a su lista propia, el «EU KEV», y el resto son
 agregados. No interviene ningún dato de ninguna persona.
 
-- KEV: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json — versión `2026.09.11`, publicada
+- KEV: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json, versión `2026.09.11`, publicada
   2026-09-11T19:32:16.8993Z, 1709 entradas
 - EUVD: `https://euvdservices.enisa.europa.eu/api/search?exploited=true`, más `kevEntries/batch` y
-  `honeypotObservations/batch` — 1721 entradas explotadas
+  `honeypotObservations/batch`: 1721 entradas explotadas
 - Extraído: 2026-09-13
 
 ## Ficheros

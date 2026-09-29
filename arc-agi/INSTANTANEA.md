@@ -20,7 +20,7 @@ verificado. No contiene ninguna tarea del ARC-AGI.
 | `resumen.json` | las cifras que cita el artículo |
 
 La puntuación de ARC-AGI-3 no es un porcentaje de juegos resueltos: pondera
-cada nivel por la eficiencia en acciones frente a la línea base humana —el
-cociente al cuadrado, con tope en 1,15 por nivel—, pondera los niveles por su
+cada nivel por la eficiencia en acciones frente a la línea base humana (el
+cociente al cuadrado, con tope en 1,15 por nivel), pondera los niveles por su
 número y promedia por juego. El conjunto semiprivado tiene 55 entornos. La
 tabla pública de Kaggle no es la clasificación final del premio.

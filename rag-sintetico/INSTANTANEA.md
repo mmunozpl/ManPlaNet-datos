@@ -7,7 +7,7 @@ guarda las 300 consultas de un usuario autorizado solo al ámbito
 público y, para cada una, cuántos fragmentos ajenos leyó el sistema y cuántos
 útiles entregó en cada variante. No interviene ningún dato de ninguna persona.
 
-- Motor: qdrant-client 1.19.0, modo local (:memory:) — misma API de filtro que el servidor
+- Motor: qdrant-client 1.19.0, modo local (:memory:), misma API de filtro que el servidor
 - Semilla: 20260825 · dimensiones: 64 · fragmentos: 600 (200 por ámbito) · k = 10
 - Dispersión de los fragmentos alrededor de su centroide: 0.15 por dimensión, que deja el coseno medio en 0.411 dentro de un ámbito y -0.047 entre ámbitos · consultas uniformes en la esfera
 - Extraído: 2026-09-12

@@ -4,7 +4,7 @@
 Cuenta, para cada término y cada año, cuántos artículos de cs.LG, cs.AI,
 cs.CL y cs.CV llevan el término en el resumen, y lo divide por el total de
 artículos de esas categorías ese año. Lee el recuento de
-`opensearch:totalResults` con `max_results=1` —`max_results=0` da error 500—
+`opensearch:totalResults` con `max_results=1` (`max_results=0` da error 500)
 y espera entre consultas, como pide arXiv.
 
 Dos cosas del buscador que gobiernan el método y se dejan comprobadas en la
@@ -147,8 +147,8 @@ esas categorías ese año, y la cuota por diez mil. No guarda ningún artículo.
 ## `comprobaciones.csv`
 
 Evidencia de dos propiedades del buscador que gobiernan el método, medidas
-sobre 2025: lematiza —`agentic` y `agent` devuelven lo mismo, y `reasoning` y
-`reason` también—, y el guion crea tokens distintos en `neurosymbolic` frente
+sobre 2025: lematiza (`agentic` y `agent` devuelven lo mismo, y `reasoning` y
+`reason` también), y el guion crea tokens distintos en `neurosymbolic` frente
 a `neuro-symbolic` pero no en `chain-of-thought` frente a `chain of thought`.
 Por eso `agentic` y `reasoning` no están en la tabla, y `neurosymbolic` suma
 las dos grafías con un OR.

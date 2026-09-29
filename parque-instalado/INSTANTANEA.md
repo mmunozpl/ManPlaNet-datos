@@ -1,4 +1,4 @@
-# Instantánea — el parque instalado
+# Instantánea: el parque instalado
 
 - Extracción: 16-09-2026.
 - Catálogo de explotadas de CISA, versión 2026.09.14 (`https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json`). La edad es el año de alta menos el año del identificador CVE; es una cota inferior de la edad del fallo, porque el identificador se reserva en el año de asignación.

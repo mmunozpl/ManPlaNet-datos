@@ -5,9 +5,9 @@
 1. Los ocho sistemas de su tabla 7 (mecanismos L5), con la codificación
    propia de dos preguntas que el propio survey distingue en la sección
    3.6: si el mecanismo revisado se hereda y gobierna una ronda posterior
-   —L5 estructural— y si hay evidencia, con presupuesto comparable y
-   evaluación independiente, de que produce sucesores mejores —L5
-   efectivo—. Cada fila lleva la frase del survey o de la fuente primaria
+   (L5 estructural) y si hay evidencia, con presupuesto comparable y
+   evaluación independiente, de que produce sucesores mejores (L5
+   efectivo). Cada fila lleva la frase del survey o de la fuente primaria
    en la que se apoya la codificación.
 
 2. Las trayectorias de la figura 3 (índice HCI a 2026, sección 2.1) y la
@@ -247,7 +247,7 @@ def main() -> None:
         "ningún dato de ninguna persona ni ninguna consulta a la red: las "
         "cifras son las publicadas y la codificación es propia y "
         "explícita.", "",
-        "## `l5-sistemas.csv` — los ocho mecanismos L5 de la tabla 7", "",
+        "## `l5-sistemas.csv`: los ocho mecanismos L5 de la tabla 7", "",
         "| Columna | Origen |", "|---|---|",
         "| `sistema`, `fuente` | tabla 7 del survey y la fuente primaria "
         "leída |",
@@ -261,7 +261,7 @@ def main() -> None:
         "(sí / parcial / no) |",
         "| `evidencia` | la frase del survey o de la fuente primaria en la que "
         "se apoya la codificación |", "",
-        "## `hci-eq4.csv` — la figura 3 y la ecuación 4", "",
+        "## `hci-eq4.csv`: la figura 3 y la ecuación 4", "",
         "| Columna | Origen |", "|---|---|",
         "| `dominio`, `hci_2026` | sección 2.1 del survey, observaciones 1 y "
         "2 |",

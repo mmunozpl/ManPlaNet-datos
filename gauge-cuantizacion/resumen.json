@@ -1,7 +1,9 @@
 {
   "fuente": "ManPla/gauge-orbit-quantization-results (Hugging Face)",
-  "deposito": "10.5281/zenodo.22904208",
-  "extraido": "2026-09-23",
+  "deposito": "10.5281/zenodo.22904207",
+  "deposito_v1": "10.5281/zenodo.22904208",
+  "deposito_v2": "10.5281/zenodo.23068428",
+  "extraido": "2026-09-30",
   "imagenes_validacion": 5000,
   "llanura": {
     "pythia_q1_4": {
@@ -86,11 +88,13 @@
     "pythia": {
       "p_mediano": 0.9847,
       "ratio_medido": 1.0271,
+      "ratio_sobre_ley": 1.0418,
       "veredicto": "no_mejora"
     },
     "vitb": {
       "p_mediano": 0.989,
       "ratio_medido": 1.066,
+      "ratio_sobre_ley": 1.0789,
       "veredicto": "no_mejora"
     }
   },
@@ -105,5 +109,45 @@
     "rango_ortogonal_pp": 0.08,
     "mcnemar_ortogonal": 0.6778,
     "imagenes_de_acuerdo_int4": 44
+  },
+  "escala": {
+    "modelos": 8,
+    "medidas_pesos": 8692320,
+    "q1_mediana_min": 0.9952,
+    "q1_mediana_max": 1.021,
+    "q3_mediana_pct_min": 0.544,
+    "q3_mediana_pct_max": 1.324,
+    "exponente_producto": 0.9988,
+    "medidas_ley": 3075072,
+    "acuerdo_control_gl_min": 0.99987,
+    "ppl_gl2_int4_min": 150398.0,
+    "ppl_gl2_int4_max": 283848720.0,
+    "cuestan_con_maximo": 6,
+    "rotar_maximo_min": 0.147,
+    "rotar_maximo_max": 2.467,
+    "haar_cuestan": 48,
+    "haar_sorteadas": 48,
+    "se_replica_segundo_corpus": 4,
+    "mejoran_con_mse": 5,
+    "indistinguibles_con_mse": 2,
+    "llama2_q1_capas_0_1": 0.7732,
+    "frontera_diagonal": {
+      "sigma0.25": {
+        "p_mediano": 1.131,
+        "desvio_mediano": 0.9876
+      },
+      "sigma0.5": {
+        "p_mediano": 1.631,
+        "desvio_mediano": 0.9944
+      },
+      "sigma1": {
+        "p_mediano": 6.466,
+        "desvio_mediano": 0.5249
+      },
+      "sigma2": {
+        "p_mediano": 442.264,
+        "desvio_mediano": 0.0104
+      }
+    }
   }
 }

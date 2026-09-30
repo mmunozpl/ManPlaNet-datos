@@ -34,7 +34,7 @@ kept) the script:
 ├── agi-tendencias/   # yearly share of nine terms in arXiv abstracts
 │   └── instantaneas/ # dated snapshots anchored by a specific entry (2026-09-10, 2026-09-18)
 ├── arc-agi/          # the verified ARC-AGI leaderboard: score, cost and harness of every evaluation, and the head of the 2026 Kaggle tables
-├── gauge-cuantizacion/ # the gauge orbit under quantisation: aggregates of the results of deposit 10.5281/zenodo.22904208
+├── gauge-cuantizacion/ # the gauge orbit under quantisation: aggregates of the results of deposit 10.5281/zenodo.22904207 (versions 1.0 and 2.1)
 ├── ijepa/            # simulation of I-JEPA's mask sampling
 ├── rag-sintetico/    # permissions in a RAG: 600 synthetic chunks, 300 queries, filter before or after
 ├── deepseek-kv/      # global KV cache per token across four DeepSeek generations, from their configs
@@ -87,7 +87,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [Six of eight self-improving AIs inherit the mechanism and none accelerates: the “last AI” survey, read in full](https://manpla.net/en/posts/the-last-ai-read-from-the-inside/) | `rsi-survey/generar.py` · `agi-tendencias/generar.py` | `rsi-survey/l5-sistemas.csv`, `hci-eq4.csv`, `resumen.json` · `agi-tendencias/instantaneas/2026-09-18/cuotas.csv`, `comprobaciones.csv` |
 | [Climbing to 79.2 per cent on an AI leaderboard knowing nothing: how an evaluator is fooled and what stops it](https://manpla.net/en/posts/who-watches-the-evaluator/) | `evaluador-bucle/generar.py` | `evaluador-bucle/semillas.csv`, `asalto-serie.csv`, `asalto-por-tamano.csv`, `resumen.json` |
 | [The same AI scores 62.7 or 99.9 depending on who wires it to the exam](https://manpla.net/en/posts/same-model-two-harnesses/) | `arc-agi/generar.py` · `agi-tendencias/generar.py` | `arc-agi/marcador.csv`, `frontera.csv`, `hueco-v2.csv`, `kaggle-2026.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
-| [Why 4-bit compression breaks an exact symmetry of networks: a 92.26-point drop between two copies of the same model](https://manpla.net/en/posts/quantisation-breaks-gauge-equivalence/) | `gauge-cuantizacion/generar.py` · `extraer_fila.py` | `gauge-cuantizacion/orbita-ortogonal.csv`, `por-cabeza.csv`, `cola-gl.csv`, `cota-producto.csv`, `contraste-e2e.csv`, `resumen.json` · `fila-w_o-pythia.csv` |
+| [Why 4-bit compression breaks an exact symmetry of networks: a 92.26-point drop between two copies of the same model](https://manpla.net/en/posts/quantisation-breaks-gauge-equivalence/) | `gauge-cuantizacion/generar.py` · `extraer_fila.py` | `gauge-cuantizacion/orbita-ortogonal.csv`, `por-cabeza.csv`, `cola-gl.csv`, `cota-producto.csv`, `contraste-e2e.csv`, `escala-ocho-modelos.csv`, `ley-frontera-diagonal.csv`, `resumen.json` · `fila-w_o-pythia.csv` |
 | article in preparation | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
 | [Looking is already processing: exploratory analysis as the first legal obligation and the first source of errors](https://manpla.net/en/posts/looking-is-already-processing/) | none: downloaded from UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Currency of the BOE legal codes](https://manpla.net/en/temas/boe-legal-codes-currency/) | the live page's own, daily | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |

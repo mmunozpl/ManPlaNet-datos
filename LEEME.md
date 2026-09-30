@@ -34,7 +34,7 @@ el guion:
 ├── agi-tendencias/   # cuota anual de nueve términos en los resúmenes de arXiv
 │   └── instantaneas/ # tomas fechadas que ancla una entrada concreta (2026-09-10, 2026-09-18)
 ├── arc-agi/          # el marcador verificado de ARC-AGI: puntuación, coste y arnés de cada evaluación, y la cabecera de Kaggle 2026
-├── gauge-cuantizacion/ # la órbita de gauge bajo cuantización: agregados de los resultados del depósito 10.5281/zenodo.22904208
+├── gauge-cuantizacion/ # la órbita de gauge bajo cuantización: agregados de los resultados del depósito 10.5281/zenodo.22904207 (versiones 1.0 y 2.1)
 ├── ijepa/            # simulación del muestreo de máscaras de I-JEPA
 ├── rag-sintetico/    # permisos en un RAG: 600 fragmentos sintéticos, 300 consultas, filtro antes o después
 ├── deepseek-kv/      # caché KV global por token en cuatro generaciones de DeepSeek, desde sus configs
@@ -87,7 +87,7 @@ con la semilla y los parámetros de la simulación.
 | [Seis de ocho IA que se mejoran a sí mismas heredan el mecanismo y ninguna acelera: el survey de “la última IA”, leído entero](https://manpla.net/posts/la-ultima-ia-leida-por-dentro/) | `rsi-survey/generar.py` · `agi-tendencias/generar.py` | `rsi-survey/l5-sistemas.csv`, `hci-eq4.csv`, `resumen.json` · `agi-tendencias/instantaneas/2026-09-18/cuotas.csv`, `comprobaciones.csv` |
 | [Subir al 79,2 % en un marcador de IA sin saber nada: cómo se engaña a un evaluador y qué lo frena](https://manpla.net/posts/quien-vigila-al-evaluador/) | `evaluador-bucle/generar.py` | `evaluador-bucle/semillas.csv`, `asalto-serie.csv`, `asalto-por-tamano.csv`, `resumen.json` |
 | [La misma IA saca un 62,7 o un 99,9 según quién la conecte al examen](https://manpla.net/posts/el-mismo-modelo-dos-arneses/) | `arc-agi/generar.py` · `agi-tendencias/generar.py` | `arc-agi/marcador.csv`, `frontera.csv`, `hueco-v2.csv`, `kaggle-2026.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
-| [Por qué la compresión a 4 bits rompe una simetría exacta de las redes: 92,26 puntos de caída entre dos copias del mismo modelo](https://manpla.net/posts/cuarenta-y-cuatro-de-cinco-mil/) | `gauge-cuantizacion/generar.py` · `extraer_fila.py` | `gauge-cuantizacion/orbita-ortogonal.csv`, `por-cabeza.csv`, `cola-gl.csv`, `cota-producto.csv`, `contraste-e2e.csv`, `resumen.json` · `fila-w_o-pythia.csv` |
+| [Por qué la compresión a 4 bits rompe una simetría exacta de las redes: 92,26 puntos de caída entre dos copias del mismo modelo](https://manpla.net/posts/cuarenta-y-cuatro-de-cinco-mil/) | `gauge-cuantizacion/generar.py` · `extraer_fila.py` | `gauge-cuantizacion/orbita-ortogonal.csv`, `por-cabeza.csv`, `cola-gl.csv`, `cota-producto.csv`, `contraste-e2e.csv`, `escala-ocho-modelos.csv`, `ley-frontera-diagonal.csv`, `resumen.json` · `fila-w_o-pythia.csv` |
 | artículo en preparación | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
 | [Mirar ya es tratar: el análisis exploratorio como primera obligación legal y primera fuente de errores](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |

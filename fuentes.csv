@@ -1,7 +1,7 @@
 fuente,mediciones,url
-catálogo KEV de CISA,kev euvd-kev nvd-fichas parque-instalado,https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
-API de la EUVD de ENISA,euvd-kev,https://euvdservices.enisa.europa.eu/api/search?exploited=true&page=0&size=1
-API 2.0 del NVD,nvd-fichas,https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=1
+catálogo KEV de CISA,kev euvd-kev nvd-fichas parque-instalado netscaler,https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+API de la EUVD de ENISA,euvd-kev netscaler,https://euvdservices.enisa.europa.eu/api/search?exploited=true&page=0&size=1
+API 2.0 del NVD,nvd-fichas netscaler,https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=1
 API de modelos de Hugging Face,hf-tendencia hf-activos,https://huggingface.co/api/models?limit=1
 configuración pública de un modelo en Hugging Face,deepseek-kv,https://huggingface.co/deepseek-ai/DeepSeek-V3/raw/main/config.json
 conjunto de resultados en Hugging Face,gauge-cuantizacion,https://huggingface.co/api/datasets/ManPla/gauge-orbit-quantization-results

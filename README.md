@@ -39,6 +39,7 @@ kept) the script:
 ├── rag-sintetico/    # permissions in a RAG: 600 synthetic chunks, 300 queries, filter before or after
 ├── deepseek-kv/      # global KV cache per token across four DeepSeek generations, from their configs
 ├── euvd-kev/         # the two lists of exploited vulnerabilities, CISA's KEV and ENISA's EUVD, entry by entry
+├── netscaler/        # NetScaler ADC and Gateway in the KEV: CVE publication, addition, EU KEV and Shadowserver honeypots
 ├── hf-activos/       # total and per-token active parameters of the Hub's 100 trending models, tensor by tensor
 ├── nvd-fichas/       # enrichment status of every CVE published since 2023 in the NVD, and whether it is listed as exploited
 ├── parque-instalado/ # age of the flaw when it enters the exploited catalogue, and share of each Windows version on the desktop
@@ -89,6 +90,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [The same AI scores 62.7 or 99.9 depending on who wires it to the exam](https://manpla.net/en/posts/same-model-two-harnesses/) | `arc-agi/generar.py` · `agi-tendencias/generar.py` | `arc-agi/marcador.csv`, `frontera.csv`, `hueco-v2.csv`, `kaggle-2026.csv`, `resumen.json` · `agi-tendencias/cuotas.csv`, `comprobaciones.csv` |
 | [Why 4-bit compression breaks an exact symmetry of networks: a 92.26-point drop between two copies of the same model](https://manpla.net/en/posts/quantisation-breaks-gauge-equivalence/) | `gauge-cuantizacion/generar.py` · `extraer_fila.py` | `gauge-cuantizacion/orbita-ortogonal.csv`, `por-cabeza.csv`, `cola-gl.csv`, `cota-producto.csv`, `contraste-e2e.csv`, `escala-ocho-modelos.csv`, `ley-frontera-diagonal.csv`, `resumen.json` · `fila-w_o-pythia.csv` |
 | article in preparation | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
+| [When the notice comes after the attack: NetScaler, and what to do with an appliance that was already exposed](https://manpla.net/en/posts/the-notice-comes-after/) | `netscaler/generar.py` | `netscaler/altas.csv`, `por-anio.csv`, `informes-ajenos.csv`, `resumen.json` |
 | [Looking is already processing: exploratory analysis as the first legal obligation and the first source of errors](https://manpla.net/en/posts/looking-is-already-processing/) | none: downloaded from UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Currency of the BOE legal codes](https://manpla.net/en/temas/boe-legal-codes-currency/) | the live page's own, daily | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
@@ -113,6 +115,7 @@ python ijepa/generar.py              # deterministic: seed 20260910
 python rag-sintetico/generar.py      # deterministic: seed 20260825; in-memory index
 python deepseek-kv/generar.py        # downloads four public config.json files from Hugging Face
 python euvd-kev/generar.py           # the KEV JSON and the EUVD's public API; about two minutes
+python netscaler/generar.py          # the KEV, NVD API 2.0 and the EUVD API; about three minutes because of the NVD rate limit
 python hf-activos/generar.py         # safetensors headers of 100 repositories; an hour, or minutes with HF_ACTIVOS_CACHE
 python nvd-fichas/generar.py         # NVD API 2.0, no key; about twenty minutes because of the request limit
 python parque-instalado/generar.py   # CISA's KEV catalogue and the StatCounter series; seconds
@@ -124,7 +127,7 @@ python gauge-cuantizacion/extraer_fila.py  # 64 weights of one row of Pythia-410
 ```
 
 None needs credentials. `kev`, `hf-tendencia`, `agi-tendencias`,
-`deepseek-kv`, `euvd-kev`, `hf-activos`, `nvd-fichas`, `parque-instalado`, `arc-agi` and `gauge-cuantizacion` query an API or download public files (`arc-agi` adds the head of the Kaggle tables only if it finds the client configured); `ijepa`,
+`deepseek-kv`, `euvd-kev`, `netscaler`, `hf-activos`, `nvd-fichas`, `parque-instalado`, `arc-agi` and `gauge-cuantizacion` query an API or download public files (`arc-agi` adds the head of the Kaggle tables only if it finds the client configured); `ijepa`,
 `rag-sintetico`, `evaluador-bucle` and `rsi-survey` never leave the machine.
 
 ## Notebooks
@@ -145,6 +148,7 @@ nothing has to be downloaded and no account is needed) or locally with
 - [`rag-sintetico/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=rag-sintetico%2Freproducir.ipynb)
 - [`deepseek-kv/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=deepseek-kv%2Freproducir.ipynb)
 - [`euvd-kev/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=euvd-kev%2Freproducir.ipynb)
+- [`netscaler/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=netscaler%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)
 - [`nvd-fichas/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=nvd-fichas%2Freproducir.ipynb)
 - [`parque-instalado/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=parque-instalado%2Freproducir.ipynb)

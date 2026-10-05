@@ -60,6 +60,11 @@ form of each term, and it is the one `README.md` uses.
 | `anios_desde_el_cve` | years since the CVE identifier | `euvd-kev/antiguedad-kev.csv` |
 | `cisa_kev`, `eu_kev` (por mes) | monthly additions to each list | `euvd-kev/altas-mensuales.csv` |
 | triaje forense | forensic triage | `euvd-kev/resumen.json` |
+| `publicado_nvd`, `alta_kev`, `dias_publicacion_a_kev`, `mismo_dia` | NVD publication date, KEV addition date, days from publication to addition, same day | `netscaler/altas.csv` |
+| `plazo_kev_dias`, `alta_eu_kev`, `eu_kev_menos_cisa_dias` | KEV deadline in days, EU KEV addition date, EU KEV minus CISA in days | `netscaler/altas.csv` |
+| `honeypot_primera`, `honeypot_ultima`, `honeypot_conexiones_1d`, `honeypot_ips_1d` | first and last honeypot observation, connections and source IPs on the last day | `netscaler/altas.csv` |
+| carga inicial (del catálogo) | initial load (of the catalogue) | `netscaler/resumen.json` |
+| informes ajenos (`hecho`, `precision`) | third-party reports (event, precision) | `netscaler/informes-ajenos.csv` |
 | parámetros activos por token, guardados | active parameters per token, stored | `hf-activos` |
 | expertos enrutados, compartidos | routed experts, shared experts | `hf-activos` |
 | tablas de consulta | lookup tables (input embedding, n-gram memories) | `hf-activos/activos.csv` |

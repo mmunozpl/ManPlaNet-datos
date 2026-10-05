@@ -1,0 +1,5 @@
+cve,hecho,fecha,precision,fuente,url
+CVE-2026-88772,explotación en curso,2026-09-01,al menos desde primeros de septiembre (since at least early September),"Google Threat Intelligence Group, 29-09-2026",https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances
+CVE-2026-88771,primer intento de explotación visto,2026-09-20,2026-09-20T14:28:43 UTC,"Rapid7, 28-09-2026, actualizado el 30-09-2026",https://www.rapid7.com/blog/post/etr-zero-day-exploitation-of-citrix-netscaler-adc-and-gateway-cve-2026-88771-and-cve-2026-88772/
+CVE-2026-8452,demostración de ejecución remota,2026-08-14,día de la publicación,"watchTowr Labs, 14-08-2026",https://labs.watchtowr.com/youre-back-in-the-room-citrix-netscaler-pre-auth-rce-cve-2026-8452/
+CVE-2026-19490,primeros informes de explotación,2026-09-04,día del informe; tras publicarse código de explotación a primeros de septiembre,"Field Effect, 04-09-2026",https://fieldeffect.com/blog/early-exploitation-citrix-netscaler-vulnerability

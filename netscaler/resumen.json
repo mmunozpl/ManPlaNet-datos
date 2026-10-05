@@ -1,0 +1,65 @@
+{
+ "extraido": "2026-10-05",
+ "kev_version": "2026.10.04",
+ "kev_publicado": "2026-10-04T18:52:56.0635Z",
+ "kev_entradas": 1734,
+ "netscaler_en_kev": 18,
+ "en_carga_inicial": 4,
+ "posteriores_carga_inicial": 14,
+ "mismo_dia_que_publicacion": 8,
+ "dias_publicacion_a_kev_resto": [
+  5,
+  7,
+  8,
+  21,
+  23,
+  57
+ ],
+ "por_anio": {
+  "2022": {
+   "altas": 1,
+   "mismo_dia": 1
+  },
+  "2023": {
+   "altas": 2,
+   "mismo_dia": 1
+  },
+  "2024": {
+   "altas": 2,
+   "mismo_dia": 2
+  },
+  "2025": {
+   "altas": 3,
+   "mismo_dia": 1
+  },
+  "2026": {
+   "altas": 6,
+   "mismo_dia": 3
+  }
+ },
+ "triaje_forense_si": [
+  "CVE-2026-19490",
+  "CVE-2026-88771",
+  "CVE-2026-88772",
+  "CVE-2026-88779"
+ ],
+ "con_eu_kev": [
+  "CVE-2023-3519",
+  "CVE-2025-6543",
+  "CVE-2026-88771",
+  "CVE-2026-88772",
+  "CVE-2026-88779"
+ ],
+ "eu_kev_antes_que_cisa": [
+  "CVE-2026-88779"
+ ],
+ "con_honeypot": [
+  "CVE-2019-19781",
+  "CVE-2020-8193",
+  "CVE-2023-3519",
+  "CVE-2023-4966",
+  "CVE-2025-5777",
+  "CVE-2026-3055",
+  "CVE-2026-88771"
+ ]
+}

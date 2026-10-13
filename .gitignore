@@ -2,3 +2,13 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .venv/
+
+# cachés y registros que escriben los generadores al reejecutarse
+guardarrailes/parciales/
+guardarrailes/_fuentes/
+guardarrailes/registro.log
+videovigilancia/zips/
+videovigilancia/cache/
+videovigilancia/pliegos/
+videovigilancia/tmp/
+videovigilancia/salidas/generar.log

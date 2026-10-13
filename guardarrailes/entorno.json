@@ -1,0 +1,49 @@
+{
+  "fecha": "2026-10-13 14:12:39 +0200",
+  "python": "3.12.12",
+  "paquetes": {
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "transformers": "5.19.0",
+    "laya": "0.4.6",
+    "accelerate": "1.15.0",
+    "huggingface_hub": "2.2.0",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.3",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "tqdm": "4.70.1",
+    "pillow": "12.3.0"
+  },
+  "cuda_torch": "13.0",
+  "cudnn": 92400,
+  "gpu": "NVIDIA GeForce RTX 5090, 32607 MiB",
+  "repo_articulo": {
+    "url": "https://github.com/ArminAzizi98/option-channel-attack.git",
+    "commit": "7ca2f8382f0ec50590b38e3a766061506a52af93"
+  },
+  "modelos": {
+    "laya-td": {
+      "hf": "convaiinnovations/laya-typed-decisions",
+      "revision": "e929ae5cf69bc34259cd2f95c9e91145b818b1f0",
+      "licencia": "apache-2.0"
+    },
+    "d1-omni-600m": {
+      "hf": "LiquidAI/d1-omni-600M",
+      "revision": "02b55d7076f15129e59ab3f94783f32c4b088674",
+      "licencia": "lfm1.0"
+    },
+    "d1-3b": {
+      "hf": "LiquidAI/d1-3B",
+      "revision": "051bcc464b01b9f92942b364d9586b0ef5912432",
+      "licencia": "lfm1.0"
+    },
+    "lemon": {
+      "hf": "inclusionAI/LemonDecider",
+      "revision": "6930d153625642f21824a7bd523f163f2caa2213",
+      "licencia": "apache-2.0"
+    }
+  },
+  "semilla": 0,
+  "mem_max_gib": 14.0
+}

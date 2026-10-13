@@ -1,0 +1,13 @@
+modelo,fase,segundos,pico_gib,estado
+laya-td,condiciones,56.200000,2.970000,ok
+laya-td,candidatos,122.400000,2.750000,ok
+laya-td,barrido,741.500000,2.760000,ok
+d1-omni-600m,condiciones,89.500000,1.850000,ok
+d1-omni-600m,candidatos,248.900000,1.630000,ok
+d1-omni-600m,barrido,1386.600000,1.640000,ok
+d1-3b,condiciones,188.400000,7.050000,ok
+d1-3b,candidatos,19.600000,6.700000,ok
+d1-3b,barrido,22.700000,6.700000,ok
+lemon,condiciones,674.200000,11.480000,ok
+lemon,candidatos,1556.000000,10.950000,ok
+lemon,barrido,8927.000000,10.960000,ok

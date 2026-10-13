@@ -1,0 +1,49 @@
+{
+  "zips": 37,
+  "ficheros_atom": 5913,
+  "entradas": 2614734,
+  "borradas": 333273,
+  "entradas_por_feed": {
+    "1044": 707004,
+    "643": 1907730
+  },
+  "expedientes_unicos": 701801,
+  "expedientes_por_feed": {
+    "1044": 187055,
+    "643": 514746
+  },
+  "claves_en_ambos_feeds": 0,
+  "claves_con_varios_entry_id_en_un_zip": 2391,
+  "regla_seleccion": {
+    "fuera_de_periodo": 302,
+    "via_ambos": 498,
+    "via_titulo": 890,
+    "via_cpv": 358,
+    "excluidas_titulo_excluido:desatasc": 1,
+    "excluidas_solo_cpv_secundario_sin_indicio": 337,
+    "excluidas_solo_cpv_excluido:robotitzad": 1,
+    "excluidas_titulo_excluido:legionel": 1,
+    "excluidas_solo_cpv_excluido:cameres web": 2,
+    "excluidas_lote_excluido:tractor cctv": 1,
+    "excluidas_solo_cpv_excluido:per a l’exposicio": 2,
+    "excluidas_solo_cpv_excluido:uniformi": 2,
+    "excluidas_titulo_excluido:camaras de inspeccion": 2,
+    "excluidas_titulo_excluido:clavegueram": 2,
+    "excluidas_solo_cpv_excluido:votacion": 1,
+    "excluidas_titulo_excluido:saneamiento": 6,
+    "excluidas_solo_cpv_excluido:lidar": 1,
+    "excluidas_solo_cpv_excluido:fauna": 1,
+    "excluidas_solo_cpv_excluido:mobiliari": 2,
+    "excluidas_solo_cpv_excluido:gesell": 1,
+    "excluidas_solo_cpv_excluido:suministro de agua y electricidad": 1,
+    "excluidas_solo_cpv_excluido:centro cultural": 1,
+    "excluidas_solo_cpv_excluido:webcam": 1,
+    "excluidas_titulo_excluido:inspeccion de redes": 1,
+    "excluidas_solo_cpv_excluido:material deportivo": 1,
+    "excluidas_solo_cpv_excluido:grabacion eng": 1,
+    "excluidas_solo_cpv_excluido:tscm": 1,
+    "excluidas_titulo_excluido:camara de inspeccion": 1,
+    "folder_id_en_ambos_feeds": 1,
+    "seleccionadas": 1746
+  }
+}

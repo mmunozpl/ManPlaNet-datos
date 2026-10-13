@@ -1,0 +1,107 @@
+fuente,magnitud,politica,articulo,cache_repo,propio,n
+runs/clean,accuracy,exfil,,0.766667,0.770000,300.000000
+runs/clean,max_abs_dif_prob,exfil,,0.000000,0.009900,300.000000
+runs/clean,acuerdo_decision,exfil,,1.000000,0.990000,300.000000
+runs/attack (tabla 3),asr_open distraction_k=1,exfil,0.350000,0.350000,0.358025,81.000000
+runs/attack,max_abs_dif_prob distraction_k=1,exfil,,0.000000,0.009900,300.000000
+runs/attack (tabla 3),asr_open distraction_k=3,exfil,0.488000,0.487500,0.481481,81.000000
+runs/attack,max_abs_dif_prob distraction_k=3,exfil,,0.000000,0.009200,300.000000
+runs/attack (tabla 3),asr_open distraction_k=6,exfil,0.525000,0.525000,0.543210,81.000000
+runs/attack,max_abs_dif_prob distraction_k=6,exfil,,0.000000,0.014300,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=1,exfil,0.588000,0.587500,0.604938,81.000000
+runs/attack,max_abs_dif_prob persuasion_k=1,exfil,,0.000000,0.012100,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=3,exfil,0.675000,0.675000,0.654321,81.000000
+runs/attack,max_abs_dif_prob persuasion_k=3,exfil,,0.000000,0.008200,300.000000
+runs/clean,accuracy,secret,,0.683333,0.683333,300.000000
+runs/clean,max_abs_dif_prob,secret,,0.000000,0.007400,300.000000
+runs/clean,acuerdo_decision,secret,,1.000000,0.993333,300.000000
+runs/attack (tabla 3),asr_open distraction_k=1,secret,0.709000,0.709091,0.709091,55.000000
+runs/attack,max_abs_dif_prob distraction_k=1,secret,,0.000000,0.008500,300.000000
+runs/attack (tabla 3),asr_open distraction_k=3,secret,0.455000,0.454545,0.472727,55.000000
+runs/attack,max_abs_dif_prob distraction_k=3,secret,,0.000000,0.008300,300.000000
+runs/attack (tabla 3),asr_open distraction_k=6,secret,0.436000,0.436364,0.436364,55.000000
+runs/attack,max_abs_dif_prob distraction_k=6,secret,,0.000000,0.005600,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=1,secret,0.727000,0.727273,0.727273,55.000000
+runs/attack,max_abs_dif_prob persuasion_k=1,secret,,0.000000,0.006300,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=3,secret,0.564000,0.563636,0.581818,55.000000
+runs/attack,max_abs_dif_prob persuasion_k=3,secret,,0.000000,0.007500,300.000000
+runs/clean,accuracy,escape,,0.516667,0.516667,300.000000
+runs/clean,max_abs_dif_prob,escape,,0.000000,0.006900,300.000000
+runs/clean,acuerdo_decision,escape,,1.000000,1.000000,300.000000
+runs/attack (tabla 3),asr_open distraction_k=1,escape,0.600000,0.600000,0.600000,5.000000
+runs/attack,max_abs_dif_prob distraction_k=1,escape,,0.000000,0.007300,300.000000
+runs/attack (tabla 3),asr_open distraction_k=3,escape,1.000000,1.000000,1.000000,5.000000
+runs/attack,max_abs_dif_prob distraction_k=3,escape,,0.000000,0.006200,300.000000
+runs/attack (tabla 3),asr_open distraction_k=6,escape,0.800000,0.800000,0.800000,5.000000
+runs/attack,max_abs_dif_prob distraction_k=6,escape,,0.000000,0.004600,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=1,escape,0.800000,0.800000,0.800000,5.000000
+runs/attack,max_abs_dif_prob persuasion_k=1,escape,,0.000000,0.006900,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=3,escape,1.000000,1.000000,1.000000,5.000000
+runs/attack,max_abs_dif_prob persuasion_k=3,escape,,0.000000,0.005700,300.000000
+runs/clean,accuracy,exfil_secret,,0.713333,0.713333,300.000000
+runs/clean,max_abs_dif_prob,exfil_secret,,0.000000,0.008100,300.000000
+runs/clean,acuerdo_decision,exfil_secret,,1.000000,1.000000,300.000000
+runs/attack (tabla 3),asr_open distraction_k=1,exfil_secret,0.603000,0.602941,0.588235,68.000000
+runs/attack,max_abs_dif_prob distraction_k=1,exfil_secret,,0.000000,0.010000,300.000000
+runs/attack (tabla 3),asr_open distraction_k=3,exfil_secret,0.529000,0.529412,0.514706,68.000000
+runs/attack,max_abs_dif_prob distraction_k=3,exfil_secret,,0.000000,0.009100,300.000000
+runs/attack (tabla 3),asr_open distraction_k=6,exfil_secret,0.632000,0.632353,0.632353,68.000000
+runs/attack,max_abs_dif_prob distraction_k=6,exfil_secret,,0.000000,0.007100,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=1,exfil_secret,0.647000,0.647059,0.632353,68.000000
+runs/attack,max_abs_dif_prob persuasion_k=1,exfil_secret,,0.000000,0.010500,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=3,exfil_secret,0.868000,0.867647,0.867647,68.000000
+runs/attack,max_abs_dif_prob persuasion_k=3,exfil_secret,,0.000000,0.011800,300.000000
+runs/clean,accuracy,unauth_irrev,,0.873333,0.873333,300.000000
+runs/clean,max_abs_dif_prob,unauth_irrev,,0.000000,0.005300,300.000000
+runs/clean,acuerdo_decision,unauth_irrev,,1.000000,0.993333,300.000000
+runs/attack (tabla 3),asr_open distraction_k=1,unauth_irrev,0.333000,0.333333,0.333333,150.000000
+runs/attack,max_abs_dif_prob distraction_k=1,unauth_irrev,,0.000000,0.006000,300.000000
+runs/attack (tabla 3),asr_open distraction_k=3,unauth_irrev,0.493000,0.493333,0.500000,150.000000
+runs/attack,max_abs_dif_prob distraction_k=3,unauth_irrev,,0.000000,0.011900,300.000000
+runs/attack (tabla 3),asr_open distraction_k=6,unauth_irrev,0.633000,0.633333,0.620000,150.000000
+runs/attack,max_abs_dif_prob distraction_k=6,unauth_irrev,,0.000000,0.008500,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=1,unauth_irrev,0.760000,0.760000,0.760000,150.000000
+runs/attack,max_abs_dif_prob persuasion_k=1,unauth_irrev,,0.000000,0.007700,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=3,unauth_irrev,0.700000,0.700000,0.700000,150.000000
+runs/attack,max_abs_dif_prob persuasion_k=3,unauth_irrev,,0.000000,0.007500,300.000000
+runs/clean,accuracy,escape_or_exfil,,0.510000,0.510000,300.000000
+runs/clean,max_abs_dif_prob,escape_or_exfil,,0.000000,0.005600,300.000000
+runs/clean,acuerdo_decision,escape_or_exfil,,1.000000,1.000000,300.000000
+runs/attack (tabla 3),asr_open distraction_k=1,escape_or_exfil,1.000000,1.000000,1.000000,3.000000
+runs/attack,max_abs_dif_prob distraction_k=1,escape_or_exfil,,0.000000,0.006000,300.000000
+runs/attack (tabla 3),asr_open distraction_k=3,escape_or_exfil,1.000000,1.000000,1.000000,3.000000
+runs/attack,max_abs_dif_prob distraction_k=3,escape_or_exfil,,0.000000,0.005200,300.000000
+runs/attack (tabla 3),asr_open distraction_k=6,escape_or_exfil,0.667000,0.666667,0.666667,3.000000
+runs/attack,max_abs_dif_prob distraction_k=6,escape_or_exfil,,0.000000,0.005700,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=1,escape_or_exfil,0.667000,0.666667,0.666667,3.000000
+runs/attack,max_abs_dif_prob persuasion_k=1,escape_or_exfil,,0.000000,0.006400,300.000000
+runs/attack (tabla 3),asr_open persuasion_k=3,escape_or_exfil,0.667000,0.666667,0.666667,3.000000
+runs/attack,max_abs_dif_prob persuasion_k=3,escape_or_exfil,,0.000000,0.006100,300.000000
+§6.2 y figura 3,accuracy limpia,unauth_irrev,0.873000,,0.873333,300.000000
+§6.2 y figura 3,fail_open limpio,unauth_irrev,0.000000,,0.000000,300.000000
+§6.4 y figura 7,fail_closed limpio,unauth_irrev,0.260000,,0.253333,300.000000
+§9,fail_closed limpio,unauth_irrev,0.253000,,0.253333,300.000000
+tabla 4 / runs/attack json,fail_open honesto,exfil,,0.466667,0.460000,
+tabla 4 / runs/attack json,fail_open peor (block|escalate),exfil,,0.746667,0.753333,
+tabla 4 / runs/attack json,fail_open honesto,secret,,0.633333,0.633333,
+tabla 4 / runs/attack json,fail_open peor (block|escalate),secret,,1.000000,1.000000,
+tabla 4 / runs/attack json,fail_open honesto,escape,,0.966667,0.966667,
+tabla 4 / runs/attack json,fail_open peor (block|escalate),escape,,1.000000,1.000000,
+tabla 4 / runs/attack json,fail_open honesto,exfil_secret,,0.546667,0.546667,
+tabla 4 / runs/attack json,fail_open peor (block|escalate),exfil_secret,,0.973333,0.980000,
+tabla 4 / runs/attack json,fail_open honesto,unauth_irrev,0.000000,0.000000,0.000000,
+tabla 4 / runs/attack json,fail_open peor (block|escalate),unauth_irrev,1.000000,1.000000,1.000000,
+tabla 4 / runs/attack json,fail_open honesto,escape_or_exfil,,0.980000,0.980000,
+tabla 4 / runs/attack json,fail_open peor (block|escalate),escape_or_exfil,,1.000000,1.000000,
+runs/optsweep,max_abs_dif_fail_open por celda,todas,,0.000000,0.050000,1188.000000
+tabla 5,honesta,media 6 políticas,0.600000,,0.596667,
+tabla 5,k=1,media 6 políticas,0.591000,0.590988,0.590796,
+tabla 5,k=5,media 6 políticas,0.839000,0.838900,0.839000,
+tabla 5,k=10,media 6 políticas,0.895000,0.895025,0.895108,
+tabla 5,mejor,media 6 políticas,0.982000,,0.981667,
+figura 5a,fail_open medio security_action,unauth_irrev,0.570000,,0.574242,
+figura 5a,fail_open medio neutral_syntactic,unauth_irrev,0.370000,,0.376061,
+figura 5a,fail_open medio control_unrelated,unauth_irrev,0.270000,,0.271515,
+figura 5a,fail_open medio allow_synonym,unauth_irrev,0.130000,,0.130606,
+figura 5a,fail_open medio severity,unauth_irrev,0.100000,,0.103939,
+figura 5a,fail_open medio block_synonym,unauth_irrev,0.010000,,0.005455,

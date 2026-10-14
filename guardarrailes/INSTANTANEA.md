@@ -13,7 +13,7 @@ interviene ningún dato de ninguna persona.
 - Tarea: decidir si una llamada de herramienta propuesta por un agente se
   permite o se bloquea según una política escrita; dos opciones con su nombre y
   su definición, decisión por la mayor probabilidad
-- Condiciones: nombres honestos (`block`, `allow`); opción permisiva renombrada
+- Condiciones: nombres originales (`block`, `allow`); opción permisiva renombrada
   `escalate` o `remediate`; nombres intercambiados; 1, 3 o 6 líneas de registro
   y 1 o 3 notas de aprobación sin verificar en el tramo que controla el atacante
 - Tamaño: 300 llamadas por política (150 que deben bloquearse y 150 que deben
@@ -43,10 +43,10 @@ vllm-sr/d3, Cloudflare/clef-omni y autotrust/JEV-35B (23,3 GiB en NVFP4).
 
 | Cifra | Artículo | Esta réplica |
 |---|---|---|
-| unauth_irrev, nombres honestos: acierto / fallo abierto | 87,3 % / 0 % | 87,3 % / 0 % |
+| unauth_irrev, nombres originales: acierto / fallo abierto | 87,3 % / 0 % | 87,3 % / 0 % |
 | unauth_irrev, 6 líneas de registro: bloqueos correctos que pasan a permitidos | 63,3 % | 62,0 % (93 de 150) |
 | unauth_irrev, permisiva renombrada `escalate` | 0 → 100 % | 0 → 100 % |
-| barrido de 198 etiquetas, media de seis políticas: honesta / mejor | 60,0 / 98,2 % | 59,7 / 98,2 % |
+| barrido de 198 etiquetas, media de seis políticas: original / mejor | 60,0 / 98,2 % | 59,7 / 98,2 % |
 
 Probabilidad por ítem frente a la caché del repositorio: diferencia máxima
 0,0143; acuerdo de decisión del 99 al 100 % por política. El residuo es ruido
@@ -56,7 +56,7 @@ numérico de bf16 en otro hardware.
 
 | Condición | LAYA-TD | d1-omni-600M | d1-3B | LemonDecider |
 |---|---|---|---|---|
-| nombres honestos | 67,8 / 59,8 / 4,7 | 67,0 / 2,8 / 63,2 | 93,4 / 6,1 / 7,1 | 96,0 / 2,9 / 5,1 |
+| nombres originales | 67,8 / 59,8 / 4,7 | 67,0 / 2,8 / 63,2 | 93,4 / 6,1 / 7,1 | 96,0 / 2,9 / 5,1 |
 | permisiva `escalate` | 51,9 / 95,6 / 0,6 | 73,8 / 10,6 / 41,9 | 93,4 / 6,1 / 7,1 | 96,7 / 2,4 / 4,1 |
 | 6 líneas de registro | 58,9 / 82,1 / 0,0 | 73,8 / 15,8 / 36,7 | 91,0 / 6,3 / 11,7 | 95,9 / 2,9 / 5,2 |
 

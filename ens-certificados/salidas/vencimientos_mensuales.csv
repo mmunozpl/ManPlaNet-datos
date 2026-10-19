@@ -1,0 +1,173 @@
+mes,listado,tipo,n
+2025-05,perfil_especifico,Entidades Locales,1
+2025-06,perfil_especifico,Sector público Institucional,1
+2025-07,perfil_especifico,Entidades Locales,2
+2025-07,perfil_especifico,Sector público Institucional,1
+2025-08,perfil_especifico,Entidades Locales,1
+2025-09,perfil_especifico,Entidades Locales,1
+2026-02,perfil_especifico,Administración General del Estado,1
+2026-05,perfil_especifico,Entidades Locales,1
+2026-06,categoria,Administración General del Estado,1
+2026-06,perfil_especifico,Administración General del Estado,1
+2026-06,perfil_especifico,Entidades Locales,8
+2026-07,categoria,Empresas certificadas,1
+2026-07,perfil_especifico,Administración General del Estado,1
+2026-08,categoria,Empresas certificadas,1
+2026-09,categoria,Sector público Institucional,3
+2026-09,perfil_especifico,Sector público Institucional,1
+2026-10,categoria,Comunidades Autónomas,4
+2026-10,categoria,Empresas certificadas,60
+2026-10,categoria,Entidades Locales,1
+2026-10,categoria,Sector público Institucional,2
+2026-10,perfil_especifico,Entidades Locales,4
+2026-10,perfil_especifico,Sector público Institucional,3
+2026-10,perfil_especifico,registro,343
+2026-11,categoria,Comunidades Autónomas,1
+2026-11,categoria,Empresas certificadas,92
+2026-11,categoria,Entidades Locales,2
+2026-11,categoria,Sector público Institucional,7
+2026-11,categoria,Universidades,1
+2026-11,perfil_especifico,Entidades Locales,3
+2026-11,perfil_especifico,Sector público Institucional,4
+2026-11,perfil_especifico,registro,239
+2026-12,categoria,Administración General del Estado,2
+2026-12,categoria,Comunidades Autónomas,2
+2026-12,categoria,Empresas certificadas,50
+2026-12,categoria,Entidades Locales,5
+2026-12,categoria,Sector público Institucional,3
+2026-12,perfil_especifico,Entidades Locales,3
+2026-12,perfil_especifico,Sector público Institucional,8
+2026-12,perfil_especifico,registro,199
+2027-01,categoria,Administración General del Estado,3
+2027-01,categoria,Empresas certificadas,80
+2027-01,categoria,Entidades Locales,8
+2027-01,categoria,Sector público Institucional,4
+2027-01,perfil_especifico,Entidades Locales,2
+2027-01,perfil_especifico,registro,20
+2027-02,categoria,Administración General del Estado,1
+2027-02,categoria,Empresas certificadas,62
+2027-02,categoria,Entidades Locales,1
+2027-02,categoria,Sector público Institucional,4
+2027-02,perfil_especifico,Sector público Institucional,1
+2027-02,perfil_especifico,registro,14
+2027-03,categoria,Administración General del Estado,2
+2027-03,categoria,Empresas certificadas,67
+2027-03,categoria,Sector público Institucional,3
+2027-03,categoria,Universidades,1
+2027-03,perfil_especifico,Entidades Locales,1
+2027-03,perfil_especifico,Sector público Institucional,2
+2027-03,perfil_especifico,registro,8
+2027-04,categoria,Administración General del Estado,1
+2027-04,categoria,Empresas certificadas,84
+2027-04,categoria,Entidades Locales,2
+2027-04,perfil_especifico,Sector público Institucional,1
+2027-04,perfil_especifico,registro,12
+2027-05,categoria,Administración General del Estado,1
+2027-05,categoria,Comunidades Autónomas,1
+2027-05,categoria,Empresas certificadas,83
+2027-05,categoria,Sector público Institucional,2
+2027-05,categoria,Universidades,1
+2027-05,perfil_especifico,Sector público Institucional,1
+2027-05,perfil_especifico,registro,4
+2027-06,categoria,Administración General del Estado,1
+2027-06,categoria,Empresas certificadas,75
+2027-06,categoria,Entidades Locales,2
+2027-06,categoria,Sector público Institucional,4
+2027-06,perfil_especifico,Entidades Locales,2
+2027-06,perfil_especifico,Sector público Institucional,2
+2027-07,categoria,Administración General del Estado,3
+2027-07,categoria,Empresas certificadas,110
+2027-07,categoria,Entidades Locales,9
+2027-07,categoria,Sector público Institucional,8
+2027-07,categoria,Universidades,1
+2027-07,perfil_especifico,Entidades Locales,1
+2027-07,perfil_especifico,Sector público Institucional,2
+2027-07,perfil_especifico,registro,1
+2027-08,categoria,Empresas certificadas,73
+2027-08,categoria,Sector público Institucional,3
+2027-08,perfil_especifico,Entidades Locales,4
+2027-08,perfil_especifico,Sector público Institucional,2
+2027-09,categoria,Administración General del Estado,2
+2027-09,categoria,Empresas certificadas,77
+2027-09,categoria,Sector público Institucional,2
+2027-09,perfil_especifico,Entidades Locales,3
+2027-10,categoria,Empresas certificadas,85
+2027-10,categoria,Entidades Locales,1
+2027-10,categoria,Sector público Institucional,5
+2027-10,perfil_especifico,Comunidades Autónomas,1
+2027-10,perfil_especifico,Entidades Locales,9
+2027-10,perfil_especifico,Sector público Institucional,1
+2027-11,categoria,Administración General del Estado,2
+2027-11,categoria,Comunidades Autónomas,2
+2027-11,categoria,Empresas certificadas,113
+2027-11,categoria,Entidades Locales,6
+2027-11,categoria,Sector público Institucional,3
+2027-11,perfil_especifico,Entidades Locales,6
+2027-12,categoria,Administración General del Estado,1
+2027-12,categoria,Comunidades Autónomas,8
+2027-12,categoria,Empresas certificadas,129
+2027-12,categoria,Entidades Locales,3
+2027-12,categoria,Sector público Institucional,9
+2027-12,categoria,Universidades,1
+2027-12,perfil_especifico,Entidades Locales,2
+2027-12,perfil_especifico,Sector público Institucional,3
+2028-01,categoria,Administración General del Estado,1
+2028-01,categoria,Comunidades Autónomas,13
+2028-01,categoria,Empresas certificadas,122
+2028-01,categoria,Sector público Institucional,5
+2028-01,categoria,Universidades,1
+2028-01,perfil_especifico,Entidades Locales,8
+2028-01,perfil_especifico,Sector público Institucional,3
+2028-02,categoria,Administración General del Estado,2
+2028-02,categoria,Comunidades Autónomas,1
+2028-02,categoria,Empresas certificadas,112
+2028-02,categoria,Entidades Locales,3
+2028-02,categoria,Sector público Institucional,6
+2028-02,perfil_especifico,Entidades Locales,7
+2028-02,perfil_especifico,Sector público Institucional,1
+2028-03,categoria,Comunidades Autónomas,2
+2028-03,categoria,Empresas certificadas,151
+2028-03,categoria,Sector público Institucional,4
+2028-04,categoria,Administración General del Estado,1
+2028-04,categoria,Comunidades Autónomas,2
+2028-04,categoria,Empresas certificadas,196
+2028-04,categoria,Entidades Locales,6
+2028-04,categoria,Sector público Institucional,14
+2028-05,categoria,Administración General del Estado,1
+2028-05,categoria,Empresas certificadas,181
+2028-05,categoria,Entidades Locales,3
+2028-05,categoria,Sector público Institucional,10
+2028-05,perfil_especifico,Sector público Institucional,1
+2028-06,categoria,Administración General del Estado,1
+2028-06,categoria,Comunidades Autónomas,2
+2028-06,categoria,Empresas certificadas,169
+2028-06,categoria,Entidades Locales,8
+2028-06,categoria,Sector público Institucional,10
+2028-06,categoria,Universidades,4
+2028-06,perfil_especifico,Comunidades Autónomas,3
+2028-06,perfil_especifico,Entidades Locales,10
+2028-07,categoria,Administración General del Estado,1
+2028-07,categoria,Comunidades Autónomas,34
+2028-07,categoria,Empresas certificadas,233
+2028-07,categoria,Entidades Locales,3
+2028-07,categoria,Sector público Institucional,8
+2028-07,categoria,Universidades,2
+2028-07,perfil_especifico,Entidades Locales,7
+2028-07,perfil_especifico,Sector público Institucional,1
+2028-08,categoria,Administración General del Estado,1
+2028-08,categoria,Comunidades Autónomas,1
+2028-08,categoria,Empresas certificadas,124
+2028-08,categoria,Entidades Locales,5
+2028-08,categoria,Sector público Institucional,3
+2028-08,perfil_especifico,Comunidades Autónomas,2
+2028-08,perfil_especifico,Entidades Locales,4
+2028-08,perfil_especifico,Sector público Institucional,1
+2028-09,categoria,Comunidades Autónomas,1
+2028-09,categoria,Empresas certificadas,110
+2028-09,categoria,Sector público Institucional,4
+2028-09,perfil_especifico,Comunidades Autónomas,1
+2028-09,perfil_especifico,Entidades Locales,9
+2028-10,categoria,Administración General del Estado,2
+2028-10,categoria,Empresas certificadas,16
+2028-10,perfil_especifico,Entidades Locales,3
+2028-11,categoria,Empresas certificadas,1

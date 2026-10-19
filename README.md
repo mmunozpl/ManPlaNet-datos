@@ -40,6 +40,8 @@ kept) the script:
 ├── deepseek-kv/      # global KV cache per token across four DeepSeek generations, from their configs
 ├── euvd-kev/         # the two lists of exploited vulnerabilities, CISA's KEV and ENISA's EUVD, entry by entry
 ├── netscaler/        # NetScaler ADC and Gateway in the KEV: CVE publication, addition, EU KEV and Shadowserver honeypots
+├── ens-certificados/ # the CCN's register of ENS certificates: categories, certification bodies, scopes and expiries, no names
+├── aepd-correctivos/ # 780 AEPD decisions from 2024 to 2026: outcome, amount, reduction and articles, no names
 ├── guardarrailes/    # typed decision models as guardrails: the option-channel attack and the wave on Hugging Face
 ├── videovigilancia/  # facial recognition and video analytics in the video-surveillance specifications of the Public Sector Procurement Platform
 ├── hf-activos/       # total and per-token active parameters of the Hub's 100 trending models, tensor by tensor
@@ -93,6 +95,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [Why 4-bit compression breaks an exact symmetry of networks: a 92.26-point drop between two copies of the same model](https://manpla.net/en/posts/quantisation-breaks-gauge-equivalence/) | `gauge-cuantizacion/generar.py` · `extraer_fila.py` | `gauge-cuantizacion/orbita-ortogonal.csv`, `por-cabeza.csv`, `cola-gl.csv`, `cota-producto.csv`, `contraste-e2e.csv`, `escala-ocho-modelos.csv`, `ley-frontera-diagonal.csv`, `resumen.json` · `fila-w_o-pythia.csv` |
 | article in preparation | `euvd-kev/generar.py` | `euvd-kev/resumen.json`, `eu-kev.csv`, `ventanas-kev.csv`, `antiguedad-kev.csv`, `altas-mensuales.csv` |
 | [When the notice comes after the attack: NetScaler, and what to do with an appliance that was already exposed](https://manpla.net/en/posts/the-notice-comes-after/) | `netscaler/generar.py` | `netscaler/altas.csv`, `por-anio.csv`, `informes-ajenos.csv`, `resumen.json` |
+| [Certify first, correct later: the National Security Framework and the AEPD's powers, read in their public registers](https://manpla.net/en/posts/certify-first-correct-later/) | `ens-certificados/generar.py` · `aepd-correctivos/generar.py` | `ens-certificados/salidas/certificados.csv`, `certificadoras.csv`, `vencimientos_mensuales.csv`, `resumen.csv` · `aepd-correctivos/salidas/resoluciones.csv`, `desenlaces_anuales.csv`, `importes_anuales.csv`, `serie_tipos.csv` |
 | [When technical capability gets ahead of authorisation: AI guardrails and video-surveillance tender specifications](https://manpla.net/en/posts/who-decides-what-gets-through/) | `guardarrailes/generar.py` (GPU) · `ola.py` · `videovigilancia/generar.py` · `lista_rostros.py` | `guardarrailes/resumen_condiciones.csv`, `resumen_barrido.csv`, `validacion.csv`, `items_condiciones.csv.gz`, `ola_semanal.csv` · `videovigilancia/salidas/licitaciones_videovigilancia.csv`, `conteos_capacidad_nivel.csv`, `facial_contra_lista.csv` |
 | [Looking is already processing: exploratory analysis as the first legal obligation and the first source of errors](https://manpla.net/en/posts/looking-is-already-processing/) | none: downloaded from UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Currency of the BOE legal codes](https://manpla.net/en/temas/boe-legal-codes-currency/) | the live page's own, daily | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
@@ -119,6 +122,8 @@ python rag-sintetico/generar.py      # deterministic: seed 20260825; in-memory i
 python deepseek-kv/generar.py        # downloads four public config.json files from Hugging Face
 python euvd-kev/generar.py           # the KEV JSON and the EUVD's public API; about two minutes
 python netscaler/generar.py          # the KEV, NVD API 2.0 and the EUVD API; about three minutes because of the NVD rate limit
+python ens-certificados/generar.py   # the four listings of the CCN's governance portal; seconds
+python aepd-correctivos/generar.py   # 780 AEPD PDFs, one every two seconds, cached outside the repository; half an hour the first time
 python guardarrailes/ola.py          # the Hugging Face models API; seconds
 python guardarrailes/generar.py      # needs an NVIDIA GPU and requirements-gpu.txt; about four hours on an RTX 5090
 python videovigilancia/generar.py    # 37 files from the Procurement Platform (about 6 GB) and the specifications at one request per second; several hours
@@ -156,6 +161,8 @@ nothing has to be downloaded and no account is needed) or locally with
 - [`deepseek-kv/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=deepseek-kv%2Freproducir.ipynb)
 - [`euvd-kev/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=euvd-kev%2Freproducir.ipynb)
 - [`netscaler/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=netscaler%2Freproducir.ipynb)
+- [`ens-certificados/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=ens-certificados%2Freproducir.ipynb)
+- [`aepd-correctivos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=aepd-correctivos%2Freproducir.ipynb)
 - [`guardarrailes/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=guardarrailes%2Freproducir.ipynb)
 - [`videovigilancia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=videovigilancia%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)

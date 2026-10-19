@@ -7,8 +7,10 @@
   },
   "cuadernos": {
     "adult": "386da3e449f1cc88",
+    "aepd-correctivos": "2e4656207ea05fc1",
     "agi-tendencias": "f4471c395d2482d0",
     "deepseek-kv": "cd7b1155b4381617",
+    "ens-certificados": "ca39ca23c8f26af5",
     "euvd-kev": "f247dea1a94f4b45",
     "evaluador-bucle": "e83577f34720ccc3",
     "gauge-cuantizacion": "68d92bc585711f98",
@@ -20,6 +22,7 @@
     "netscaler": "47cc21ace38b3d70",
     "nvd-fichas": "ddd5de938da1fb06",
     "parque-instalado": "8401e375fc461a00",
+    "polars-duckdb": "de06ce3db4139c80",
     "rag-sintetico": "2fd58b950fa448cb",
     "rsi-survey": "84b27de104ee4338",
     "sigma": "dac40b417667a55c",

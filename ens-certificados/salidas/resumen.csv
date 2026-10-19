@@ -1,0 +1,23 @@
+listado,categoria,tipo,certificados,entidades
+categoria,ALTA,Administración General del Estado,11,9
+categoria,ALTA,Comunidades Autónomas,10,6
+categoria,ALTA,Empresas certificadas,976,888
+categoria,ALTA,Entidades Locales,1,1
+categoria,ALTA,Sector público Institucional,26,25
+categoria,BÁSICA,Administración General del Estado,2,2
+categoria,BÁSICA,Comunidades Autónomas,1,1
+categoria,BÁSICA,Empresas certificadas,43,42
+categoria,BÁSICA,Entidades Locales,19,19
+categoria,BÁSICA,Sector público Institucional,9,9
+categoria,MEDIA,Administración General del Estado,17,17
+categoria,MEDIA,Comunidades Autónomas,63,11
+categoria,MEDIA,Empresas certificadas,1638,1583
+categoria,MEDIA,Entidades Locales,48,48
+categoria,MEDIA,Sector público Institucional,91,89
+categoria,MEDIA,Universidades,12,12
+perfil_especifico,BÁSICA,Administración General del Estado,3,2
+perfil_especifico,BÁSICA,Comunidades Autónomas,7,1
+perfil_especifico,BÁSICA,Entidades Locales,102,91
+perfil_especifico,BÁSICA,Sector público Institucional,39,38
+perfil_especifico,BÁSICA,registro,840,839
+perfil_especifico,MEDIA,Sector público Institucional,1,1

@@ -1,0 +1,781 @@
+expediente,tipo,anio_expediente,anio_firma,fecha_firma,fecha_publicacion,cabecera,desenlace,multa_inicial,importe_final,reduccion_pct,ordena_medidas,clase_responsable,regimen_art77,articulos,leyes
+PS-00627-2025,Procedimiento Sancionador (PS),2025,2026,2026-08-14,2026-09-21,terminacion_art85,terminacion_reducida,8000.0,6400.0,20,0,sociedad,0,5.1.d) RGPD,RGPD
+PS-00498-2025,Procedimiento Sancionador (PS),2025,2026,2026-08-07,2026-09-23,sancionador,multa,2000.0,2000.0,0,1,sociedad,0,13 RGPD;5.1.c) RGPD,RGPD
+PS-00458-2024,Procedimiento Sancionador (PS),2024,2026,2026-08-07,2026-09-14,sancionador,archivo,,,,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00035-2026,Procedimiento Sancionador (PS),2026,2026,2026-07-31,2026-09-22,terminacion_art85,terminacion_reducida,50000.0,30000.0,40,0,sociedad,0,32 RGPD;5.1.f) RGPD;5.2 RGPD,RGPD
+PS-00564-2025,Procedimiento Sancionador (PS),2025,2026,2026-07-23,2026-09-28,sancionador,archivo,,,,0,sociedad,0,6.1 RGPD,RGPD
+PS-00521-2025,Procedimiento Sancionador (PS),2025,2026,2026-07-23,2026-09-28,sancionador,declaracion_infraccion,,,,0,entidad_extranjera,1,5.1.c) RGPD,RGPD
+PA-00004-2026,Procedimiento de Apercibimiento (PA),2026,2026,2026-07-23,2026-09-18,apercibimiento,apercibimiento,,,,1,sociedad,0,6.1 RGPD,RGPD
+PS-00058-2026,Procedimiento Sancionador (PS),2026,2026,2026-07-23,2026-09-23,sancionador,archivo,,,,0,sociedad,0,6 RGPD,RGPD
+PS-00053-2025,Procedimiento Sancionador (PS),2025,2026,2026-07-06,2026-09-28,archivo,archivo,,,,0,sociedad,0,13 RGPD,RGPD
+PS-00043-2026,Procedimiento Sancionador (PS),2026,2026,2026-07-06,2026-08-17,sancionador,multa,3000.0,3000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00506-2025,Procedimiento Sancionador (PS),2025,2026,2026-07-06,2026-08-25,sancionador,declaracion_infraccion,,,,0,administracion_local,1,5.1.f) RGPD,RGPD
+PS-00035-2025,Procedimiento Sancionador (PS),2025,2026,2026-07-06,2026-08-28,terminacion_art85,terminacion_reducida,200.0,160.0,20,0,persona_fisica,0,5.1.f) RGPD,RGPD
+PS-00038-2026,Procedimiento Sancionador (PS),2026,2026,2026-07-06,2026-09-04,sancionador,declaracion_infraccion,,,,1,administracion_estado_ccaa,1,32 RGPD,RGPD
+PA-00005-2026,Procedimiento de Apercibimiento (PA),2026,2026,2026-06-22,2026-08-18,apercibimiento,apercibimiento,,,,0,asociacion_fundacion,0,6.1 RGPD,RGPD
+PS-00254-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-22,2026-08-27,sancionador,declaracion_infraccion,,,,0,administracion_local,1,5.1.c) RGPD,RGPD
+PS-00299-2024,Procedimiento Sancionador (PS),2024,2026,2026-06-22,2026-09-07,sancionador,declaracion_infraccion,,,,1,publica_por_nombre,1,5.1.f) RGPD,RGPD
+PS-00087-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-22,2026-09-14,sancionador,multa,1000.0,1000.0,0,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00083-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-22,2026-10-08,sancionador,declaracion_infraccion,,,,1,organismo_publico,1,28 RGPD,RGPD
+PS-00505-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-17,2026-10-08,sancionador,declaracion_infraccion,,,,1,organismo_publico,1,32 RGPD;35 RGPD,RGPD
+PS-00223-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-16,2026-10-08,sancionador,multa,5000.0,5000.0,0,1,otra_entidad,0,6.1 RGPD,RGPD
+PS-00027-2026,Procedimiento Sancionador (PS),2026,2026,2026-06-15,2026-09-18,terminacion_art85,terminacion_reducida,20000.0,12000.0,40,0,sociedad,0,25 RGPD,RGPD
+PS-00464-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-15,2026-09-21,archivo,terminacion_reducida,160000.0,128000.0,20,1,sociedad,0,14 RGPD;6.1 RGPD,RGPD
+PS-00637-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-15,2026-08-20,sancionador,multa,4000.0,4000.0,0,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00440-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-15,2026-08-27,terminacion_art85,terminacion_reducida,4000.0,2400.0,40,1,sociedad,0,13 RGPD;5 RGPD;5.1.c) RGPD,RGPD
+PS-00028-2026,Procedimiento Sancionador (PS),2026,2026,2026-06-15,2026-09-14,terminacion_art85,terminacion_reducida,8000.0,4800.0,40,1,organismo_publico,0,5.1.f) RGPD,RGPD
+PS-00031-2026,Procedimiento Sancionador (PS),2026,2026,2026-06-15,2026-10-07,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00234-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-09,2026-09-18,sancionador,archivo,,,,0,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00530-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-09,2026-08-19,sancionador,multa,6000.0,6000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00538-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-09,2026-08-19,sancionador,multa,2000.0,2000.0,0,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00413-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-09,2026-08-20,sancionador,archivo,,,,0,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00364-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-09,2026-09-04,sancionador,archivo,,,,0,sociedad,0,6.1 RGPD,RGPD
+PS-00482-2024,Procedimiento Sancionador (PS),2024,2026,2026-06-09,2026-09-07,sancionador,archivo,,,,0,sociedad,0,6.1 RGPD,RGPD
+PS-00472-2024,Procedimiento Sancionador (PS),2024,2026,2026-06-09,2026-09-14,sancionador,multa,2000.0,2000.0,0,1,sociedad,0,6.1 RGPD,RGPD
+PS-00258-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-05,2026-09-16,sancionador,archivo,,,,0,sociedad,0,28 RGPD;32 RGPD;5.1.f) RGPD,RGPD
+PS-00194-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-05,2026-09-17,sancionador,multa,400000.0,400000.0,0,0,sociedad,0,32 RGPD,RGPD
+PA-00010-2026,Procedimiento de Apercibimiento (PA),2026,2026,2026-06-05,2026-09-18,apercibimiento,apercibimiento,,,,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00500-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-05,2026-08-17,sancionador,multa,10000.0,10000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00248-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-05,2026-09-11,sancionador,multa,500000.0,500000.0,0,0,sociedad,0,32 RGPD,RGPD
+PS-00253-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-05,2026-09-11,sancionador,multa,400000.0,400000.0,0,0,sociedad,0,28 RGPD;32 RGPD,RGPD
+PS-00481-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-05,2026-10-08,sancionador,multa,300.0,300.0,0,1,persona_fisica,0,58.1 RGPD,RGPD
+PS-00477-2025,Procedimiento Sancionador (PS),2025,2026,2026-06-03,2026-09-11,sancionador,declaracion_infraccion,,,,1,administracion_estado_ccaa,1,58.f) LO 7/2021;59.l) LO 7/2021,7/2021
+PS-00619-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-29,2026-09-17,sancionador,multa,7000.0,7000.0,0,1,sociedad,0,6.1 RGPD,RGPD
+PS-00256-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-29,2026-09-01,sancionador,multa,2000.0,2000.0,0,1,persona_fisica,0,6.1 RGPD,RGPD
+PS-00028-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-29,2026-09-10,terminacion_art85,terminacion_reducida,510000.0,408000.0,20,1,sociedad,0,30 RGPD,RGPD
+PS-00049-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-25,2026-08-25,sancionador,multa,1000.0,1000.0,0,0,persona_fisica,0,5.1.f) RGPD;9 RGPD,RGPD
+PA-00073-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-05-21,2026-06-18,apercibimiento,apercibimiento,,,,1,otra_entidad,0,5.1.f) RGPD,RGPD
+PA-00061-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-05-21,2026-08-17,apercibimiento,apercibimiento,,,,0,sociedad,0,6.1 RGPD,RGPD
+PA-00003-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-05-21,2026-08-17,apercibimiento,apercibimiento,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00571-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-21,2026-09-02,terminacion_art85,terminacion_reducida,20000.0,16000.0,20,0,sociedad,0,5.1 RGPD;5.1.b) RGPD;64.3 LOPDGDD,LOPDGDD;RGPD
+PS-00230-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-21,2026-09-02,sancionador,archivo,,,,0,persona_fisica,0,6.1.a) RGPD,RGPD
+PS-00562-2024,Procedimiento Sancionador (PS),2024,2026,2026-05-21,2026-09-03,sancionador,archivo,,,,0,entidad_extranjera,0,5.1.f) RGPD,RGPD
+PS-00321-2022,Procedimiento Sancionador (PS),2022,2026,2026-05-19,2026-08-24,archivo,archivo,,,,0,publica_por_nombre,0,32 RGPD,RGPD
+PS-00242-2022,Procedimiento Sancionador (PS),2022,2026,2026-05-19,2026-08-03,archivo,archivo,,,,0,sociedad,0,58.2 RGPD,RGPD
+PS-00310-2024,Procedimiento Sancionador (PS),2024,2026,2026-05-10,2026-08-07,sancionador,declaracion_infraccion,,,,1,administracion_local,1,5.1.f) RGPD,RGPD
+PS-00321-2023,Procedimiento Sancionador (PS),2023,2026,2026-05-10,2026-07-29,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00379-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-07-29,sancionador,declaracion_infraccion,,,,0,organismo_publico,1,58.1 RGPD,RGPD
+PS-00322-2023,Procedimiento Sancionador (PS),2023,2026,2026-05-10,2026-07-29,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00029-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-07-30,sancionador,archivo,,,,0,sociedad,0,66.1.b) LGT,LGT
+PS-00323-2023,Procedimiento Sancionador (PS),2023,2026,2026-05-10,2026-07-21,sancionador,archivo,,,,0,persona_fisica,0,6 RGPD,RGPD
+PS-00390-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-07-23,sancionador,declaracion_infraccion,,,,0,organismo_publico,1,58.1 RGPD,RGPD
+PS-00540-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-07-28,sancionador,multa,430000.0,430000.0,0,1,sociedad,0,13 RGPD;32 RGPD,RGPD
+PS-00499-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-07-23,sancionador,multa,600.0,600.0,0,1,otra_entidad,0,58.1 RGPD,RGPD
+PS-00006-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-07-24,terminacion_art85,terminacion_reducida,5000.0,4000.0,20,1,sociedad,0,32 RGPD,RGPD
+PS-00148-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-08-10,sancionador,multa,200000.0,200000.0,0,1,sociedad,0,6.1 RGPD,RGPD
+PS-00179-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-08-11,sancionador,archivo,,,,0,sociedad,0,50 LOPDGDD;6.1 RGPD,LOPDGDD;RGPD
+PA-00006-2026,Procedimiento de Apercibimiento (PA),2026,2026,2026-05-10,2026-08-13,apercibimiento,apercibimiento,,,,0,persona_fisica,0,13 RGPD,RGPD
+PA-00003-2026,Procedimiento de Apercibimiento (PA),2026,2026,2026-05-10,2026-08-17,apercibimiento,apercibimiento,,,,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PA-00077-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-05-10,2026-08-17,apercibimiento,apercibimiento,,,,1,sociedad,0,15 RGPD,RGPD
+PS-00240-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-08-18,archivo,multa,750000.0,750000.0,0,0,sociedad,0,28 RGPD;32 RGPD;5.1.f) RGPD,RGPD
+PS-00020-2026,Procedimiento Sancionador (PS),2026,2026,2026-05-10,2026-08-19,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,1,sociedad,0,58.1 RGPD,RGPD
+PS-00156-2019,Procedimiento Sancionador (PS),2019,2026,2026-05-10,2026-09-02,sancionador,archivo,,,,0,sociedad,0,28.10 RGPD,RGPD
+PS-00287-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-09-09,sancionador,declaracion_infraccion,,,,0,organismo_publico,1,5.1.c) RGPD,RGPD
+PS-00319-2023,Procedimiento Sancionador (PS),2023,2026,2026-05-10,2026-07-31,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00320-2023,Procedimiento Sancionador (PS),2023,2026,2026-05-10,2026-07-31,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00228-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-08-03,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,5.1.f) RGPD,RGPD
+PS-00304-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-08-03,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,0,sociedad,0,13 RGPD,RGPD
+PS-00578-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-10,2026-08-04,terminacion_art85,declaracion_infraccion,,,,0,organismo_publico,1,5.1.f) RGPD;5.2 RGPD,RGPD
+PA-00047-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-05-10,2026-08-05,apercibimiento,apercibimiento,,,,0,sociedad,0,13 RGPD;6.1 RGPD,RGPD
+PA-00045-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-05-05,2026-07-09,apercibimiento,apercibimiento,,,,0,sin_dato,0,5.1.b) RGPD,RGPD
+PS-00008-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-05,2026-08-19,sancionador,multa,60000.0,60000.0,0,0,sociedad,0,58.2 RGPD,RGPD
+PS-00339-2024,Procedimiento Sancionador (PS),2024,2026,2026-05-05,2026-09-16,sancionador,multa,100000.0,100000.0,0,1,organismo_publico,0,5.1.c) RGPD,RGPD
+PS-00487-2025,Procedimiento Sancionador (PS),2025,2026,2026-05-05,2026-08-03,sancionador,archivo,,,,0,sin_dato,0,5.1.c) RGPD;50 LOPDGDD,LOPDGDD;RGPD
+PS-00159-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-29,2026-07-09,terminacion_art85,terminacion_reducida,150000.0,90000.0,40,1,sociedad,0,15 RGPD;18 RGPD,RGPD
+PS-00410-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-29,2026-08-04,sancionador,terminacion_reducida,70000.0,56000.0,20,0,sociedad,0,6.1 RGPD,RGPD
+PS-00008-2026,Procedimiento Sancionador (PS),2026,2026,2026-04-29,2026-08-04,terminacion_art85,terminacion_reducida,125000.0,75000.0,40,1,sociedad,0,33 RGPD;5.1 RGPD;5.1.f) RGPD;5.2 RGPD,RGPD
+PS-00278-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-04-30,sancionador,multa,6000.0,6000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00643-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-05-04,terminacion_art85,terminacion_reducida,3000.0,1800.0,40,0,sociedad,0,58.1 RGPD,RGPD
+PS-00615-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-05-04,sancionador,multa,4000.0,4000.0,0,1,sociedad,0,13 RGPD;6 RGPD,RGPD
+PS-00297-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-05-04,sancionador,declaracion_infraccion,,,,1,organismo_publico,1,58.2 RGPD,RGPD
+PS-00365-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-05-04,sancionador,multa,600.0,600.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00354-2024,Procedimiento Sancionador (PS),2024,2026,2026-04-28,2026-05-04,sancionador,archivo,,,,0,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00598-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-05-11,terminacion_art85,terminacion_reducida,400.0,240.0,40,1,otra_entidad,0,13 RGPD;5.1.c) RGPD,RGPD
+PA-00054-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-04-28,2026-05-12,apercibimiento,apercibimiento,,,,1,sociedad,0,13 RGPD,RGPD
+PS-00005-2026,Procedimiento Sancionador (PS),2026,2026,2026-04-28,2026-08-07,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,22.2 LSSI,LSSI
+PS-00153-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-28,sancionador,multa,6000.0,6000.0,0,1,persona_fisica,0,6 RGPD,RGPD
+PA-00071-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-04-28,2026-07-28,apercibimiento,apercibimiento,,,,0,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00352-2024,Procedimiento Sancionador (PS),2024,2026,2026-04-28,2026-05-26,sancionador,multa,500.0,500.0,0,1,persona_fisica,0,6.1 RGPD,RGPD
+PS-00252-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-06-03,sancionador,multa,450.0,450.0,0,1,sociedad,0,58.2 RGPD,RGPD
+PS-00104-2024,Procedimiento Sancionador (PS),2024,2026,2026-04-28,2026-06-03,archivo,archivo,,,,0,sociedad,0,,
+PS-00003-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-06-18,sancionador,multa,5000.0,5000.0,0,1,sociedad,0,17 RGPD,RGPD
+PS-00279-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-06-19,sancionador,multa,900.0,900.0,0,1,sociedad,0,58.2 RGPD,RGPD
+PS-00340-2024,Procedimiento Sancionador (PS),2024,2026,2026-04-28,2026-06-19,archivo,archivo,,,,0,sin_dato,0,25 RGPD;6.1 RGPD,RGPD
+PS-00263-2024,Procedimiento Sancionador (PS),2024,2026,2026-04-28,2026-06-26,archivo,archivo,,,,0,sociedad,0,,
+PS-00620-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-02,terminacion_art85,terminacion_reducida,4000.0,3200.0,20,0,persona_fisica,0,18 LSSI;21.1 LSSI;21.2 LSSI,LSSI
+PS-00330-2024,Procedimiento Sancionador (PS),2024,2026,2026-04-28,2026-07-02,archivo,archivo,,,,0,organismo_publico,0,5.1.f) RGPD,RGPD
+PS-00227-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-07,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,5.1.f) RGPD,RGPD
+PS-00214-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-09,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,5.1.f) RGPD,RGPD
+PS-00639-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-10,sancionador,archivo,,,,0,sociedad,0,21.1 LSSI,LSSI
+PS-00238-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-10,sancionador,terminacion_reducida,4000.0,3200.0,20,1,persona_fisica,0,13 RGPD;58.2 RGPD;6 RGPD;6.1 RGPD,RGPD
+PA-00002-2026,Procedimiento de Apercibimiento (PA),2026,2026,2026-04-28,2026-07-10,apercibimiento,archivo,,,,0,sociedad,0,5.1.d) RGPD,RGPD
+PS-00009-2026,Procedimiento Sancionador (PS),2026,2026,2026-04-28,2026-07-15,terminacion_art85,terminacion_reducida,30000.0,18000.0,40,0,sociedad,0,32 RGPD;5.1.f) RGPD;5.2 RGPD,RGPD
+PA-00007-2026,Procedimiento de Apercibimiento (PA),2026,2026,2026-04-28,2026-07-17,apercibimiento,apercibimiento,,,,1,persona_fisica,0,15 RGPD,RGPD
+PA-00055-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-04-28,2026-07-17,apercibimiento,apercibimiento,,,,0,asociacion_fundacion,0,5.1.f) RGPD,RGPD
+PS-00072-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-20,sancionador,archivo,,,,0,persona_fisica,0,50 LOPDGDD;6 RGPD;6.1 RGPD,LOPDGDD;RGPD
+PS-00355-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-21,sancionador,multa,20000.0,20000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00280-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-21,sancionador,terminacion_reducida,2000.0,1600.0,20,0,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00302-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-24,sancionador,multa,10000.0,10000.0,0,1,otra_entidad,0,58.1 RGPD,RGPD
+PS-00442-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-24,sancionador,multa,600.0,600.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00249-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-07-31,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,14 RGPD;66.1.b) LGT,LGT;RGPD
+PS-00147-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-28,2026-08-05,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,25 RGPD;35 RGPD,RGPD
+PS-00466-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-27,2026-07-24,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,sociedad,0,15 RGPD,RGPD
+PS-00259-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-22,2026-05-05,sancionador,multa,6000.0,6000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00613-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-22,2026-05-18,terminacion_art85,terminacion_reducida,500000.0,300000.0,40,1,sociedad,0,5.1 RGPD;5.1.f) RGPD,RGPD
+PA-00025-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-04-22,2026-07-02,apercibimiento,apercibimiento,,,,1,sociedad,0,13 RGPD,RGPD
+PA-00015-2024,Procedimiento de Apercibimiento (PA),2024,2026,2026-04-22,2026-07-16,apercibimiento,apercibimiento,,,,0,sociedad,0,14 RGPD,RGPD
+PS-00119-2025-revocacion,Procedimiento Sancionador (PS),2025,2026,2026-03-21,2026-06-15,revocacion,revocacion,,,,0,persona_fisica,0,,
+PS-00132-2025-revocacion,Procedimiento Sancionador (PS),2025,2026,2026-03-21,2026-06-15,revocacion,revocacion,,,,0,persona_fisica,0,,
+PS-00086-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-21,2026-06-11,sancionador,multa,30000.0,30000.0,0,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00166-2024,Procedimiento Sancionador (PS),2024,2026,2026-04-08,2026-07-09,sancionador,declaracion_infraccion,,,,1,organismo_publico,1,5.1.c) RGPD,RGPD
+PS-00005-2025,Procedimiento Sancionador (PS),2025,2026,2026-04-07,2026-05-26,terminacion_art85,terminacion_reducida,18000000.0,14400000.0,20,0,sociedad,0,14 RGPD;6 RGPD,RGPD
+PS-00274-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-27,2026-06-19,sancionador,archivo,,,,0,persona_fisica,0,6 RGPD,RGPD
+PS-00512-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-21,2026-05-07,terminacion_art85,terminacion_reducida,25000.0,15000.0,40,0,persona_fisica,0,17 RGPD;5.1.d) RGPD,RGPD
+PA-00065-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-03-21,2026-05-19,apercibimiento,apercibimiento,,,,0,sociedad,0,7 RGPD,RGPD
+PS-00304-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-21,2026-06-26,sancionador,multa,20000.0,20000.0,0,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00174-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-21,2026-06-29,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,5.1.c) RGPD,RGPD
+PS-00247-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-21,2026-06-29,sancionador,multa,76800.0,76800.0,0,0,sociedad,0,58.1 RGPD,RGPD
+PS-00089-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-21,2026-07-01,sancionador,multa,20000.0,20000.0,0,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00038-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-21,2026-07-01,sancionador,multa,6000.0,6000.0,0,1,sociedad,0,17 RGPD,RGPD
+PS-00409-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-21,2026-07-01,sancionador,multa,1500.0,1500.0,0,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00192-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-21,2026-07-02,sancionador,multa,700.0,700.0,0,0,sociedad,0,13 RGPD;5.1.c) RGPD;9 RGPD,RGPD
+PS-00511-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-20,2026-05-25,terminacion_art85,terminacion_reducida,250000.0,150000.0,40,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00560-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-13,2026-04-20,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,persona_fisica,0,12 RGPD;12.5 RGPD;77 RGPD,RGPD
+PA-00040-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-03-13,2026-04-27,apercibimiento,apercibimiento,,,,1,persona_fisica,0,5 RGPD;64 LOPDGDD,LOPDGDD;RGPD
+PS-00085-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-13,2026-05-18,terminacion_art85,terminacion_reducida,20000.0,16000.0,20,1,sociedad,0,5.1.c) RGPD;5.2 RGPD,RGPD
+PS-00332-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-13,2026-05-19,sancionador,multa,1000.0,1000.0,0,1,sin_dato,0,5.1.f) RGPD,RGPD
+PA-00039-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-03-13,2026-05-19,apercibimiento,apercibimiento,,,,1,persona_fisica,0,6 RGPD,RGPD
+PS-00547-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-13,2026-05-19,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,1,persona_fisica,0,6 RGPD;6.1 RGPD,RGPD
+PS-00161-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-13,2026-06-04,sancionador,multa,20000.0,20000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00542-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-13,2026-07-01,sancionador,multa,10000.0,10000.0,0,1,persona_fisica,0,6.1 RGPD,RGPD
+PS-00020-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-13,2026-07-01,terminacion_art85,terminacion_reducida,250000.0,200000.0,20,1,sociedad,0,32 RGPD;35 RGPD;5.1 RGPD;5.1.f) RGPD;5.2 RGPD,RGPD
+PS-00037-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-13,2026-07-02,terminacion_art85,terminacion_reducida,50000.0,40000.0,20,0,sociedad,0,35 RGPD;4 RGPD;5.1.c) RGPD;76.2 LOPD;9 RGPD,LOPD;RGPD
+PA-00038-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-03-13,2026-04-10,apercibimiento,archivo,,,,0,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00211-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-13,2026-03-18,sancionador,multa,600.0,600.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00104-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-13,2026-03-24,sancionador,multa,450.0,450.0,0,1,persona_fisica,0,58.2 RGPD,RGPD
+PS-00264-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-13,2026-04-20,terminacion_art85,terminacion_reducida,30000.0,18000.0,40,0,sociedad,0,13 RGPD;5.2 RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00126-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00120-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,sin_dato,0,6.1 RGPD,RGPD
+PS-00127-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00121-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00128-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00129-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00122-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00131-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,sin_dato,0,6.1 RGPD,RGPD
+PS-00130-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00123-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00124-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00125-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,sin_dato,0,6.1 RGPD,RGPD
+PS-00133-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-12,2026-06-15,sancionador,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00437-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-11,2026-06-01,sancionador,multa,650000.0,650000.0,0,1,sociedad,0,34 RGPD;5.1.f) RGPD,RGPD
+PS-00101-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-11,2026-06-17,sancionador,multa,1050000.0,1050000.0,0,1,sociedad,0,32 RGPD;6.1 RGPD,RGPD
+PS-00488-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-10,2026-04-17,terminacion_art85,terminacion_reducida,7500.0,6000.0,20,0,sociedad,0,5.1 RGPD;5.1.c) RGPD,RGPD
+PS-00332-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-04,2026-04-22,sancionador,multa,1000.0,1000.0,0,0,persona_fisica,0,22.2 LSSI,LSSI
+PS-00314-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-04,2026-06-11,sancionador,multa,40000.0,40000.0,0,1,persona_fisica,0,13 RGPD;32 RGPD;6.1 RGPD;9 RGPD,RGPD
+PS-00454-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-04,2026-04-14,sancionador,multa,200000.0,200000.0,0,1,sociedad,0,13 RGPD;5.1.c) RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00524-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-02,2026-03-04,sancionador,multa,2000.0,2000.0,0,1,sociedad,0,13 RGPD,RGPD
+PS-00200-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-02,2026-03-05,terminacion_art85,terminacion_reducida,1500.0,900.0,40,1,otra_entidad,0,5.1.f) RGPD,RGPD
+PA-00044-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-03-02,2026-05-05,apercibimiento,apercibimiento,,,,0,sin_dato,0,5.1.f) RGPD,RGPD
+PS-00017-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-02,2026-05-08,archivo,declaracion_infraccion,,,,1,organismo_publico,1,13 RGPD;28.3 RGPD;32 RGPD,RGPD
+PA-00050-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-03-02,2026-04-16,apercibimiento,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00294-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-02,2026-04-16,sancionador,multa,8500.0,8500.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PA-00046-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-03-02,2026-04-17,apercibimiento,apercibimiento,,,,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00163-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-02,2026-04-20,sancionador,declaracion_infraccion,,,,0,administracion_local,1,5.1.c) RGPD,RGPD
+PS-00106-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-02,2026-04-20,sancionador,declaracion_infraccion,,,,1,administracion_estado_ccaa,1,25 RGPD;5.1.c) RGPD,RGPD
+PS-00080-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-02,2026-04-21,archivo,archivo,,,,0,sociedad,0,5.1.c) RGPD,RGPD
+PA-00053-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-03-02,2026-05-18,apercibimiento,apercibimiento,,,,0,persona_fisica,0,32 RGPD,RGPD
+PS-00479-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-02,2026-06-03,sancionador,terminacion_reducida,25000.0,15000.0,40,0,sociedad,0,35 RGPD;58.2 RGPD,RGPD
+PS-00516-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-02,2026-06-30,terminacion_art85,terminacion_reducida,35000.0,21000.0,40,0,sociedad,0,35 RGPD,RGPD
+PS-00075-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-02,2026-07-01,sancionador,multa,16000.0,16000.0,0,0,entidad_extranjera,0,20 LOPDGDD;20.1 LOPDGDD;20.1.b) LOPDGDD;6.1 RGPD,LOPDGDD;RGPD
+PS-00193-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-02,2026-03-31,sancionador,archivo,,,,0,asociacion_fundacion,0,,
+PS-00191-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-02,2026-04-01,sancionador,archivo,,,,0,sociedad,0,,
+PA-00022-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-03-02,2026-04-14,apercibimiento,apercibimiento,,,,0,persona_fisica,0,13 RGPD,RGPD
+PA-00049-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-03-02,2026-04-14,apercibimiento,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PA-00034-2025,Procedimiento de Apercibimiento (PA),2025,2026,2026-03-02,2026-03-19,apercibimiento,apercibimiento,,,,0,persona_fisica,0,5.1.c) RGPD;50 LOPDGDD,LOPDGDD;RGPD
+PS-00138-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-02,2026-03-25,sancionador,declaracion_infraccion,,,,0,administracion_local,1,5.1.c) RGPD,RGPD
+PS-00607-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-01,2026-03-10,terminacion_art85,terminacion_reducida,20000.0,12000.0,40,1,sociedad,0,35 RGPD;5.1 RGPD;5.1.a) RGPD;6.1 RGPD,RGPD
+PS-00559-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-01,2026-05-05,terminacion_art85,terminacion_reducida,200000.0,120000.0,40,1,sociedad,0,5.1.f) RGPD;65 LOPDGDD,LOPDGDD;RGPD
+PS-00006-2026,Procedimiento Sancionador (PS),2026,2026,2026-03-01,2026-05-05,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,0,sociedad,0,22.2 LSSI,LSSI
+PS-00606-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-01,2026-04-16,terminacion_art85,terminacion_reducida,15000.0,9000.0,40,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00503-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-01,2026-04-16,sancionador,multa,1500.0,1500.0,0,1,sociedad,0,6.1 RGPD,RGPD
+PS-00445-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-01,2026-04-16,terminacion_art85,terminacion_reducida,50000.0,30000.0,40,1,sociedad,0,5.1 RGPD;5.1.f) RGPD,RGPD
+PS-00573-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-01,2026-04-17,terminacion_art85,terminacion_reducida,1400.0,840.0,40,0,sociedad,0,65 LOPDGDD;66 LGT;66.1.b) LGT,LGT;LOPDGDD
+PS-00552-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-01,2026-04-17,sancionador,multa,400000.0,400000.0,0,1,sociedad,0,35 RGPD;9 RGPD,RGPD
+PS-00292-2024,Procedimiento Sancionador (PS),2024,2026,2026-03-01,2026-03-16,sancionador,multa,1000.0,1000.0,0,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00472-2025,Procedimiento Sancionador (PS),2025,2026,2026-03-01,2026-03-24,terminacion_art85,terminacion_reducida,500.0,300.0,40,0,persona_fisica,0,6 RGPD;69 LOPDGDD,LOPDGDD;RGPD
+PS-00098-2025,Procedimiento Sancionador (PS),2025,2026,2026-02-23,2026-05-05,sancionador,multa,10000.0,10000.0,0,1,sociedad,0,6.1 RGPD,RGPD
+PS-00001-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,50000.0,30000.0,40,1,persona_fisica,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00003-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,90000.0,72000.0,20,0,sociedad,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00004-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,500000.0,400000.0,20,0,persona_fisica,0,24 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00005-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,110000.0,88000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00006-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,95000.0,76000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00007-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,250000.0,200000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;33.1 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00008-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,35000.0,28000.0,20,0,sociedad,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00009-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,100000.0,80000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00010-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,14845.0,11876.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00011-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,20000.0,16000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00012-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,12000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;33.1 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00013-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,12000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00014-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,12000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00015-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,12000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00016-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,12000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00017-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,12000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;33.1 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00018-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,12000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00019-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,12000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00020-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,6159.0,4927.2,20,0,sociedad,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00021-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,12000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00022-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,8000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00023-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,8000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00024-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,8000.0,20,0,otra_entidad,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00025-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,8000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00026-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,12000.0,20,0,persona_fisica,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00027-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,12000.0,20,0,otra_entidad,0,24 RGPD;28 RGPD;32 RGPD;32.1 RGPD;33 RGPD;33.1 RGPD;4 RGPD;5.1.f) RGPD,RGPD
+PS-00028-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,70000.0,42000.0,40,1,sociedad,0,5.1.c) RGPD;721.a) LOPDGDD,LOPDGDD;RGPD
+PS-00031-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,0,sociedad,0,22.2 LSSI,LSSI
+PS-00032-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,2000000.0,1200000.0,40,0,sociedad,0,5.2 RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00033-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,17 RGPD;6 RGPD,RGPD
+PS-00034-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,0,sociedad,0,6.1 RGPD,RGPD
+PS-00035-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_estado_ccaa,1,6.1.a) RGPD,RGPD
+PS-00036-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1500.0,1200.0,20,1,persona_fisica,0,13 RGPD;5.1.c) RGPD,RGPD
+PS-00037-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,50 LOPDGDD,LOPDGDD
+PS-00038-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,0,sociedad,0,21.1 LSSI,LSSI
+PS-00040-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,6000.0,40,0,sociedad,0,22.2 LSSI,LSSI
+PS-00042-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,0,otra_entidad,0,21 LSSI,LSSI
+PS-00045-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1000.0,1000.0,0,1,asociacion_fundacion,0,58.2 RGPD,RGPD
+PS-00046-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,15 RGPD;21 RGPD,RGPD
+PS-00048-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,1,sociedad,0,14 RGPD;6.1 RGPD,RGPD
+PS-00049-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,entidad_extranjera,0,50 LOPDGDD;6.1 RGPD,LOPDGDD;RGPD
+PS-00050-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,4000.0,4000.0,0,1,persona_fisica,0,13 RGPD;5.1.c) RGPD,RGPD
+PS-00051-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,4000.0,4000.0,0,1,asociacion_fundacion,0,14 RGPD;6 RGPD,RGPD
+PS-00052-2024,Procedimiento Sancionador (PS),2024,,,,archivo,declaracion_infraccion,,,,1,otra_entidad,1,13 RGPD;38 RGPD;38.6 RGPD;58 RGPD;6.1 RGPD,RGPD
+PS-00054-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,1,sociedad,0,6.1 RGPD,RGPD
+PS-00055-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,32 RGPD;5.1.c) RGPD,RGPD
+PS-00056-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,0,persona_fisica,0,5.1.f) RGPD,RGPD
+PS-00057-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,4000.0,2400.0,40,0,sociedad,0,58.1 RGPD,RGPD
+PS-00058-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,4000.0,4000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00059-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,organismo_publico,1,13 RGPD;9.1 RGPD,RGPD
+PS-00061-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,250000.0,150000.0,40,1,sociedad,0,17.1.d) RGPD;6 RGPD,RGPD
+PS-00062-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,6.1 RGPD,RGPD
+PS-00064-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,58.1 RGPD,RGPD
+PS-00066-2024,Procedimiento Sancionador (PS),2024,,,,archivo,multa,70000.0,70000.0,0,1,sociedad,0,5.1.d) RGPD,RGPD
+PS-00067-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,650000.0,650000.0,0,0,sociedad,0,5.1.c) RGPD;9 RGPD,RGPD
+PS-00068-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,0,persona_fisica,0,5.1.f) RGPD,RGPD
+PS-00069-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,600.0,600.0,0,0,persona_fisica,0,13 RGPD,RGPD
+PS-00070-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,300.0,180.0,40,0,persona_fisica,0,21 LSSI,LSSI
+PS-00071-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,32 RGPD;5.1.f) RGPD,RGPD
+PS-00072-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,13 RGPD;37 RGPD;6.1 RGPD;7 RGPD,RGPD
+PS-00073-2024,Procedimiento Sancionador (PS),2024,,,,archivo,archivo,,,,0,publica_por_nombre,0,,
+PS-00074-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,35 RGPD;38 RGPD;9 RGPD,RGPD
+PS-00075-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,persona_fisica,0,13 RGPD,RGPD
+PS-00076-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,6000.0,40,0,sociedad,0,21 LSSI;21.1 LSSI,LSSI
+PS-00077-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,terminacion_reducida,40000.0,32000.0,20,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00078-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,20000.0,12000.0,40,0,persona_fisica,0,32 RGPD;33 RGPD,RGPD
+PS-00080-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,15000.0,15000.0,0,0,sociedad,0,28.2 RGPD;28.4 RGPD,RGPD
+PS-00081-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1000.0,1000.0,0,1,sociedad,0,15 RGPD,RGPD
+PS-00082-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,5.1.c) RGPD,RGPD
+PS-00083-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00084-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,66.1.b) LGT,LGT
+PS-00085-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,,,,1,persona_fisica,0,5.1.f) RGPD,RGPD
+PS-00086-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,13 RGPD,RGPD
+PS-00087-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,4000.0,2400.0,40,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00088-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,200000.0,120000.0,40,1,sociedad,0,5.1.d) RGPD,RGPD
+PS-00089-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,1,entidad_extranjera,0,5.1.f) RGPD,RGPD
+PS-00090-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1380000.0,1380000.0,0,0,sociedad,0,32 RGPD;5.1.d) RGPD,RGPD
+PS-00091-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,225000.0,180000.0,20,1,persona_fisica,0,17 RGPD;34.1.f) LOPDGDD;37 RGPD;37.7 RGPD;58.2 RGPD;6 RGPD;6.1 RGPD,LOPDGDD;RGPD
+PS-00092-2024,Procedimiento Sancionador (PS),2024,,,,archivo,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,32 RGPD;5.1.f) RGPD,RGPD
+PS-00093-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,500000.0,500000.0,0,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00094-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2500.0,2500.0,0,1,sociedad,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00095-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,otra_entidad,0,50 LOPDGDD;6 RGPD,LOPDGDD;RGPD
+PS-00096-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,0,sociedad,0,13 RGPD;5.2 RGPD,RGPD
+PS-00097-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00098-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,300.0,180.0,40,0,persona_fisica,0,5.1.e) RGPD;58.2 RGPD,RGPD
+PS-00099-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,300.0,180.0,40,0,persona_fisica,0,5.1.c) RGPD;58.2 RGPD,RGPD
+PS-00100-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,6.1 RGPD,RGPD
+PS-00101-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,45000.0,27000.0,40,0,sociedad,0,5.2 RGPD;58.2 RGPD,RGPD
+PS-00102-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,1,otra_entidad,0,6.1 RGPD,RGPD
+PS-00103-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,1,sociedad,0,17 RGPD;6.1 RGPD,RGPD
+PS-00105-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,5.1.d) RGPD;5.1.f) RGPD,RGPD
+PS-00106-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,40000.0,32000.0,20,0,persona_fisica,0,32 RGPD;5 RGPD;5.1.f) RGPD,RGPD
+PS-00107-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,6000.0,6000.0,0,0,sociedad,0,58.1 RGPD,RGPD
+PS-00108-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,600.0,600.0,0,1,sociedad,0,13 RGPD,RGPD
+PS-00109-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,6000.0,40,1,sociedad,0,13 RGPD;5.1.c) RGPD,RGPD
+PS-00110-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,20000.0,20000.0,0,0,sociedad,0,21 LSSI,LSSI
+PS-00111-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00113-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,32 RGPD;5.1.f) RGPD,RGPD
+PS-00115-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,58.1 RGPD,RGPD
+PS-00116-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,400.0,320.0,20,1,asociacion_fundacion,0,13 RGPD,RGPD
+PS-00117-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,,,,1,sociedad,0,32 RGPD,RGPD
+PS-00118-2024,Procedimiento Sancionador (PS),2024,,,,archivo,archivo,,,,0,entidad_extranjera,0,32 RGPD;5.1.f) RGPD;50 LOPDGDD,LOPDGDD;RGPD
+PS-00119-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,6000.0,4800.0,20,0,sociedad,0,58.1 RGPD,RGPD
+PS-00120-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00121-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00122-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,organismo_publico,1,25 RGPD;5.1.f) RGPD,RGPD
+PS-00125-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,5.1.c) RGPD,RGPD
+PS-00126-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,5000.0,5000.0,0,0,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00127-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,500000.0,500000.0,0,0,sociedad,0,28 RGPD,RGPD
+PS-00128-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,3200000.0,3200000.0,0,1,sociedad,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00130-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,otra_entidad,0,6.1 RGPD;9 RGPD,RGPD
+PS-00131-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,58.1 RGPD,RGPD
+PS-00133-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,7000.0,4200.0,40,1,sociedad,0,32 RGPD;32.1 RGPD;33 RGPD;33.1 RGPD;4.1 RGPD;5.1.f) RGPD,RGPD
+PS-00134-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00135-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,20000.0,20000.0,0,0,sociedad,0,32 RGPD,RGPD
+PS-00136-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,32 RGPD,RGPD
+PS-00137-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,20000.0,20000.0,0,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00138-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00139-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,6.1 RGPD,RGPD
+PS-00140-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,0,sociedad,0,5.1.e) RGPD,RGPD
+PS-00141-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,5000.0,5000.0,0,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00145-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,500000.0,500000.0,0,1,organismo_publico,0,14 RGPD;5.1.a) RGPD;5.1.b) RGPD;5.1.f) RGPD;6.1 RGPD,RGPD
+PS-00146-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,1,sociedad,0,14 RGPD;28 RGPD;6.1 RGPD,RGPD
+PS-00148-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,58.2 RGPD,RGPD
+PS-00149-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1800000.0,1800000.0,0,1,sociedad,0,14 RGPD;6.1 RGPD,RGPD
+PS-00150-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,720000.0,720000.0,0,1,sociedad,0,14 RGPD;6.1 RGPD,RGPD
+PS-00151-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,42000.0,42000.0,0,1,sociedad,0,14 RGPD;6.1 RGPD,RGPD
+PS-00152-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,6.1 RGPD,RGPD
+PS-00153-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,6000.0,6000.0,0,0,sociedad,0,58.1 RGPD,RGPD
+PS-00154-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,100000.0,60000.0,40,0,sociedad,0,13 RGPD;15 RGPD;5 RGPD;5.1.e) RGPD;5.2 RGPD,RGPD
+PS-00155-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,4000.0,2400.0,40,1,asociacion_fundacion,0,13 RGPD;32 RGPD;5.1.f) RGPD,RGPD
+PS-00156-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,1,asociacion_fundacion,0,13 RGPD;5.1.f) RGPD,RGPD
+PS-00157-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,1,sociedad,0,17 RGPD;6.1 RGPD,RGPD
+PS-00158-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,,,,1,sociedad,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00159-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00160-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,terminacion_reducida,,,20,1,sociedad,0,13 RGPD;35 RGPD;6.1 RGPD;9.1 RGPD,RGPD
+PS-00161-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,500.0,500.0,0,1,otra_entidad,0,13 RGPD;5.1.c) RGPD;6.1 RGPD,RGPD
+PS-00162-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,100000.0,100000.0,0,0,sociedad,0,5.1.c) RGPD,RGPD
+PS-00163-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,6 RGPD,RGPD
+PS-00165-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,organismo_publico,1,9 RGPD,RGPD
+PS-00167-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,0,persona_fisica,0,22.2 LSSI,LSSI
+PS-00168-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,160000.0,96000.0,40,0,sociedad,0,58.1 RGPD,RGPD
+PS-00169-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,4000.0,20,1,sociedad,0,15 RGPD;18 RGPD,RGPD
+PS-00170-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,1,sociedad,0,6.1 RGPD,RGPD
+PS-00172-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,0,sociedad,0,48 LGT;48.1.b) LGT;78.11 LGT,LGT
+PS-00173-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,20000.0,16000.0,20,0,sociedad,0,32 RGPD,RGPD
+PS-00175-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,50000.0,30000.0,40,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00176-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,20000.0,16000.0,20,0,sociedad,0,6 RGPD;6.1 RGPD,RGPD
+PS-00177-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,40000.0,32000.0,20,1,sociedad,0,32.1 RGPD,RGPD
+PS-00180-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,5.1.c) RGPD;50 LOPDGDD,LOPDGDD;RGPD
+PS-00181-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,58.1 RGPD,RGPD
+PS-00183-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,600.0,600.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00184-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,0,sociedad,0,21.2 LSSI,LSSI
+PS-00187-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_estado_ccaa,1,5.1.f) RGPD,RGPD
+PS-00188-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,5000.0,5000.0,0,1,sociedad,0,13 RGPD,RGPD
+PS-00190-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,500000.0,500000.0,0,0,sociedad,0,25 RGPD,RGPD
+PS-00192-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,70000.0,42000.0,40,1,sociedad,0,6 RGPD;6.1 RGPD,RGPD
+PS-00194-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,0,sociedad,0,21 LSSI;21.1 LSSI,LSSI
+PS-00195-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,20000.0,20000.0,0,0,sociedad,0,21 LSSI,LSSI
+PS-00196-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,6000.0,6000.0,0,1,sociedad,0,17 RGPD;5.1.e) RGPD,RGPD
+PS-00197-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,21 LSSI,LSSI
+PS-00198-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,3000.0,3000.0,0,1,persona_fisica,0,13 RGPD;5.1.c) RGPD;6.1 RGPD,RGPD
+PS-00204-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,5000.0,5000.0,0,0,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00206-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,500.0,300.0,40,0,sociedad,0,6.1 RGPD;65 LOPDGDD,LOPDGDD;RGPD
+PS-00207-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_estado_ccaa,1,5.1.c) RGPD,RGPD
+PS-00208-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,asociacion_fundacion,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00209-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,200000.0,120000.0,40,1,persona_fisica,0,20 LOPDGDD;6 RGPD;6.1 RGPD,LOPDGDD;RGPD
+PS-00210-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,900.0,900.0,0,1,persona_fisica,0,58.2 RGPD,RGPD
+PS-00211-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,3000.0,1800.0,40,1,sociedad,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00212-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1000.0,1000.0,0,1,entidad_extranjera,0,13 RGPD,RGPD
+PS-00213-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,22.2 LSSI,LSSI
+PS-00215-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,100000.0,80000.0,20,1,sociedad,0,6 RGPD;6.1 RGPD,RGPD
+PS-00216-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00217-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00218-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,48.1.b) LGT,LGT
+PS-00225-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,4000.0,2400.0,40,1,sociedad,0,6.1 RGPD;64.3 LOPDGDD;69 LOPDGDD,LOPDGDD;RGPD
+PS-00226-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,28.2 RGPD;28.3 RGPD;28.4 RGPD;6 RGPD;6.1 RGPD;76.2.b) LOPD,LOPD;RGPD
+PS-00227-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,25000.0,20000.0,20,0,otra_entidad,0,28 RGPD;28.3 RGPD;28.3.g) RGPD;63.2 LOPDGDD,LOPDGDD;RGPD
+PS-00229-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,persona_fisica,0,13 RGPD;5.1.c) RGPD,RGPD
+PS-00231-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,20000.0,16000.0,20,0,persona_fisica,0,107.30 LGT;66.1 LGT;66.1.b) LGT,LGT
+PS-00232-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,1,sociedad,0,5.1.d) RGPD,RGPD
+PS-00234-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,0,sociedad,0,21 LSSI,LSSI
+PS-00235-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,2000.0,1600.0,20,0,sociedad,0,22.2 LSSI,LSSI
+PS-00236-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,300000.0,180000.0,40,1,sociedad,0,5 RGPD;6.1 RGPD,RGPD
+PS-00238-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,450000.0,270000.0,40,1,sociedad,0,32 RGPD;32.1 RGPD;5.1.f) RGPD;65 LOPDGDD,LOPDGDD;RGPD
+PS-00239-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,40000.0,40000.0,0,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00240-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,300.0,300.0,0,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00241-2024,Procedimiento Sancionador (PS),2024,,,,archivo,archivo,,,,0,entidad_extranjera,0,114 LGT,LGT
+PS-00243-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,1,asociacion_fundacion,0,13 RGPD;17 RGPD,RGPD
+PS-00245-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,100000.0,60000.0,40,0,persona_fisica,0,6 RGPD;6.1 RGPD,RGPD
+PS-00246-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,4000000.0,4000000.0,0,0,sociedad,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00247-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,4000.0,20,1,sociedad,0,14 RGPD;6.1 RGPD;6.1.f) RGPD,RGPD
+PS-00248-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,205000.0,164000.0,20,1,sociedad,0,28 RGPD;32 RGPD;5.1.f) RGPD;6.1 RGPD,RGPD
+PS-00251-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,6000.0,3600.0,40,0,sociedad,0,32 RGPD,RGPD
+PS-00252-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,32 RGPD,RGPD
+PS-00253-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,200000.0,120000.0,40,0,sociedad,0,6.1 RGPD,RGPD
+PS-00254-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,organismo_publico,1,6.1 RGPD,RGPD
+PS-00255-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,500.0,500.0,0,0,asociacion_fundacion,0,6 RGPD,RGPD
+PS-00256-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,58.2 RGPD,RGPD
+PS-00260-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,terminacion_reducida,2000.0,1600.0,20,0,sociedad,0,6.1 RGPD,RGPD
+PS-00261-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,500.0,500.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00265-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1000.0,1000.0,0,0,asociacion_fundacion,0,6.1 RGPD,RGPD
+PS-00266-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,7000.0,7000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00268-2024,Procedimiento Sancionador (PS),2024,,,,archivo,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PS-00271-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00272-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,600.0,600.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00273-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,600.0,600.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00275-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,administracion_estado_ccaa,0,6.1 RGPD,RGPD
+PS-00276-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,21 LSSI,LSSI
+PS-00277-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,200000.0,120000.0,40,0,sociedad,0,6.1 RGPD,RGPD
+PS-00279-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,100000.0,100000.0,0,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00281-2024,Procedimiento Sancionador (PS),2024,,,,archivo,archivo,,,,0,sociedad,0,15 RGPD,RGPD
+PS-00283-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,declaracion_infraccion,,,,0,publica_por_nombre,1,5 RGPD;5.1.f) RGPD;5.2 RGPD,RGPD
+PS-00284-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,20000.0,12000.0,40,0,sociedad,0,22.2 LSSI,LSSI
+PS-00287-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,11000.0,6600.0,40,1,sociedad,0,13 RGPD;32 RGPD;5.1.c) RGPD,RGPD
+PS-00288-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1200000.0,1200000.0,0,0,sociedad,0,25 RGPD;6 RGPD;9 RGPD,RGPD
+PS-00289-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,160000.0,96000.0,40,1,sociedad,0,13 RGPD;35 RGPD;58.2 RGPD;6 RGPD;6.1 RGPD;69 LOPDGDD;9 RGPD,LOPDGDD;RGPD
+PS-00291-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,persona_fisica,1,5.1.c) RGPD,RGPD
+PS-00295-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,80000.0,80000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00298-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,130000.0,130000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00302-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,persona_fisica,0,5.1.c) RGPD;9 RGPD,RGPD
+PS-00303-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00306-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,1,asociacion_fundacion,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00309-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,6000.0,40,0,sociedad,0,5.1.c) RGPD;69 LOPDGDD;9 RGPD,LOPDGDD;RGPD
+PS-00311-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,600.0,600.0,0,1,asociacion_fundacion,0,58.1 RGPD,RGPD
+PS-00312-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,150000.0,150000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00313-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1000.0,1000.0,0,1,sociedad,0,58.2 RGPD,RGPD
+PS-00314-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,600.0,600.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00315-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00316-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,1,sociedad,0,6.1 RGPD,RGPD
+PS-00317-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,4000.0,4000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00318-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,organismo_publico,1,58.1 RGPD,RGPD
+PS-00319-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,1,sin_dato,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00320-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,organismo_publico,1,58.1 RGPD,RGPD
+PS-00321-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,58.1 RGPD,RGPD
+PS-00322-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,sin_dato,0,32 RGPD,RGPD
+PS-00324-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,4000.0,4000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00325-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,21 LSSI,LSSI
+PS-00326-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1000.0,1000.0,0,1,asociacion_fundacion,0,58.2 RGPD,RGPD
+PS-00327-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,18000.0,18000.0,0,1,sociedad,0,58.2 RGPD,RGPD
+PS-00328-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,100000.0,100000.0,0,1,sociedad,0,58.2 RGPD,RGPD
+PS-00329-2024,Procedimiento Sancionador (PS),2024,,,,,declaracion_infraccion,,,,1,administracion_local,1,30.1 RGPD;35 RGPD;5.1.e) RGPD;6.1 RGPD,RGPD
+PS-00331-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,50 LOPDGDD,LOPDGDD
+PS-00335-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,500.0,300.0,40,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00337-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,1,sociedad,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00342-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,15000.0,9000.0,40,1,sociedad,0,25 RGPD,RGPD
+PS-00343-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,150000.0,150000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00344-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,300.0,180.0,40,1,sin_dato,0,5.1.f) RGPD,RGPD
+PS-00345-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,20000.0,12000.0,40,1,sociedad,0,32 RGPD,RGPD
+PS-00346-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00350-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,58.1 RGPD,RGPD
+PS-00351-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,1,sociedad,0,7 RGPD,RGPD
+PS-00353-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,2000000.0,1600000.0,20,1,sociedad,0,10 RGPD;5.1.f) RGPD;50 LOPDGDD;58.2 RGPD;9.1 RGPD,LOPDGDD;RGPD
+PS-00355-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,5.1.c) RGPD,RGPD
+PS-00356-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,20000.0,20000.0,0,0,sociedad,0,21.1 LSSI,LSSI
+PS-00359-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,0,asociacion_fundacion,0,5.1.f) RGPD,RGPD
+PS-00365-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1200.0,1200.0,0,1,sociedad,0,5.1.c) RGPD;5.1.f) RGPD,RGPD
+PS-00366-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,800.0,20,0,persona_fisica,0,32 RGPD;6.1 RGPD;67.1 LOPDGDD;9 RGPD;9.1 RGPD,LOPDGDD;RGPD
+PS-00367-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,12000.0,12000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00368-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,persona_fisica,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00371-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2200.0,2200.0,0,0,sociedad,0,58.1 RGPD,RGPD
+PS-00373-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,500.0,500.0,0,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00375-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1200.0,1200.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00376-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,4000.0,4000.0,0,1,sociedad,0,6 RGPD;9 RGPD,RGPD
+PS-00380-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,300000.0,180000.0,40,1,sociedad,0,6.1 RGPD,RGPD
+PS-00381-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,300.0,300.0,0,1,persona_fisica,0,5.1.f) RGPD,RGPD
+PS-00382-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,8000.0,4800.0,40,1,asociacion_fundacion,0,6.1 RGPD,RGPD
+PS-00384-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,21 LSSI,LSSI
+PS-00385-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,32 RGPD;5.1.f) RGPD,RGPD
+PS-00388-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,6.1 RGPD,RGPD
+PS-00389-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,70000.0,42000.0,40,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00391-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,6000.0,40,1,sociedad,0,5.1.f) RGPD;6.1.a) RGPD,RGPD
+PS-00392-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,250000.0,250000.0,0,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00393-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,0,sociedad,0,6.1 RGPD,RGPD
+PS-00394-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,1,asociacion_fundacion,0,5.1.f) RGPD,RGPD
+PS-00395-2024,Procedimiento Sancionador (PS),2024,,,,archivo,terminacion_reducida,100000.0,80000.0,20,0,sociedad,0,5.2 RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00396-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,5.1.c) RGPD,RGPD
+PS-00397-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,0,sociedad,0,5.1.d) RGPD;5.2 RGPD,RGPD
+PS-00398-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_estado_ccaa,1,32 RGPD,RGPD
+PS-00399-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,1,persona_fisica,0,6.1 RGPD,RGPD
+PS-00402-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,5.1.c) RGPD,RGPD
+PS-00403-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,5.1.c) RGPD,RGPD
+PS-00405-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,6000.0,3600.0,40,1,sociedad,0,6.1 RGPD,RGPD
+PS-00406-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,5.1.f) RGPD,RGPD
+PS-00408-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,21 LSSI,LSSI
+PS-00410-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,0,sociedad,1,25 RGPD;5.1.f) RGPD,RGPD
+PS-00411-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,0,sociedad,0,21 LSSI;21.1 LSSI,LSSI
+PS-00413-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1000.0,1000.0,0,0,sociedad,0,21.1 LSSI,LSSI
+PS-00415-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,21 LSSI,LSSI
+PS-00417-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,300000.0,300000.0,0,0,sociedad,0,5.2 RGPD;6 RGPD;6.1 RGPD;60 RGPD,RGPD
+PS-00418-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,asociacion_fundacion,0,7 RGPD,RGPD
+PS-00419-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,20000.0,12000.0,40,0,organismo_publico,0,35 RGPD;9 RGPD,RGPD
+PS-00420-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00421-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,9000.0,5400.0,40,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00422-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,230000.0,230000.0,0,1,sociedad,0,32 RGPD,RGPD
+PS-00424-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,6000.0,6000.0,0,1,sociedad,0,58.2 RGPD,RGPD
+PS-00425-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,asociacion_fundacion,1,5.1.c) RGPD,RGPD
+PS-00427-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,50000.0,40000.0,20,0,sociedad,0,5.2 RGPD;6.1 RGPD,RGPD
+PS-00428-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,58.1 RGPD,RGPD
+PS-00429-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,9000.0,9000.0,0,1,sociedad,0,58.2 RGPD,RGPD
+PS-00431-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10043002.0,10043002.0,0,0,sociedad,0,35 RGPD,RGPD
+PS-00432-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,2000.0,2000.0,0,1,sociedad,0,58.2 RGPD,RGPD
+PS-00435-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,40000.0,40000.0,0,0,sociedad,0,21.1 LSSI;21.2 LSSI,LSSI
+PS-00436-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,2000.0,1600.0,20,0,sociedad,0,21 LSSI;21.1 LSSI,LSSI
+PS-00439-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,8000.0,3000.0,40,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00440-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00441-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,500000.0,400000.0,20,1,sociedad,0,32 RGPD,RGPD
+PS-00442-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,17000.0,10200.0,40,1,asociacion_fundacion,0,28 RGPD;32 RGPD;5.1.f) RGPD,RGPD
+PS-00443-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00444-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,0,sociedad,0,22.2 LSSI,LSSI
+PS-00446-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,32 RGPD,RGPD
+PS-00447-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1000.0,1000.0,0,1,persona_fisica,0,5.1.f) RGPD,RGPD
+PS-00449-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,32 RGPD,RGPD
+PS-00450-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,500000.0,500000.0,0,0,asociacion_fundacion,0,35 RGPD;9 RGPD,RGPD
+PS-00452-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,9000.0,5400.0,40,1,sociedad,0,28.3 RGPD;5.1 RGPD;5.1.d) RGPD,RGPD
+PS-00453-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,8000.0,4800.0,40,1,persona_fisica,0,5.1.d) RGPD,RGPD
+PS-00455-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,6000.0,40,0,sociedad,0,21.1 LSSI;21.2 LSSI,LSSI
+PS-00456-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,terminacion_reducida,3500.0,2800.0,20,0,sociedad,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00459-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1000000.0,1000000.0,0,1,sociedad,0,32 RGPD,RGPD
+PS-00460-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,asociacion_fundacion,0,32 RGPD;5.1.f) RGPD,RGPD
+PS-00461-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,6000.0,40,1,persona_fisica,0,5 RGPD;5.1.b) RGPD,RGPD
+PS-00463-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,20000.0,20000.0,0,1,sociedad,0,14 RGPD;48.1.b) LGT,LGT;RGPD
+PS-00464-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,31000.0,18600.0,40,1,sociedad,0,28 RGPD;32 RGPD;34 RGPD;5.1.f) RGPD;65 LOPDGDD,LOPDGDD;RGPD
+PS-00465-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,0,persona_fisica,0,32 RGPD,RGPD
+PS-00469-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,6.1 RGPD,RGPD
+PS-00473-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,archivo,,,,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00475-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,5.1.d) RGPD,RGPD
+PS-00476-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,10000.0,8000.0,20,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00478-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,15000.0,15000.0,0,1,sociedad,0,58.2 RGPD,RGPD
+PS-00479-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,0,sociedad,0,21.1 LSSI,LSSI
+PS-00481-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1400.0,840.0,40,1,sociedad,0,5.1.f) RGPD;6.1 RGPD,RGPD
+PS-00483-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_estado_ccaa,1,26 RGPD,RGPD
+PS-00484-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,3000.0,1800.0,40,1,persona_fisica,0,6 RGPD,RGPD
+PS-00486-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,120000.0,120000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00487-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,100000.0,80000.0,20,0,otra_entidad,0,10 RGPD;32 RGPD;35 RGPD;5.1.F) RGPD;5.1.f) RGPD;9 RGPD,RGPD
+PS-00491-2024,Procedimiento Sancionador (PS),2024,,,,archivo,archivo,,,,0,persona_fisica,0,6.1 RGPD;9 RGPD,RGPD
+PS-00493-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,32 RGPD,RGPD
+PS-00494-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,5000.0,5000.0,0,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00495-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,225000.0,180000.0,20,1,sociedad,0,15 RGPD;58.2 RGPD,RGPD
+PS-00499-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,140000.0,140000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00500-2024,Procedimiento Sancionador (PS),2024,,,,archivo,archivo,,,,0,persona_fisica,0,6.1 RGPD;9 RGPD,RGPD
+PS-00501-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,80000.0,80000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00502-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,30000.0,30000.0,0,0,sociedad,0,5.1.d) RGPD,RGPD
+PS-00505-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,200000.0,120000.0,40,1,sociedad,0,5 RGPD;5.1.f) RGPD,RGPD
+PS-00509-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1000.0,1000.0,0,1,sociedad,0,13 RGPD;6 RGPD,RGPD
+PS-00511-2024,Procedimiento Sancionador (PS),2024,,,,,declaracion_infraccion,,,,0,organismo_publico,1,25 RGPD;28 RGPD,RGPD
+PS-00513-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,declaracion_infraccion,,,,0,organismo_publico,1,5.1.f) RGPD,RGPD
+PS-00514-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,organismo_publico,1,5.1.f) RGPD,RGPD
+PS-00515-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,70000.0,42000.0,40,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00516-2024,Procedimiento Sancionador (PS),2024,,,,archivo,archivo,,,,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00517-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,35000.0,21000.0,40,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00518-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,58.2 RGPD,RGPD
+PS-00519-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,450.0,450.0,0,1,sociedad,0,58.2 RGPD,RGPD
+PS-00520-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,8000.0,8000.0,0,1,sociedad,0,14 RGPD;66.1.b) LGT,LGT;RGPD
+PS-00521-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,66.1.b) LGT,LGT
+PS-00522-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,4000.0,4000.0,0,1,sociedad,0,14 RGPD;66.1.b) LGT,LGT;RGPD
+PS-00523-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,25 RGPD;32 RGPD;5.1.f) RGPD;73.d) LOPD,LOPD;RGPD
+PS-00524-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,500.0,500.0,0,0,persona_fisica,0,6 RGPD,RGPD
+PS-00525-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,12000.0,12000.0,0,1,sociedad,0,14 RGPD;66.1.b) LGT,LGT;RGPD
+PS-00526-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,organismo_publico,1,13 RGPD;30 RGPD;31.2 LOPDGDD,LOPDGDD;RGPD
+PS-00528-2024,Procedimiento Sancionador (PS),2024,,,,archivo,multa,10000.0,10000.0,0,1,otra_entidad,0,5.1.f) RGPD;6.1 RGPD,RGPD
+PS-00531-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,22.2 LSSI,LSSI
+PS-00532-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,750.0,750.0,0,1,asociacion_fundacion,0,58.2 RGPD,RGPD
+PS-00533-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,terminacion_reducida,6000.0,4800.0,20,1,sociedad,0,6.1 RGPD,RGPD
+PS-00535-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00536-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,30000.0,18000.0,40,0,sociedad,0,32 RGPD;5.1.d) RGPD,RGPD
+PS-00537-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,1,organismo_publico,1,32 RGPD;5.1.f) RGPD,RGPD
+PS-00538-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,300.0,240.0,20,0,persona_fisica,0,58.1 RGPD,RGPD
+PS-00540-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000000.0,600000.0,40,1,asociacion_fundacion,0,5.1.f) RGPD;9 RGPD,RGPD
+PS-00541-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,declaracion_infraccion,,,,0,publica_por_nombre,1,5.1.c) RGPD;5.2 RGPD,RGPD
+PS-00543-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,5.1.c) RGPD,RGPD
+PS-00546-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,2500.0,1500.0,40,1,sociedad,0,5.1 RGPD;5.1.c) RGPD;9 RGPD,RGPD
+PS-00548-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,38 RGPD;5.1.f) RGPD,RGPD
+PS-00549-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,300.0,300.0,0,1,persona_fisica,0,58.1 RGPD,RGPD
+PS-00550-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,1000.0,1000.0,0,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00551-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,200000.0,200000.0,0,0,sociedad,0,6.1 RGPD,RGPD
+PS-00556-2024,Procedimiento Sancionador (PS),2024,,,,archivo,archivo,,,,0,sociedad,0,5.1.f) RGPD;70 LOPDGDD,LOPDGDD;RGPD
+PS-00557-2024,Procedimiento Sancionador (PS),2024,,,,archivo,archivo,,,,0,sociedad,0,5.1.d) RGPD,RGPD
+PS-00563-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,1,persona_fisica,0,6 RGPD;6.1 RGPD,RGPD
+PS-00565-2024,Procedimiento Sancionador (PS),2024,,,,sancionador,multa,15000.0,15000.0,0,0,sociedad,0,21.1 LSSI;21.2 LSSI,LSSI
+PS-00566-2024,Procedimiento Sancionador (PS),2024,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,0,persona_fisica,0,5.1.f) RGPD;5.2 RGPD,RGPD
+PS-00001-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,500000.0,400000.0,20,0,entidad_extranjera,0,32 RGPD,RGPD
+PS-00007-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,0,sociedad,0,13 RGPD;6.1 RGPD,RGPD
+PS-00010-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,66.1.b) LGT,LGT
+PS-00011-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,500.0,500.0,0,0,sociedad,0,21.1 LSSI,LSSI
+PS-00013-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,600.0,360.0,40,1,asociacion_fundacion,0,58.1 RGPD,RGPD
+PS-00014-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,declaracion_infraccion,,,,1,administracion_local,1,58.2 RGPD,RGPD
+PS-00015-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,160.0,160.0,0,1,persona_fisica,0,58.2 RGPD,RGPD
+PS-00016-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,58.2 RGPD,RGPD
+PS-00021-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,36000.0,21600.0,40,1,sociedad,0,28 RGPD;5.1.e) RGPD;6.1 RGPD;7 RGPD,RGPD
+PS-00023-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,20000.0,12000.0,40,1,sociedad,0,14 RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00024-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,declaracion_infraccion,,,,1,administracion_estado_ccaa,1,32 LO 7/2021;35 LO 7/2021,7/2021
+PS-00025-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,100000.0,60000.0,40,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00026-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,10000.0,6000.0,40,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00032-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,0,persona_fisica,0,6 RGPD;6.1 RGPD,RGPD
+PS-00033-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00040-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,declaracion_infraccion,,,,0,administracion_estado_ccaa,1,32 RGPD,RGPD
+PS-00041-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,900.0,540.0,40,1,sociedad,0,58.2 RGPD,RGPD
+PS-00042-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,900.0,900.0,0,1,sociedad,0,58.2 RGPD,RGPD
+PS-00043-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,0,asociacion_fundacion,0,6 RGPD;69 LOPDGDD,LOPDGDD;RGPD
+PS-00044-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,600.0,600.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00046-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,66.1.b) LGT,LGT
+PS-00048-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,1600.0,1600.0,0,1,sociedad,0,28.2 RGPD;28.4 RGPD,RGPD
+PS-00050-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,58.1 RGPD,RGPD
+PS-00055-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,200.0,200.0,0,1,persona_fisica,0,58.2 RGPD,RGPD
+PS-00056-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,600.0,600.0,0,1,persona_fisica,0,13 RGPD;5.1.c) RGPD,RGPD
+PS-00058-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,80000.0,80000.0,0,0,sociedad,0,28.2 RGPD;28.4 RGPD,RGPD
+PS-00059-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,3000.0,1800.0,40,1,persona_fisica,0,13 RGPD;5 RGPD;5.1.c) RGPD;5.1.f) RGPD,RGPD
+PS-00061-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,6000.0,3600.0,40,0,sociedad,0,5 RGPD;5.1.c) RGPD,RGPD
+PS-00063-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,6000.0,6000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00066-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,3000.0,1800.0,40,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00067-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,300.0,300.0,0,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00069-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,66.1.b) LGT,LGT
+PS-00070-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,40000.0,24000.0,40,1,sociedad,0,13 RGPD;5.1.f) RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00076-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2000.0,1600.0,20,1,sociedad,0,58.1 RGPD,RGPD
+PS-00077-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,600.0,600.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00078-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,1000.0,1000.0,0,1,persona_fisica,0,13 RGPD,RGPD
+PS-00082-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,archivo,,,,0,sociedad,0,6.1 RGPD,RGPD
+PS-00084-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,terminacion_reducida,25000.0,20000.0,20,1,sociedad,0,5.1.c) RGPD;58.2 RGPD,RGPD
+PS-00088-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,0,persona_fisica,0,6.1 RGPD;69 LOPDGDD,LOPDGDD;RGPD
+PS-00090-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,66.1.b) LGT,LGT
+PS-00092-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,declaracion_infraccion,,,,0,administracion_local,1,6.1 RGPD,RGPD
+PS-00097-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,21.1 LSSI,LSSI
+PS-00100-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,3000.0,3000.0,0,0,persona_fisica,0,6 RGPD,RGPD
+PS-00102-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,declaracion_infraccion,,,,1,administracion_estado_ccaa,1,58.1 RGPD,RGPD
+PS-00107-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,10000.0,6000.0,40,1,sociedad,0,28 RGPD;28.3 RGPD;64 LOPDGDD,LOPDGDD;RGPD
+PS-00108-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,10000.0,6000.0,40,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00114-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,3000.0,3000.0,0,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00116-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,20000.0,20000.0,0,1,sociedad,0,58.1 RGPD,RGPD
+PS-00117-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,16000.0,9600.0,40,1,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD,RGPD
+PS-00119-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,0,persona_fisica,0,6 RGPD;6.1 RGPD,RGPD
+PS-00132-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,0,persona_fisica,0,6 RGPD;6.1 RGPD,RGPD
+PS-00135-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,66.1.b) LGT,LGT
+PS-00139-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,13000.0,7800.0,40,1,persona_fisica,0,14 RGPD;28 RGPD;6 RGPD;6.1 RGPD;9 RGPD,RGPD
+PS-00140-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,4800000.0,4800000.0,0,0,sociedad,0,33 RGPD;5.1.f) RGPD,RGPD
+PS-00141-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,6000.0,3600.0,40,1,sociedad,0,13 RGPD;35 RGPD;6 RGPD;6.1 RGPD;65 LOPDGDD;9 RGPD,LOPDGDD;RGPD
+PS-00142-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,19000.0,11400.0,40,1,otra_entidad,0,14 RGPD;28 RGPD;28.3 RGPD;6 RGPD;6.1 RGPD;9 RGPD,RGPD
+PS-00143-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,500000.0,400000.0,20,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00144-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,3000.0,3000.0,0,1,otra_entidad,0,58.1 RGPD,RGPD
+PS-00145-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,10000.0,10000.0,0,0,sociedad,0,21.1 LSSI;21.2 LSSI,LSSI
+PS-00157-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,150000.0,90000.0,40,0,sociedad,0,5.1.f) RGPD;5.2 RGPD,RGPD
+PS-00160-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,0,sociedad,0,22.2 LSSI,LSSI
+PS-00162-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,1500.0,900.0,40,1,sociedad,0,15 RGPD;17 RGPD;58.2 RGPD,RGPD
+PS-00164-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,950000.0,950000.0,0,1,otra_entidad,0,5.1.e) RGPD;7 RGPD;9 RGPD,RGPD
+PS-00165-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,31000.0,18600.0,40,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD;9 RGPD,RGPD
+PS-00166-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,16000.0,9600.0,40,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD,RGPD
+PS-00167-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,16000.0,9600.0,40,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD,RGPD
+PS-00168-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,11000.0,6600.0,40,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD,RGPD
+PS-00169-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,terminacion_reducida,11000.0,8800.0,20,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD,RGPD
+PS-00172-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,66.1.b) LGT,LGT
+PS-00173-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,terminacion_reducida,500.0,400.0,20,0,sociedad,0,5.1.d) RGPD,RGPD
+PS-00177-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,11000.0,6600.0,40,1,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00178-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,declaracion_infraccion,,,,1,administracion_estado_ccaa,1,37 LO 7/2021,7/2021
+PS-00181-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,0,persona_fisica,0,6 RGPD,RGPD
+PS-00183-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,16000.0,9600.0,40,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00184-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,0,sociedad,0,13 RGPD;5.1.f) RGPD;5.2 RGPD,RGPD
+PS-00185-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,21000.0,12600.0,40,1,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00187-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,16000.0,9600.0,40,1,persona_fisica,0,13 RGPD;32 RGPD;5.1 RGPD;64.3 LOPDGDD;9 RGPD;9.1 RGPD,LOPDGDD;RGPD
+PS-00188-2025,Procedimiento Sancionador (PS),2025,,,,archivo,declaracion_infraccion,,,,0,organismo_publico,1,10 RGPD;25 RGPD;30 RGPD;35 RGPD,RGPD
+PS-00190-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,11000.0,6600.0,40,1,persona_fisica,0,14 RGPD;32 RGPD;5.2 RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00193-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,300.0,180.0,40,0,persona_fisica,0,21.1 LSSI;21.2 LSSI,LSSI
+PS-00195-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,0,sociedad,0,6 RGPD,RGPD
+PS-00197-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,21000.0,21000.0,0,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD,RGPD
+PS-00201-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,1,sociedad,0,6.1 RGPD,RGPD
+PS-00204-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,11000.0,6600.0,40,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD,RGPD
+PS-00205-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,5000.0,5000.0,0,0,sociedad,0,66.1.b) LGT,LGT
+PS-00206-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,20000.0,12000.0,40,0,sociedad,0,28 RGPD,RGPD
+PS-00208-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,sociedad,0,13 RGPD;5.1.c) RGPD,RGPD
+PS-00212-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,600.0,360.0,40,1,asociacion_fundacion,0,58.1 RGPD,RGPD
+PS-00216-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,11000.0,6600.0,40,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00218-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,11000.0,6600.0,40,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00222-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,21000.0,12600.0,40,1,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD;6.1 RGPD,RGPD
+PS-00224-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,0,persona_fisica,0,22.2 LSSI,LSSI
+PS-00231-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,11000.0,6600.0,40,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD,RGPD
+PS-00232-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,11000.0,6600.0,40,0,persona_fisica,0,14 RGPD;32 RGPD;6 RGPD,RGPD
+PS-00235-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,500.0,300.0,40,1,persona_fisica,0,13 RGPD,RGPD
+PS-00239-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,declaracion_infraccion,,,,1,publica_por_nombre,1,32 RGPD;32.1 RGPD;5.1.c) RGPD;5.1.f) RGPD,RGPD
+PS-00241-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,6000.0,3600.0,40,0,sociedad,0,13 RGPD;5.1.c) RGPD;5.2 RGPD,RGPD
+PS-00246-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,70000.0,42000.0,40,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00255-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,sociedad,0,28.10 RGPD;6.1 RGPD,RGPD
+PS-00265-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,archivo,,,,0,sociedad,0,21.1 LSSI;21.2 LSSI,LSSI
+PS-00273-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,1500.0,900.0,40,0,sociedad,0,6 RGPD,RGPD
+PS-00283-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,terminacion_reducida,100000.0,80000.0,20,1,sociedad,0,32 RGPD,RGPD
+PS-00284-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,300000.0,180000.0,40,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00286-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,110000.0,66000.0,40,1,persona_fisica,0,32 RGPD;5.1.f) RGPD;5.2 RGPD,RGPD
+PS-00288-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2500000.0,1500000.0,40,0,persona_fisica,0,5.1.f) RGPD;50 LOPDGDD,LOPDGDD;RGPD
+PS-00291-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,40000.0,24000.0,40,1,asociacion_fundacion,0,5.1.f) RGPD,RGPD
+PS-00295-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,0,persona_fisica,0,5.1.c) RGPD;5.2 RGPD,RGPD
+PS-00298-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,declaracion_infraccion,,,,0,organismo_publico,1,30 RGPD,RGPD
+PS-00300-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,300.0,180.0,40,1,persona_fisica,0,58.1 RGPD,RGPD
+PS-00308-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,30000.0,18000.0,40,1,sociedad,0,5.1 RGPD;5.1.f) RGPD,RGPD
+PS-00312-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,100000.0,60000.0,40,1,sociedad,0,28 RGPD;32 RGPD;5.1 RGPD;5.1.f) RGPD,RGPD
+PS-00313-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,300000.0,180000.0,40,1,sociedad,0,28 RGPD;5.1.f) RGPD,RGPD
+PS-00316-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,310000.0,186000.0,40,1,persona_fisica,0,28 RGPD;28.3 RGPD;5.1.f) RGPD,RGPD
+PS-00329-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,15000.0,9000.0,40,1,asociacion_fundacion,0,26 RGPD;5.1.f) RGPD,RGPD
+PS-00330-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,80000.0,48000.0,40,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00366-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,450.0,360.0,20,0,sociedad,0,21.2 LSSI,LSSI
+PS-00373-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2600000.0,1560000.0,40,1,sociedad,0,34 RGPD;5.1.f) RGPD;5.2 RGPD;50 LOPDGDD,LOPDGDD;RGPD
+PS-00375-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,0,sociedad,0,15 RGPD;5.2 RGPD,RGPD
+PS-00380-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,sociedad,0,17 RGPD;6.1 RGPD;60 RGPD,RGPD
+PS-00382-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,300.0,300.0,0,0,persona_fisica,0,58.1 RGPD,RGPD
+PS-00384-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,4000.0,2400.0,40,1,sociedad,0,6 RGPD;6.1 RGPD,RGPD
+PS-00388-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,1400.0,840.0,40,0,persona_fisica,0,21 LSSI;21.1 LSSI,LSSI
+PS-00405-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,1400.0,1400.0,0,0,sociedad,0,66.1.b) LGT,LGT
+PS-00408-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,400000.0,240000.0,40,0,sociedad,0,32 LOPD;5.1 RGPD;5.1.f) RGPD;5.2 RGPD;65 LOPDGDD,LOPD;LOPDGDD;RGPD
+PS-00420-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,20000.0,12000.0,40,0,sociedad,0,5.1.c) RGPD;5.2 RGPD,RGPD
+PS-00421-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,10000.0,6000.0,40,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00425-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2000.0,1600.0,20,1,sociedad,0,5.1.c) RGPD,RGPD
+PS-00444-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,20000.0,12000.0,40,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00447-2025,Procedimiento Sancionador (PS),2025,,,,,terminacion_reducida,,,,0,sociedad,0,35 RGPD,RGPD
+PS-00454-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,archivo,,,,0,administracion_estado_ccaa,0,11 LO 7/2021,7/2021
+PS-00456-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,80000.0,48000.0,40,1,sociedad,0,6.1 RGPD;6.1.b) RGPD,RGPD
+PS-00463-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,2000.0,1200.0,40,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PS-00467-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,1000.0,600.0,40,1,sociedad,0,15 RGPD;60 RGPD,RGPD
+PS-00474-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,1,sociedad,0,6.1 RGPD,RGPD
+PS-00480-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,120000.0,72000.0,40,1,sociedad,0,27 RGPD;6 RGPD,RGPD
+PS-00484-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,3000.0,1800.0,40,1,persona_fisica,0,6 RGPD,RGPD
+PS-00485-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,1,sociedad,0,6 RGPD;6.1 RGPD,RGPD
+PS-00508-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,120000.0,72000.0,40,0,persona_fisica,0,5.1.f) RGPD,RGPD
+PS-00509-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,6000.0,3600.0,40,1,asociacion_fundacion,0,5.1 RGPD;5.1.e) RGPD;6 RGPD;6.1.a) RGPD,RGPD
+PS-00528-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,60000.0,36000.0,40,1,sociedad,0,5.1.f) RGPD,RGPD
+PS-00529-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,500000.0,300000.0,40,0,sociedad,0,5.1.f) RGPD,RGPD
+PS-00561-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,5000.0,4000.0,20,0,sociedad,0,21 LSSI;21.2 LSSI,LSSI
+PS-00562-2025,Procedimiento Sancionador (PS),2025,,,,terminacion_art85,terminacion_reducida,5000.0,3000.0,40,0,sociedad,0,21.1 LSSI,LSSI
+PS-00594-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,terminacion_reducida,5000.0,4000.0,20,0,sociedad,0,22.2 LSSI,LSSI
+PS-00641-2025,Procedimiento Sancionador (PS),2025,,,,sancionador,multa,1400.0,1400.0,0,0,sociedad,0,21.1 LSSI,LSSI
+PA-00001-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,archivo,,,,0,persona_fisica,0,5 RGPD;5.1.c) RGPD;50 LOPDGDD,LOPDGDD;RGPD
+PA-00005-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PA-00006-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,22 LOPDGDD;6.1 RGPD;64 LOPDGDD,LOPDGDD;RGPD
+PA-00007-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,1,asociacion_fundacion,0,5.1.f) RGPD,RGPD
+PA-00008-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,5.1.f) RGPD,RGPD
+PA-00010-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PA-00012-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,13 RGPD,RGPD
+PA-00016-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,13 RGPD,RGPD
+PA-00017-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,0,asociacion_fundacion,0,13 RGPD,RGPD
+PA-00018-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,6 RGPD,RGPD
+PA-00019-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,0,sociedad,0,6.1 RGPD,RGPD
+PA-00020-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,13 RGPD;15 RGPD;5.1.c) RGPD,RGPD
+PA-00021-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,archivo,,,,0,persona_fisica,0,5.1.c) RGPD;50 LOPDGDD,LOPDGDD;RGPD
+PA-00022-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,13 RGPD,RGPD
+PA-00023-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,archivo,,,,0,persona_fisica,0,5 RGPD;5.1.c) RGPD;50 LOPDGDD,LOPDGDD;RGPD
+PA-00024-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,13 RGPD,RGPD
+PA-00025-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,6 RGPD,RGPD
+PA-00026-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,13 RGPD;5.1.c) RGPD;6.1 RGPD,RGPD
+PA-00027-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,13 RGPD,RGPD
+PA-00028-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,5.1.c) RGPD,RGPD
+PA-00029-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,archivo,,,,0,asociacion_fundacion,0,5.1.c) RGPD,RGPD
+PA-00030-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PA-00031-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,13 RGPD;5.1.c) RGPD;6.1 RGPD,RGPD
+PA-00032-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PA-00033-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,archivo,,,,0,persona_fisica,0,50 LOPDGDD;6 RGPD,LOPDGDD;RGPD
+PA-00034-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,archivo,,,,0,persona_fisica,0,,
+PA-00035-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,13 RGPD;5.1.c) RGPD;64 LOPDGDD,LOPDGDD;RGPD
+PA-00036-2024,Procedimiento de Apercibimiento (PA),2024,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PA-00001-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PA-00002-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,1,sin_dato,0,5.1.f) RGPD,RGPD
+PA-00004-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,0,sociedad,0,6.1 RGPD,RGPD
+PA-00008-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,5.1.f) RGPD,RGPD
+PA-00009-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,archivo,,,,0,persona_fisica,0,5.1 RGPD;5.1.f) RGPD;50 LOPDGDD,LOPDGDD;RGPD
+PA-00010-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,5.1.f) RGPD,RGPD
+PA-00012-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,1,asociacion_fundacion,0,5.1.f) RGPD,RGPD
+PA-00014-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PA-00015-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,archivo,,,,0,sociedad,0,44 RGPD,RGPD
+PA-00016-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,1,persona_fisica,0,5.1.c) RGPD,RGPD
+PA-00019-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,0,sociedad,0,5.1.d) RGPD,RGPD
+PA-00020-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,1,sociedad,0,5.1.f) RGPD,RGPD
+PA-00023-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PA-00027-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,archivo,,,,0,sin_dato,0,6.1 RGPD,RGPD
+PA-00028-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,0,sociedad,0,15 RGPD,RGPD
+PA-00029-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PA-00030-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,archivo,,,,0,persona_fisica,0,6.1 RGPD,RGPD
+PA-00031-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,archivo,,,,0,persona_fisica,0,5.1.c) RGPD;50 LOPDGDD,LOPDGDD;RGPD
+PA-00032-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,1,sociedad,0,13 RGPD,RGPD
+PA-00041-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,0,asociacion_fundacion,0,9 RGPD,RGPD
+PA-00052-2025,Procedimiento de Apercibimiento (PA),2025,,,,apercibimiento,apercibimiento,,,,0,asociacion_fundacion,0,13 RGPD;7 RGPD,RGPD

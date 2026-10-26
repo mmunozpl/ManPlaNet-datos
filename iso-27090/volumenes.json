@@ -1,0 +1,23 @@
+{
+ "atlas_version": "5.6.0",
+ "atlas_url": "https://raw.githubusercontent.com/mitre-atlas/atlas-data/main/dist/ATLAS.yaml",
+ "tacticas": 16,
+ "tecnicas": 170,
+ "tecnicas_raiz": 101,
+ "subtecnicas": 69,
+ "tecnicas_en_las_nueve": 62,
+ "tecnicas_anexo_b": 17,
+ "tecnicas_fuera": 91,
+ "casos": 57,
+ "incidentes": 17,
+ "ejercicios": 40,
+ "casos_solo_fuera": 5,
+ "casos_en_las_nueve": 52,
+ "casos_primero": "2016-03-23",
+ "casos_ultimo": "2026-02-23",
+ "mitigaciones_atlas": 35,
+ "mitigaciones_que_cubren_alguna_de_las_nueve": 31,
+ "nist_elementos": 17,
+ "owasp_elementos": 10,
+ "ai_act_elementos": 5
+}

@@ -1,0 +1,36 @@
+mitigacion,nombre,categoria,tecnicas,tecnicas_en_las_nueve,clausulas
+AML.M0000,Limit Public Release of Information,['Policy'],7,0,fuera
+AML.M0001,Limit Model Artifact Release,['Policy'],6,1,6.2; fuera
+AML.M0002,Passive AI Output Obfuscation,['Technical - ML'],11,6,6.3; 6.4; 6.5; 6.6; fuera
+AML.M0003,Model Hardening,['Technical - ML'],8,8,6.2; 6.3
+AML.M0004,Restrict Number of AI Model Queries,['Technical - Cyber'],16,8,6.3; 6.4; 6.5; 6.6; 6.8; anexo B; fuera
+AML.M0005,Control Access to AI Models and Data at Rest,['Policy'],13,8,6.2; 6.3; 6.5; 6.7; fuera
+AML.M0006,Use Ensemble Methods,['Technical - ML'],11,9,6.2; 6.3; 6.7; anexo B; fuera
+AML.M0007,Sanitize Training Data,['Technical - ML'],4,4,6.2; 6.7
+AML.M0008,Validate AI Model,['Technical - ML'],8,8,6.2; 6.3; 6.7; 6.8
+AML.M0009,Use Multi-Modal Sensors,['Technical - Cyber'],3,1,6.3; fuera
+AML.M0010,Input Restoration,['Technical - ML'],8,8,6.2; 6.3
+AML.M0011,Restrict Library Loading,['Technical - Cyber'],3,0,fuera
+AML.M0012,Encrypt Sensitive Information,['Technical - Cyber'],4,1,6.5; fuera
+AML.M0013,Code Signing,['Technical - Cyber'],8,5,6.7; anexo B; fuera
+AML.M0014,Verify AI Artifacts,['Technical - Cyber'],6,2,6.2; anexo B; fuera
+AML.M0015,Adversarial Input Detection,['Technical - ML'],9,8,6.2; 6.3; anexo B
+AML.M0016,Vulnerability Scanning,['Technical - Cyber'],3,0,fuera
+AML.M0017,AI Model Distribution Methods,['Policy'],6,3,6.3; 6.5; 6.7; fuera
+AML.M0018,User Training,['Policy'],6,0,fuera
+AML.M0019,Control Access to AI Models and Data in Production,['Policy'],11,4,6.3; 6.8; 6.9; anexo B; fuera
+AML.M0020,Generative AI Guardrails,['Technical - ML'],8,6,6.10; 6.8; 6.9; anexo B; fuera
+AML.M0021,Generative AI Guidelines,['Technical - ML'],7,6,6.10; 6.8; 6.9; fuera
+AML.M0022,Generative AI Model Alignment,['Technical - ML'],7,6,6.10; 6.8; 6.9; fuera
+AML.M0023,AI Bill of Materials,['Policy'],7,3,6.2; 6.7; anexo B; fuera
+AML.M0024,AI Telemetry Logging,['Technical - Cyber'],17,15,6.10; 6.4; 6.5; 6.6; 6.8; 6.9; fuera
+AML.M0025,Maintain AI Dataset Provenance,['Technical - ML'],5,5,6.2; 6.7
+AML.M0026,Privileged AI Agent Permissions Configuration,['Technical - Cyber'],7,7,6.10; 6.8
+AML.M0027,Single-User AI Agent Permissions Configuration,['Technical - Cyber'],7,7,6.10; 6.8
+AML.M0028,AI Agent Tools Permissions Configuration,['Technical - Cyber'],5,5,6.10; 6.8
+AML.M0029,Human In-the-Loop for AI Agent Actions,['Technical - ML'],3,3,6.10
+AML.M0030,Restrict AI Agent Tool Invocation on Untrusted Data,['Technical - ML'],3,3,6.10
+AML.M0031,Memory Hardening,['Technical - ML'],2,2,6.2
+AML.M0032,Segmentation of AI Agent Components,['Technical - Cyber'],6,5,6.10; 6.8; fuera
+AML.M0033,Input and Output Validation for AI Agent Components,['Technical - ML'],6,6,6.10; 6.9
+AML.M0034,Deepfake Detection,['Technical - ML'],5,1,6.3; fuera

@@ -17,3 +17,5 @@ resoluciones de la AEPD (documentos públicos),aepd-correctivos,https://www.aepd
 consultas TPC-H de polars-benchmark (pola-rs),polars-duckdb,https://github.com/pola-rs/polars-benchmark
 paquetes de Polars y DuckDB en PyPI,polars-duckdb,https://pypi.org/pypi/duckdb/json
 extensión tpch de DuckDB (generación de TPC-H),polars-duckdb,http://extensions.duckdb.org/v1.5.6/linux_amd64/tpch.duckdb_extension.gz
+catálogo MITRE ATLAS (mitre-atlas/atlas-data; dist/ATLAS.yaml),iso-27090,https://raw.githubusercontent.com/mitre-atlas/atlas-data/main/dist/ATLAS.yaml
+taxonomía NIST AI 100-2 E2025 (PDF),iso-27090,https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-2e2025.pdf

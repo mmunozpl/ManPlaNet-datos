@@ -1,0 +1,58 @@
+caso,nombre,fecha,tipo,tecnicas,clausulas,solo_fuera
+AML.CS0000,Evasion of Deep Learning Detector for Malware C&C Traffic,2020-01-01,exercise,6,6.3; fuera,0
+AML.CS0001,Botnet Domain Generation Algorithm (DGA) Detection Evasion,2020-01-01,exercise,6,6.3; fuera,0
+AML.CS0002,VirusTotal Poisoning,2020-01-01,incident,4,6.2; 6.3; fuera,0
+AML.CS0003,Bypassing Cylance's AI Malware Detection,2019-09-07,exercise,6,6.3; fuera,0
+AML.CS0004,Camera Hijack Attack on Facial Recognition System,2020-01-01,incident,8,6.3; fuera,0
+AML.CS0005,Attack on Machine Translation Services,2020-04-30,exercise,9,6.3; 6.5; fuera,0
+AML.CS0006,ClearviewAI Misconfiguration,2020-04-16,incident,4,6.3; fuera,0
+AML.CS0007,GPT-2 Model Replication,2019-08-22,exercise,5,fuera,1
+AML.CS0008,ProofPoint Evasion,2019-09-09,exercise,5,6.3; 6.5; fuera,0
+AML.CS0009,Tay Poisoning,2016-03-23,incident,4,6.2; 6.3; fuera,0
+AML.CS0010,Microsoft Azure Service Disruption,2020-01-01,exercise,8,6.3; fuera,0
+AML.CS0011,Microsoft Edge AI Evasion,2020-02-01,exercise,5,6.3; fuera,0
+AML.CS0012,Face Identification System Evasion via Physical Countermeasures,2020-01-01,exercise,10,6.3; fuera,0
+AML.CS0013,Backdoor Attack on Deep Learning Models in Mobile Apps,2021-01-18,exercise,10,6.2; 6.3; 6.7; fuera,0
+AML.CS0014,Confusing Antimalware Neural Networks,2021-06-23,exercise,9,6.3; fuera,0
+AML.CS0015,Compromised PyTorch Dependency Chain,2022-12-25,incident,3,anexo B; fuera,1
+AML.CS0016,Achieving Code Execution in MathGPT via Prompt Injection,2023-01-28,exercise,9,6.10; 6.9; anexo B; fuera,0
+AML.CS0017,Bypassing ID.me Identity Verification,2020-10-01,incident,3,6.3; fuera,0
+AML.CS0018,Arbitrary Code Execution with Google Colab,2022-07-01,exercise,8,6.5; anexo B; fuera,0
+AML.CS0019,PoisonGPT,2023-07-01,exercise,7,6.3; 6.7; fuera,0
+AML.CS0020,Indirect Prompt Injection Threats: Bing Chat Data Pirate,2023-01-01,exercise,5,6.9; fuera,0
+AML.CS0021,ChatGPT Conversation Exfiltration,2023-05-01,exercise,7,6.10; 6.9; fuera,0
+AML.CS0022,ChatGPT Package Hallucination,2024-06-01,exercise,6,anexo B; fuera,1
+AML.CS0023,ShadowRay,2023-09-05,incident,7,6.7; fuera,0
+AML.CS0024,Morris II Worm: RAG-Based Attack,2024-03-05,exercise,7,6.10; 6.8; 6.9; fuera,0
+AML.CS0025,Web-Scale Data Poisoning: Split-View Attack,2024-06-06,exercise,6,6.2; 6.3; fuera,0
+AML.CS0026,Financial Transaction Hijacking with M365 Copilot as an Insider,2024-08-08,exercise,14,6.10; 6.2; 6.8; 6.9; fuera,0
+AML.CS0027,Organization Confusion on Hugging Face,2023-08-23,exercise,16,6.5; 6.7; fuera,0
+AML.CS0028,AI Model Tampering via Supply Chain Attack,2023-09-26,exercise,9,6.3; 6.5; 6.7; anexo B; fuera,0
+AML.CS0029,Google Bard Conversation Exfiltration,2023-11-23,exercise,7,6.10; 6.9; fuera,0
+AML.CS0030,LLM Jacking,2024-05-06,incident,7,fuera,1
+AML.CS0031,Malicious Models on Hugging Face,2025-02-25,incident,6,6.7; anexo B; fuera,0
+AML.CS0032,Attempted Evasion of ML Phishing Webpage Detection System,2022-12-01,incident,4,6.3; fuera,0
+AML.CS0033,Live Deepfake Image Injection to Evade Mobile KYC Verification,2024-10-01,exercise,10,6.3; fuera,0
+AML.CS0034,ProKYC: Deepfake Tool for Account Fraud Attacks,2024-10-09,incident,9,6.3; fuera,0
+AML.CS0035,Data Exfiltration from Slack AI via Indirect Prompt Injection,2024-08-20,exercise,8,6.10; 6.2; 6.8; 6.9; fuera,0
+AML.CS0036,AIKatz: Attacking LLM Desktop Applications,2025-01-01,exercise,13,6.2; 6.9; anexo B; fuera,0
+AML.CS0037,Data Exfiltration via Agent Tools in Copilot Studio,2025-06-01,exercise,14,6.10; 6.8; 6.9; fuera,0
+AML.CS0038,Planting Instructions for Delayed Automatic AI Agent Tool Invocation,2024-02-01,exercise,6,6.10; 6.8; 6.9,0
+AML.CS0039,Living Off AI: Prompt Injection via Jira Service Management,2025-06-19,exercise,8,6.10; 6.8; 6.9; fuera,0
+AML.CS0040,Hacking ChatGPT’s Memories with Prompt Injection,2024-02-01,exercise,7,6.2; 6.9; fuera,0
+AML.CS0041,Rules File Backdoor: Supply Chain Attack on AI Coding Assistants,2025-03-18,exercise,9,6.10; 6.7; 6.9; anexo B; fuera,0
+AML.CS0042,SesameOp: Novel backdoor uses OpenAI Assistants API for command and control,2025-07-01,incident,1,fuera,1
+AML.CS0043,Malware Prototype with Embedded Prompt Injection,2025-06-25,incident,8,6.3; 6.9; fuera,0
+AML.CS0044,LAMEHUG: Malware Leveraging Dynamic AI-Generated Commands,2025-06-03,incident,8,6.10; fuera,0
+AML.CS0045,Data Exfiltration via an MCP Server used by Cursor,2025-06-24,exercise,11,6.10; 6.9; fuera,0
+AML.CS0046,Data Destruction via Indirect Prompt Injection Targeting Claude Computer-Use,2024-10-24,exercise,7,6.10; 6.9,0
+AML.CS0047,Code to Deploy Destructive AI Agent Discovered in Amazon Q VS Code Extension,2025-07-13,incident,7,6.10; 6.9; anexo B; fuera,0
+AML.CS0048,Exposed ClawdBot Control Interfaces Leads to Credential Access and Execution,2026-01-25,exercise,10,6.10; 6.8; 6.9; fuera,0
+AML.CS0049,Supply Chain Compromise via Poisoned ClawdBot Skill,2026-01-26,exercise,11,6.10; 6.9; anexo B; fuera,0
+AML.CS0050,OpenClaw 1-Click Remote Code Execution,2026-02-01,exercise,9,6.7; fuera,0
+AML.CS0051,OpenClaw Command & Control via Prompt Injection,2026-02-03,exercise,18,6.10; 6.2; 6.7; 6.8; 6.9; fuera,0
+AML.CS0052,LLMSmith: RCE Vulnerabilities in LLM-Integrated Applications,2025-02-27,exercise,12,6.10; 6.9; fuera,0
+AML.CS0053,Poisoned Postmark MCP Server Email Exfiltration,2025-09-01,incident,9,6.10; anexo B; fuera,0
+AML.CS0054,Data Exfiltration via Remote Poisoned MCP Tool,2025-04-01,exercise,9,6.10; 6.9; anexo B; fuera,0
+AML.CS0055,AI ClickFix: Hijacking Computer-Use Agents Using ClickFix,2025-05-24,exercise,8,6.10; 6.9; fuera,0
+AML.CS0056,Model Distillation Campaigns Targeting Anthropic Claude,2026-02-23,incident,7,6.5; 6.9; fuera,0

@@ -1,0 +1,33 @@
+fuente,elemento,pagina,clausula
+NIST AI 100-2 E2025,2.2 Evasion Attacks,11,6.3
+NIST AI 100-2 E2025,2.3.1 Availability Poisoning,19,6.2
+NIST AI 100-2 E2025,2.3.2 Targeted Poisoning,21,6.2
+NIST AI 100-2 E2025,2.3.3 Backdoor Poisoning,22,6.2
+NIST AI 100-2 E2025,2.3.4 Model Poisoning,26,6.7
+NIST AI 100-2 E2025,2.4.1 Data Reconstruction,28,6.6
+NIST AI 100-2 E2025,2.4.2 Membership Inference,29,6.4
+NIST AI 100-2 E2025,2.4.3 Property Inference,30,6.6
+NIST AI 100-2 E2025,2.4.4 Model Extraction,31,6.5
+NIST AI 100-2 E2025,3.2.1 Data Poisoning Attacks (supply chain),42,6.2
+NIST AI 100-2 E2025,3.2.2 Model Poisoning Attacks (supply chain),42,6.7
+NIST AI 100-2 E2025,3.3.1 Direct Prompting: Attack Techniques,44,6.9
+NIST AI 100-2 E2025,3.3.2 Direct Prompting: Information Extraction,46,6.8
+NIST AI 100-2 E2025,3.4.1 Indirect Prompt Injection: Availability Attacks,51,6.9
+NIST AI 100-2 E2025,3.4.2 Indirect Prompt Injection: Integrity Attacks,51,6.9
+NIST AI 100-2 E2025,3.4.3 Indirect Prompt Injection: Privacy Compromise,52,6.8
+NIST AI 100-2 E2025,3.5 Security of Agents,54,6.10
+OWASP Top 10 for LLM Applications 2025,LLM01:2025 Prompt Injection,,6.9
+OWASP Top 10 for LLM Applications 2025,LLM02:2025 Sensitive Information Disclosure,,6.8
+OWASP Top 10 for LLM Applications 2025,LLM03:2025 Supply Chain,,fuera
+OWASP Top 10 for LLM Applications 2025,LLM04:2025 Data and Model Poisoning,,6.2; 6.7
+OWASP Top 10 for LLM Applications 2025,LLM05:2025 Improper Output Handling,,6.10
+OWASP Top 10 for LLM Applications 2025,LLM06:2025 Excessive Agency,,6.10
+OWASP Top 10 for LLM Applications 2025,LLM07:2025 System Prompt Leakage,,6.8
+OWASP Top 10 for LLM Applications 2025,LLM08:2025 Vector and Embedding Weaknesses,,6.2; 6.8
+OWASP Top 10 for LLM Applications 2025,LLM09:2025 Misinformation,,fuera
+OWASP Top 10 for LLM Applications 2025,LLM10:2025 Unbounded Consumption,,fuera
+Reglamento (UE) 2024/1689,art. 15.5 data poisoning,,6.2
+Reglamento (UE) 2024/1689,art. 15.5 model poisoning,,6.7
+Reglamento (UE) 2024/1689,art. 15.5 adversarial examples or model evasion,,6.3
+Reglamento (UE) 2024/1689,art. 15.5 confidentiality attacks,,6.4; 6.5; 6.6; 6.8
+Reglamento (UE) 2024/1689,art. 15.5 model flaws,,fuera

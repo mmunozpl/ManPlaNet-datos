@@ -1,0 +1,171 @@
+tecnica,nombre,nivel,tacticas,madurez,clausula,amenaza,motivo
+AML.T0000,Search Open Technical Databases,raíz,Reconnaissance,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0000.000,Journals and Conference Proceedings,subtécnica,Reconnaissance,feasible,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0000.001,Pre-Print Repositories,subtécnica,Reconnaissance,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0000.002,Technical Blogs,subtécnica,Reconnaissance,feasible,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0001,Search Open AI Vulnerability Analysis,raíz,Reconnaissance,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0003,Search Victim-Owned Websites,raíz,Reconnaissance,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0004,Search Application Repositories,raíz,Reconnaissance,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0006,Active Scanning,raíz,Reconnaissance,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0002,Acquire Public AI Artifacts,raíz,Resource Development,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0002.000,Datasets,subtécnica,Resource Development,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0002.001,Models,subtécnica,Resource Development,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0016,Obtain Capabilities,raíz,Resource Development,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0016.000,Adversarial AI Attack Implementations,subtécnica,Resource Development,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0016.001,Software Tools,subtécnica,Resource Development,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0017,Develop Capabilities,raíz,Resource Development,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0017.000,Adversarial AI Attacks,subtécnica,Resource Development,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0008,Acquire Infrastructure,raíz,Resource Development,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0008.000,AI Development Workspaces,subtécnica,Resource Development,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0008.001,Consumer Hardware,subtécnica,Resource Development,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0019,Publish Poisoned Datasets,raíz,Resource Development,demonstrated,6.2,envenenamiento de datos,regla por técnica
+AML.T0010,AI Supply Chain Compromise,raíz,Initial Access,realized,anexo B,anexo B: versiones para IA de ataques convencionales,regla por técnica
+AML.T0010.000,Hardware,subtécnica,Initial Access,feasible,anexo B,anexo B: versiones para IA de ataques convencionales,hereda la de su técnica raíz AML.T0010
+AML.T0010.001,AI Software,subtécnica,Initial Access,realized,anexo B,anexo B: versiones para IA de ataques convencionales,hereda la de su técnica raíz AML.T0010
+AML.T0010.002,Data,subtécnica,Initial Access,realized,6.2,envenenamiento de datos,regla por técnica
+AML.T0010.003,Model,subtécnica,Initial Access,realized,6.7,envenenamiento directo del modelo,regla por técnica
+AML.T0040,AI Model Inference API Access,raíz,AI Model Access,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0047,AI-Enabled Product or Service,raíz,AI Model Access,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0041,Physical Environment Access,raíz,AI Model Access,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0044,Full AI Model Access,raíz,AI Model Access,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0013,Discover AI Model Ontology,raíz,Discovery,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0014,Discover AI Model Family,raíz,Discovery,feasible,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0020,Poison Training Data,raíz,Resource Development; Persistence,realized,6.2,envenenamiento de datos,regla por técnica
+AML.T0021,Establish Accounts,raíz,Resource Development,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0005,Create Proxy AI Model,raíz,AI Attack Staging,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0005.000,Train Proxy via Gathered AI Artifacts,subtécnica,AI Attack Staging,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0005.001,Train Proxy via Replication,subtécnica,AI Attack Staging,demonstrated,6.5,exfiltración del modelo,regla por técnica
+AML.T0005.002,Use Pre-Trained Model,subtécnica,AI Attack Staging,feasible,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0007,Discover AI Artifacts,raíz,Discovery,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0011,User Execution,raíz,Execution,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0011.000,Unsafe AI Artifacts,subtécnica,Execution,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0012,Valid Accounts,raíz,Initial Access; Privilege Escalation,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0015,Evade AI Model,raíz,Initial Access; Defense Evasion; Impact,realized,6.3,evasión,regla por técnica
+AML.T0018,Manipulate AI Model,raíz,Persistence; AI Attack Staging,realized,6.7,envenenamiento directo del modelo,regla por técnica
+AML.T0018.000,Poison AI Model,subtécnica,Persistence; AI Attack Staging,demonstrated,6.7,envenenamiento directo del modelo,hereda la de su técnica raíz AML.T0018
+AML.T0018.001,Modify AI Model Architecture,subtécnica,Persistence; AI Attack Staging,demonstrated,6.7,envenenamiento directo del modelo,hereda la de su técnica raíz AML.T0018
+AML.T0024,Exfiltration via AI Inference API,raíz,Exfiltration,realized,6.8,salida sensible del modelo,"exfiltración por la API de inferencia: la técnica raíz agrupa pertenencia, inversión y extracción; cada subtécnica va a la suya"
+AML.T0024.000,Infer Training Data Membership,subtécnica,Exfiltration,feasible,6.4,inferencia de pertenencia,regla por técnica
+AML.T0024.001,Invert AI Model,subtécnica,Exfiltration,feasible,6.6,inversión del modelo,regla por técnica
+AML.T0024.002,Extract AI Model,subtécnica,Exfiltration,realized,6.5,exfiltración del modelo,regla por técnica
+AML.T0025,Exfiltration via Cyber Means,raíz,Exfiltration,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0029,Denial of AI Service,raíz,Impact,demonstrated,anexo B,anexo B: versiones para IA de ataques convencionales,regla por técnica
+AML.T0046,Spamming AI System with Chaff Data,raíz,Impact,feasible,anexo B,anexo B: versiones para IA de ataques convencionales,regla por técnica
+AML.T0031,Erode AI Model Integrity,raíz,Impact,realized,6.3,evasión,erosionar la integridad del modelo con entradas es evasión sostenida
+AML.T0034,Cost Harvesting,raíz,Impact,feasible,anexo B,anexo B: versiones para IA de ataques convencionales,regla por técnica
+AML.T0035,AI Artifact Collection,raíz,Collection,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0036,Data from Information Repositories,raíz,Collection,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0037,Data from Local System,raíz,Collection,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0042,Verify Attack,raíz,AI Attack Staging,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0043,Craft Adversarial Data,raíz,AI Attack Staging,realized,6.3,evasión,regla por técnica
+AML.T0043.000,White-Box Optimization,subtécnica,AI Attack Staging,demonstrated,6.3,evasión,hereda la de su técnica raíz AML.T0043
+AML.T0043.001,Black-Box Optimization,subtécnica,AI Attack Staging,demonstrated,6.3,evasión,hereda la de su técnica raíz AML.T0043
+AML.T0043.002,Black-Box Transfer,subtécnica,AI Attack Staging,demonstrated,6.3,evasión,hereda la de su técnica raíz AML.T0043
+AML.T0043.003,Manual Modification,subtécnica,AI Attack Staging,realized,6.3,evasión,hereda la de su técnica raíz AML.T0043
+AML.T0043.004,Insert Backdoor Trigger,subtécnica,AI Attack Staging,demonstrated,6.2,envenenamiento de datos,insertar un disparador de puerta trasera es parte del envenenamiento de datos
+AML.T0048,External Harms,raíz,Impact,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0048.000,Financial Harm,subtécnica,Impact,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0048.001,Reputational Harm,subtécnica,Impact,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0048.002,Societal Harm,subtécnica,Impact,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0048.003,User Harm,subtécnica,Impact,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0048.004,AI Intellectual Property Theft,subtécnica,Impact,realized,6.5,exfiltración del modelo,regla por técnica
+AML.T0049,Exploit Public-Facing Application,raíz,Initial Access,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0050,Command and Scripting Interpreter,raíz,Execution,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0051,LLM Prompt Injection,raíz,Execution,realized,6.9,inyección de prompt,regla por técnica
+AML.T0051.000,Direct,subtécnica,Execution,realized,6.9,inyección de prompt,hereda la de su técnica raíz AML.T0051
+AML.T0051.001,Indirect,subtécnica,Execution,demonstrated,6.9,inyección de prompt,hereda la de su técnica raíz AML.T0051
+AML.T0052,Phishing,raíz,Initial Access; Lateral Movement,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0052.000,Spearphishing via Social Engineering LLM,subtécnica,Initial Access; Lateral Movement,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0053,AI Agent Tool Invocation,raíz,Execution; Privilege Escalation,demonstrated,6.10,salida con ataques de inyección,la invocación de herramientas es la salida del modelo convertida en acción
+AML.T0054,LLM Jailbreak,raíz,Privilege Escalation; Defense Evasion,demonstrated,6.9,inyección de prompt,el jailbreak entra por el prompt directo; la norma no le da cláusula propia
+AML.T0055,Unsecured Credentials,raíz,Credential Access,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0056,Extract LLM System Prompt,raíz,Exfiltration,feasible,6.8,salida sensible del modelo,regla por técnica
+AML.T0057,LLM Data Leakage,raíz,Exfiltration,demonstrated,6.8,salida sensible del modelo,regla por técnica
+AML.T0058,Publish Poisoned Models,raíz,Resource Development,realized,6.7,envenenamiento directo del modelo,regla por técnica
+AML.T0059,Erode Dataset Integrity,raíz,Impact,demonstrated,6.2,envenenamiento de datos,regla por técnica
+AML.T0011.001,Malicious Package,subtécnica,Execution,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0060,Publish Hallucinated Entities,raíz,Resource Development,demonstrated,anexo B,anexo B: versiones para IA de ataques convencionales,regla por técnica
+AML.T0061,LLM Prompt Self-Replication,raíz,Persistence,demonstrated,6.9,inyección de prompt,regla por técnica
+AML.T0062,Discover LLM Hallucinations,raíz,Discovery,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0008.002,Domains,subtécnica,Resource Development,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0008.003,Physical Countermeasures,subtécnica,Resource Development,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0063,Discover AI Model Outputs,raíz,Discovery,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0016.002,Generative AI,subtécnica,Resource Development,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0064,Gather RAG-Indexed Targets,raíz,Reconnaissance,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0065,LLM Prompt Crafting,raíz,Resource Development,realized,6.9,inyección de prompt,regla por técnica
+AML.T0066,Retrieval Content Crafting,raíz,Resource Development,demonstrated,6.9,inyección de prompt,regla por técnica
+AML.T0067,LLM Trusted Output Components Manipulation,raíz,Defense Evasion,demonstrated,6.10,salida con ataques de inyección,regla por técnica
+AML.T0068,LLM Prompt Obfuscation,raíz,Defense Evasion,demonstrated,6.9,inyección de prompt,regla por técnica
+AML.T0069,Discover LLM System Information,raíz,Discovery,demonstrated,6.8,salida sensible del modelo,regla por técnica
+AML.T0069.000,Special Character Sets,subtécnica,Discovery,demonstrated,6.8,salida sensible del modelo,hereda la de su técnica raíz AML.T0069
+AML.T0069.001,System Instruction Keywords,subtécnica,Discovery,demonstrated,6.8,salida sensible del modelo,hereda la de su técnica raíz AML.T0069
+AML.T0069.002,System Prompt,subtécnica,Discovery,demonstrated,6.8,salida sensible del modelo,hereda la de su técnica raíz AML.T0069
+AML.T0070,RAG Poisoning,raíz,Persistence,demonstrated,6.2,envenenamiento de datos,regla por técnica
+AML.T0071,False RAG Entry Injection,raíz,Defense Evasion,demonstrated,6.9,inyección de prompt,regla por técnica
+AML.T0067.000,Citations,subtécnica,Defense Evasion,demonstrated,6.10,salida con ataques de inyección,hereda la de su técnica raíz AML.T0067
+AML.T0018.002,Embed Malware,subtécnica,Persistence; AI Attack Staging,realized,6.7,envenenamiento directo del modelo,hereda la de su técnica raíz AML.T0018
+AML.T0010.004,Container Registry,subtécnica,Initial Access,demonstrated,anexo B,anexo B: versiones para IA de ataques convencionales,hereda la de su técnica raíz AML.T0010
+AML.T0072,Reverse Shell,raíz,Command and Control,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0073,Impersonation,raíz,Defense Evasion,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0074,Masquerading,raíz,Defense Evasion,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0075,Cloud Service Discovery,raíz,Discovery,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0076,Corrupt AI Model,raíz,Defense Evasion,realized,6.7,envenenamiento directo del modelo,regla por técnica
+AML.T0077,LLM Response Rendering,raíz,Exfiltration,demonstrated,6.10,salida con ataques de inyección,regla por técnica
+AML.T0008.004,Serverless,subtécnica,Resource Development,feasible,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0078,Drive-by Compromise,raíz,Initial Access,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0079,Stage Capabilities,raíz,Resource Development,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0080,AI Agent Context Poisoning,raíz,Persistence,demonstrated,6.2,envenenamiento de datos,regla por técnica
+AML.T0080.000,Memory,subtécnica,Persistence,demonstrated,6.2,envenenamiento de datos,hereda la de su técnica raíz AML.T0080
+AML.T0080.001,Thread,subtécnica,Persistence,demonstrated,6.2,envenenamiento de datos,hereda la de su técnica raíz AML.T0080
+AML.T0081,Modify AI Agent Configuration,raíz,Persistence; Defense Evasion,demonstrated,6.7,envenenamiento directo del modelo,alterar la configuración del agente es manipular el modelo desplegado
+AML.T0082,RAG Credential Harvesting,raíz,Credential Access,demonstrated,6.8,salida sensible del modelo,las credenciales recogidas del índice RAG salen por la salida del modelo
+AML.T0083,Credentials from AI Agent Configuration,raíz,Credential Access,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0084,Discover AI Agent Configuration,raíz,Discovery,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0084.000,Embedded Knowledge,subtécnica,Discovery,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0084.001,Tool Definitions,subtécnica,Discovery,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0084.002,Activation Triggers,subtécnica,Discovery,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0085,Data from AI Services,raíz,Collection,demonstrated,6.8,salida sensible del modelo,regla por técnica
+AML.T0085.000,RAG Databases,subtécnica,Collection,demonstrated,6.8,salida sensible del modelo,hereda la de su técnica raíz AML.T0085
+AML.T0085.001,AI Agent Tools,subtécnica,Collection,demonstrated,6.8,salida sensible del modelo,hereda la de su técnica raíz AML.T0085
+AML.T0086,Exfiltration via AI Agent Tool Invocation,raíz,Exfiltration,realized,6.10,salida con ataques de inyección,regla por técnica
+AML.T0087,Gather Victim Identity Information,raíz,Reconnaissance,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0088,Generate Deepfakes,raíz,AI Attack Staging,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0089,Process Discovery,raíz,Discovery,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0090,OS Credential Dumping,raíz,Credential Access,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0091,Use Alternate Authentication Material,raíz,Lateral Movement,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0092,Manipulate User LLM Chat History,raíz,Defense Evasion,demonstrated,6.9,inyección de prompt,regla por técnica
+AML.T0091.000,Application Access Token,subtécnica,Lateral Movement,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0093,Prompt Infiltration via Public-Facing Application,raíz,Initial Access; Persistence,demonstrated,6.9,inyección de prompt,regla por técnica
+AML.T0094,Delay Execution of LLM Instructions,raíz,Defense Evasion,demonstrated,6.9,inyección de prompt,regla por técnica
+AML.T0051.002,Triggered,subtécnica,Execution,demonstrated,6.9,inyección de prompt,hereda la de su técnica raíz AML.T0051
+AML.T0095,Search Open Websites/Domains,raíz,Reconnaissance,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0096,AI Service API,raíz,Command and Control,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0097,Virtualization/Sandbox Evasion,raíz,Defense Evasion,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0098,AI Agent Tool Credential Harvesting,raíz,Credential Access,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0099,AI Agent Tool Data Poisoning,raíz,Persistence,feasible,6.2,envenenamiento de datos,regla por técnica
+AML.T0100,AI Agent Clickbait,raíz,Execution,demonstrated,6.9,inyección de prompt,regla por técnica
+AML.T0101,Data Destruction via AI Agent Tool Invocation,raíz,Impact,realized,6.10,salida con ataques de inyección,regla por técnica
+AML.T0102,Generate Malicious Commands,raíz,AI Attack Staging,realized,6.10,salida con ataques de inyección,regla por técnica
+AML.T0103,Deploy AI Agent,raíz,Execution,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0104,Publish Poisoned AI Agent Tool,raíz,Resource Development,realized,anexo B,anexo B: versiones para IA de ataques convencionales,regla por técnica
+AML.T0011.002,Poisoned AI Agent Tool,subtécnica,Execution,realized,anexo B,anexo B: versiones para IA de ataques convencionales,regla por técnica
+AML.T0011.003,Malicious Link,subtécnica,Execution,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0105,Escape to Host,raíz,Privilege Escalation,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0106,Exploitation for Credential Access,raíz,Credential Access,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0107,Exploitation for Defense Evasion,raíz,Defense Evasion,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0108,AI Agent,raíz,Command and Control,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0109,AI Supply Chain Rug Pull,raíz,Defense Evasion,realized,anexo B,anexo B: versiones para IA de ataques convencionales,regla por técnica
+AML.T0110,AI Agent Tool Poisoning,raíz,Persistence,realized,anexo B,anexo B: versiones para IA de ataques convencionales,regla por técnica
+AML.T0010.005,AI Agent Tool,subtécnica,Initial Access,realized,anexo B,anexo B: versiones para IA de ataques convencionales,hereda la de su técnica raíz AML.T0010
+AML.T0034.000,Excessive Queries,subtécnica,Impact,feasible,anexo B,anexo B: versiones para IA de ataques convencionales,hereda la de su técnica raíz AML.T0034
+AML.T0034.001,Resource-Intensive Queries,subtécnica,Impact,feasible,anexo B,anexo B: versiones para IA de ataques convencionales,hereda la de su técnica raíz AML.T0034
+AML.T0034.002,Agentic Resource Consumption,subtécnica,Impact,feasible,anexo B,anexo B: versiones para IA de ataques convencionales,hereda la de su técnica raíz AML.T0034
+AML.T0084.003,Call Chains,subtécnica,Discovery,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0111,AI Supply Chain Reputation Inflation,raíz,Defense Evasion,demonstrated,anexo B,anexo B: versiones para IA de ataques convencionales,regla por técnica
+AML.T0112,Machine Compromise,raíz,Impact,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0008.005,AI Service Proxies,subtécnica,Resource Development,realized,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0112.000,Local AI Agent,subtécnica,Impact,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0112.001,AI Artifacts,subtécnica,Impact,feasible,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0052.001,Deepfake-Assisted Phishing,subtécnica,Initial Access; Lateral Movement,feasible,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0002.002,AI Agent Configuration,subtécnica,Resource Development,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"
+AML.T0095.000,Code Repositories,subtécnica,Reconnaissance,demonstrated,fuera,fuera de las nueve,"ataque convencional, reconocimiento, preparación o impacto genérico"

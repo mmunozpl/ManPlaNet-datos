@@ -1,0 +1,13 @@
+prueba,entorno,variable,tanda,segundos,pico_rss_mb,compact_stall,compact_fail,thp_fault_alloc,thp_fault_fallback,swap_entradas,swap_salidas,rc,thp_enabled,thp_defrag
+csv_pandas,pandas-2.3.3,predeterminado,1,111.708,7432.7,11248,10836,1152,3431,4512,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-2.3.3,NUMPY_MADVISE_HUGEPAGE=0,1,23.113,7431.3,0,0,0,0,247,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-2.3.3,predeterminado,2,156.804,7431.3,11751,11711,740,3842,5559,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-2.3.3,NUMPY_MADVISE_HUGEPAGE=0,2,24.452,7433.0,0,0,0,0,5,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-2.3.3,predeterminado,3,138.054,7432.1,11564,11425,856,3727,240,34520,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-2.3.3,NUMPY_MADVISE_HUGEPAGE=0,3,22.961,7432.4,0,0,0,0,30,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,predeterminado,1,38.526,4678.3,2604,2604,797,866,6727,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,NUMPY_MADVISE_HUGEPAGE=0,1,21.437,4677.9,0,0,443,0,43,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,predeterminado,2,36.427,4678.1,3444,3444,488,1144,20,9970,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,NUMPY_MADVISE_HUGEPAGE=0,2,23.844,4677.7,0,0,443,0,3,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,predeterminado,3,39.844,4678.2,3692,3692,420,1230,46,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,NUMPY_MADVISE_HUGEPAGE=0,3,21.613,4676.3,23,23,436,7,130,0,0,always [madvise] never,always defer defer+madvise [madvise] never

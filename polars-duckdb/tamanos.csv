@@ -1,0 +1,14 @@
+fichero,bytes,gib,sha256,identico_a_agosto
+datos.csv,2225828344,2.073,47afa419f23c97f8dd84e8fe9cd75b155a618d09afa6852bae3ab8252bf39e63,True
+datos_snappy.parquet,850451057,0.792,5f4afcb76e212cc24409630306608e8164fb6386a584e904972ad7fcf80ddd48,True
+datos_zstd.parquet,590290764,0.55,213810f04dc7c4fae396296f5999fe2bdbaaa2a5b876f88124251e4c614c6661,True
+datos.arrow,1638345562,1.526,fecd94d4e06c7414c2a9bc2843f6006f8bce5aebb6df190d603539cf6cab8497,True
+tpch-sf10/customer.parquet,124760371,0.116,,
+tpch-sf10/lineitem.parquet,2258867043,2.104,,
+tpch-sf10/nation.parquet,2311,0.0,,
+tpch-sf10/orders.parquet,588622471,0.548,,
+tpch-sf10/part.parquet,63645782,0.059,,
+tpch-sf10/partsupp.parquet,442585934,0.412,,
+tpch-sf10/region.parquet,1071,0.0,,
+tpch-sf10/supplier.parquet,7970604,0.007,,
+tpch-sf100/lineitem (100 partes),23146264552,21.557,,

@@ -52,6 +52,7 @@ el guion:
 ├── transformers/     # configuración de los 600 modelos más descargados del Hub
 ├── sigma/            # metadatos de las 3 760 reglas de detección de SigmaHQ
 ├── adult/            # el conjunto Adult de UCI, sin modificar
+├── polars-duckdb/    # Polars 2.0 y DuckDB 2.0 frente a sus 1.x: TPC-H a escala 10, el banco de agosto, 8 GiB de tope y la guía de migración
 ├── vigencia-boe/     # manifiesto diario de los 350 códigos electrónicos del BOE
 ├── pyproject.toml    # las versiones exactas con que se dibujaron las figuras
 ├── uv.lock           # el bloqueo: esas versiones y las de todo lo que arrastran
@@ -98,6 +99,7 @@ con la semilla y los parámetros de la simulación.
 | [Certificar antes, corregir después: el Esquema Nacional de Seguridad y los poderes de la AEPD, leídos en sus registros públicos](https://manpla.net/posts/certificar-y-corregir/) | `ens-certificados/generar.py` · `aepd-correctivos/generar.py` | `ens-certificados/salidas/certificados.csv`, `certificadoras.csv`, `vencimientos_mensuales.csv`, `resumen.csv` · `aepd-correctivos/salidas/resoluciones.csv`, `desenlaces_anuales.csv`, `importes_anuales.csv`, `serie_tipos.csv` |
 | [Cuando la capacidad técnica se adelanta a la autorización: guardarraíles de IA y pliegos de videovigilancia](https://manpla.net/posts/quien-decide-que-pasa/) | `guardarrailes/generar.py` (GPU) · `ola.py` · `videovigilancia/generar.py` · `lista_rostros.py` | `guardarrailes/resumen_condiciones.csv`, `resumen_barrido.csv`, `validacion.csv`, `items_condiciones.csv.gz`, `ola_semanal.csv` · `videovigilancia/salidas/licitaciones_videovigilancia.csv`, `conteos_capacidad_nivel.csv`, `facial_contra_lista.csv` |
 | [Mirar ya es tratar: el análisis exploratorio como primera obligación legal y primera fuente de errores](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
+| [Actualizar a Polars 2.0 y DuckDB 2.0: cuánto se gana, qué cambia y cómo comprobarlo antes](https://manpla.net/posts/migrar-a-polars-2/) | `polars-duckdb/generar.py` | `polars-duckdb/a_resumen.csv`, `b_tpch_resumen.csv`, `c_resumen.csv`, `d_cambios_apartados.csv`, `afirmaciones.csv` |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 Las cifras de cada artículo corresponden a la instantánea de su fecha, que
@@ -124,6 +126,7 @@ python euvd-kev/generar.py           # el JSON del KEV y la API pública de la E
 python netscaler/generar.py          # el KEV, la API 2.0 del NVD y la API de la EUVD; unos tres minutos por el límite del NVD
 python ens-certificados/generar.py   # los cuatro listados del portal de gobernanza del CCN; segundos
 python aepd-correctivos/generar.py   # 780 PDF de la AEPD, uno cada dos segundos, en caché fuera del repositorio; media hora la primera vez
+python polars-duckdb/generar.py --datos DIR --entornos DIR --derrame DIR --sin-thp   # unos 40 GB de datos y los entornos fuera del repositorio; unas dos horas
 python guardarrailes/ola.py          # la API de modelos de Hugging Face; segundos
 python guardarrailes/generar.py      # necesita GPU NVIDIA y requirements-gpu.txt; unas cuatro horas en una RTX 5090
 python videovigilancia/generar.py    # 37 ficheros de la Plataforma de Contratación (unos 6 GB) y los pliegos a una petición por segundo; varias horas
@@ -162,6 +165,7 @@ para volver a tomar la instantánea está `generar.py`.
 - [`netscaler/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=netscaler%2Freproducir.ipynb)
 - [`ens-certificados/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=ens-certificados%2Freproducir.ipynb)
 - [`aepd-correctivos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=aepd-correctivos%2Freproducir.ipynb)
+- [`polars-duckdb/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=polars-duckdb%2Freproducir.ipynb)
 - [`guardarrailes/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=guardarrailes%2Freproducir.ipynb)
 - [`videovigilancia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=videovigilancia%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)

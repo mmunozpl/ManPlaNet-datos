@@ -1,0 +1,4 @@
+numpy==2.3.3
+polars==1.43.1
+polars-runtime-32==1.43.1
+pyarrow==22.0.0

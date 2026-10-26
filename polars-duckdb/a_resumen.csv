@@ -1,0 +1,41 @@
+bloque,prueba,entorno,tandas,segundos_mediana,pico_rss_mb_mediana,agosto_segundos,agosto_pico_rss_mb,dif_segundos_pct,dif_rss_pct
+seis,csv_pandas,pandas-2.3.3,3,22.86,7427.2,22.14,7634.1,3.3,-2.7
+seis,parquet_completo,pandas-2.3.3,3,1.51,2669.4,1.47,2695.0,2.7,-0.9
+seis,parquet_2_columnas,pandas-2.3.3,3,0.79,729.8,0.77,735.8,2.6,-0.8
+seis,parquet_filtro,pandas-2.3.3,3,0.73,475.8,0.73,485.5,0.0,-2.0
+seis,parquet_streaming,pandas-2.3.3,3,0.99,130.2,1.01,131.9,-2.0,-1.3
+seis,csv_streaming,pandas-2.3.3,3,12.26,134.0,12.52,134.2,-2.1,-0.1
+seis,csv_pandas,pandas-3.0.6,3,21.14,4673.5,22.14,7634.1,-4.5,-38.8
+seis,parquet_completo,pandas-3.0.6,3,1.5,2710.6,1.47,2695.0,2.0,0.6
+seis,parquet_2_columnas,pandas-3.0.6,3,0.78,741.0,0.77,735.8,1.3,0.7
+seis,parquet_filtro,pandas-3.0.6,3,0.75,611.4,0.73,485.5,2.7,25.9
+seis,parquet_streaming,pandas-3.0.6,3,1.08,257.0,1.01,131.9,6.9,94.8
+seis,csv_streaming,pandas-3.0.6,3,13.48,131.5,12.52,134.2,7.7,-2.0
+seis,csv_pandas,pandas-3.1.0rc0,3,2.91,6632.9,22.14,7634.1,-86.9,-13.1
+seis,parquet_completo,pandas-3.1.0rc0,3,1.47,2701.3,1.47,2695.0,0.0,0.2
+seis,parquet_2_columnas,pandas-3.1.0rc0,3,0.77,748.9,0.77,735.8,0.0,1.8
+seis,parquet_filtro,pandas-3.1.0rc0,3,0.75,581.6,0.73,485.5,2.7,19.8
+seis,parquet_streaming,pandas-3.1.0rc0,3,1.06,258.1,1.01,131.9,5.0,95.7
+seis,csv_streaming,pandas-3.1.0rc0,3,4.51,125.8,12.52,134.2,-64.0,-6.3
+motores,pandas (carga completa),pandas-2.3.3,3,12.53,1021.0,12.36,1023.2,1.4,-0.2
+motores,pandas (carga completa),pandas-3.0.6,3,13.53,1440.7,12.36,1023.2,9.5,40.8
+motores,pandas (carga completa),pandas-3.1.0rc0,3,4.61,1669.9,12.36,1023.2,-62.7,63.2
+motores,pyarrow (lotes a mano),pandas-2.3.3,3,2.77,137.7,2.69,140.5,3.0,-2.0
+motores,pyarrow (lotes a mano),pandas-3.0.6,3,2.36,264.9,2.69,140.5,-12.3,88.5
+motores,pyarrow (lotes a mano),pandas-3.1.0rc0,3,2.08,265.4,2.69,140.5,-22.7,88.9
+motores,polars (lazy + streaming),polars-1.43.1,3,0.39,877.9,0.41,881.2,-4.9,-0.4
+motores,polars (lazy + streaming),polars-1.44.2,3,0.38,882.7,0.41,881.2,-7.3,0.2
+motores,polars (lazy + streaming),polars-2.0.0,3,0.38,869.8,0.41,881.2,-7.3,-1.3
+motores,"polars (lazy, motor predeterminado)",polars-1.43.1,3,0.38,849.1,,,,
+motores,"polars (lazy, motor predeterminado)",polars-1.44.2,3,0.39,850.3,,,,
+motores,"polars (lazy, motor predeterminado)",polars-2.0.0,3,0.38,869.0,,,,
+motores,duckdb (SQL sobre el fichero),duckdb-1.5.5,3,0.15,239.8,0.16,259.3,-6.2,-7.5
+motores,duckdb (SQL sobre el fichero),duckdb-1.5.6,3,0.16,240.4,0.16,259.3,0.0,-7.3
+motores,duckdb (SQL sobre el fichero),duckdb-2.0.0,3,0.22,371.2,0.16,259.3,37.5,43.2
+motores,arrow IPC (mapeado),pandas-2.3.3,3,1.58,966.8,1.23,995.2,28.5,-2.9
+motores,arrow IPC (mapeado),pandas-3.0.6,3,1.57,964.9,1.23,995.2,27.6,-3.0
+motores,arrow IPC (mapeado),pandas-3.1.0rc0,3,1.61,964.2,1.23,995.2,30.9,-3.1
+motores,duckdb (sobre el CSV),duckdb-1.5.5,3,1.64,1443.5,1.64,1296.2,0.0,11.4
+motores,duckdb (sobre el CSV),duckdb-1.5.6,3,1.65,1290.2,1.64,1296.2,0.6,-0.5
+motores,duckdb (sobre el CSV),duckdb-2.0.0,3,1.06,1533.9,1.64,1296.2,-35.4,18.3
+extra,csv_pandas (mode.max_threads=1),pandas-3.1.0rc0,3,8.29,4478.5,,,,

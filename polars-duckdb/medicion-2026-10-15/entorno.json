@@ -1,0 +1,82 @@
+{
+ "fecha": "2026-10-15",
+ "cpu": "AMD Ryzen 9 5950X 16-Core Processor",
+ "hilos": 32,
+ "ram_gib": 60.7,
+ "nucleo": "7.0.0-38-generic",
+ "sistema": "Linux",
+ "sistema_ficheros_datos": "xfs",
+ "tipo_disco_datos": "estado sólido",
+ "python": "3.11.14",
+ "uv": "uv 0.9.8",
+ "polars_benchmark_commit": "401908a307f133a2dffbe3f5e0e0fb2b50ea310b",
+ "polars_benchmark_licencia": "Apache-2.0",
+ "duckdb_motor": {
+  "duckdb-1.5.5": "v1.5.5 d8cdaa33fd",
+  "duckdb-1.5.6": "v1.5.6 069cc9f9b5",
+  "duckdb-2.0.0.dev2610011535": "v2.0.0-alpha43763 96063b9e39"
+ },
+ "paginas_enormes_thp": {
+  "enabled": "always [madvise] never",
+  "defrag": "always defer defer+madvise [madvise] never"
+ },
+ "paginas_enormes_en_a": [
+  "NUMPY_MADVISE_HUGEPAGE=0 MIMALLOC_ALLOW_THP=0"
+ ],
+ "extension_tpch": "v1.5.6",
+ "tope_memoria_gib_a_b_d": 20,
+ "tope_memoria_gib_c": 8,
+ "semilla": 7,
+ "entornos": {
+  "pandas-2.3.3": {
+   "numpy": "2.3.3",
+   "pandas": "2.3.3",
+   "pyarrow": "22.0.0",
+   "python-dateutil": "2.9.0.post0",
+   "pytz": "2026.5",
+   "six": "1.17.0",
+   "tzdata": "2026.5"
+  },
+  "pandas-3.0.6": {
+   "numpy": "2.4.6",
+   "pandas": "3.0.6",
+   "pyarrow": "26.0.0",
+   "python-dateutil": "2.9.0.post0",
+   "six": "1.17.0"
+  },
+  "pandas-3.1.0rc0": {
+   "numpy": "2.4.6",
+   "pandas": "3.1.0rc0",
+   "pyarrow": "26.0.0",
+   "python-dateutil": "2.9.0.post0",
+   "six": "1.17.0"
+  },
+  "polars-1.43.1": {
+   "numpy": "2.3.3",
+   "polars": "1.43.1",
+   "polars-runtime-32": "1.43.1",
+   "pyarrow": "22.0.0"
+  },
+  "polars-1.44.2": {
+   "numpy": "2.4.6",
+   "polars": "1.44.2",
+   "polars-runtime-32": "1.44.2",
+   "pyarrow": "26.0.0"
+  },
+  "polars-2.0.0": {
+   "numpy": "2.4.6",
+   "polars": "2.0.0",
+   "polars-runtime-32": "2.0.0",
+   "pyarrow": "26.0.0"
+  },
+  "duckdb-1.5.5": {
+   "duckdb": "1.5.5"
+  },
+  "duckdb-1.5.6": {
+   "duckdb": "1.5.6"
+  },
+  "duckdb-2.0.0.dev2610011535": {
+   "duckdb": "2.0.0.dev2610011535"
+  }
+ }
+}

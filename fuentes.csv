@@ -14,3 +14,6 @@ sindicación de la Plataforma de Contratación (feed 643),videovigilancia,https:
 sindicación de la Plataforma de Contratación (feed 1044),videovigilancia,https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_1044/PlataformasAgregadasSinMenores.atom
 registro de certificados del ENS (portal de gobernanza del CCN),ens-certificados,https://gobernanza.ccn-cert.cni.es/amparo/API/public/certificaciones/empresas/sistemascertificadosbasica
 resoluciones de la AEPD (documentos públicos),aepd-correctivos,https://www.aepd.es/documento/ps-00188-2024.pdf
+consultas TPC-H de polars-benchmark (pola-rs),polars-duckdb,https://github.com/pola-rs/polars-benchmark
+paquetes de Polars y DuckDB en PyPI,polars-duckdb,https://pypi.org/pypi/duckdb/json
+extensión tpch de DuckDB (generación de TPC-H),polars-duckdb,http://extensions.duckdb.org/v1.5.6/linux_amd64/tpch.duckdb_extension.gz

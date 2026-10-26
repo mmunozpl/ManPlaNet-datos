@@ -1,0 +1,53 @@
+apartado,bloque,titulo,subcasos,clase,que_cambia,clases_subcasos
+1,Cambios incompatibles,The Lazy API defaults to the streaming engine,3,silencioso,orden de filas,"unpivot: silencioso; join izquierdo, 2 M filas: ¿conserva el orden de la izquierda?: silencioso; group_by, 2 M filas y 1000 claves: ¿orden de aparición?: igual"
+2,Cambios incompatibles,pl.read_csv is now dispatched to pl.scan_csv(...).collect(),2,silencioso,"nombres de columna, valores",columns por posición: silencioso; schema_overrides en lista: error nuevo
+3,Cambios incompatibles,pl.read_ipc is now dispatched to pl.scan_ipc(...).collect() for all non-use_pyarrow inputs,1,error nuevo,,-: error nuevo
+4,Cambios incompatibles,"Change default show_graph() plan_stage to ""physical""",1,silencioso,presentación (dibujo del plan),-: silencioso
+5,Cambios incompatibles,Remove LazyFrame.profile(),1,error nuevo,,-: error nuevo
+6,Cambios incompatibles,Update the strict behavior of pl.concat()/pl.union(),1,error nuevo,,-: error nuevo
+7,Cambios incompatibles,Set explode() empty_as_null=False by default,1,silencioso,número de filas,-: silencioso
+8,Cambios incompatibles,Change supertype of signed integer types and UInt64 from Float64 to Int128,1,silencioso,tipos,-: silencioso
+9,Cambios incompatibles,Make coercion casts for is_in() strict instead of lossy,1,error nuevo,,-: error nuevo
+10,Cambios incompatibles,"Stop coercing pl.col(...) to a selector in selector &, |, ^",1,silencioso,"nombres de columna, tipos, valores",-: silencioso
+11,Cambios incompatibles,Set the output name of pl.datetime and pl.repeat to their leftmost argument name,1,silencioso,nombres de columna,-: silencioso
+12,Cambios incompatibles,Preserve outer nulls in list/array to_struct(),1,silencioso,valores,-: silencioso
+13,Cambios incompatibles,Do not reset seek position when scanning from file-like objects,2,silencioso,"nombres de columna, número de filas",parquet tras escribir: error nuevo; csv con el cursor a mitad: silencioso
+14,Cambios incompatibles,Preserve height in zero-width DataFrame/LazyFrame operations,1,silencioso,valores,-: silencioso
+15,Cambios incompatibles,Always return Series from from_arrow(<ArrowStreamExportable>),1,silencioso,clase de objeto (DataFrame a Series),-: silencioso
+16,Cambios incompatibles,Remove the DataFrame Interchange Protocol,1,error nuevo,,-: error nuevo
+17,Cambios incompatibles,Allow transposing an empty DataFrame,1,error que desaparece,,-: error que desaparece
+18,Cambios incompatibles,shift(n=None) now raises,1,error nuevo,,-: error nuevo
+19,Cambios incompatibles,Unknown Arrow extension types load as extension dtypes,1,silencioso,tipos,-: silencioso
+20,Cambios incompatibles,"Load Arrow, Parquet and Iceberg map columns as the new Map dtype",1,silencioso,"tipos, valores",-: silencioso
+21,Cambios incompatibles,Resolve struct arithmetic supertypes per field,2,silencioso,"tipos, valores",campos numéricos: silencioso; campo de texto: error nuevo
+22,Cambios incompatibles,"Widen the Decimal precision of rounding, sign() and sums",1,silencioso,tipos,-: silencioso
+23,Cambios incompatibles,Defer SQL query resolution to collect(),1,error que desaparece,,-: error que desaparece
+24,Cambios incompatibles,Use SQL result scales for decimal * and / in SQL,1,silencioso,"tipos, valores",-: silencioso
+25,Cambios incompatibles,"Type exact SQL numeric literals as Decimal, and truncate SQL % and DIV",1,silencioso,"tipos, valores",-: silencioso
+26,Cambios incompatibles,Read the Parquet ENUM logical type as String,1,silencioso,"tipos, valores",-: silencioso
+27,Conversiones y operaciones que ya no se admiten,"Disable casting from integers to categoricals, and from categoricals to integers",1,error nuevo,,-: error nuevo
+28,Conversiones y operaciones que ya no se admiten,Remove casts from string to temporal types,1,error nuevo,,-: error nuevo
+29,Conversiones y operaciones que ya no se admiten,Disallow casting from non-nested types to pl.List(..),1,error nuevo,,-: error nuevo
+30,Conversiones y operaciones que ya no se admiten,Do not allow boolean operators between booleans and integer types,1,error nuevo,,-: error nuevo
+31,Conversiones y operaciones que ya no se admiten,Remove support for std()/var() on the Duration dtype,1,error nuevo,,-: error nuevo
+32,Conversiones y operaciones que ya no se admiten,Disable invalid struct casts when strict=True,1,error nuevo,,-: error nuevo
+33,Conversiones y operaciones que ya no se admiten,Disallow flat dtypes where a list is expected,1,error nuevo,,-: error nuevo
+34,Conversiones y operaciones que ya no se admiten,Convert time units in is_in() and list.contains(),1,silencioso,valores,-: silencioso
+35,Conversiones y operaciones que ya no se admiten,Stop comparing Decimal needles against float data in is_in(),1,error nuevo,,-: error nuevo
+36,Conversiones y operaciones que ya no se admiten,Raise when comparing naive and time-zone-aware datetimes in is_in(),1,error nuevo,,-: error nuevo
+37,Conversiones y operaciones que ya no se admiten,Treat labels outside an Enum as absent in is_in() and list.contains(),1,error que desaparece,,-: error que desaparece
+38,Conversiones y operaciones que ya no se admiten,"Raise on non-numeric input to log(), log1p() and exp()",1,error nuevo,,-: error nuevo
+39,Cambios de forma de la API,Simplify list.to_struct API,1,error nuevo,,-: error nuevo
+40,Cambios de forma de la API,Make add_business_days() and str.to_decimal() keyword-only arguments strict,1,error nuevo,,-: error nuevo
+41,Cambios de forma de la API,Replace multi-seed hash API with a single seed,2,silencioso,valores,cuatro semillas: error nuevo; semilla por defecto: silencioso
+42,Cambios de forma de la API,Do not support list type anymore for Series.search_sorted(),1,error nuevo,,-: error nuevo
+43,Cambios de forma de la API,Raise an error on struct.rename_fields() with an incorrect number of fields,1,error nuevo,,-: error nuevo
+44,Cambios de forma de la API,Remove the ordering parameter and the 'physical'/'lexical' special case on pl.Categorical(),2,silencioso,tipos,"ordering=: error nuevo; Categorical(""physical""): silencioso"
+45,Lectura de CSV,Set csv infer_schema_files default value to 10,1,error nuevo,,-: error nuevo
+46,Lectura de CSV,Start csv column name counting at 0,1,silencioso,nombres de columna,-: silencioso
+47,Lectura de CSV,Respect file column order when schema is given for scan_csv(),1,silencioso,valores,-: silencioso
+48,Lectura de CSV,Automatically disable raise_if_empty when has_header=False and schema is given,1,error que desaparece,,-: error que desaparece
+49,Retirada de funcionalidad obsoleta,Removal of deprecated functionality (tabla),3,error nuevo,,melt: error nuevo; join(join_nulls=): error nuevo; POLARS_AUTO_STRUCTIFY=1: error que desaparece
+50,Obsolescencias,Mark read_avro()/write_avro() as unstable,1,igual,,-: igual
+51,Obsolescencias,Deprecate redundant strict=True on horizontal pl.concat()/pl.union(),1,igual,,-: igual
+52,Obsolescencias,Deprecate cut()/qcut() in favour of the bin_* methods,2,igual,,cut con etiquetas: igual; qcut sin etiquetas: igual

@@ -1,0 +1,25 @@
+prueba,entorno,pyarrow,variable,tanda,segundos,pico_rss_mb,compact_stall,compact_fail,thp_fault_alloc,thp_fault_fallback,swap_entradas,swap_salidas,rc,thp_enabled,thp_defrag
+csv_pandas,pandas-2.3.3,22.0.0,predeterminado,1,,,,,,,,,,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-2.3.3,22.0.0,NUMPY_MADVISE_HUGEPAGE=0,1,23.349,7433.2,0,0,0,0,80,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-2.3.3,22.0.0,predeterminado,2,,,,,,,,,,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-2.3.3,22.0.0,NUMPY_MADVISE_HUGEPAGE=0,2,24.476,7432.3,0,0,0,0,39,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-2.3.3,22.0.0,predeterminado,3,,,,,,,,,,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-2.3.3,22.0.0,NUMPY_MADVISE_HUGEPAGE=0,3,22.189,7432.1,0,0,0,0,11,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,26.0.0,predeterminado,1,19.601,4679.5,0,0,1603,0,12,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,26.0.0,NUMPY_MADVISE_HUGEPAGE=0,1,21.014,4678.1,0,0,443,0,5,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,26.0.0,predeterminado,2,19.339,4677.2,0,0,1604,0,75,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,26.0.0,NUMPY_MADVISE_HUGEPAGE=0,2,20.374,4678.6,0,0,443,0,16,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,26.0.0,predeterminado,3,19.167,4678.9,0,0,1603,0,5,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+csv_pandas,pandas-3.0.6,26.0.0,NUMPY_MADVISE_HUGEPAGE=0,3,20.475,4678.4,0,0,443,0,28,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-2.3.3,22.0.0,predeterminado,1,1.483,2685.8,0,0,0,0,0,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-2.3.3,22.0.0,MIMALLOC_ALLOW_THP=0,1,1.39,2692.6,0,0,0,0,0,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-2.3.3,22.0.0,predeterminado,2,1.371,2676.6,0,0,0,0,0,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-2.3.3,22.0.0,MIMALLOC_ALLOW_THP=0,2,1.4,2669.5,0,0,0,0,0,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-2.3.3,22.0.0,predeterminado,3,1.364,2671.8,0,0,0,0,0,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-2.3.3,22.0.0,MIMALLOC_ALLOW_THP=0,3,1.362,2681.2,0,0,0,0,0,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-3.0.6,26.0.0,predeterminado,1,2.652,3202.3,83,42,1546,1,0,5,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-3.0.6,26.0.0,MIMALLOC_ALLOW_THP=0,1,1.51,2714.5,0,0,0,0,0,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-3.0.6,26.0.0,predeterminado,2,2.003,3157.4,284,278,1461,91,0,21,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-3.0.6,26.0.0,MIMALLOC_ALLOW_THP=0,2,1.483,2710.6,0,0,0,0,0,0,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-3.0.6,26.0.0,predeterminado,3,2.927,3109.7,465,463,1387,145,0,25,0,always [madvise] never,always defer defer+madvise [madvise] never
+parquet_completo,pandas-3.0.6,26.0.0,MIMALLOC_ALLOW_THP=0,3,1.412,2715.3,0,0,0,0,0,0,0,always [madvise] never,always defer defer+madvise [madvise] never

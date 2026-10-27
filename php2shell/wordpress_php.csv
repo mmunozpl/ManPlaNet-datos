@@ -1,0 +1,20 @@
+fecha,version,cuota_pct,grupo
+2026-10-27,4.4,0.008,sin parche (anterior a 7.4)
+2026-10-27,5.1,0.003,sin parche (anterior a 7.4)
+2026-10-27,5.2,0.124,sin parche (anterior a 7.4)
+2026-10-27,5.3,0.252,sin parche (anterior a 7.4)
+2026-10-27,5.4,0.168,sin parche (anterior a 7.4)
+2026-10-27,5.5,0.146,sin parche (anterior a 7.4)
+2026-10-27,5.6,1.271,sin parche (anterior a 7.4)
+2026-10-27,7.0,0.55,sin parche (anterior a 7.4)
+2026-10-27,7.1,0.328,sin parche (anterior a 7.4)
+2026-10-27,7.2,1.298,sin parche (anterior a 7.4)
+2026-10-27,7.3,1.315,sin parche (anterior a 7.4)
+2026-10-27,7.4,15.076,"solo parche de fuente (7.4, 8.0, 8.1)"
+2026-10-27,8.0,3.508,"solo parche de fuente (7.4, 8.0, 8.1)"
+2026-10-27,8.1,9.588,"solo parche de fuente (7.4, 8.0, 8.1)"
+2026-10-27,8.2,23.161,con parche binario (8.2 a 8.5)
+2026-10-27,8.3,27.355,con parche binario (8.2 a 8.5)
+2026-10-27,8.4,10.179,con parche binario (8.2 a 8.5)
+2026-10-27,8.5,5.647,con parche binario (8.2 a 8.5)
+2026-10-27,8.6,0.024,con parche binario (8.2 a 8.5)

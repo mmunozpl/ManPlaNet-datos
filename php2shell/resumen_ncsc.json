@@ -1,0 +1,12 @@
+{
+ "fecha": "2026-10-27",
+ "productos": 757,
+ "proveedores": 464,
+ "estados_109618": {
+  "Fix": 132,
+  "Investigation": 365,
+  "Vulnerable": 219,
+  "Not vuln": 40,
+  "": 1
+ }
+}

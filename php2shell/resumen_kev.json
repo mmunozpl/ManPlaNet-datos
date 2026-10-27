@@ -1,0 +1,39 @@
+{
+ "catalogo_version": "2026.10.26",
+ "entradas": 1758,
+ "con_fecha_nvd": 1758,
+ "todo": {
+  "n": 1758,
+  "mediana": 237.0,
+  "p25": 8,
+  "p75": 1325,
+  "hasta_5_dias": 405,
+  "mismo_dia": 235,
+  "mas_de_un_ano": 788
+ },
+ "altas_2026": {
+  "n": 274,
+  "mediana": 13.5,
+  "p25": 1,
+  "p75": 167,
+  "hasta_5_dias": 110,
+  "mismo_dia": 56,
+  "mas_de_un_ano": 50
+ },
+ "desde_bod_26_04": {
+  "n": 141,
+  "mediana": 8,
+  "p25": 1,
+  "p75": 48,
+  "hasta_5_dias": 65,
+  "mismo_dia": 30,
+  "mas_de_un_ano": 14
+ },
+ "php2shell": {
+  "demora_dias": 5,
+  "percentil_todo": 23.0,
+  "percentil_2026": 40.1
+ },
+ "triaje_forense_total": 93,
+ "plazo_3_dias_total": 146
+}

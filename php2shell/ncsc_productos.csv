@@ -1,0 +1,758 @@
+letra,proveedor,producto,version,estado_109618,estado_109619
+a,aaPanel,aaPanel PHP Project hosting and CLI selection,aaPanel PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12,Fix,Fix
+a,Acquia,Acquia Cloud Platform PHP hosting,,Investigation,Investigation
+a,Adiscon / LogAnalyzer project,Adiscon LogAnalyzer PHP web application,,Vulnerable,Vulnerable
+a,Adobe,Adobe Commerce,,Vulnerable,Vulnerable
+a,Adyen,Adyen API PHP library,,Investigation,Investigation
+a,AfterLogic,AfterLogic WebMail Lite PHP,,Vulnerable,Vulnerable
+a,Aimeos project,Aimeos Laravel package,,Investigation,Investigation
+a,Aimeos project,Aimeos TYPO3 extension,,Investigation,Investigation
+a,Akaunting,Akaunting self-hosted application,,Vulnerable,Vulnerable
+a,Akeneo,Akeneo PIM Community Edition,,Investigation,Investigation
+a,Alpine Linux package maintainers,Alpine Linux v3.22 php84 package family,8.4.27-r0,Fix,Fix
+a,Amazon Web Services,AWS Elastic Beanstalk PHP platform,AL2023 PHP 8.2-8.5 platform version 4.13.13,Fix,Fix
+a,Amazon Web Services,AWS SDK for PHP v3,,Investigation,Investigation
+a,Amazon Web Services; third-party/customer PHP runtime publisher,AWS Lambda customer PHP custom-runtime option,,Investigation,Investigation
+a,AMPHP project,AMP asynchronous PHP framework,,Investigation,Investigation
+a,Antagonist,Antagonist DirectAdmin PHP hosting selector,"Provider-patched managed hosting, including PHP Extended Support, by 2026-10-22; build numbers unpublished",Fix,Fix
+a,Apache Friends,XAMPP,,Investigation,Investigation
+a,APCu / PHP extension maintainers,APCu native PHP user-cache extension,,Investigation,Investigation
+a,API Platform project,API Platform Core,,Vulnerable,Vulnerable
+a,Arch Linux package maintainers,Arch Linux Extra PHP package,8.5.12-1,Fix,Fix
+a,Arch Linux package maintainers,Arch Linux Extra php-legacy package,8.3.36-1,Fix,Fix
+a,Artefactual Systems / AtoM project,AtoM,,Vulnerable,Vulnerable
+a,Ascensio System SIA / ONLYOFFICE,ONLYOFFICE integration for Nextcloud,,Investigation,Investigation
+a,Auth0,Auth0 PHP SDK,,Investigation,Investigation
+a,Automattic / WordPress.com,WordPress.com plugin-enabled PHP hosting environment,WordPress.com managed service protected as of 2026-10-21; patched build unpublished,Fix,Fix
+a,AWS SDK Common Runtime team,AWS Common Runtime native PHP extension,,Investigation,Investigation
+a,AWS SDK Common Runtime team,AWS Common Runtime PHP userland binding package,,Investigation,Investigation
+b,Backdrop CMS project,Backdrop CMS,,Vulnerable,Vulnerable
+b,bbPress community / WordPress project,bbPress,,Investigation,Investigation
+b,Behat project,Behat behavior-driven test framework,,Investigation,Investigation
+b,Belnet,Belnet FileSender research/education service,,Investigation,Investigation
+b,Ben Ramsey / Ramsey project,Ramsey UUID,,Investigation,Investigation
+b,Beyond Code in partnership with Laravel,Laravel Herd managed native PHP environment,,Investigation,Investigation
+b,Blackfire / Platform.sh SAS doing business as Upsun,Blackfire deterministic PHP Probe native extension,,Investigation,Investigation
+b,Blackfire / Platform.sh SAS doing business as Upsun,Blackfire PHP SDK client library,,Investigation,Investigation
+b,Bolt CMS project,Bolt CMS,,Vulnerable,Vulnerable
+b,BookStack project,BookStack,"Runtime: PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12, or vendor-confirmed Ubuntu backports",Fix,Fix
+b,Box / Humbug project,Box PHAR build and packaging tool,,Investigation,Investigation
+b,BoxBilling project,BoxBilling,,Vulnerable,Vulnerable
+b,Bref project,Bref PHP Lambda runtime layers,"Bref 3: php-85:21, php-84:24, php-83:24, php-82:26; Bref 2 layers 2.3.45: php-84[-fpm]:43, php-83[-fpm]:71, php-82[-fpm]",Fix,Fix
+b,Bref project,Bref PHP serverless application adapter,bref/bref 3.0.14 or 2.4.22 selecting patched runtime layers,Fix,Fix
+b,Bref project,Bref v2 PHP Docker images,Bref v2 Docker tags 2 and 2.3.45: PHP 8.2.35 / 8.3.36 / 8.4.27,Fix,Fix
+b,Broadcom,Carbon Black App Control Server,Broadcom ESG advisory 39404 affected product scope,Vulnerable,Vulnerable
+b,Broadcom,CloudSOC Cloud Access Security Broker (CASB),CloudSOC CASB service; excludes the separate SpanVA appliance,Not vuln,Not vuln
+b,Broadcom,CloudSOC SpanVA Appliance,Broadcom ESG advisory 39404 affected product scope,Vulnerable,Vulnerable
+b,Broadcom,Content Analysis,Content Analysis (CAS) only; excludes CASMA,Not vuln,Not vuln
+b,Broadcom,Content Analysis and Malware Analysis (CASMA),Broadcom ESG advisory 39404 under-investigation product scope,Investigation,Investigation
+b,Broadcom,Symantec Endpoint Protection Manager (SEPM),14.3.27716.10000 / 14.4.494.0000,Fix,Fix
+b,BuddyPress community / WordPress project,BuddyPress,,Investigation,Investigation
+b,bunq,bunq PHP API SDK,,Investigation,Investigation
+c,Cachet project,Cachet,,Investigation,Investigation
+c,CakePHP project,CakePHP framework,,Vulnerable,Vulnerable
+c,Canonical / Ubuntu package maintainers,Ubuntu Bionic php7.2-fpm binary package,7.2.24-0ubuntu0.18.04.17+esm14,Fix,Fix
+c,Canonical / Ubuntu package maintainers,Ubuntu Focal php7.4-fpm binary package,7.4.3-4ubuntu2.29+esm5,Fix,Fix
+c,Canonical / Ubuntu package maintainers,Ubuntu Jammy php8.1-fpm binary package,8.1.2-1ubuntu2.28,Fix,Fix
+c,Canonical / Ubuntu package maintainers,Ubuntu Noble php8.3-fpm binary package,8.3.6-0ubuntu0.24.04.13,Fix,Fix
+c,Canonical / Ubuntu package maintainers,Ubuntu optional PHP package and SAPI family,Jammy 8.1.2-1ubuntu2.28; Noble 8.3.6-0ubuntu0.24.04.13; Resolute 8.5.4-0ubuntu1.5; Stonking 8.5.9-0ubuntu2.1,Fix,Fix
+c,Canonical / Ubuntu package maintainers,Ubuntu Resolute php8.5-fpm binary package,8.5.4-0ubuntu1.5,Fix,Fix
+c,Canonical / Ubuntu package maintainers,Ubuntu Stonking php8.5-fpm binary package,8.5.9-0ubuntu2.1,Fix,Fix
+c,Canonical / Ubuntu package maintainers,Ubuntu Trusty php5-fpm binary package,5.5.9+dfsg-1ubuntu4.29+esm18,Fix,Fix
+c,Canonical / Ubuntu package maintainers,Ubuntu Xenial php7.0-fpm binary package,7.0.33-0ubuntu0.16.04.16+esm22,Fix,Fix
+c,CaptainHook / Sebastian Feldmann and contributors,CaptainHook PHP Git-hook manager,,Investigation,Investigation
+c,CarbonPHP project,Carbon date/time library,,Investigation,Investigation
+c,Catalyst IT / Mahara project,Mahara,,Vulnerable,Vulnerable
+c,Centreon,Centreon Web and central-server PHP interface,,Vulnerable,Vulnerable
+c,Chamilo Association / Chamilo project,Chamilo,,Vulnerable,Vulnerable
+c,Check Point,Check Point firewall web interfaces,"Force/Cloud: R81.20, R82, R82.10, R82.20; EoS R80, R80.10, R80.20, R80.30, R80.40, R81, R81.10. Spark: R81.10.x, R82.00.",Vulnerable,Vulnerable
+c,Checkmk GmbH,Checkmk Appliance,1.7.25,Fix,Fix
+c,"CIRCL, Luxembourg",CIRCL-operated MISP threat-sharing service,,Investigation,Investigation
+c,CircleCI,CircleCI cimg/php CI runtime image family,,Investigation,Investigation
+c,Cisco,AppDynamics On-Premises Secure Application,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,AppDynamics PHP Agent,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,AppDynamics SaaS Secure Application,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco AI Defense (hybrid on-premises deployment),,Not vuln,Not vuln
+c,Cisco,Cisco ASR 5000 Series Software (StarOS),Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Business Process Automation (BPA),Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Catalyst Center (formerly DNA Center),Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Catalyst SD-WAN Manager,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco CX Cloud,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Defense Orchestrator,Security Cloud Control - Firewall Management (formerly Defense Orchestrator),Not vuln,Not vuln
+c,Cisco,Cisco Expressway Select Series,Expressway Select Series; affected release range not specified,Vulnerable,Vulnerable
+c,Cisco,Cisco Expressway Series,Expressway Series; affected release range not specified,Vulnerable,Vulnerable
+c,Cisco,Cisco Hypershield,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Identity Services Engine (ISE),ISE; excludes separately investigated ISE Portal Builder,Not vuln,Not vuln
+c,Cisco,Cisco Identity Services Engine (ISE) Portal Builder,,Investigation,Investigation
+c,Cisco,Cisco IoT Control Center,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Meraki Dashboard,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Multicloud Defense,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Nexus Dashboard Insights,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Panoptica,,Investigation,Investigation
+c,Cisco,Cisco Policy Suite (CPS),Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Secure Access,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Secure Email Threat Defense,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Ultra Cloud Core - Converged Policy and Charging,Cisco advisory 1.7 confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco Ultra Cloud Core - Policy Control Function,PCF / SMI scope named under Ultra Packet Core in the advisory,Not vuln,Not vuln
+c,Cisco,Cisco Ultra Cloud Core - Subscriber Microservices Infrastructure,PCF / SMI scope named under Ultra Packet Core in the advisory,Not vuln,Not vuln
+c,Cisco,Cisco Ultra-Reliable Wireless Backhaul (URWB),URWB; affected release range not specified,Vulnerable,Vulnerable
+c,Cisco,Cisco Umbrella,,Not vuln,Not vuln
+c,Cisco,Cisco Unified Industrial Wireless Software,,Investigation,Investigation
+c,Cisco,Cisco Vulnerability Management (formerly Kenna.VM),Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco WAN Automation Engine (WAE),Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Cisco+ Secure Connect,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Slido,Vendor-confirmed not vulnerable product scope,Not vuln,Not vuln
+c,Cisco,Webex,"Webex Meetings, Webex Teams and Webex Web SDK only",Not vuln,Not vuln
+c,Citrix / NetScaler,Citrix NetScaler ADC and Citrix NetScaler Gateway,All supported NetScaler software versions impacted; fixed PHP package pending,Vulnerable,Vulnerable
+c,CiviCRM project,CiviCRM,,Vulnerable,Vulnerable
+c,ClassicPress project,ClassicPress,,Vulnerable,Vulnerable
+c,Cleo,Cleo Streem (Streem Print),Patch available by mail; fixed release not publicly stated,Fix,Fix
+c,Clever Cloud fork of Caucho Technology Quercus,Quercus CleverCloud development branch,,Investigation,Investigation
+c,Clientexec,Clientexec,,Investigation,Investigation
+c,Cloudflare,Cloudflare Pages v1 legacy PHP build image,,Investigation,Investigation
+c,CloudLinux,CloudLinux ea-PHP fixed packages for CloudLinux 7-10,ea-php52 through ea-php85: vendor fixed build matrix released 2026-10-21 20:55 UTC (EL7/8/9/10),Fix,Fix
+c,CloudLinux,CloudLinux legacy ea-PHP extended-support packages,Unpatched PHP builds; fixed release scopes listed separately,Vulnerable,Vulnerable
+c,CloudLinux / TuxCare,CloudLinux Alt-PHP / PHP Selector runtime family,Unpatched PHP builds; fixed release scopes listed separately,Vulnerable,Vulnerable
+c,CloudLinux / TuxCare,CloudLinux Alt-PHP 7.4 fixed package set,,Fix,Fix
+c,CloudLinux / TuxCare,CloudLinux Alt-PHP 8.0 package for Alpine Linux 3.23,,Fix,Fix
+c,CloudLinux / TuxCare,CloudLinux Alt-PHP fixed packages for CloudLinux 7-10 and Ubuntu 22.04,"Stable security builds released 2026-10-21/22; CL8/9 PHP 8.2.35-1, 8.3.36-1, 8.4.27-1, 8.5.12-1 also released 2026-10-23",Fix,Fix
+c,Code LTS / William Desportes and contributors,Doctum PHP API documentation generator,,Investigation,Investigation
+c,Codeception / Michael Bodnarchuk and contributors,Codeception PHP test framework,,Investigation,Investigation
+c,CodeIgniter Foundation,CodeIgniter 4 framework,,Vulnerable,Vulnerable
+c,Combodo,iTop,,Vulnerable,Vulnerable
+c,Composer / Packagist project,Packagist.org open-source web application,,Vulnerable,Vulnerable
+c,Composer / Satis maintainers,Satis Composer repository generator,,Investigation,Investigation
+c,Composer / Satis maintainers,Satis official PHP container build recipe,,Investigation,Investigation
+c,Composer project,Composer,,Investigation,Investigation
+c,Composer project / Docker Official Images,Composer default Docker runtime image,,Investigation,Investigation
+c,Concrete CMS / PortlandLabs,Concrete CMS,,Vulnerable,Vulnerable
+c,Contao project,Contao CMS,,Vulnerable,Vulnerable
+c,Contao project,Contao Manager,,Vulnerable,Vulnerable
+c,Coolify,Coolify,Coolify 4.0.1 / 4.1.3 / 4.2.1 / 4.3.24 / 4.4.7 on their respective v4 lines,Fix,Fix
+c,Corporation for Digital Scholarship / Omeka project,Omeka Classic,,Vulnerable,Vulnerable
+c,Corporation for Digital Scholarship / Omeka project,Omeka S,,Vulnerable,Vulnerable
+c,"Couchbase, Inc.",Couchbase native PHP SDK extension,,Investigation,Investigation
+c,"Couchbase, Inc.",Couchbase PHP Composer SDK package,,Investigation,Investigation
+c,"Couchbase, Inc.",Couchbase PHP OpenTelemetry integration,,Investigation,Investigation
+c,Craft CMS / Pixel & Tonic,Craft CMS,,Vulnerable,Vulnerable
+c,Crater Invoice,Crater,,Investigation,Investigation
+c,CS-Cart,CS-Cart and Multi-Vendor,,Vulnerable,Vulnerable
+c,CyberPanel project,CyberPanel hosted PHP / LSPHP options,,Investigation,Investigation
+d,daloRADIUS project,daloRADIUS official Docker distribution recipe,,Investigation,Investigation
+d,daloRADIUS project,daloRADIUS PHP web management application,,Vulnerable,Vulnerable
+d,Dan Phillimore / Uniter project,Uniter PHP-to-JavaScript runtime stack,,Investigation,Investigation
+d,Datadog / Blackfire integration,Blackfire PHP continuous-profiler integration using Datadog profiling extension,,Investigation,Investigation
+d,DDEV project,DDEV PHP webserver development container,DDEV 1.25.4 AMD64 project images rebuilt with PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12,Fix,Fix
+d,Debian PHP Maintainers,Debian trixie PHP 8.4 FPM package,8.4.27-1~deb13u1,Fix,Fix
+d,Delta Controls,enteliWEB building management system,enteliWEB 4.29 or newer with SecB0015 security patch applied,Fix,Fix
+d,Deployer / Anton Medvedev and contributors,Deployer PHP deployment automation,,Investigation,Investigation
+d,DEVSENSE / Phalanger project,Phalanger PHP 5.4 compiler for .NET/Mono,,Investigation,Investigation
+d,"Docker Community / Docker Official Images, not WordPress upstream image ownership",WordPress Docker Official Image distribution,,Investigation,Investigation
+d,Docker Official Images / docker-library PHP maintainers,Docker Official PHP Apache/mod_php image variant,,Fix,Fix
+d,Docker Official Images / docker-library PHP maintainers,Docker Official PHP CLI image variant,,Fix,Fix
+d,Docker Official Images / docker-library PHP maintainers,Docker Official PHP FPM image variant,,Fix,Fix
+d,Docker Official Images / docker-library PHP maintainers,Docker Official PHP ZTS image variant,,Fix,Fix
+d,Docker Official Images maintainers,Docker Official Image: php,,Fix,Fix
+d,Doctrine project,Doctrine DBAL,,Investigation,Investigation
+d,Doctrine project,Doctrine ORM,,Investigation,Investigation
+d,DokuWiki project,DokuWiki official Docker distribution,,Investigation,Investigation
+d,DokuWiki project / splitbrain,DokuWiki,,Vulnerable,Vulnerable
+d,Dolibarr project,Dolibarr ERP CRM,,Vulnerable,Vulnerable
+d,Drupal Commerce / Centarro,Drupal Commerce,,Investigation,Investigation
+d,Drupal project,Drupal,Installations served by unpatched PHP; application versions are not the patch boundary,Vulnerable,Vulnerable
+d,Drush project,Drush Drupal administration CLI,,Investigation,Investigation
+e,EasyPHP project,EasyPHP PHP Devserver Windows bundle,,Investigation,Investigation
+e,EC-CUBE project,EC-CUBE,,Vulnerable,Vulnerable
+e,EfficientIP,EfficientIP DNS and network automation product suite,,Investigation,Investigation
+e,EGroupware GmbH / EGroupware project,EGroupware,,Vulnerable,Vulnerable
+e,Elastic,Elasticsearch official PHP client,,Investigation,Investigation
+e,Endor; linked by Apache Friends,Endor browser LAMP sandbox / XAMPP for Browsers,,Investigation,Investigation
+e,Enhancesoft / osTicket project,osTicket,,Vulnerable,Vulnerable
+e,EspoCRM project,EspoCRM,,Vulnerable,Vulnerable
+e,European Commission,EU Academy Moodle service (2023 evidence),,Investigation,Investigation
+e,European Commission / OpenEuropa contributors,OpenEuropa Authentication Drupal module,,Investigation,Investigation
+e,European Commission / OpenEuropa contributors,OpenEuropa Content Drupal module,,Investigation,Investigation
+e,European Commission / OpenEuropa contributors,OpenEuropa Task Runner,,Investigation,Investigation
+e,ExpressionEngine project,ExpressionEngine,,Vulnerable,Vulnerable
+f,F5,BIG-IP APM PHP page templates,BIG-IP 17.1.3.7 / 17.5.1.11 / 21.1.0.4,Fix,Fix
+f,F5,BIG-IP TMOS platform PHP,BIG-IP 17.1.3.7 / 17.5.1.11 / 21.1.0.4,Fix,Fix
+f,Facebook / HHVM project,HHVM 3.30 PHP-compatible legacy line,,Investigation,Investigation
+f,Facebook / HipHop project,HipHop for PHP compiler (HPHPc),,Investigation,Investigation
+f,Fedora Project PHP maintainers,Fedora PHP distribution package family,php-8.4.27-2.fc43; php-8.5.12-1.fc44; php-8.5.12-1.fc45; php-8.5.12-1.fc46 (Rawhide),Fix,Fix
+f,Feng Office,Feng Office Community Edition,,Vulnerable,Vulnerable
+f,FileCloud,FileCloud Server PHP installation and maintenance,"FileCloud Server 23.263.2 (PHP 8.4.27), Windows and Linux",Fix,Fix
+f,FileGator project,FileGator,,Vulnerable,Vulnerable
+f,FileRun,FileRun,,Vulnerable,Vulnerable
+f,FileRun,FileRun official Docker image (fixed PHP rebuild),"filerun/filerun:2026.03 rebuilt with fixed PHP, announced 2026-10-21",Fix,Fix
+f,FileSender project,FileSender,,Vulnerable,Vulnerable
+f,Firefly III project,Firefly III,Rebuilt existing Firefly III container tags with PHP 8.5.12; maintainer confirmation 2026-10-21,Fix,Fix
+f,Flarum project / Flarum Foundation,Flarum,,Vulnerable,Vulnerable
+f,Fly.io; customer runtime-image publisher,Fly.io customer Laravel/PHP Machines deployment,,Investigation,Investigation
+f,Forma LMS project,Forma LMS,,Vulnerable,Vulnerable
+f,Fortinet,FortiADC,Vendor-confirmed not impacted product scope,Not vuln,Not vuln
+f,Fortinet,FortiADC Manager,Vendor-confirmed not impacted product scope,Not vuln,Not vuln
+f,Fortinet,FortiClient Cloud Services,"Remediated forticlient-forensics-{dev,us,eu,ap}.forticloud.com services; build unpublished",Fix,Fix
+f,Fortinet,FortiDDoS,,Investigation,Investigation
+f,Fortinet,FortiDDoS-F,FortiDDoS-F; vendor-confirmed not impacted scope,Not vuln,Not vuln
+f,Fortinet,FortiEndpoint,Vendor-confirmed not impacted product scope,Not vuln,Not vuln
+f,Fortinet,FortiMonitor,Vendor-confirmed not impacted product scope,Not vuln,Not vuln
+f,Fortinet,FortiSIEM,Vendor-confirmed not impacted product scope,Not vuln,Not vuln
+f,Fortinet,FortiSOAR,,Investigation,Investigation
+f,Fortinet,FortiSOAR PaaS,,Investigation,Investigation
+f,FOSSBilling project,FOSSBilling,,Vulnerable,Vulnerable
+f,FrankenPHP,FrankenPHP static builds,FrankenPHP 1.13.2 static binaries with PHP 8.5.12,Fix,Fix
+f,FreeBSD Project / ports maintainers,FreeBSD PHP port and mod_php package integration,Ports source: php82 8.2.35; php83 8.3.36; php84 8.4.27; php85 8.5.12,Fix,Fix
+f,FreeScout project,FreeScout,,Vulnerable,Vulnerable
+f,FreshRSS project,FreshRSS,1.30.3 official default Debian Docker images; PHP 8.4.27-1~deb13u1,Fix,Fix
+f,FrontAccounting project,FrontAccounting,,Vulnerable,Vulnerable
+f,Froxlor Team,Froxlor control panel PHP branches,,Vulnerable,Vulnerable
+f,FusionDirectory,FusionDirectory,,Vulnerable,Vulnerable
+f,FusionDirectory,FusionDirectory Orchestrator,,Vulnerable,Vulnerable
+f,FusionPBX project,FusionPBX PHP management application,,Vulnerable,Vulnerable
+g,Gentoo PHP maintainers,Gentoo dev-lang/php runtime package family,dev-lang/php 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12 or later within each respective slot,Fix,Fix
+g,GetPageSpeed,GetPageSpeed PHP 5.6-8.4 backport packages for CentOS 7 / EL7,Known patched EL7 builds: 5.6.40-44.el7; 7.0.33-46.el7; 7.1.33-35.el7; 7.2.34-30.el7; 7.3.33-26.el7; 7.4.33-35.el7; 8.0.,Fix,Fix
+g,GetPageSpeed,GetPageSpeed PHP 7.2-8.4 packages for Ubuntu 18.04/20.04 and Debian 10,Known patched builds (not necessarily first fixed revisions): bionic PHP 7.2 7.2.34-66+gps1+ubuntu1804+stable.1; buster ,Fix,Fix
+g,GLPI / Teclib,GLPI,Installations served by unpatched PHP; application versions are not the patch boundary,Vulnerable,Vulnerable
+g,GLPI / Teclib,"GLPI official Docker images (main, 12, 11, 10)",Official main / 12 / 11 / 10 image rebuilds announced 2026-10-21,Fix,Fix
+g,Google,Google APIs Client Library for PHP,,Investigation,Investigation
+g,Google,Google Auth Library for PHP,,Investigation,Investigation
+g,Google,Google Cloud Firestore PHP client,,Investigation,Investigation
+g,Google,Google Cloud Storage PHP client,,Investigation,Investigation
+g,Google / googleapis contributors,Google Cloud PHP client monolith,,Investigation,Investigation
+g,Google / Protocol Buffers project,Protocol Buffers native PHP extension,,Investigation,Investigation
+g,Google / Protocol Buffers project,Protocol Buffers PHP userland runtime,,Investigation,Investigation
+g,Google Cloud,Google App Engine Flexible PHP runtime,App Engine Flexible PHP runtimes not redeployed onto patched supported images,Vulnerable,Vulnerable
+g,Google Cloud,Google App Engine Standard PHP runtime,PHP 8.2+ supported runtimes,Fix,Fix
+g,Google Cloud; customer image publisher,Google Cloud Run customer PHP container option,Cloud Run customer containers with unpatched PHP on their respective branches,Vulnerable,Vulnerable
+g,Grav project,Grav CMS,,Vulnerable,Vulnerable
+g,Grav project,Grav official Docker images (getgrav/grav),getgrav/grav tags rebuilt 2026-10-21 with patched PHP,Fix,Fix
+g,Grokability / Snipe-IT project,Snipe-IT,,Vulnerable,Vulnerable
+g,grommunio GmbH,grommunio PHP packages for SUSE-based installations,Out-of-band PHP security packages announced 2026-10-21,Fix,Fix
+g,grommunio GmbH,grommunio Web,Installations served by unpatched PHP; application versions are not the patch boundary,Vulnerable,Vulnerable
+g,gRPC project,gRPC native PHP extension,,Investigation,Investigation
+g,gRPC project,gRPC PHP Composer support library,,Investigation,Investigation
+g,Guzzle project,Guzzle HTTP client,,Investigation,Investigation
+h,Heroku / Salesforce,Heroku PHP buildpack and application runtime,Heroku PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12; rebuilt 8.1.34 on Heroku-22,Fix,Fix
+h,Hestia Control Panel project,HestiaCP hestia-php internal runtime,hestia-php security update released 2026-10-22; Ubuntu 22.04+ and Debian 11+,Fix,Fix
+h,Hestia Control Panel project,HestiaCP hosted-site PHP-FPM / MultiPHP option,HestiaCP hosted-site PHP using patched distribution/Sury packages announced 2026-10-21,Fix,Fix
+h,Hewlett Packard Enterprise,HPE Networking ClearPass Policy Manager,ClearPass 6.14.1 + PHP CVE hotfix / ClearPass 6.11.16 + PHP CVE hotfix,Fix,Fix
+h,HikaShop project,HikaShop Joomla component,,Investigation,Investigation
+h,HippyVM contributors,HippyVM RPython PHP implementation,,Investigation,Investigation
+h,Homebrew maintainers,Homebrew PHP formula and bottles,"Homebrew php 8.5.12, revision 0; formula source SHA-256 e1fe7d4bad28b3d65b67ac83013fd0dd78d4aa1fe55ca95124e8213bc4c17ab5",Fix,Fix
+h,Horde Project,Horde Groupware Webmail Edition 5,,Vulnerable,Vulnerable
+h,HostBill / HostBillApp,HostBill,,Vulnerable,Vulnerable
+h,HumHub,HumHub,HumHub deployments on unpatched PHP; application versions not specified,Vulnerable,Vulnerable
+i,iBabs,iBabs bestuursportaal,,Not vuln,Not vuln
+i,Ibexa,Ibexa DXP,,Vulnerable,Vulnerable
+i,Icinga GmbH,Icinga Certificate Monitoring,,Investigation,Investigation
+i,Icinga GmbH,Icinga DB Web,,Investigation,Investigation
+i,Icinga GmbH,Icinga Director,,Investigation,Investigation
+i,Icinga GmbH,Icinga PDF Export,,Investigation,Investigation
+i,Icinga GmbH,Icinga Reporting,,Investigation,Investigation
+i,Icinga GmbH,Icinga Web,,Vulnerable,Vulnerable
+i,igbinary project,igbinary native PHP serializer extension,,Investigation,Investigation
+i,ILIAS Society / ILIAS project,ILIAS,,Vulnerable,Vulnerable
+i,Imagick project,Imagick native PHP image extension,,Investigation,Investigation
+i,iNextrix / ASTPP,ASTPP v7 PHP billing and management application,,Vulnerable,Vulnerable
+i,Infection project,Infection PHP mutation-testing tool,,Investigation,Investigation
+i,Invision Community / Invision Power Services,Invision Community Classic,,Vulnerable,Vulnerable
+i,Invoice Ninja,Invoice Ninja self-hosted server,,Vulnerable,Vulnerable
+i,InvoicePlane project,InvoicePlane,,Vulnerable,Vulnerable
+i,IONOS,IONOS webhosting PHP and CLI options,Provider-patched IONOS-managed webhosting PHP; build numbers unpublished,Fix,Fix
+i,ISPConfig project,ISPConfig 3 control panel UI and scripts,ISPConfig 3 installations using unpatched PHP; bulletin covers 3.2/3.3 web servers,Vulnerable,Vulnerable
+i,Issabel,Issabel 5 PHP communications management,,Investigation,Investigation
+j,Jakub Vrana / Adminer project,Adminer,,Vulnerable,Vulnerable
+j,JBMC Software / DirectAdmin,DirectAdmin CustomBuild hosted PHP,CustomBuild PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12; vendor-patched PHP 7.4 / 8.0 / 8.1,Fix,Fix
+j,JetBrains,PhpStorm external PHP interpreter integration,,Investigation,Investigation
+j,Joomla project,Joomla 6.x,,Vulnerable,Vulnerable
+j,Jordi Boggiano / Monolog contributors,Monolog,,Investigation,Investigation
+j,JPHP Group,JPHP JVM compiler and runtime,,Investigation,Investigation
+j,Juniper Networks,Junos OS J-Web (EX/SRX scope),Junos OS J-Web on EX/SRX using affected PHP; SRX 25.2R1 no longer uses PHP,Vulnerable,Investigation
+k,Kanboard project,Kanboard,,Vulnerable,Vulnerable
+k,Kevin Papst / Kimai project,Kimai,Kimai 2.70.1 rebuilt supported Docker image tags,Fix,Fix
+k,Kinsta,Kinsta managed WordPress PHP hosting,Platform-wide PHP security rollout completed 2026-10-22 08:26 UTC; covered branches 7.4 / 8.0 / 8.1 / 8.2 / 8.3 / 8.4 / ,Fix,Fix
+k,Kirby CMS project,Kirby CMS,,Vulnerable,Vulnerable
+k,Klemen Stirn / Hesk,Hesk Free self-hosted helpdesk,,Vulnerable,Vulnerable
+k,Kopano / Kopano-dev,Kopano WebApp,,Vulnerable,Vulnerable
+k,Krayin,Krayin CRM,,Investigation,Investigation
+l,Ladybird Web Solution / Faveo,Faveo Helpdesk Community Edition,,Vulnerable,Vulnerable
+l,Laminas Project / Linux Foundation,Laminas MVC,,Vulnerable,Vulnerable
+l,Laminas Project / Mezzio,Mezzio,,Vulnerable,Vulnerable
+l,Lando project,Lando PHP service plugin images,,Investigation,Investigation
+l,Laragon project,Laragon Full Windows development bundle,,Investigation,Investigation
+l,Laravel,Laravel 13 framework,,Vulnerable,Vulnerable
+l,Laravel,Laravel Cloud PHP runtime option,Laravel Cloud managed runtimes: PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12,Fix,Fix
+l,Laravel,Laravel Vapor core PHP invocation package,,Investigation,Investigation
+l,Laravel,Laravel Vapor PHP Docker base image family,,Investigation,Investigation
+l,Laravel; AWS infrastructure,Laravel Vapor PHP serverless hosting configuration,Laravel Vapor native PHP 8.2+ patched runtimes; PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12,Fix,Fix
+l,LDAP Account Manager project,LDAP Account Manager,,Vulnerable,Vulnerable
+l,Leantime project,Leantime,,Vulnerable,Vulnerable
+l,LibreNMS project,LibreNMS,,Vulnerable,Vulnerable
+l,libsmbclient-php project,SMBClient native PHP Samba binding,,Investigation,Investigation
+l,libvirt-php contributors / Unraid distribution,Unraid libvirt-php management binding,,Investigation,Investigation
+l,Lime Technology / Unraid,Unraid PHP management runtime distribution,Unraid OS 7.3.4 (PHP 8.4.27),Fix,Fix
+l,LimeSurvey GmbH / LimeSurvey project,LimeSurvey Community Edition,,Vulnerable,Vulnerable
+l,LiveCodes project,LiveCodes PHP (Uniter) browser mode,,Investigation,Investigation
+l,LiveCodes project,LiveCodes PHP (Wasm) browser mode,,Investigation,Investigation
+l,Lunar project,Lunar administration panel,,Investigation,Investigation
+l,Lunar project,Lunar commerce core,,Investigation,Investigation
+m,m0n0wall project,m0n0wall legacy PHP-CGI management appliance,,Investigation,Investigation
+m,Mage-OS project,Mage-OS,,Vulnerable,Vulnerable
+m,Magento / Adobe,Magento Open Source,,Vulnerable,Vulnerable
+m,MailWatch project,MailWatch for MailScanner,,Vulnerable,Vulnerable
+m,MAMP GmbH,MAMP local server environment,,Investigation,Investigation
+m,MantisBT project,MantisBT,,Vulnerable,Vulnerable
+m,Matomo,Matomo On-Premise,,Vulnerable,Vulnerable
+m,Matomo / InnoCraft,Matomo Analytics for WordPress,,Investigation,Investigation
+m,Matomo team,Matomo PHP tracking client,,Investigation,Investigation
+m,Mautic project,Mautic,,Vulnerable,Vulnerable
+m,MediaWiki project,MediaWiki,,Vulnerable,Vulnerable
+m,MessageBird,MessageBird PHP REST API client,,Investigation,Investigation
+m,Metaways / tine project,tine groupware,,Vulnerable,Vulnerable
+m,Microsoft,Azure App Service PHP on Linux,Linux built-in PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12 on Latest and Standard,Fix,Fix
+m,Microsoft Azure Storage,Microsoft Azure Storage PHP blob client package (retired),,Investigation,Investigation
+m,Microsoft Azure Storage,Microsoft Azure Storage PHP common client package (retired),,Investigation,Investigation
+m,Microsoft Azure Storage,Microsoft Azure Storage PHP file client package (retired),,Investigation,Investigation
+m,Microsoft Azure Storage,Microsoft Azure Storage PHP queue client package (retired),,Investigation,Investigation
+m,Microsoft Azure Storage,Microsoft Azure Storage PHP table client package (retired),,Investigation,Investigation
+m,Microsoft Graph Client Tooling,Microsoft Graph PHP SDK,,Investigation,Investigation
+m,MISP project / CIRCL,MISP 2.5 core PHP server,,Vulnerable,Vulnerable
+m,Mockery project,Mockery PHP test-double framework,,Investigation,Investigation
+m,MODX project,MODX Revolution,Installations served by unpatched PHP; application versions are not the patch boundary,Vulnerable,Vulnerable
+m,Mollie,Mollie Payments for WooCommerce,,Investigation,Investigation
+m,Mollie B.V.,Mollie API PHP client,,Investigation,Investigation
+m,MongoDB PHP driver team,MongoDB native PHP driver extension,,Investigation,Investigation
+m,MongoDB PHP driver team,MongoDB PHP userland library,,Investigation,Investigation
+m,Monica project,Monica,,Investigation,Investigation
+m,Montala / ResourceSpace,ResourceSpace,,Vulnerable,Vulnerable
+m,Moodle project,Moodle,,Vulnerable,Vulnerable
+m,Moodle project / complete-installer packagers,Moodle Windows complete installer family,,Investigation,Investigation
+m,Moodle project / Ralf Krause,Moodle4Mac complete installer family,,Investigation,Investigation
+m,msgpack-php project,MessagePack native PHP serialization extension,,Investigation,Investigation
+m,MyBB Group,MyBB,,Vulnerable,Vulnerable
+m,MyBB Group,MyBB Merge System,,Investigation,Investigation
+n,N-able,Mail Assure / Spam Experts,Vendor platform fixes completed 22 October 2026 at 18:30 EDT,Fix,Fix
+n,N-able,N-sight,Vendor platform fixes completed 22 October 2026 at 18:30 EDT,Fix,Fix
+n,N-able,Passportal,Vendor platform fixes completed 22 October 2026 at 18:30 EDT,Fix,Fix
+n,N-able,Take Control Session routing,Vendor platform fixes completed 22 October 2026 at 18:30 EDT,Fix,Fix
+n,Nagios Enterprises,Nagios Fusion web component subsystem,,Vulnerable,Vulnerable
+n,Nagios Enterprises,Nagios XI web configuration-wizard subsystem,,Vulnerable,Vulnerable
+n,Neos project,Neos CMS,,Vulnerable,Vulnerable
+n,NetApp,ONTAP 9,9.15.1P20HF1 / 9.16.1P16HF1 / 9.17.1P11HF1 / 9.18.1P8HF1 / 9.19.1P3HF1,Fix,Not vuln
+n,Netgate / pfSense,pfSense management components,Updated PHP packages: pfSense Plus 26.07 / 26.03.1 and CE 2.9.0: PHP 8.5.12; CE 2.8.1: PHP 8.3.36,Fix,Fix
+n,Netlify,Netlify PHP build environment and Composer integration,,Investigation,Investigation
+n,Nette community,Nette Application,,Investigation,Investigation
+n,Nette community,Nette Assets,,Investigation,Investigation
+n,Nette community,Nette Bootstrap,,Investigation,Investigation
+n,Nette community,Nette Caching,,Investigation,Investigation
+n,Nette community,Nette Command Line,,Investigation,Investigation
+n,Nette community,Nette Database,,Investigation,Investigation
+n,Nette community,Nette DI,,Investigation,Investigation
+n,Nette community,Nette Forms,,Investigation,Investigation
+n,Nette community,Nette HTTP,,Investigation,Investigation
+n,Nette community,Nette Mail,,Investigation,Investigation
+n,Nette community,Nette PHP Generator,,Investigation,Investigation
+n,Nette community,Nette RobotLoader,,Investigation,Investigation
+n,Nette community,Nette SafeStream,,Investigation,Investigation
+n,Nette community,Nette Security,,Investigation,Investigation
+n,Nette community,Nette Utils,,Investigation,Investigation
+n,Nette community / Latte,Latte template engine,,Investigation,Investigation
+n,Nette community / Tracy,Tracy debugger,,Investigation,Investigation
+n,Nette Foundation / Nette community,Nette framework metapackage,,Vulnerable,Vulnerable
+n,Nextcloud,Nextcloud Office integration app,,Investigation,Investigation
+n,Nextcloud,Nextcloud Server,,Vulnerable,Vulnerable
+n,Nextcloud,Nextcloud Talk server app,,Investigation,Investigation
+n,Nextcloud Calendar project,Nextcloud Calendar server app,,Investigation,Investigation
+n,Nextcloud Collectives project,Nextcloud Collectives server app,,Investigation,Investigation
+n,Nextcloud Contacts project,Nextcloud Contacts server app,,Investigation,Investigation
+n,Nextcloud Deck project,Nextcloud Deck,,Investigation,Investigation
+n,Nextcloud Docker community volunteers / Docker Official Images,Nextcloud community Docker image distribution,,Investigation,Investigation
+n,Nextcloud GmbH / Nextcloud AIO maintainers,Nextcloud AIO Nextcloud application container,Nextcloud AIO 14.4.1,Fix,Fix
+n,Nextcloud Mail project,Nextcloud Mail server app,,Investigation,Investigation
+n,Nextcloud Notes project,Nextcloud Notes,,Investigation,Investigation
+n,Nextcloud Snap maintainers,Nextcloud Snap bundled PHP runtime,,Investigation,Investigation
+n,NextcloudPi project / Nextcloud community,NextcloudPi turnkey PHP stack,,Investigation,Investigation
+n,Nikita Popov / PHP-Parser contributors,PHP-Parser userland parser,,Investigation,Investigation
+n,NixOS / Nixpkgs maintainers,Nixpkgs PHP runtime environments,Nixpkgs PHP 8.3.36 / 8.4.27 / 8.5.12; updated nixos-26.05-small and nixos-unstable-small inputs,Fix,Fix
+o,Observium Limited / Observium project,Observium,,Vulnerable,Vulnerable
+o,October CMS project,October CMS,Installations served by unpatched PHP; application versions are not the patch boundary,Vulnerable,Vulnerable
+o,Open eClass project / GUnet,Open eClass,,Vulnerable,Vulnerable
+o,Open Social project,Open Social Drupal installation profile,,Investigation,Investigation
+o,Open Web Analytics project,Open Web Analytics,,Vulnerable,Vulnerable
+o,OpenBSD ports maintainers / PHP documentation team,OpenBSD optional PHP package and ports family,,Investigation,Investigation
+o,OpenCart project,OpenCart,,Vulnerable,Vulnerable
+o,OpenConext / SURF,OpenConext EngineBlock SAML proxy,,Vulnerable,Vulnerable
+o,OpenDocMan project,OpenDocMan,,Vulnerable,Vulnerable
+o,OpenEMR project,OpenEMR,Binary Docker recipe b171ac28a57e5da96b1b8eaceb7324edac045948; Forge release 10212026 with PHP 8.5.12 (OpenEMR 8.4.1),Fix,Fix
+o,OpenMage project,OpenMage,,Vulnerable,Vulnerable
+o,openmediavault project,openmediavault PHP management backend,,Investigation,Investigation
+o,OpenSearch Contributors; inherited Elastic client lineage,OpenSearch PHP client,,Investigation,Investigation
+o,OpenSwoole project,OpenSwoole native PHP extension,,Investigation,Investigation
+o,OpenWrt packages feed maintainers,OpenWrt selectable PHP8 package family,Merged package recipes: master/openwrt-25.12 PHP 8.4.27; openwrt-24.10 PHP 8.3.36,Fix,Fix
+o,OPNsense / Deciso,OPNsense WebGUI and API,Community 26.7.7 PHP hotfix: 8.5.12; Business 26.4.2p3 PHP hotfix: 8.3.36,Fix,Fix
+o,OrangeHRM Inc.,OrangeHRM Starter,,Vulnerable,Vulnerable
+o,Oro Inc.,OroCommerce,,Vulnerable,Vulnerable
+o,"Oro, Inc.",OroCRM Community Edition application,,Vulnerable,Vulnerable
+o,osCommerce,osCommerce 4,,Vulnerable,Vulnerable
+o,osCommerce legacy project,osCommerce Online Merchant 2.3,,Vulnerable,Vulnerable
+o,OVHcloud,OVHcloud webhosting PHP / .ovhconfig runtime,Provider-patched Web Hosting PHP 5.3-8.5; deployment completed 2026-10-23,Fix,Fix
+o,ownCloud / Kiteworks,ownCloud Classic 11,,Vulnerable,Vulnerable
+o,ownCloud / Kiteworks,ownCloud Server 10,,Vulnerable,Vulnerable
+o,OXID eSales,OXID eShop,,Vulnerable,Vulnerable
+p,Palo Alto Networks,PAN-OS,"PAN-OS 12.2, 12.1, 11.2, 11.1, 10.2 (all builds) listed affected; fixed releases not yet announced",Vulnerable,Vulnerable
+p,Palo Alto Networks,Panorama,All Panorama versions listed affected; fixed releases not yet announced,Vulnerable,Vulnerable
+p,Pantheon,Pantheon managed PHP application runtime,Patched production/LTS and paid pre-production runtimes; upstream PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12 plus vendor LTS ,Fix,Fix
+p,"ParaTest / Brian Scaturro, Filippo Tessarotto and contributors",ParaTest parallel PHPUnit runner,,Investigation,Investigation
+p,Part-DB project,Part-DB official Docker image (PHP 8.4.27 rebuild),jbtronics/part-db1:2.20.2 rebuild containing PHP 8.4.27,Fix,Fix
+p,Part-DB project,Part-DB server,,Vulnerable,Vulnerable
+p,Passbolt SA,Passbolt API server,Patched Docker/AMI/OVA images published 2026-10-21; runtime PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12 or confirmed vendor ba,Fix,Fix
+p,PayPal,PayPal Server SDK for PHP,,Investigation,Investigation
+p,PCOV / Joe Watkins and contributors,PCOV PHP native code-coverage driver,,Investigation,Investigation
+p,PeachPie / iolevel,PeachPie PHP compiler and .NET runtime,,Investigation,Investigation
+p,PeachPie / WpDotNet project,WpDotNet compiled WordPress on PeachPie,,Investigation,Investigation
+p,PEAR project / PHP Group,PEAR Base System,,Investigation,Investigation
+p,PECL XHProf / longxinH and contributors,XHProf native PHP collection extension,,Investigation,Investigation
+p,PECL XHProf / longxinH and contributors,XHProf PHP reporting and navigation UI,,Investigation,Investigation
+p,PestPHP / Nuno Maduro and contributors,Pest PHP testing framework,,Investigation,Investigation
+p,Phalcon project,Phalcon framework PHP extension,,Vulnerable,Vulnerable
+p,"PHAR.io / Arne Blankerts, Sebastian Heuer and contributors",Phive PHAR installation and verification tool,,Investigation,Investigation
+p,Phillips Data / Blesta,Blesta billing platform,,Vulnerable,Vulnerable
+p,Phing project / Michiel Rook and contributors,Phing PHP build system,,Investigation,Investigation
+p,PHP CS Fixer project,PHP CS Fixer,,Investigation,Investigation
+p,PHP CS Fixer project,PHP CS Fixer official PHP container image family,,Investigation,Investigation
+p,PHP Depend project,PHP Depend source-metrics analyzer,,Investigation,Investigation
+p,PHP Ev extension project,Ev native PHP libev binding,,Investigation,Investigation
+p,PHP Event extension project,Event native PHP libevent binding,,Investigation,Investigation
+p,PHP Gearman extension project,Gearman native PHP client and worker extension,,Investigation,Investigation
+p,PHP gnupg extension project,GnuPG native PHP GPGME binding,,Investigation,Investigation
+p,PHP Mailparse extension project,Mailparse native PHP MIME parser extension,,Investigation,Investigation
+p,PHP OAuth extension project,OAuth native PHP consumer extension,,Investigation,Investigation
+p,PHP SSH2 extension project,SSH2 native PHP client binding,,Investigation,Investigation
+p,PHP YAML extension project,YAML native PHP parser and emitter extension,,Investigation,Investigation
+p,php-amqp project,AMQP native PHP messaging client extension,,Investigation,Investigation
+p,PHP-FIG,PSR logging interfaces package,,Investigation,Investigation
+p,php-memcached project,Memcached native PHP client extension,,Investigation,Investigation
+p,PHP-PM project,PHP-PM process manager,,Investigation,Investigation
+p,php-rdkafka project,rdkafka native PHP Kafka client extension,,Investigation,Investigation
+p,Phpactor project,Phpactor PHP language server and refactoring tool,,Investigation,Investigation
+p,phpBB Limited / phpBB project,phpBB,,Vulnerable,Vulnerable
+p,PHPBench / Daniel Leech and contributors,PHPBench benchmarking framework,,Investigation,Investigation
+p,PHPCSStandards / PHP_CodeSniffer project,PHP_CodeSniffer and PHP Code Beautifier/Fixer,,Investigation,Investigation
+p,phpDocumentor project,phpDocumentor documentation generator,,Investigation,Investigation
+p,phpIPAM project,phpIPAM,,Vulnerable,Vulnerable
+p,phpLDAPadmin / leenooks project,phpLDAPadmin,,Vulnerable,Vulnerable
+p,phpLDAPadmin / leenooks project,phpLDAPadmin official Docker image,Docker release 2.3.12 (PHP 8.4.27),Fix,Fix
+p,phpList project,phpList,,Vulnerable,Vulnerable
+p,PHPMailer project,PHPMailer,,Investigation,Investigation
+p,PHPMD project,PHPMD PHP Mess Detector,,Investigation,Investigation
+p,phpMyAdmin project,phpMyAdmin,,Vulnerable,Vulnerable
+p,phpMyFAQ project,phpMyFAQ,phpMyFAQ deployments on affected PHP-CGI runtimes,Vulnerable,Investigation
+p,phpPgAdmin project,phpPgAdmin,,Vulnerable,Vulnerable
+p,PhpRedis project / Michael Grunder and contributors,PhpRedis native PHP client extension,,Investigation,Investigation
+p,PHPro / GrumPHP contributors,GrumPHP Git quality-check orchestration,,Investigation,Investigation
+p,phpseclib project,phpseclib,,Investigation,Investigation
+p,PhpSpec project,PhpSpec specification test runner,,Investigation,Investigation
+p,PHPStan / Ondrej Mirtes and contributors,PHPStan static analyzer,,Investigation,Investigation
+p,PHPStan project,PHPStan PHPDoc parser library,,Investigation,Investigation
+p,PHPUnit project,PHPUnit test framework,,Investigation,Investigation
+p,PHPUnit project / Sebastian Bergmann,PHPUnit PHP code-coverage library,,Investigation,Investigation
+p,phpVirtualBox project,phpVirtualBox server-side administration application,,Vulnerable,Vulnerable
+p,Pi-hole project,Pi-hole v5 legacy PHP web interface,,Vulnerable,Vulnerable
+p,Pimcore project,Pimcore Platform,,Vulnerable,Vulnerable
+p,Plesk,Plesk for Linux,Unpatched PHP builds; fixed release scopes listed separately,Vulnerable,Vulnerable
+p,Plesk,Plesk for Linux hosted PHP 7.4 and 8.0-8.5 fixed packages,PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12; 7.4.33 / 8.0.30 / 8.1.34 built 2026-10-21,Fix,Fix
+p,Plesk,Plesk for Windows,Unpatched PHP builds; fixed release scopes listed separately,Vulnerable,Vulnerable
+p,Plesk,Plesk for Windows hosted PHP 8.2-8.5 fixed packages,PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12,Fix,Fix
+p,Plesk,Plesk Obsidian hosted-site PHP,Unpatched PHP builds; fixed release scopes listed separately,Vulnerable,Vulnerable
+p,Plesk,Plesk plesk-engine internal PHP management runtime for Windows,Plesk Obsidian 18.0.80 Update 11 or 18.0.81 Update 4,Fix,Fix
+p,Plesk,Plesk sw-engine internal PHP management runtime,Plesk Obsidian 18.0.80 Update 11 or 18.0.81 Update 4,Fix,Fix
+p,PluXml project,PluXml 5.8 documented branch,,Vulnerable,Vulnerable
+p,PmWiki project,PmWiki,,Vulnerable,Vulnerable
+p,PostfixAdmin project,PostfixAdmin,,Vulnerable,Vulnerable
+p,Predis project / Till Kruss and contributors,Predis PHP Redis and Valkey client,,Investigation,Investigation
+p,PrestaShop project,PrestaShop,,Vulnerable,Vulnerable
+p,PrivateBin project,PrivateBin,,Vulnerable,Vulnerable
+p,ProcessWire project,ProcessWire CMS,,Vulnerable,Vulnerable
+p,ProjectSend project,ProjectSend,,Vulnerable,Vulnerable
+p,Prophecy / PhpSpec project,Prophecy PHP mocking library,,Investigation,Investigation
+p,Psalm project / Daniil Gentili,Psalm official custom-PHP container image,,Investigation,Investigation
+p,"Psalm project / Matthew Brown, Daniil Gentili and contributors",Psalm PHP static analyzer,,Investigation,Investigation
+p,PsySH / Justin Hileman and contributors,PsySH interactive PHP shell,,Investigation,Investigation
+p,Pterodactyl project,Pterodactyl Panel PHP application,,Vulnerable,Vulnerable
+p,Public Knowledge Project (PKP),Open Journal Systems,,Vulnerable,Vulnerable
+p,Public Knowledge Project (PKP),Open Monograph Press,,Vulnerable,Vulnerable
+p,Public Knowledge Project (PKP),Open Preprint Systems,,Vulnerable,Vulnerable
+p,Pydio,Pydio 8 Enterprise Distribution,,Vulnerable,Vulnerable
+q,QloApps,QloApps,,Investigation,Investigation
+q,QNAP,QNAP Note Station 3,Note Station 3 3.9.14 and earlier,Vulnerable,Vulnerable
+q,QNAP,QNAP PHP7.4 optional application before5.2 migration,,Investigation,Investigation
+q,QNAP,QNAP QNE (ADRA),QNE (ADRA) 1.0.7 and earlier,Vulnerable,Vulnerable
+q,QNAP,QNAP QTS built-in PHP runtime,QTS 6.1.0.3656 build 20261023 / QTS 5.2.11.3661 build 20261023,Fix,Fix
+q,QNAP,QNAP QuMagie,QuMagie 2.10.1 and earlier,Vulnerable,Vulnerable
+q,QNAP,QNAP QuTS hero built-in PHP runtime,"QuTS hero h6.1.0.3656 / h6.0.2.3656 / h5.2.11.3661, each build 20261023",Fix,Fix
+q,QNAP,QNAP QuTScloud,QuTScloud c5.2.9.3661 build 20261023,Fix,Fix
+q,QNAP,QNAP QVR Surveillance,QVR Surveillance 3.0.3 and earlier (ARM32 models),Vulnerable,Vulnerable
+q,QNAP,QNAP TVR OS,TVR OS 1.0.4 and earlier,Vulnerable,Vulnerable
+q,Quest Software,KACE Systems Management Appliance,KACE SMA 15.0 CU5 (15.0.378) / 15.1 CU2 (15.1.177),Fix,Fix
+r,RainLoop Team,RainLoop Webmail,,Vulnerable,Vulnerable
+r,RaspAP project,RaspAP PHP network-management web GUI,,Vulnerable,Vulnerable
+r,ReactPHP project,ReactPHP EventLoop,,Investigation,Investigation
+r,Rector project,Rector automated PHP refactoring tool,,Investigation,Investigation
+r,Red Hat,Red Hat Enterprise Linux 9 PHP 8.0 packages,php-0:8.0.30-8.el9_8.1 (RHSA-2026:87151),Fix,Fix
+r,Red Hat,Red Hat Enterprise Linux 9 PHP RPM/AppStreams,Unpatched PHP builds; fixed release scopes listed separately,Vulnerable,Vulnerable
+r,Red Hat,Red Hat Enterprise Linux 9 php:8.2 module,8.2.35-1.module+el9.8.0+25111+a1450321,Fix,Fix
+r,Red Hat,Red Hat Enterprise Linux 9 php:8.3 module,php:8.3-9080020261020115403.9 (RHSA-2026:87079),Fix,Fix
+r,Render; customer/base-image publisher,Render customer PHP Docker hosting,Customer PHP Docker services running unpatched affected runtimes,Vulnerable,Vulnerable
+r,RoadRunner PHP community,RoadRunner common PHP worker package,,Investigation,Investigation
+r,RoadRunner project,RoadRunner configured PHP worker-pool integration,,Investigation,Investigation
+r,Roave,Roave backward-compatibility checker,,Investigation,Investigation
+r,Roundcube project,Roundcube official 1.7.x-fpm-alpine Docker image,1.7.x-fpm-alpine rebuilt 2026-10-23 09:45 UTC (PHP 8.4.27),Fix,Fix
+r,Roundcube project,Roundcube Webmail,,Vulnerable,Vulnerable
+r,Roundcube project,Roundcube Webmail Docker image family,Unpatched PHP builds; fixed release scopes listed separately,Vulnerable,Vulnerable
+s,SalesAgility / SuiteCRM project,SuiteCRM,Installations served by unpatched PHP; application versions are not the patch boundary,Vulnerable,Vulnerable
+s,Sangoma,PBXact 17 PHP management edition,PBXact 17 after latest PHP security updates (Sangoma advisory 2026-10-23); exact build unpublished,Fix,Fix
+s,Sangoma / FreePBX project,FreePBX 17 management framework,FreePBX 17 after latest PHP security updates (Sangoma advisory 2026-10-23); exact build unpublished,Fix,Fix
+s,Scalingo,Scalingo PaaS,Scalingo PHP runtimes 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12 available since 2026-10-21 16:40 UTC+2,Fix,Fix
+s,Scalingo,Scalingo PHP buildpack,Buildpack-selected PHP 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12,Fix,Fix
+s,Sean Morris / php-wasm project,php-cgi-wasm package (Sean Morris),,Investigation,Investigation
+s,Sean Morris / php-wasm project,php-cli-wasm package (Sean Morris),,Investigation,Investigation
+s,Sean Morris / php-wasm project,php-cloud-wasm package (Sean Morris),,Investigation,Investigation
+s,Sean Morris / php-wasm project,php-dbg-wasm package (Sean Morris),,Investigation,Investigation
+s,Sean Morris / php-wasm project,php-sdl-wasm package (Sean Morris),,Investigation,Investigation
+s,Sean Morris / php-wasm project,php-wasm-builder package (Sean Morris),,Investigation,Investigation
+s,Sean Morris / php-wasm project,Sean Morris php-wasm runtime package,,Investigation,Investigation
+s,Securepoint GmbH,Securepoint Resellerportal,,Investigation,Investigation
+s,Semantic MediaWiki project,Semantic MediaWiki,,Investigation,Investigation
+s,Sendy,Sendy self-hosted application,,Vulnerable,Vulnerable
+s,Serendipity project,Serendipity Blog System,,Vulnerable,Vulnerable
+s,Server Side Up,"Server Side Up PHP Docker images, v5.0.2 for PHP 8.2-8.5","v5.0.2: PHP 8.2.35, 8.3.36, 8.4.27, 8.5.12 image variants",Fix,Fix
+s,Shaarli community,Shaarli,Shaarli Docker v0.16.10 / v0.16 / release rebuilt with PHP 8.4.27,Fix,Fix
+s,Shivam Mathur / setup-php project,setup-php GitHub Action external PHP provisioning,Patched setup-php v2-provisioned PHP builds announced 2026-10-21,Fix,Fix
+s,Shlink project,Shlink,,Vulnerable,Vulnerable
+s,Shlink project,Shlink official Docker image,"shlinkio/shlink:5.1.8, published 2026-10-22",Fix,Fix
+s,Shopify,Shopify API Library for PHP deprecated line,,Investigation,Investigation
+s,Shopify,Shopify App PHP package,,Investigation,Investigation
+s,Shopware 5 project / shopware AG lineage,Shopware 5,,Vulnerable,Vulnerable
+s,shopware AG,Shopware 6,,Vulnerable,Vulnerable
+s,Silverstripe CMS project,Silverstripe CMS,,Vulnerable,Vulnerable
+s,Simple Machines / SMF project,Simple Machines Forum,,Vulnerable,Vulnerable
+s,SimpleRisk,SimpleRisk PHP GRC application,,Vulnerable,Vulnerable
+s,SimpleSAMLphp project,SimpleSAMLphp,,Vulnerable,Vulnerable
+s,Slim project,Slim framework,,Vulnerable,Vulnerable
+s,SnappyMail project,SnappyMail,,Vulnerable,Vulnerable
+s,SolidWorx / SolidInvoice project,SolidInvoice application,,Vulnerable,Vulnerable
+s,SolidWorx / SolidInvoice project,SolidInvoice self-contained binary,,Investigation,Investigation
+s,Sophos,MyUTM portal,MyUTM hosted licensing portal before vendor PHP update,Vulnerable,Vulnerable
+s,SPIP project,SPIP,,Vulnerable,Vulnerable
+s,Spryker Systems GmbH,Spryker Commerce OS,,Vulnerable,Vulnerable
+s,SquirrelMail project,SquirrelMail legacy documented webmail,,Vulnerable,Vulnerable
+s,Statamic project,Statamic CMS,,Vulnerable,Vulnerable
+s,Statamic project,Statamic static-site generator,,Investigation,Investigation
+s,Stripe and contributors,Stripe PHP client library,,Investigation,Investigation
+s,SugarAI / SugarCRM,Sugar application server,,Vulnerable,Vulnerable
+s,Sulu project,Sulu CMS,,Vulnerable,Vulnerable
+s,SURF,SURF Research Access Management EngineBlock proxy,,Investigation,Investigation
+s,SURF,SURF Research Drive Nextcloud server component,,Investigation,Investigation
+s,SURF,SURFconext OpenConext EngineBlock proxy role,,Investigation,Investigation
+s,SURF,SURFdrive Nextcloud server component,,Investigation,Investigation
+s,SURF,SURFfilesender FileSender server component,,Investigation,Investigation
+s,SURF / SURFnet,SURFconext Service Provider Dashboard,,Vulnerable,Vulnerable
+s,SUSE,SUSE Linux Enterprise PHP8 package families,SLE 15 SP4: 8.0.30-150400.4.80.1; SP6: 8.2.35-150600.3.39.1; SP7: 8.3.36-150700.3.24.1; SLES 16.0: 8.4.27-160000.1.1,Fix,Fix
+s,SUSE,SUSE SLE BCI PHP CLI container,,Not vuln,Not vuln
+s,SUSE,SUSE SLE BCI PHP-Apache container,,Not vuln,Not vuln
+s,SUSE,SUSE SLE BCI PHP-FPM 8 container,,Not vuln,Not vuln
+s,Swoole project,Swoole native PHP extension,,Investigation,Investigation
+s,Sylius project,Sylius,,Vulnerable,Vulnerable
+s,Sylvain Lassaut / NoiseByNorthwest,SPX native PHP profiling extension and built-in report UI,,Investigation,Investigation
+s,Symfony,Symfony Console component,,Investigation,Investigation
+s,Symfony,Symfony framework,,Vulnerable,Vulnerable
+s,Symfony,Symfony HttpFoundation component,,Investigation,Investigation
+s,Symfony,Symfony HttpKernel component,,Investigation,Investigation
+s,Symfony,Symfony mbstring polyfill,,Investigation,Investigation
+s,Symfony,Symfony Process component,,Investigation,Investigation
+s,Symplify,Easy Coding Standard PHP style tool,,Investigation,Investigation
+s,Synology,Synology PHP 5.6 archived package family,,Investigation,Investigation
+s,Synology,Synology PHP 7.0 archived package family,,Investigation,Investigation
+s,Synology,Synology PHP 7.2 archived package family,,Investigation,Investigation
+s,Synology,Synology PHP 7.3 archived package family,Synology PHP 7.3; end of life,Vulnerable,Vulnerable
+s,Synology,Synology PHP 7.4 archived package family,7.4.33-0131 or above in the corresponding Synology PHP branch,Fix,Fix
+s,Synology,Synology PHP 8.0 archived package family,8.0.30-0122 or above in the corresponding Synology PHP branch,Fix,Fix
+s,Synology,Synology PHP 8.1 archived package family,8.1.34-0120 or above in the corresponding Synology PHP branch,Fix,Fix
+s,Synology,Synology PHP 8.2 archived package family,8.2.35-0171 or above in the corresponding Synology PHP branch,Fix,Fix
+s,Synology,Synology PHP 8.3 archived package family,8.3.36-0051 or above in the corresponding Synology PHP branch,Fix,Fix
+s,Synology,Synology PHP 8.4 package distribution,8.4.27-0051 or above in the corresponding Synology PHP branch,Fix,Fix
+s,Synology,Synology Web Station optional PHP hosting,Web Station with vendor-patched PHP packages from Synology-SA-26:14,Fix,Fix
+t,TeamPass project,TeamPass,,Vulnerable,Vulnerable
+t,Tenable,Tenable Enclave Security,SC-202610.1 on Enclave Security 1.7.0 / 1.8.0 / 1.9.1 (PHP 8.2.35),Fix,Fix
+t,Tenable,Tenable Security Center (formerly Tenable.sc),SC-202610.1 on Security Center 6.6.0 / 6.7.2 / 6.8.0 / 6.9.1 (PHP 8.2.35),Fix,Fix
+t,TerraMaster,TerraMaster TOS6 Web Server optional PHP hosting,TOS 6 systems using PHP/Web Server; migration to TOS 7 required,Vulnerable,Vulnerable
+t,Textpattern project,Textpattern CMS,,Vulnerable,Vulnerable
+t,The Cacti Group,Cacti,,Vulnerable,Vulnerable
+t,The PHP Foundation / PHP PIE project,PHP Installer for Extensions (PIE),,Investigation,Investigation
+t,The PHP Group,PHP BCMath,,Investigation,Investigation
+t,The PHP Group,PHP built-in development web server,,Investigation,Investigation
+t,The PHP Group,PHP Bzip2,,Investigation,Investigation
+t,The PHP Group,PHP Calendar,,Investigation,Investigation
+t,The PHP Group,PHP Clang fuzzer SAPI,,Investigation,Investigation
+t,The PHP Group,PHP CLI,,Investigation,Investigation
+t,The PHP Group,PHP COM and .NET,,Investigation,Investigation
+t,The PHP Group,PHP core and Zend Engine,,,
+t,The PHP Group,PHP core and Zend Engine affected web-serving release scope,">=5.4.0 before fixed release or vendor backport; supported branches <8.2.35, <8.3.36, <8.4.27, <8.5.12",Vulnerable,Vulnerable
+t,The PHP Group,PHP core and Zend Engine fixed upstream releases,"8.5.12, 8.4.27, 8.3.36, 8.2.35",Fix,Fix
+t,The PHP Group,PHP Ctype,,Investigation,Investigation
+t,The PHP Group,PHP cURL,,Investigation,Investigation
+t,The PHP Group,PHP Date/Time,,Investigation,Investigation
+t,The PHP Group,PHP DBA,,Investigation,Investigation
+t,The PHP Group,PHP dl_test,,Investigation,Investigation
+t,The PHP Group,PHP DOM,,Investigation,Investigation
+t,The PHP Group,PHP Embed SAPI,,Investigation,Investigation
+t,The PHP Group,PHP Enchant,,Investigation,Investigation
+t,The PHP Group,PHP Exif,,Investigation,Investigation
+t,The PHP Group,PHP FFI,,Investigation,Investigation
+t,The PHP Group,PHP Fileinfo,,Investigation,Investigation
+t,The PHP Group,PHP Filter,,Investigation,Investigation
+t,The PHP Group,PHP FTP,,Investigation,Investigation
+t,The PHP Group,PHP GD,,Investigation,Investigation
+t,The PHP Group,PHP Gettext,,Investigation,Investigation
+t,The PHP Group,PHP GMP,,Investigation,Investigation
+t,The PHP Group,PHP Hash,,Investigation,Investigation
+t,The PHP Group,PHP Iconv,,Investigation,Investigation
+t,The PHP Group,PHP IMAP extension,,Investigation,Investigation
+t,The PHP Group,PHP Intl,,Investigation,Investigation
+t,The PHP Group,PHP JSON,,Investigation,Investigation
+t,The PHP Group,PHP LDAP,,Investigation,Investigation
+t,The PHP Group,PHP Lexbor support bridge,,Investigation,Investigation
+t,The PHP Group,PHP Libxml bridge,,Investigation,Investigation
+t,The PHP Group,PHP LiteSpeed SAPI,"8.5.12, 8.4.27, 8.3.36, 8.2.35",Fix,Fix
+t,The PHP Group,PHP Mbstring,,Investigation,Investigation
+t,The PHP Group,PHP MySQLi,,Investigation,Investigation
+t,The PHP Group,PHP Mysqlnd,,Investigation,Investigation
+t,The PHP Group,PHP OCI8 extension,,Investigation,Investigation
+t,The PHP Group,PHP ODBC,,Investigation,Investigation
+t,The PHP Group,PHP OPcache,,Investigation,Investigation
+t,The PHP Group,PHP OPcache JIT,,Investigation,Investigation
+t,The PHP Group,PHP OpenSSL extension,,Investigation,Investigation
+t,The PHP Group,PHP PCNTL,,Investigation,Investigation
+t,The PHP Group,PHP PCRE,,Investigation,Investigation
+t,The PHP Group,PHP PDO,,Investigation,Investigation
+t,The PHP Group,PHP PDO_DBLIB,,Investigation,Investigation
+t,The PHP Group,PHP PDO_FIREBIRD,,Investigation,Investigation
+t,The PHP Group,PHP PDO_MYSQL,,Investigation,Investigation
+t,The PHP Group,PHP PDO_OCI extension,,Investigation,Investigation
+t,The PHP Group,PHP PDO_ODBC,,Investigation,Investigation
+t,The PHP Group,PHP PDO_PGSQL,,Investigation,Investigation
+t,The PHP Group,PHP PDO_SQLITE,,Investigation,Investigation
+t,The PHP Group,PHP Phar,,Investigation,Investigation
+t,The PHP Group,PHP phpdbg,,Investigation,Investigation
+t,The PHP Group,PHP POSIX,,Investigation,Investigation
+t,The PHP Group,PHP PostgreSQL extension,,Investigation,Investigation
+t,The PHP Group,PHP Pspell extension,,Investigation,Investigation
+t,The PHP Group,PHP Random,,Investigation,Investigation
+t,The PHP Group,PHP Readline,,Investigation,Investigation
+t,The PHP Group,PHP Reflection,,Investigation,Investigation
+t,The PHP Group,PHP Session,"CVE-2026-109619: PHP 8.2.35, 8.3.36, 8.4.27, 8.5.12 (session upload-progress lifecycle)",Investigation,Fix
+t,The PHP Group,PHP Shmop,,Investigation,Investigation
+t,The PHP Group,PHP SimpleXML,,Investigation,Investigation
+t,The PHP Group,PHP SNMP,,Investigation,Investigation
+t,The PHP Group,PHP SOAP,,Investigation,Investigation
+t,The PHP Group,PHP Sockets,,Investigation,Investigation
+t,The PHP Group,PHP Sodium,,Investigation,Investigation
+t,The PHP Group,PHP SPL,,Investigation,Investigation
+t,The PHP Group,PHP SQLite3,,Investigation,Investigation
+t,The PHP Group,PHP Standard functions,,Investigation,Investigation
+t,The PHP Group,PHP Sysvmsg,,Investigation,Investigation
+t,The PHP Group,PHP Sysvsem,,Investigation,Investigation
+t,The PHP Group,PHP Sysvshm,,Investigation,Investigation
+t,The PHP Group,PHP Tidy,,Investigation,Investigation
+t,The PHP Group,PHP Tokenizer,,Investigation,Investigation
+t,The PHP Group,PHP URI,,Investigation,Investigation
+t,The PHP Group,PHP XML parser,,Investigation,Investigation
+t,The PHP Group,PHP XMLReader,,Investigation,Investigation
+t,The PHP Group,PHP XMLWriter,,Investigation,Investigation
+t,The PHP Group,PHP XSL,,Investigation,Investigation
+t,The PHP Group,PHP zend_test,,Investigation,Investigation
+t,The PHP Group,PHP Zip,,Investigation,Investigation
+t,The PHP Group,PHP Zlib extension,,Investigation,Investigation
+t,The PHP Group,PHP-CGI,"8.5.12, 8.4.27, 8.3.36, 8.2.35",Fix,Fix
+t,The PHP Group,PHP-FPM,"8.5.12, 8.4.27, 8.3.36, 8.2.35",Fix,Fix
+t,The PHP Group / Apache operators,Apache PHP module (mod_php),"8.5.12, 8.4.27, 8.3.36, 8.2.35",Fix,Fix
+t,The PHP Group / PHP Windows maintainers,Official PHP Windows binary ZIP distribution,"8.5.12, 8.4.27, 8.3.36, 8.2.35",Fix,Fix
+t,The PHP League,Flysystem,,Investigation,Investigation
+t,Thelia project,Thelia,,Vulnerable,Vulnerable
+t,thirty development llc / thirty bees project,thirty bees,,Vulnerable,Vulnerable
+t,Thunder project,Thunder Drupal distribution,,Investigation,Investigation
+t,Tideways / open-source fork contributors,Tideways XHProf archived native extension fork,,Investigation,Investigation
+t,Tideways GmbH,Tideways commercial PHP profiling extension,,Investigation,Investigation
+t,Tiki Software Community Association / Tiki project,Tiki Wiki CMS Groupware,,Vulnerable,Vulnerable
+t,Totara,Totara,,Vulnerable,Vulnerable
+t,TransIP,TransIP API PHP client,,Investigation,Investigation
+t,TransIP,TransIP shared webhosting PHP option,"Shared-hosting PHP patches deployed 21 October 2026, including 7.4 / 8.0 / 8.1",Fix,Fix
+t,Trend Micro,Apex Central,Apex Central; vendor version ranges not specified,Vulnerable,Vulnerable
+t,Trend Micro,Apex One,Apex One on-premises server; vendor version ranges not specified,Vulnerable,Vulnerable
+t,TurnKey Linux,TurnKey Linux LAMP appliance PHP stack,,Investigation,Investigation
+t,TurnKey Linux,TurnKey Linux LAPP appliance PHP stack,,Investigation,Investigation
+t,TuxCare / CloudLinux,TuxCare ELS PHP distribution family,TuxCare ELS security packages released by 2026-10-22 00:07 UTC; vendor-supported PHP/OS combinations,Fix,Fix
+t,TuxCare / CloudLinux,TuxCare ELS PHP package for CentOS 8.4,7.4.6,Fix,Fix
+t,TuxCare / CloudLinux,TuxCare ELS PHP package for CentOS 8.5,7.4.19,Fix,Fix
+t,TuxCare / CloudLinux,TuxCare ELS PHP package for Ubuntu 16.04,7.0.33,Fix,Fix
+t,TuxCare / CloudLinux,TuxCare ELS PHP package for Ubuntu 18.04,7.2.24-0,Fix,Fix
+t,Twig / Symfony community,Twig template engine,,Investigation,Investigation
+t,Twilio API Team,Twilio PHP helper SDK,,Investigation,Investigation
+t,Twilio SendGrid,Twilio SendGrid PHP client,,Investigation,Investigation
+t,TYPO3 project,TYPO3 13.4,,Vulnerable,Vulnerable
+u,Ubiquiti,UISP CRM (UCRM),UISP Application 3.1.70 (CRM module),Fix,Fix
+u,UnoPim,UnoPim,Rebuilt webkul/unopim 3.1.3 / 3.1 / latest with PHP 8.4.27,Fix,Fix
+u,UnoPim,"UnoPim official Docker images (webkul/unopim, webkul/unopim-queue)",Images 3.1.3 / 3.1 / latest rebuilt 2026-10-22 on PHP 8.4.27,Fix,Fix
+u,Upsun,Upsun PHP application containers,Managed PHP runtime images: 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12; vendor backports for 7.4 / 8.0 / 8.1,Fix,Fix
+u,Utrecht University / Yoda,Yoda v1.5 legacy PHP web portal,,Vulnerable,Vulnerable
+u,Uwe Steinmann / SeedDMS project,SeedDMS,,Vulnerable,Vulnerable
+v,Vance Lucas / Graham Campbell / phpdotenv contributors,phpdotenv,,Investigation,Investigation
+v,Vanderbilt University / REDCap Consortium,REDCap,,Vulnerable,Vulnerable
+v,Vardot / Varbase project,Varbase Drupal distribution,,Investigation,Investigation
+v,Virtualmin,Virtualmin hosted PHP execution modes,,Investigation,Investigation
+v,VirtueMart project,VirtueMart,,Investigation,Investigation
+v,VitalPBX,VitalPBX 4.0 PHP management runtime,,Investigation,Investigation
+v,VitalPBX,VitXi server-side PHP component,,Investigation,Investigation
+v,VK / VKCOM KPHP project,KPHP compiler and native runtime,,Investigation,Investigation
+v,VK / VKCOM KPHP project,KPHP vkext development PHP extension,,Investigation,Investigation
+v,Vtiger,Vtiger CRM Open Source,,Vulnerable,Vulnerable
+v,VuFind project / Villanova University,VuFind,,Vulnerable,Vulnerable
+w,wallabag project,wallabag,Official wallabag/wallabag Docker image 2.6.14.1; PHP 8.2.35,Fix,Fix
+w,WampServer maintainers / Aviatechno,WampServer Windows development bundle,,Investigation,Investigation
+w,webERP project,webERP,,Vulnerable,Vulnerable
+w,Webkul,Bagisto,,Vulnerable,Vulnerable
+w,Webkul / UVdesk,UVdesk Community Helpdesk,,Vulnerable,Vulnerable
+w,webonyx / GraphQL-PHP project,webonyx GraphQL-PHP,,Investigation,Investigation
+w,WebPros / cPanel,cPanel EasyApache 4 / MultiPHP,EA4 25.91: ea-php82 8.2.35; ea-php83 8.3.36; ea-php84 8.4.27; ea-php85 8.5.12; vendor-patched ea-php74/80/81,Fix,Fix
+w,WebPros / cPanel,cPanel internal PHP for hooks and AppConfig applications,cPanel & WHM 136.0.50; bundled cpanel-php84 8.4.27,Fix,Fix
+w,Whirl-i-Gig / CollectiveAccess project,CollectiveAccess Providence,,Vulnerable,Vulnerable
+w,WHMCS Ltd.,WHMCS self-hosted application,,Vulnerable,Vulnerable
+w,Wikimedia / MediaWiki Platform maintainers,Excimer native PHP interrupting timer and sampling profiler,,Investigation,Investigation
+w,Wikimedia / MediaWiki project,Parsoid PHP,,Investigation,Investigation
+w,Wikimedia Foundation,Wikimedia MediaWiki application-server PHP tier,,Investigation,Investigation
+w,Winter CMS project,Winter CMS,,Vulnerable,Vulnerable
+w,WoltLab GmbH,WoltLab Suite,,Vulnerable,Vulnerable
+w,WooCommerce,WooCommerce,,Investigation,Investigation
+w,WooCommerce,WooCommerce PayPal Payments,,Investigation,Investigation
+w,WooCommerce,WooCommerce Stripe Payment Gateway,,Investigation,Investigation
+w,WooCommerce,WooPayments merchant plugin,,Investigation,Investigation
+w,WordPress Playground contributors,PHP.wasm browser platform adapter,,Investigation,Investigation
+w,WordPress Playground contributors,PHP.wasm Node.js platform adapter,,Investigation,Investigation
+w,WordPress Playground contributors,PHP.wasm universal JavaScript API,,Investigation,Investigation
+w,WordPress Playground contributors,WordPress Playground browser and local runtime,,Investigation,Investigation
+w,WordPress Playground contributors,WordPress Playground PHP.wasm binary family,,Investigation,Investigation
+w,WordPress project,WordPress,Installations served by unpatched PHP; application versions are not the patch boundary,Vulnerable,Vulnerable
+w,WP Engine,WP Engine managed WordPress PHP hosting,"Vendor-patched managed PHP infrastructure, confirmed 22 October 2026",Fix,Fix
+w,WP-CLI / WordPress project,WP-CLI WordPress administration framework,,Investigation,Investigation
+x,X-Cart,X-Cart 5,,Vulnerable,Vulnerable
+x,Xdebug / Derick Rethans and contributors,Xdebug PHP Zend instrumentation extension,,Investigation,Investigation
+x,Xdebug / vscode-php-debug contributors,VS Code PHP Debug adapter external PHP/Xdebug integration,,Investigation,Investigation
+x,XenForo Ltd,XenForo,,Vulnerable,Vulnerable
+x,XigmaNAS project,XigmaNAS bundled PHP components,,Investigation,Investigation
+y,YetiForce S.A.,YetiForce CRM,,Vulnerable,Vulnerable
+y,Yii Software / Yii project,Yii 2 framework,,Vulnerable,Vulnerable
+y,Yii Software / Yii project,Yii Web extension abandoned prototype,,Investigation,Investigation
+y,YOURLS project,YOURLS,,Vulnerable,Vulnerable
+z,Zabbix,Zabbix web frontend,,Vulnerable,Vulnerable
+z,Zen Cart project,Zen Cart,,Vulnerable,Vulnerable
+z,ZoneMinder project,ZoneMinder PHP web and API components,,Investigation,Investigation

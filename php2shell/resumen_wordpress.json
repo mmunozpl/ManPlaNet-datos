@@ -1,0 +1,9 @@
+{
+ "fecha": "2026-10-27",
+ "fuente": "https://api.wordpress.org/stats/php/1.0/",
+ "grupos": {
+  "sin parche (anterior a 7.4)": 5.463,
+  "solo parche de fuente (7.4, 8.0, 8.1)": 28.172,
+  "con parche binario (8.2 a 8.5)": 66.366
+ }
+}

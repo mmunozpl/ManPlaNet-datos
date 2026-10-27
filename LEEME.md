@@ -54,6 +54,7 @@ el guion:
 ├── adult/            # el conjunto Adult de UCI, sin modificar
 ├── polars-duckdb/    # Polars 2.0 y DuckDB 2.0 frente a sus 1.x: TPC-H a escala 10, el banco de agosto, 8 GiB de tope y la guía de migración
 ├── iso-27090/        # las 208 técnicas, 73 casos y 40 mitigaciones de MITRE ATLAS 2026.09 repartidos entre las nueve amenazas de ISO/IEC 27090, con prueba de sensibilidad
+├── php2shell/        # PHP2Shell: cronología, demora del CVE al KEV, parche por sistema, versiones de PHP en WordPress y productos afectados
 ├── vigencia-boe/     # manifiesto diario de los 350 códigos electrónicos del BOE
 ├── pyproject.toml    # las versiones exactas con que se dibujaron las figuras
 ├── uv.lock           # el bloqueo: esas versiones y las de todo lo que arrastran
@@ -102,6 +103,7 @@ con la semilla y los parámetros de la simulación.
 | [Mirar ya es tratar: el análisis exploratorio como primera obligación legal y primera fuente de errores](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Actualizar a Polars 2.0 y DuckDB 2.0: cuánto se gana, qué cambia y cómo comprobarlo antes](https://manpla.net/posts/migrar-a-polars-2/) | `polars-duckdb/generar.py` | `polars-duckdb/a_resumen.csv`, `b_tpch_resumen.csv`, `c_resumen.csv`, `d_cambios_apartados.csv`, `afirmaciones.csv` |
 | [ISO/IEC 27090, la norma que faltaba sobre los ataques a la inteligencia artificial](https://manpla.net/posts/iso-27090-nueve-amenazas/) | `iso-27090/generar.py` | `iso-27090/atlas_tecnicas_27090.csv`, `atlas_casos_27090.csv`, `atlas_mitigaciones_27090.csv`, `resumen_27090.csv`, `resumen_27090_sensibilidad.csv`, `correspondencias_27090.csv` |
+| [El fallo de PHP que descubrió una IA y explotaron los atacantes de siempre: los avisos, los parches y las ramas sin soporte, medidos](https://manpla.net/posts/php2shell-avisos-parches-ramas/) | `php2shell/generar.py` | `php2shell/cronologia.csv`, `kev_demoras.csv`, `parches_sistemas.csv`, `wordpress_php.csv`, `ncsc_productos.csv`, `fichas.csv` |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 Las cifras de cada artículo corresponden a la instantánea de su fecha, que
@@ -130,6 +132,7 @@ python ens-certificados/generar.py   # los cuatro listados del portal de goberna
 python aepd-correctivos/generar.py   # 780 PDF de la AEPD, uno cada dos segundos, en caché fuera del repositorio; media hora la primera vez
 python polars-duckdb/generar.py --datos DIR --entornos DIR --derrame DIR --sin-thp   # unos 40 GB de datos y los entornos fuera del repositorio; unas dos horas
 python iso-27090/generar.py          # descarga ATLAS-2026.09.yaml (dist/v6) de mitre-atlas/atlas-data; segundos
+python php2shell/generar.py          # NVD (filtro hasKev), KEV, EUVD, Ubuntu, Red Hat, Debian, aports, Docker Hub, WordPress.org y NCSC-NL; unos tres minutos; necesita gh
 python guardarrailes/ola.py          # la API de modelos de Hugging Face; segundos
 python guardarrailes/generar.py      # necesita GPU NVIDIA y requirements-gpu.txt; unas cuatro horas en una RTX 5090
 python videovigilancia/generar.py    # 37 ficheros de la Plataforma de Contratación (unos 6 GB) y los pliegos a una petición por segundo; varias horas
@@ -170,6 +173,7 @@ para volver a tomar la instantánea está `generar.py`.
 - [`aepd-correctivos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=aepd-correctivos%2Freproducir.ipynb)
 - [`polars-duckdb/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=polars-duckdb%2Freproducir.ipynb)
 - [`iso-27090/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=iso-27090%2Freproducir.ipynb)
+- [`php2shell/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=php2shell%2Freproducir.ipynb)
 - [`guardarrailes/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=guardarrailes%2Freproducir.ipynb)
 - [`videovigilancia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=videovigilancia%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)

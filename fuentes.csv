@@ -1,7 +1,7 @@
 fuente,mediciones,url
-catálogo KEV de CISA,kev euvd-kev nvd-fichas parque-instalado netscaler,https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
-API de la EUVD de ENISA,euvd-kev netscaler,https://euvdservices.enisa.europa.eu/api/search?exploited=true&page=0&size=1
-API 2.0 del NVD,nvd-fichas netscaler,https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=1
+catálogo KEV de CISA,kev euvd-kev nvd-fichas parque-instalado netscaler php2shell,https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+API de la EUVD de ENISA,euvd-kev netscaler php2shell,https://euvdservices.enisa.europa.eu/api/search?exploited=true&page=0&size=1
+API 2.0 del NVD,nvd-fichas netscaler php2shell,https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=1
 API de modelos de Hugging Face,hf-tendencia hf-activos guardarrailes,https://huggingface.co/api/models?limit=1
 configuración pública de un modelo en Hugging Face,deepseek-kv,https://huggingface.co/deepseek-ai/DeepSeek-V3/raw/main/config.json
 conjunto de resultados en Hugging Face,gauge-cuantizacion,https://huggingface.co/api/datasets/ManPla/gauge-orbit-quantization-results
@@ -19,3 +19,9 @@ paquetes de Polars y DuckDB en PyPI,polars-duckdb,https://pypi.org/pypi/duckdb/j
 extensión tpch de DuckDB (generación de TPC-H),polars-duckdb,http://extensions.duckdb.org/v1.5.6/linux_amd64/tpch.duckdb_extension.gz
 catálogo MITRE ATLAS (mitre-atlas/atlas-data; publicación 2026.09; dist/v6/ATLAS-2026.09.yaml),iso-27090,https://raw.githubusercontent.com/mitre-atlas/atlas-data/v2026.09/dist/v6/ATLAS-2026.09.yaml
 taxonomía NIST AI 100-2 E2025 (PDF),iso-27090,https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-2e2025.pdf
+API de CVE de Ubuntu,php2shell,https://ubuntu.com/security/cves/CVE-2026-109618.json
+API de datos de seguridad de Red Hat,php2shell,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json
+rastreador de seguridad de Debian,php2shell,https://security-tracker.debian.org/tracker/CVE-2026-109618
+etiquetas de la imagen oficial php en Docker Hub,php2shell,https://hub.docker.com/v2/repositories/library/php/tags?name=8.3.36-apache&page_size=3
+estadística de versiones de PHP de WordPress.org,php2shell,https://api.wordpress.org/stats/php/1.0/
+lista de productos afectados del NCSC-NL (php2shell),php2shell,https://raw.githubusercontent.com/NCSC-NL/php2shell/main/software/software_list_a.md

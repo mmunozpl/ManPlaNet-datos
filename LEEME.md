@@ -53,7 +53,7 @@ el guion:
 ├── sigma/            # metadatos de las 3 760 reglas de detección de SigmaHQ
 ├── adult/            # el conjunto Adult de UCI, sin modificar
 ├── polars-duckdb/    # Polars 2.0 y DuckDB 2.0 frente a sus 1.x: TPC-H a escala 10, el banco de agosto, 8 GiB de tope y la guía de migración
-├── iso-27090/        # las 170 técnicas, 57 casos y 35 mitigaciones de MITRE ATLAS repartidos entre las nueve amenazas de ISO/IEC 27090
+├── iso-27090/        # las 208 técnicas, 73 casos y 40 mitigaciones de MITRE ATLAS 2026.09 repartidos entre las nueve amenazas de ISO/IEC 27090, con prueba de sensibilidad
 ├── vigencia-boe/     # manifiesto diario de los 350 códigos electrónicos del BOE
 ├── pyproject.toml    # las versiones exactas con que se dibujaron las figuras
 ├── uv.lock           # el bloqueo: esas versiones y las de todo lo que arrastran
@@ -101,7 +101,7 @@ con la semilla y los parámetros de la simulación.
 | [Cuando la capacidad técnica se adelanta a la autorización: guardarraíles de IA y pliegos de videovigilancia](https://manpla.net/posts/quien-decide-que-pasa/) | `guardarrailes/generar.py` (GPU) · `ola.py` · `videovigilancia/generar.py` · `lista_rostros.py` | `guardarrailes/resumen_condiciones.csv`, `resumen_barrido.csv`, `validacion.csv`, `items_condiciones.csv.gz`, `ola_semanal.csv` · `videovigilancia/salidas/licitaciones_videovigilancia.csv`, `conteos_capacidad_nivel.csv`, `facial_contra_lista.csv` |
 | [Mirar ya es tratar: el análisis exploratorio como primera obligación legal y primera fuente de errores](https://manpla.net/posts/mirar-ya-es-tratar/) | ninguno: se descarga de UCI | `adult/adult.data.gz`, `adult.test.gz`, `adult.names` |
 | [Actualizar a Polars 2.0 y DuckDB 2.0: cuánto se gana, qué cambia y cómo comprobarlo antes](https://manpla.net/posts/migrar-a-polars-2/) | `polars-duckdb/generar.py` | `polars-duckdb/a_resumen.csv`, `b_tpch_resumen.csv`, `c_resumen.csv`, `d_cambios_apartados.csv`, `afirmaciones.csv` |
-| [ISO/IEC 27090, la norma que ordena los ataques a la inteligencia artificial: qué amenazas nombra, qué pide y cuánto de lo ya ocurrido cubre](https://manpla.net/posts/iso-27090-nueve-amenazas/) | `iso-27090/generar.py` | `iso-27090/atlas_tecnicas_27090.csv`, `atlas_casos_27090.csv`, `atlas_mitigaciones_27090.csv`, `resumen_27090.csv`, `correspondencias_27090.csv` |
+| [ISO/IEC 27090, la norma que ordena los ataques a la inteligencia artificial: qué amenazas nombra, qué pide y cuánto de lo ya ocurrido cubre](https://manpla.net/posts/iso-27090-nueve-amenazas/) | `iso-27090/generar.py` | `iso-27090/atlas_tecnicas_27090.csv`, `atlas_casos_27090.csv`, `atlas_mitigaciones_27090.csv`, `resumen_27090.csv`, `resumen_27090_sensibilidad.csv`, `correspondencias_27090.csv` |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 Las cifras de cada artículo corresponden a la instantánea de su fecha, que
@@ -129,7 +129,7 @@ python netscaler/generar.py          # el KEV, la API 2.0 del NVD y la API de la
 python ens-certificados/generar.py   # los cuatro listados del portal de gobernanza del CCN; segundos
 python aepd-correctivos/generar.py   # 780 PDF de la AEPD, uno cada dos segundos, en caché fuera del repositorio; media hora la primera vez
 python polars-duckdb/generar.py --datos DIR --entornos DIR --derrame DIR --sin-thp   # unos 40 GB de datos y los entornos fuera del repositorio; unas dos horas
-python iso-27090/generar.py          # descarga ATLAS.yaml de mitre-atlas/atlas-data; segundos
+python iso-27090/generar.py          # descarga ATLAS-2026.09.yaml (dist/v6) de mitre-atlas/atlas-data; segundos
 python guardarrailes/ola.py          # la API de modelos de Hugging Face; segundos
 python guardarrailes/generar.py      # necesita GPU NVIDIA y requirements-gpu.txt; unas cuatro horas en una RTX 5090
 python videovigilancia/generar.py    # 37 ficheros de la Plataforma de Contratación (unos 6 GB) y los pliegos a una petición por segundo; varias horas

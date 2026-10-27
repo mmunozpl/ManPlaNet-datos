@@ -4,18 +4,20 @@ Medición del 27-10-2026. De las 208 técnicas que cataloga MITRE ATLAS en su
 publicación 2026.09 (del 15 de septiembre de 2026, formato 6.0.0), 68 caen
 dentro de las nueve amenazas que ISO/IEC 27090:2026 describe en su cláusula 6,
 22 en las versiones para IA de ataques convencionales de su anexo B y 118
-fuera de las dos (reconocimiento, preparación, acceso, recolección, movimiento
-e impacto genérico, y la IA usada por el atacante, que la norma remite a
-ISO/IEC 27002 sin tratar). De los 73 casos de estudio de ATLAS (23 incidentes
-reales y 50 ejercicios), 67 tocan al menos una de las nueve amenazas y 6
-ninguna. Las dos amenazas de privacidad, inferencia de pertenencia (6.4) e
-inversión del modelo (6.6), tienen una técnica cada una en ATLAS y ningún
-caso de estudio; la inyección de prompt (6.9), la salida con ataques de
-inyección (6.10) y la evasión (6.3) aparecen en 35, 31 y 24 casos. De las 40
-mitigaciones de ATLAS, 35 cubren al menos una técnica de las nueve amenazas;
-la que más cubre es el equipo rojo de IA (AML.M0035), con 25 técnicas en las
-nueve amenazas y el anexo B, y las dos de privacidad tienen 4 mitigaciones
-cada una. Repetido el reparto con las 17 decisiones dudosas cambiadas de
+fuera de las dos, por este reparto (reconocimiento, preparación, acceso,
+recolección, movimiento e impacto genérico, y la IA usada por el atacante:
+en su mayor parte ataques convencionales para los que siguen valiendo los
+controles generales de ISO/IEC 27002, que la norma pide aplicar por riesgo).
+De los 73 casos de estudio de ATLAS (23 incidentes reales y 50 ejercicios),
+67 tocan al menos una de las nueve amenazas y 6 ninguna. Las dos amenazas de
+privacidad, inferencia de pertenencia (6.4) e inversión del modelo (6.6),
+tienen una técnica cada una en ATLAS y ningún caso de estudio; la inyección
+de prompt (6.9), la salida con ataques de inyección (6.10) y la evasión (6.3)
+aparecen en 35, 31 y 24 casos. ATLAS asocia 35 de sus 40 mitigaciones a al
+menos una técnica de las nueve amenazas (una relación del catálogo, no una
+eficacia medida); la que más abarca es el equipo rojo de IA (AML.M0035), con
+25 técnicas en las nueve amenazas y el anexo B, y las dos de privacidad
+tienen 4 mitigaciones asociadas cada una. Repetido el reparto con las 17 decisiones dudosas cambiadas de
 sitio, las técnicas dentro de las nueve pasan de 68 a 62 y los casos que
 tocan alguna, de 67 a 66. De los 17 elementos de la taxonomía de NIST AI
 100-2 E2025, los 17 encajan en alguna de las nueve; de los 10 de OWASP Top 10
@@ -33,7 +35,8 @@ Reglamento (UE) 2024/1689, 4.
   `feasible`) es la que declara ATLAS.
 - **b. Mitigaciones.** Cada una de las 40 mitigaciones de ATLAS declara las
   técnicas que trata; hereda las cláusulas de esas técnicas, y se cuenta
-  cuántas mitigaciones cubren al menos una técnica de cada cláusula.
+  cuántas mitigaciones se asocian a al menos una técnica de cada cláusula.
+  Es la relación que declara el catálogo, no la eficacia de la defensa.
 - **c. Sensibilidad del reparto.** El reparto se repite con las 17 decisiones
   dudosas cambiadas de sitio (`MAPA_ALT`): el jailbreak como evasión; la
   invocación de herramientas, la exfiltración, la destrucción y los comandos
@@ -92,8 +95,8 @@ esa copia; se repitió el 27 sobre la 2026.09.
 | anexo B | 22 | 10 | 13 | 5 | 13 | 22 | 13 |
 | fuera de la norma | 118 | 65 | 71 | 23 | 26 | 124 | 71 |
 
-Un caso cuenta en cada cláusula que toca y una mitigación en cada cláusula
-que cubre, así que esas columnas no suman 73 ni 40. Los casos van del 23 de
+Un caso cuenta en cada cláusula que toca y una mitigación en cada cláusula a
+la que se asocia, así que esas columnas no suman 73 ni 40. Los casos van del 23 de
 marzo de 2016 al 8 de julio de 2026; 34 son de 2025 y 2026, y de esos, 28
 tocan la inyección de prompt o la salida con ataques de inyección.
 

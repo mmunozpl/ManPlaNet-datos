@@ -25,7 +25,8 @@ investigación y 40 no vulnerables.
 ## Qué se midió
 
 - **a. Cronología.** `cronologia.csv`, a mano, con la fuente de cada hito:
-  los informes de los tres descubridores (fundación PHP), el intento de
+  los indicios de 2024 y los informes de los tres descubridores (fundación
+  PHP), el intento de
   explotación del 17 de octubre (Amazon), las filtraciones del 20 (fundación
   PHP), las reglas de Cloudflare, las imágenes de Chainguard, los avisos de
   GitHub, Debian, ENISA y Ubuntu, la publicación de PHP, el NVD, Red Hat,
@@ -44,14 +45,16 @@ investigación y 40 no vulnerables.
   cada versión según `api.wordpress.org/stats/php/1.0/`, agrupada en ramas
   con parche binario, solo de fuente y sin parche; `resumen_wordpress.json`.
 - **e. Productos afectados.** `ncsc_productos.csv`: la lista del NCSC-NL
-  (`github.com/NCSC-NL/php2shell`), una fila por producto con su estado
-  para cada CVE; `resumen_ncsc.json`.
+  (`github.com/NCSC-NL/php2shell`, revisión 1d605e33 del 27-10-2026 a las
+  14:51 UTC), una fila por producto con su estado para cada CVE; uno de los
+  757, el propio motor de PHP, va sin estado; `resumen_ncsc.json`.
 - **f. Fichas.** `fichas.csv`: NVD, EUVD y GitHub Security Advisories de
   las dos CVE.
 
 ## Cómo se midió
 
-Las fechas de la cronología son las que da cada fuente, en UTC; las del
+Las fechas de la cronología son las que da cada fuente, en UTC (el hito de
+2024 no tiene fecha y va solo con el año); las del
 NVD, la EUVD, GitHub, Ubuntu y Docker Hub llevan hora; las de Red Hat,
 Debian y el KEV, solo día. La demora del CVE al KEV es la diferencia de días
 entre la fecha de publicación en el NVD y la de alta en el KEV; para las
@@ -72,7 +75,7 @@ lista del NCSC-NL se cuenta por el estado de CVE-2026-109618.
 | entradas con plazo de 3 días / con triaje forense | 146 / 93 |
 | WordPress: parche binario / solo fuente / sin parche | 66,4 % / 28,2 % / 5,5 % |
 | NCSC-NL: productos / proveedores | 757 / 464 |
-| NCSC-NL: vulnerables / corregidos / en investigación / no vulnerables | 219 / 132 / 365 / 40 |
+| NCSC-NL: vulnerables / corregidos / en investigación / no vulnerables / sin estado | 219 / 132 / 365 / 40 / 1 |
 | repositorios de GitHub con «php2shell» / con el CVE (27-10) | 1.083 / 730 |
 
 ## Límites

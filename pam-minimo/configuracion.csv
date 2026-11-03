@@ -1,0 +1,11 @@
+fichero,lineas
+compose.yaml,87
+laboratorio.sh,179
+openbao/config.hcl,19
+openbao/rol-ssh-operador.json,11
+openbao/politicas/bastion.hcl,6
+openbao/politicas/operador.hcl,9
+objetivo-ssh/Dockerfile,11
+objetivo-ssh/sshd_config,10
+objetivo-ssh/entrada.sh,11
+postgres/init.sql,25

@@ -25,3 +25,4 @@ rastreador de seguridad de Debian,php2shell,https://security-tracker.debian.org/
 etiquetas de la imagen oficial php en Docker Hub,php2shell,https://hub.docker.com/v2/repositories/library/php/tags?name=8.3.36-apache&page_size=3
 estadística de versiones de PHP de WordPress.org,php2shell,https://api.wordpress.org/stats/php/1.0/
 lista de productos afectados del NCSC-NL (php2shell),php2shell,https://raw.githubusercontent.com/NCSC-NL/php2shell/main/software/software_list_a.md
+tabla 28193 del INE (Encuesta Anual de Estructura Salarial),pam-minimo,https://servicios.ine.es/wstempus/csv/ES/DATOS_TABLA/28193

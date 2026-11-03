@@ -1,0 +1,107 @@
+# Un PAM mínimo con software libre: bóveda (OpenBao), bastión con segundo
+# factor, grabación de sesiones y certificados SSH por sesión (Warpgate), dos
+# objetivos (un servidor SSH que solo admite certificados de la bóveda y un
+# PostgreSQL) y un medidor que ejecuta las pruebas del artículo.
+# Imágenes fijadas por versión. Se inicializa con `./laboratorio.sh init`,
+# se mide con `./laboratorio.sh medir`. Todo corre en la red interna del
+# compose; solo el bastión expone puertos, y solo en 127.0.0.1.
+name: pam-minimo
+
+services:
+  openbao:
+    image: openbao/openbao:2.7.2
+    command: ["server"]
+    environment:
+      BAO_ADDR: https://127.0.0.1:8200
+      BAO_CACERT: /openbao/config/tls/ca.pem
+      SKIP_CHOWN: "true"
+    volumes:
+      - ./openbao/config.hcl:/openbao/config/config.hcl:ro
+      - ./openbao/tls:/openbao/config/tls:ro
+      - openbao-datos:/openbao/file
+      - openbao-auditoria:/openbao/logs
+    networks: [interna]
+    healthcheck:
+      # 200 también sellado o sin inicializar: «sano» significa que responde
+      test: ["CMD", "wget", "-qO-", "--no-check-certificate",
+             "https://127.0.0.1:8200/v1/sys/health?uninitcode=200&sealedcode=200"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  postgres:
+    image: postgres:17.11
+    environment:
+      POSTGRES_USER: admin_bd
+      POSTGRES_PASSWORD_FILE: /run/secrets/pg_admin
+      POSTGRES_DB: salarios
+    secrets: [pg_admin]
+    volumes:
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - ./datos:/datos:ro   # la tabla del INE que carga init.sql
+      - postgres-datos:/var/lib/postgresql/data
+    networks: [interna]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin_bd -d salarios"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  objetivo-ssh:
+    build: ./objetivo-ssh
+    environment:
+      # la clave pública de la autoridad de certificados SSH de OpenBao se
+      # descarga en el arranque y se escribe en TrustedUserCAKeys
+      OPENBAO_CA_URL: https://openbao:8200/v1/ssh-ca/public_key
+      CURL_CA_BUNDLE: /etc/ssl/lab/ca.pem
+    volumes:
+      - ./openbao/tls/ca.pem:/etc/ssl/lab/ca.pem:ro
+    networks: [interna]
+    depends_on:
+      openbao:
+        condition: service_healthy
+
+  warpgate:
+    image: ghcr.io/warp-tech/warpgate:0.30.2
+    # el token de administración (WARPGATE_ADMIN_TOKEN, en secretos/warpgate.env)
+    # es lo que usa laboratorio.sh para dar de alta backend, objetivos y usuaria
+    command: ["run", "--enable-admin-token"]
+    env_file: ./secretos/warpgate.env
+    ports:
+      - "127.0.0.1:2223:2222"    # SSH a través del bastión
+      - "127.0.0.1:8888:8888"    # consola de administración (HTTPS)
+      - "127.0.0.1:5433:55432"   # PostgreSQL a través del bastión
+    volumes:
+      - warpgate-datos:/data
+    networks: [interna]
+    depends_on:
+      - objetivo-ssh
+      - postgres
+
+  medidor:
+    build:
+      context: ./medidor
+      args:
+        UID: "${UID:-1000}"
+        GID: "${GID:-1000}"
+    profiles: [medir]
+    user: "${UID:-1000}:${GID:-1000}"
+    env_file: ./secretos/medidor.env
+    volumes:
+      - ./openbao/tls/ca.pem:/etc/ssl/lab/ca.pem:ro
+      - warpgate-datos:/warpgate:ro
+      - ./:/salida
+    networks: [interna]
+
+secrets:
+  pg_admin:
+    file: ./secretos/pg_admin.txt
+
+volumes:
+  openbao-datos:
+  openbao-auditoria:
+  postgres-datos:
+  warpgate-datos:
+
+networks:
+  interna:

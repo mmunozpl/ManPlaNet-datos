@@ -1,0 +1,13 @@
+tipo,usuario,key_id,detalle
+certificado aceptado por la CA,,warpgate:ana:38881ba2-eccb-4982-a8bc-3546561edd2b,ED25519 CA SHA256:X+L2ALbFG8i5r/m8Up70yx6P9xOgd8umIq0ZTbMivEQ
+certificado aceptado por la CA,,warpgate:ana:38881ba2-eccb-4982-a8bc-3546561edd2b,ED25519 CA SHA256:X+L2ALbFG8i5r/m8Up70yx6P9xOgd8umIq0ZTbMivEQ
+acceso aceptado,operador,warpgate:ana:38881ba2-eccb-4982-a8bc-3546561edd2b,ED25519-CERT
+certificado aceptado por la CA,,medidor:ana,ED25519 CA SHA256:X+L2ALbFG8i5r/m8Up70yx6P9xOgd8umIq0ZTbMivEQ
+acceso aceptado,operador,medidor:ana,ED25519-CERT
+certificado aceptado por la CA,,medidor:ana,ED25519 CA SHA256:X+L2ALbFG8i5r/m8Up70yx6P9xOgd8umIq0ZTbMivEQ
+acceso aceptado,operador,medidor:ana,ED25519-CERT
+acceso rechazado,operador,,ED25519
+cerrada sin autenticar,operador,,
+certificado inválido,,,expired
+acceso rechazado,operador,medidor:ana,ED25519-CERT
+cerrada sin autenticar,operador,,

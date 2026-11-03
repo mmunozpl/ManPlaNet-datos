@@ -1,0 +1,5 @@
+contenedor,memoria
+warpgate-1,130MiB
+objetivo-ssh-1,2.605MiB
+postgres-1,31.65MiB
+openbao-1,35.36MiB

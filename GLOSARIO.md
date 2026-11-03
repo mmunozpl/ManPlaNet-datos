@@ -92,3 +92,9 @@ form of each term, and it is the one `README.md` uses.
 | vigencia | currency (whether a legal code is up to date) | `vigencia-boe` |
 | `codigo`, `categoria`, `bloque`, `materia` | code, category, block, subject | `vigencia-boe/manifiesto.csv` |
 | `fecha_actualizacion`, `marca_tiempo` | update date, timestamp | `vigencia-boe/manifiesto.csv` |
+| bóveda (de secretos) | (secrets) vault | `pam-minimo` |
+| bastión | bastion | `pam-minimo` |
+| comprobación (del banco de pruebas) | check | `pam-minimo/pruebas.csv` |
+| concesión | lease | `pam-minimo/credenciales_bd.csv` |
+| grabación (de sesión) | (session) recording | `pam-minimo/grabaciones.csv` |
+| diario de auditoría | audit log | `pam-minimo/auditoria_openbao.csv`, `auditoria_bastion.csv` |

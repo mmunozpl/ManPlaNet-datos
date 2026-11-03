@@ -1,0 +1,14 @@
+protocolo,evento,exito,n
+HTTP,AccessRoleGranted,,1
+HTTP,CredentialCreated,,2
+HTTP,UserCreated,,1
+PostgreSQL,SecretResolved,sí,2
+PostgreSQL,TargetSessionEnded,,2
+PostgreSQL,TargetSessionStarted,,2
+PostgreSQL,UserAuthenticated,,2
+PostgreSQL,UserAuthenticationFailed,,1
+SSH,SshCertificateIssued,sí,1
+SSH,TargetSessionEnded,,1
+SSH,TargetSessionStarted,,1
+SSH,UserAuthenticated,,1
+SSH,UserAuthenticationFailed,,5

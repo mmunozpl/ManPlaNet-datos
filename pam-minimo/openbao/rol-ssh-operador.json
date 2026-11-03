@@ -1,0 +1,11 @@
+{
+  "key_type": "ca",
+  "allow_user_certificates": true,
+  "allowed_users": "operador",
+  "default_user": "operador",
+  "allow_user_key_ids": true,
+  "ttl": "5m",
+  "max_ttl": "15m",
+  "allowed_extensions": "permit-pty",
+  "default_extensions": {"permit-pty": ""}
+}

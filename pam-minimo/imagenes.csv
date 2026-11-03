@@ -1,0 +1,6 @@
+imagen,tamano
+openbao/openbao:2.7.2,192MB
+postgres:17.11,454MB
+ghcr.io/warp-tech/warpgate:0.30.2,137MB
+pam-minimo-objetivo-ssh:latest,99.7MB
+pam-minimo-medidor:latest,183MB

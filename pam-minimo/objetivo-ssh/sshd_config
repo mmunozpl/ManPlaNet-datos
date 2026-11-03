@@ -1,0 +1,11 @@
+Port 22
+PermitRootLogin no
+PasswordAuthentication no
+KbdInteractiveAuthentication no
+PubkeyAuthentication yes
+# solo certificados firmados por la autoridad de OpenBao
+TrustedUserCAKeys /etc/ssh/ca_openbao.pub
+AuthorizedKeysFile none
+AuthorizedPrincipalsFile /etc/ssh/principales/%u
+LogLevel VERBOSE
+Subsystem sftp /usr/lib/openssh/sftp-server

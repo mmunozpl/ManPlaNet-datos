@@ -1,0 +1,5 @@
+# secretos del laboratorio (contraseñas, token de administración, claves de
+# desprecinto, TLS de laboratorio): se generan con `laboratorio.sh init` y
+# no viajan
+secretos/
+openbao/tls/

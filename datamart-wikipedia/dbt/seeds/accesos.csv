@@ -1,0 +1,5 @@
+acceso_id,acceso,canal,es_agregado,descripcion
+1,all-access,todos,true,suma de escritorio y móvil (web y aplicación); su lista de mil no es la unión de las otras tres
+2,desktop,escritorio,false,navegador de escritorio
+3,mobile-web,móvil,false,navegador móvil
+4,mobile-app,móvil,false,aplicación móvil de Wikipedia

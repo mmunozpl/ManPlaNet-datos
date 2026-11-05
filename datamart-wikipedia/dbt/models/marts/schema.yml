@@ -1,0 +1,64 @@
+version: 2
+
+models:
+  - name: dim_fecha
+    description: "Dimensión de fecha: un día por fila, generada, de 2024 a 2026."
+    columns:
+      - name: fecha_id
+        description: "Clave entera AAAAMMDD."
+        tests: [unique, not_null]
+      - name: fecha
+        tests: [unique, not_null]
+
+  - name: dim_acceso
+    description: "Dimensión de tipo de acceso, desde el seed: escritorio, web móvil, aplicación y el agregado."
+    columns:
+      - name: acceso_id
+        tests: [unique, not_null]
+      - name: canal
+        tests:
+          - accepted_values:
+              values: ['todos', 'escritorio', 'móvil']
+
+  - name: dim_articulo
+    description: "Dimensión de artículo: una fila por título, con su espacio de nombres y la primera y última fecha en que apareció en un top."
+    columns:
+      - name: articulo_id
+        description: "Clave sustituta: md5 del título."
+        tests: [unique, not_null]
+      - name: titulo
+        tests: [not_null]
+      - name: espacio_nombres
+        tests: [not_null]
+
+  - name: hechos_visualizaciones
+    description: "Tabla de hechos: visitas y posición por artículo, día y tipo de acceso (el grano)."
+    columns:
+      - name: fecha_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_fecha')
+              field: fecha_id
+      - name: articulo_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_articulo')
+              field: articulo_id
+      - name: acceso_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_acceso')
+              field: acceso_id
+      - name: visitas
+        tests: [not_null]
+      - name: posicion
+        tests: [not_null]
+
+  - name: hechos_ranking_mensual
+    description: "Snapshot periódica: visitas del mes, días en el top y posición del mes por artículo y acceso."
+    columns:
+      - name: visitas_mes
+        tests: [not_null]

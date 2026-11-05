@@ -1,0 +1,5 @@
+imagen,tamano
+postgres:17.11,454MB
+rustfs/rustfs:1.0.4,300MB
+datamart-wikipedia-airflow:latest,2.94GB
+datamart-wikipedia-medidor:latest,700MB

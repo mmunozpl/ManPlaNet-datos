@@ -1,0 +1,34 @@
+name: datamart_wikipedia
+version: "1.0.0"
+profile: datamart
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+# la estrategia incremental de la tabla de hechos se elige desde fuera para
+# poder medir las tres: append, delete+insert y merge
+vars:
+  estrategia: "delete+insert"
+
+models:
+  datamart_wikipedia:
+    staging:
+      +materialized: view
+      +schema: preparado
+    intermedio:
+      +materialized: view
+      +schema: preparado
+    marts:
+      +materialized: table
+      +schema: marts
+
+seeds:
+  datamart_wikipedia:
+    +schema: marts
+
+snapshots:
+  datamart_wikipedia:
+    +target_schema: marts

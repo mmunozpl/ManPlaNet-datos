@@ -1,0 +1,12 @@
+datamart:
+  target: laboratorio
+  outputs:
+    laboratorio:
+      type: postgres
+      host: "{{ env_var('DBT_HOST', 'postgres') }}"
+      port: 5432
+      user: dbt
+      password: "{{ env_var('DBT_PASSWORD') }}"
+      dbname: datamart
+      schema: marts
+      threads: 4

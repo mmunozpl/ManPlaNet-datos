@@ -1,0 +1,5 @@
+psycopg[binary]==3.3.7
+boto3==1.43.123
+pyarrow==26.0.1
+dbt-core==1.12.6
+dbt-postgres==1.11.0

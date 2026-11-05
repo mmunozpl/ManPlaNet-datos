@@ -1,0 +1,6 @@
+metodo,filas,ms,filas_por_s
+COPY desde CSV,1390375,1140,1219715
+INSERT por lotes de 1.000 (executemany),1390375,23699,58667
+INSERT multifila de 1.000,1390375,32840,42337
+"upsert multifila (ON CONFLICT DO UPDATE), todas chocan",1390375,44757,31065
+COPY con índice único ya creado,1390375,4182,332485

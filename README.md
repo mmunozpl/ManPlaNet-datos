@@ -56,6 +56,7 @@ kept) the script:
 ├── iso-27090/        # the 208 techniques, 73 cases and 40 mitigations of MITRE ATLAS 2026.09 allocated among the nine threats of ISO/IEC 27090, with a sensitivity test
 ├── php2shell/        # PHP2Shell: timeline, CVE-to-KEV delay, patch per system, PHP versions in WordPress and affected products
 ├── pam-minimo/       # a minimal PAM on Docker Compose (OpenBao, Warpgate, OpenSSH, PostgreSQL): the lab, the 36 checks and their logs
+├── datamart-wikipedia/ # a Kimball data mart on Docker Compose (RustFS, PostgreSQL, Airflow, dbt): the lab, the DAG, the dbt project, the measurer and its CSVs
 ├── vigencia-boe/     # daily manifest of the BOE's 350 electronic codes
 ├── pyproject.toml    # the exact versions the figures were drawn with
 ├── uv.lock           # the lock: those versions and those of everything they pull in
@@ -106,6 +107,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [ISO/IEC 27090, the missing standard on attacks on artificial intelligence](https://manpla.net/en/posts/iso-27090-nine-threats/) | `iso-27090/generar.py` | `iso-27090/atlas_tecnicas_27090.csv`, `atlas_casos_27090.csv`, `atlas_mitigaciones_27090.csv`, `resumen_27090.csv`, `resumen_27090_sensibilidad.csv`, `correspondencias_27090.csv` |
 | [The PHP flaw an AI discovered and the usual attackers exploited: the advisories, the patches and the unsupported branches, measured](https://manpla.net/en/posts/php2shell-advisories-patches-branches/) | `php2shell/generar.py` | `php2shell/cronologia.csv`, `kev_demoras.csv`, `parches_sistemas.csv`, `wordpress_php.csv`, `ncsc_productos.csv`, `fichas.csv` |
 | [A PAM with free software, put to the test: 36 checks of access, expiry and audit](https://manpla.net/en/posts/minimal-pam-free-software/) | `pam-minimo/laboratorio.sh` · `pam-minimo/medidor/medir.py` · `pam-minimo/medidor/registros.py` | `pam-minimo/pruebas.csv`, `certificados.csv`, `credenciales_bd.csv`, `grabaciones.csv`, `sesiones.csv`, `auditoria_openbao.csv`, `sshd_accesos.csv`, `auditoria_bastion.csv`, `esfuerzo.csv`, `configuracion.csv`, `imagenes.csv`, `recursos.csv` |
+| [Applying Kimball's dimensional model to a data mart. Put to the test with Airflow, dbt and PostgreSQL on Wikipedia data](https://manpla.net/en/posts/kimball-datamart-free-software/) | `datamart-wikipedia/laboratorio.sh` · `datamart-wikipedia/airflow/dags/visualizaciones.py` · `datamart-wikipedia/dbt/` · `datamart-wikipedia/medidor/medir.py` | `datamart-wikipedia/cargas.csv`, `consultas.csv`, `planes.csv`, `estrategias.csv`, `tests_dbt.csv`, `snapshot.csv`, `snapshot_versiones.csv`, `snapshot_ejemplo.csv`, `ranking_oficial.csv`, `runs_airflow.csv`, `tareas_airflow.csv`, `avisos_airflow.csv`, `idempotencia.csv`, `tamanos.csv`, `pruebas.csv`, `esfuerzo.csv`, `configuracion.csv`, `imagenes.csv`, `recursos.csv` |
 | [Currency of the BOE legal codes](https://manpla.net/en/temas/boe-legal-codes-currency/) | the live page's own, daily | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 The figures in each article correspond to the snapshot of its date, which is
@@ -136,6 +138,7 @@ python polars-duckdb/generar.py --datos DIR --entornos DIR --derrame DIR --sin-t
 python iso-27090/generar.py          # downloads ATLAS-2026.09.yaml (dist/v6) from mitre-atlas/atlas-data; seconds
 python php2shell/generar.py          # NVD (hasKev filter), KEV, EUVD, Ubuntu, Red Hat, Debian, aports, Docker Hub, WordPress.org and NCSC-NL; about three minutes; needs gh
 (cd pam-minimo && ./laboratorio.sh init && ./laboratorio.sh medir)   # Docker Compose; about ten minutes the first time, five of them waiting for expiries
+(cd datamart-wikipedia && ./laboratorio.sh datos && ./laboratorio.sh init && ./laboratorio.sh medir)   # Docker Compose; about twenty minutes of download, fifteen of backfill and thirteen of bench
 python guardarrailes/ola.py          # the Hugging Face models API; seconds
 python guardarrailes/generar.py      # needs an NVIDIA GPU and requirements-gpu.txt; about four hours on an RTX 5090
 python videovigilancia/generar.py    # 37 files from the Procurement Platform (about 6 GB) and the specifications at one request per second; several hours
@@ -179,6 +182,7 @@ nothing has to be downloaded and no account is needed) or locally with
 - [`iso-27090/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=iso-27090%2Freproducir.ipynb)
 - [`php2shell/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=php2shell%2Freproducir.ipynb)
 - [`pam-minimo/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=pam-minimo%2Freproducir.ipynb)
+- [`datamart-wikipedia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=datamart-wikipedia%2Freproducir.ipynb)
 - [`guardarrailes/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=guardarrailes%2Freproducir.ipynb)
 - [`videovigilancia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=videovigilancia%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)

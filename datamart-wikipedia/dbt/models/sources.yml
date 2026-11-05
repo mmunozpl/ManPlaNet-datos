@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: crudo
+    description: "Zona cruda en PostgreSQL: lo que sirve la API de visualizaciones de Wikimedia, fila a fila, cargado con COPY desde el Parquet de la zona preparada."
+    schema: crudo
+    tables:
+      - name: visualizaciones_top
+        description: "Los mil artículos más vistos de cada día y tipo de acceso de es.wikipedia."
+        loaded_at_field: cargado_en
+        columns:
+          - name: fecha
+            tests: [not_null]
+          - name: articulo
+            tests: [not_null]
+          - name: visitas
+            tests: [not_null]
+          - name: posicion
+            tests: [not_null]

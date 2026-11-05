@@ -1,0 +1,4 @@
+contenedor,memoria
+airflow,1.842GiB
+postgres,1.181GiB
+rustfs,220.7MiB

@@ -1,0 +1,6 @@
+estrategia,codigo,segundos,filas_despues,claves_duplicadas
+delete+insert,0,5.8,3949643,0
+merge,0,10.7,3949643,0
+append,0,4.6,3965353,15710
+"reconstrucción completa (--full-refresh, todos los modelos)",0,20.4,3949643,0
+run incremental de todos los modelos (sin datos nuevos),0,8.3,3949643,0

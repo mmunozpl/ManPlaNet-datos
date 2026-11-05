@@ -56,6 +56,7 @@ el guion:
 ├── iso-27090/        # las 208 técnicas, 73 casos y 40 mitigaciones de MITRE ATLAS 2026.09 repartidos entre las nueve amenazas de ISO/IEC 27090, con prueba de sensibilidad
 ├── php2shell/        # PHP2Shell: cronología, demora del CVE al KEV, parche por sistema, versiones de PHP en WordPress y productos afectados
 ├── pam-minimo/       # un PAM mínimo en Docker Compose (OpenBao, Warpgate, OpenSSH, PostgreSQL): el laboratorio, las 36 comprobaciones y sus registros
+├── datamart-wikipedia/ # un DataMart de Kimball en Docker Compose (RustFS, PostgreSQL, Airflow, dbt): el laboratorio, el DAG, el proyecto dbt, el medidor y sus CSV
 ├── vigencia-boe/     # manifiesto diario de los 350 códigos electrónicos del BOE
 ├── pyproject.toml    # las versiones exactas con que se dibujaron las figuras
 ├── uv.lock           # el bloqueo: esas versiones y las de todo lo que arrastran
@@ -106,6 +107,7 @@ con la semilla y los parámetros de la simulación.
 | [ISO/IEC 27090, la norma que faltaba sobre los ataques a la inteligencia artificial](https://manpla.net/posts/iso-27090-nueve-amenazas/) | `iso-27090/generar.py` | `iso-27090/atlas_tecnicas_27090.csv`, `atlas_casos_27090.csv`, `atlas_mitigaciones_27090.csv`, `resumen_27090.csv`, `resumen_27090_sensibilidad.csv`, `correspondencias_27090.csv` |
 | [El fallo de PHP que descubrió una IA y explotaron los atacantes de siempre: los avisos, los parches y las ramas sin soporte, medidos](https://manpla.net/posts/php2shell-avisos-parches-ramas/) | `php2shell/generar.py` | `php2shell/cronologia.csv`, `kev_demoras.csv`, `parches_sistemas.csv`, `wordpress_php.csv`, `ncsc_productos.csv`, `fichas.csv` |
 | [Un PAM con software libre, puesto a prueba: 36 comprobaciones de acceso, caducidad y auditoría](https://manpla.net/posts/pam-minimo-software-libre/) | `pam-minimo/laboratorio.sh` · `pam-minimo/medidor/medir.py` · `pam-minimo/medidor/registros.py` | `pam-minimo/pruebas.csv`, `certificados.csv`, `credenciales_bd.csv`, `grabaciones.csv`, `sesiones.csv`, `auditoria_openbao.csv`, `sshd_accesos.csv`, `auditoria_bastion.csv`, `esfuerzo.csv`, `configuracion.csv`, `imagenes.csv`, `recursos.csv` |
+| [Aplicación del modelo dimensional de Kimball a un DataMart. Puesto a prueba con Airflow, dbt y PostgreSQL con datos de Wikipedia](https://manpla.net/posts/datamart-kimball-software-libre/) | `datamart-wikipedia/laboratorio.sh` · `datamart-wikipedia/airflow/dags/visualizaciones.py` · `datamart-wikipedia/dbt/` · `datamart-wikipedia/medidor/medir.py` | `datamart-wikipedia/cargas.csv`, `consultas.csv`, `planes.csv`, `estrategias.csv`, `tests_dbt.csv`, `snapshot.csv`, `snapshot_versiones.csv`, `snapshot_ejemplo.csv`, `ranking_oficial.csv`, `runs_airflow.csv`, `tareas_airflow.csv`, `avisos_airflow.csv`, `idempotencia.csv`, `tamanos.csv`, `pruebas.csv`, `esfuerzo.csv`, `configuracion.csv`, `imagenes.csv`, `recursos.csv` |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 Las cifras de cada artículo corresponden a la instantánea de su fecha, que
@@ -136,6 +138,7 @@ python polars-duckdb/generar.py --datos DIR --entornos DIR --derrame DIR --sin-t
 python iso-27090/generar.py          # descarga ATLAS-2026.09.yaml (dist/v6) de mitre-atlas/atlas-data; segundos
 python php2shell/generar.py          # NVD (filtro hasKev), KEV, EUVD, Ubuntu, Red Hat, Debian, aports, Docker Hub, WordPress.org y NCSC-NL; unos tres minutos; necesita gh
 (cd pam-minimo && ./laboratorio.sh init && ./laboratorio.sh medir)   # Docker Compose; unos diez minutos la primera vez, cinco de ellos de esperas de caducidad
+(cd datamart-wikipedia && ./laboratorio.sh datos && ./laboratorio.sh init && ./laboratorio.sh medir)   # Docker Compose; unos veinte minutos de descarga, quince de relleno y trece de banco
 python guardarrailes/ola.py          # la API de modelos de Hugging Face; segundos
 python guardarrailes/generar.py      # necesita GPU NVIDIA y requirements-gpu.txt; unas cuatro horas en una RTX 5090
 python videovigilancia/generar.py    # 37 ficheros de la Plataforma de Contratación (unos 6 GB) y los pliegos a una petición por segundo; varias horas
@@ -178,6 +181,7 @@ para volver a tomar la instantánea está `generar.py`.
 - [`iso-27090/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=iso-27090%2Freproducir.ipynb)
 - [`php2shell/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=php2shell%2Freproducir.ipynb)
 - [`pam-minimo/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=pam-minimo%2Freproducir.ipynb)
+- [`datamart-wikipedia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=datamart-wikipedia%2Freproducir.ipynb)
 - [`guardarrailes/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=guardarrailes%2Freproducir.ipynb)
 - [`videovigilancia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=videovigilancia%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)

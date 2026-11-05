@@ -26,3 +26,4 @@ etiquetas de la imagen oficial php en Docker Hub,php2shell,https://hub.docker.co
 estadística de versiones de PHP de WordPress.org,php2shell,https://api.wordpress.org/stats/php/1.0/
 lista de productos afectados del NCSC-NL (php2shell),php2shell,https://raw.githubusercontent.com/NCSC-NL/php2shell/main/software/software_list_a.md
 tabla 28193 del INE (Encuesta Anual de Estructura Salarial),pam-minimo,https://servicios.ine.es/wstempus/csv/ES/DATOS_TABLA/28193
+API de visualizaciones de Wikimedia (pageviews/top por día y all-days),datamart-wikipedia,https://wikimedia.org/api/rest_v1/metrics/pageviews/top/es.wikipedia/all-access/2024/01/01

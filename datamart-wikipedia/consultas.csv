@@ -1,0 +1,61 @@
+consulta,modelo,indices,ms,filas,octetos_modelo
+1 visitas por mes (all-access),plano,0,153.1,34,497557504
+1 visitas por mes (all-access),estrella,0,183.6,34,376569856
+1 visitas por mes (all-access),copo,0,187.7,34,368058368
+2 los diez artículos más vistos de un mes,plano,0,143.1,10,497557504
+2 los diez artículos más vistos de un mes,estrella,0,128.0,10,376569856
+2 los diez artículos más vistos de un mes,copo,0,147.5,10,368058368
+3 visitas por canal y día de la semana,plano,0,249.9,14,497557504
+3 visitas por canal y día de la semana,estrella,0,371.1,14,376569856
+3 visitas por canal y día de la semana,copo,0,393.4,14,368058368
+"4 cuota de páginas que no son artículos, por mes",plano,0,159.2,34,497557504
+"4 cuota de páginas que no son artículos, por mes",estrella,0,250.7,34,376569856
+"4 cuota de páginas que no son artículos, por mes",copo,0,261.9,34,368058368
+5 días en el top y visitas de un artículo,plano,0,129.1,1,497557504
+5 días en el top y visitas de un artículo,estrella,0,130.9,1,376569856
+5 días en el top y visitas de un artículo,copo,0,135.5,1,368058368
+6 variación de un mes al anterior,plano,0,158.8,34,497557504
+6 variación de un mes al anterior,estrella,0,185.2,34,376569856
+6 variación de un mes al anterior,copo,0,190.8,34,368058368
+"7 fin de semana frente a laborable, por espacio de nombres",plano,0,164.0,12,497557504
+"7 fin de semana frente a laborable, por espacio de nombres",estrella,0,254.3,12,376569856
+"7 fin de semana frente a laborable, por espacio de nombres",copo,0,266.5,12,368058368
+8 posición diaria de un artículo en un mes,plano,0,132.2,31,497557504
+8 posición diaria de un artículo en un mes,estrella,0,131.0,31,376569856
+8 posición diaria de un artículo en un mes,copo,0,136.5,31,368058368
+9 artículos distintos en el top por mes,plano,0,1825.3,34,497557504
+9 artículos distintos en el top por mes,estrella,0,857.3,34,376569856
+9 artículos distintos en el top por mes,copo,0,840.8,34,368058368
+10 cuota de la portada sobre el total diario,plano,0,154.2,1001,497557504
+10 cuota de la portada sobre el total diario,estrella,0,254.6,1001,376569856
+10 cuota de la portada sobre el total diario,copo,0,260.9,1001,368058368
+1 visitas por mes (all-access),plano,1,98.5,34,497557504
+1 visitas por mes (all-access),estrella,1,181.8,34,376569856
+1 visitas por mes (all-access),copo,1,191.3,34,368058368
+2 los diez artículos más vistos de un mes,plano,1,71.8,10,497557504
+2 los diez artículos más vistos de un mes,estrella,1,43.6,10,376569856
+2 los diez artículos más vistos de un mes,copo,1,1140.4,10,368058368
+3 visitas por canal y día de la semana,plano,1,251.6,14,497557504
+3 visitas por canal y día de la semana,estrella,1,359.6,14,376569856
+3 visitas por canal y día de la semana,copo,1,392.3,14,368058368
+"4 cuota de páginas que no son artículos, por mes",plano,1,97.7,34,497557504
+"4 cuota de páginas que no son artículos, por mes",estrella,1,243.5,34,376569856
+"4 cuota de páginas que no son artículos, por mes",copo,1,284.3,34,368058368
+5 días en el top y visitas de un artículo,plano,1,0.4,1,497557504
+5 días en el top y visitas de un artículo,estrella,1,6.3,1,376569856
+5 días en el top y visitas de un artículo,copo,1,5.1,1,368058368
+6 variación de un mes al anterior,plano,1,94.8,34,497557504
+6 variación de un mes al anterior,estrella,1,182.4,34,376569856
+6 variación de un mes al anterior,copo,1,213.0,34,368058368
+"7 fin de semana frente a laborable, por espacio de nombres",plano,1,100.5,12,497557504
+"7 fin de semana frente a laborable, por espacio de nombres",estrella,1,247.4,12,376569856
+"7 fin de semana frente a laborable, por espacio de nombres",copo,1,282.9,12,368058368
+8 posición diaria de un artículo en un mes,plano,1,0.4,31,497557504
+8 posición diaria de un artículo en un mes,estrella,1,7.4,31,376569856
+8 posición diaria de un artículo en un mes,copo,1,5.0,31,368058368
+9 artículos distintos en el top por mes,plano,1,1596.6,34,497557504
+9 artículos distintos en el top por mes,estrella,1,1447.8,34,376569856
+9 artículos distintos en el top por mes,copo,1,1525.0,34,368058368
+10 cuota de la portada sobre el total diario,plano,1,98.3,1001,497557504
+10 cuota de la portada sobre el total diario,estrella,1,246.8,1001,376569856
+10 cuota de la portada sobre el total diario,copo,1,264.7,1001,368058368

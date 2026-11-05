@@ -1,0 +1,5 @@
+modelo,indices,fichero,ms_ejecucion,ms_planificacion,nodo_raiz,nodo_peor_estimado,relacion,filas_estimadas,filas_reales,bloques_compartidos,bloques_disco
+estrella,0,planes/consulta2_estrella_sin_indices.json,194.5,0.2,Limit,Seq Scan,dim_articulo,62608,35475,47972,0
+copo,0,planes/consulta2_copo_sin_indices.json,224.9,0.3,Limit,Hash Join,copo_hechos ⋈ copo_fechas ⋈ copo_articulos ⋈ copo_espacios ⋈ copo_accesos,970,10120,46572,36864
+estrella,1,planes/consulta2_estrella_con_indices.json,71.2,0.4,Limit,Hash Join,dim_fecha ⋈ hechos_visualizaciones ⋈ dim_acceso ⋈ dim_articulo,27044,30360,3712,0
+copo,1,planes/consulta2_copo_con_indices.json,1334.8,0.5,Limit,Hash Join,copo_articulos ⋈ copo_espacios ⋈ copo_hechos ⋈ copo_fechas ⋈ copo_accesos,1368,15180,4160951,0

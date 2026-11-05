@@ -1,0 +1,118 @@
+# Un DataMart de Kimball con software libre: zona cruda en un almacén de
+# objetos compatible con S3 (RustFS), almacén analítico (PostgreSQL),
+# orquestador (Airflow) con dbt dentro, y un medidor que ejecuta el banco de
+# pruebas. Imágenes fijadas por versión. `./laboratorio.sh init` lo levanta y
+# lanza el relleno histórico; `./laboratorio.sh medir` ejecuta las pruebas.
+# Solo la consola de Airflow, la de RustFS y PostgreSQL exponen puertos, y
+# solo en 127.0.0.1.
+name: datamart-wikipedia
+
+services:
+  postgres:
+    image: postgres:17.11
+    # ajustes declarados: la máquina del laboratorio tiene memoria de sobra
+    command: ["postgres", "-c", "shared_buffers=1GB", "-c", "work_mem=64MB",
+              "-c", "maintenance_work_mem=512MB", "-c", "max_wal_size=4GB",
+              "-c", "log_min_duration_statement=1000"]
+    environment:
+      POSTGRES_USER: admin_bd
+      POSTGRES_PASSWORD_FILE: /run/secrets/pg_admin
+      POSTGRES_DB: datamart
+    secrets: [pg_admin, pg_airflow, pg_dbt]
+    volumes:
+      - ./postgres/init.sh:/docker-entrypoint-initdb.d/init.sh:ro
+      - postgres-datos:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:5434:5432"
+    networks: [interna]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin_bd -d datamart"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  rustfs:
+    image: rustfs/rustfs:1.0.4
+    env_file: ./secretos/rustfs.env   # RUSTFS_ACCESS_KEY y RUSTFS_SECRET_KEY
+    environment:
+      RUSTFS_ADDRESS: ":9000"
+      RUSTFS_CONSOLE_ADDRESS: ":9001"
+    volumes:
+      - rustfs-datos:/data
+    ports:
+      - "127.0.0.1:9001:9001"
+    networks: [interna]
+
+  airflow:
+    build: ./airflow
+    # el gestor de autenticación simple abre su fichero de contraseñas en
+    # escritura: se copia el del laboratorio a un sitio propio del usuario
+    # airflow antes de arrancar
+    command: ["bash", "-c", "cp /opt/airflow/secretos-ro/contrasenas.json /opt/airflow/contrasenas.json && exec airflow standalone"]
+    env_file:
+      - ./secretos/airflow.env   # conexiones, claves de S3 y de dbt
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
+      AIRFLOW__CORE__SIMPLE_AUTH_MANAGER_USERS: "admin:admin"
+      AIRFLOW__CORE__SIMPLE_AUTH_MANAGER_PASSWORDS_FILE: /opt/airflow/contrasenas.json
+      AIRFLOW__DAG_PROCESSOR__REFRESH_INTERVAL: "30"
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: Europe/Madrid
+      S3_ENDPOINT: http://rustfs:9000
+      S3_BUCKET: datalake
+      CACHE_CRUDO: /opt/airflow/cache
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags:ro
+      - ./dbt:/opt/proyecto-dbt:ro
+      - ./ingesta:/opt/ingesta:ro
+      - ./secretos/airflow-contrasenas.json:/opt/airflow/secretos-ro/contrasenas.json:ro
+      - airflow-logs:/opt/airflow/logs
+      - airflow-dbt:/opt/airflow/dbt-destino
+      - ${CACHE_CRUDO:-./cache}:/opt/airflow/cache
+    ports:
+      - "127.0.0.1:8080:8080"
+    networks: [interna]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      rustfs:
+        condition: service_started
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://127.0.0.1:8080/api/v2/monitor/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 60
+      start_period: 60s
+
+  medidor:
+    build:
+      context: ./medidor
+      args:
+        UID: "${UID:-1000}"
+        GID: "${GID:-1000}"
+    profiles: [medir]
+    user: "${UID:-1000}:${GID:-1000}"
+    env_file: ./secretos/medidor.env
+    volumes:
+      - ./:/salida
+      - ./dbt:/opt/proyecto-dbt:ro
+      - ${CACHE_CRUDO:-./cache}:/cache:ro   # las listas mensuales oficiales
+    networks: [interna]
+
+secrets:
+  pg_admin:
+    file: ./secretos/pg_admin.txt
+  pg_airflow:
+    file: ./secretos/pg_airflow.txt
+  pg_dbt:
+    file: ./secretos/pg_dbt.txt
+
+volumes:
+  postgres-datos:
+  rustfs-datos:
+  airflow-logs:
+  airflow-dbt:
+
+networks:
+  interna:

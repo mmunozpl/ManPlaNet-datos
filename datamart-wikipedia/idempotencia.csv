@@ -1,0 +1,13 @@
+objeto,antes,despues,igual
+marts.hechos_visualizaciones,3949643,3949643,sí
+crudo.visualizaciones_top,3949643,3949643,sí
+crudo.visualizaciones_top (2026-10),120716,120716,sí
+marts.dim_articulo,109711,109711,sí
+marts.hechos_ranking_mensual,825662,825662,sí
+marts.snap_articulo_tramo,66331,66331,sí
+claves duplicadas en los hechos,0,0,sí
+huella crudo.visualizaciones_top (2026-10),fe082c4836149e3c3bc365997ed1bfb6,fe082c4836149e3c3bc365997ed1bfb6,sí
+huella marts.hechos_visualizaciones (2026-10),9a6ba3b7b22d971ce6ad5f01d83c9f98,9a6ba3b7b22d971ce6ad5f01d83c9f98,sí
+huella marts.dim_articulo,dd30dc5922f5af6f615fb2babf4790e0,dd30dc5922f5af6f615fb2babf4790e0,sí
+huella marts.hechos_ranking_mensual (2026-10),90cfdcd9f5d8fa3e1f45a8dea442986c,90cfdcd9f5d8fa3e1f45a8dea442986c,sí
+huella marts.snap_articulo_tramo,ffa7d35f06b40ad098cfe02f4089163f,ffa7d35f06b40ad098cfe02f4089163f,sí

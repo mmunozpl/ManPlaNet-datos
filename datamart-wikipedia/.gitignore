@@ -1,0 +1,5 @@
+# secretos del laboratorio, la caché de la API y el .env del compose: se
+# generan con `laboratorio.sh datos` e `init` y no viajan
+secretos/
+cache/
+.env

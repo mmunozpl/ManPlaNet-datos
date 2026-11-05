@@ -98,3 +98,10 @@ form of each term, and it is the one `README.md` uses.
 | concesión | lease | `pam-minimo/credenciales_bd.csv` |
 | grabación (de sesión) | (session) recording | `pam-minimo/grabaciones.csv` |
 | diario de auditoría | audit log | `pam-minimo/auditoria_openbao.csv`, `auditoria_bastion.csv` |
+| grano (de la tabla de hechos) | grain | `datamart-wikipedia` |
+| tabla de hechos / dimensión | fact table / dimension | `datamart-wikipedia/dbt/models/marts/` |
+| snapshot con historia (SCD de tipo 2) | snapshot with history (type 2 SCD) | `datamart-wikipedia/snapshot.csv` |
+| fecha de negocio / hora de observación | business date / observation time | `datamart-wikipedia/snapshot.csv` |
+| ranking derivado / lista mensual oficial | derived ranking / official monthly list | `datamart-wikipedia/ranking_oficial.csv` |
+| estrategia incremental | incremental strategy | `datamart-wikipedia/estrategias.csv` |
+| huella (md5 del contenido) | content hash | `datamart-wikipedia/idempotencia.csv` |

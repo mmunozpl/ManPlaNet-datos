@@ -1,0 +1,10 @@
+metrica,valor
+versiones,66331
+articulos,58712
+dbt_valid_from_min,2026-11-05T12:55:38
+dbt_valid_from_max,2026-11-05T13:10:25
+minutos_entre_observaciones,14.8
+fechas_de_negocio_distintas,34
+fecha_datos_min,2024-01-31
+fecha_datos_max,2026-10-31
+versiones_vigentes,58712

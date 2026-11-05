@@ -1,0 +1,12 @@
+zona,objeto,filas,octetos
+postgresql,crudo.visualizaciones_top,3949643,439615488
+postgresql,marts.accesos,4,16384
+postgresql,marts.dim_acceso,4,16384
+postgresql,marts.dim_articulo,109711,16072704
+postgresql,marts.dim_fecha,1096,147456
+postgresql,marts.espacios_nombres,13,16384
+postgresql,marts.hechos_ranking_mensual,825662,97050624
+postgresql,marts.hechos_visualizaciones,3949643,499277824
+postgresql,marts.snap_articulo_tramo,66331,11206656
+s3,crudo/,4026,55518387
+s3,preparado/,136,23887771

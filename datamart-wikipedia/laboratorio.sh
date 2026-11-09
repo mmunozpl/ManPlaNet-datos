@@ -110,7 +110,7 @@ EOF
 
 estado() {
   $DC ps
-  $DC exec -T airflow airflow dags list-runs -d "$DAG" -o json 2>/dev/null \
+  $DC exec -T airflow airflow dags list-runs "$DAG" -o json 2>/dev/null \
     | python3 -c "import sys, json, collections; r = json.load(sys.stdin); c = collections.Counter(x['state'] for x in r); print(len(r), 'runs:', dict(c))"
 }
 

@@ -260,7 +260,7 @@ def espacio() -> str:
 def rag() -> None:
     sis = "rag-sintetico"; p = LAB[sis]; sp = espacio()
     gen = leer(p, "generar.py"); app = leer(sp, "app.py") if sp else ""; req = leer(sp, "requirements.txt") if sp else ""; readme = leer(sp, "README.md") if sp else ""
-    c("R01", sis, "el corpus y las consultas nacen de una semilla fija: el índice es reproducible byte a byte", "SEMILLA =" in gen,
+    c("R01", sis, "control de integridad del corpus (6.2): el corpus y las consultas nacen de una semilla fija y su reconstrucción coincide con la publicada a cinco decimales; no ensaya un ataque de envenenamiento", "SEMILLA =" in gen,
       "generar.py: SEMILLA = 20260825; el simulacro reconstruye 600 fragmentos iguales a cinco decimales", "8.9; 8.32", "op.exp.2", "PR.PS-01", "", "art. 9", "", "6.2")
     c("R02", sis, "el permiso se aplica dentro de la consulta al índice (filtro sobre la lista de autorizados), no después de recuperar", "query_filter" in gen,
       "generar.py: query_points(..., query_filter=filtro_de(acl))", "5.15; 8.3", "op.acc.4", "PR.AA-05", "art. 21.2 i)", "art. 9.4 c)", "7", "")

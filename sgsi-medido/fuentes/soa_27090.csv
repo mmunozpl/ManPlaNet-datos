@@ -1,5 +1,5 @@
 clausula,amenaza,aplica,estado,salvaguarda,evidencia,controles_27002,ens,csf
-6.2,Envenenamiento de datos,sí,implantado,"control de integridad del corpus: nace de un guion versionado con semilla fija, el índice se reconstruye en memoria en cada arranque y la huella del CSV publicado se comprueba cada mes; no se ha ensayado un ataque de envenenamiento",rag-sintetico/generar.py (SEMILLA); rag-sintetico/corpus.csv; huellas.json,8.4; 8.9; 8.32,op.exp.2; mp.info.3,PR.DS-01; PR.PS-01
+6.2,Envenenamiento de datos,sí,implantado,"control de integridad implantado, sin ataque de envenenamiento ensayado: corpus regenerado con semilla fija e igual al publicado en sus 600 fragmentos",rag-sintetico/generar.py (SEMILLA); rag-sintetico/corpus.csv; huellas.json,8.4; 8.9; 8.32,op.exp.2; mp.info.3,PR.DS-01; PR.PS-01
 6.3,Evasión,no,no aplica,el sistema recupera y filtra: no hay clasificador ni modelo entrenado que engañar con una entrada retocada; la consulta se elige de una lista cerrada,space-rag/app.py,,,
 6.4,Inferencia de pertenencia,no,no aplica,no hay modelo entrenado: los vectores son ruido con semilla y no proceden de ningún dato de ninguna persona,rag-sintetico/INSTANTANEA.md,,,
 6.5,Exfiltración del modelo,no,no aplica,no hay modelo que copiar: el índice es un conjunto de vectores sintéticos publicado íntegro en el repositorio de datos,rag-sintetico/corpus.csv,,,

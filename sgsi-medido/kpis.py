@@ -73,7 +73,7 @@ def principal() -> None:
     kr("O2", "KR2.5c", "tiempo real de recuperación del índice del RAG, reconstruido y comprobado (objetivo RTO declarado: 60 s)", rto.get("rag-sintetico", ""), "s", 60, "≤", "sgsi-medido/simulacro.csv", "anual")
     comp = [r for r in sim if r["fase"].startswith("comprobación:") and ("reconstruido" in r["detalle"] or "idénticos" in r["fase"] or "restaurados" in r["fase"])
             and r["resultado"] in ("ok", "fallo")]  # las observaciones explicadas (la huella con marcas de tiempo de dbt) no cuentan
-    kr("O2", "KR2.6", "comprobaciones de datos idénticos tras la reconstrucción superadas (RPO conseguido: 0 sobre los datos)", pct(sum(1 for r in comp if r["resultado"] == "ok"), len(comp)), "%", 100, "≥", "sgsi-medido/simulacro.csv", "anual")
+    kr("O2", "KR2.6", "comprobaciones de identidad de los datos reconstruidos frente a los publicados (integridad de la reconstrucción)", pct(sum(1 for r in comp if r["resultado"] == "ok"), len(comp)), "%", 100, "≥", "sgsi-medido/simulacro.csv", "anual")
     kr("O2", "KR2.7", "sistemas con copia de seguridad de registros y volúmenes probada", 0, "de 3", 3, "≥", "sgsi-medido/auditoria.csv (P09; D09; S14)", "trimestral")
     # ---- O3: vulnerabilidades y cadena de suministro
     imgs = [i for lab in (P, M) for i in imagenes(leer(lab, "compose.yaml")) + imagenes("".join(leer(d) for d in __import__("glob").glob(os.path.join(lab, "*", "Dockerfile"))))]
@@ -104,7 +104,7 @@ def principal() -> None:
     kr("C", "C4", "categorías de NIST CSF 2.0 que cubren las 73 medidas del ENS (lectura propia)", sum(1 for r in cob if int(r[col_ens]) > 0) if col_ens else "", "de 22", "", "", "sgsi-medido/cobertura_csf.csv", "con cada edición", "contexto")
     # ---- O5: sistema de IA
     cons = filas_csv(R, "consultas.csv")
-    kr("O5", "KR5.1", "fragmentos ajenos entregados por consulta con el permiso dentro de la consulta", round(sum(int(r["pre_expuestos"]) for r in cons) / len(cons), 2), "fragmentos", 0, "≤", "rag-sintetico/consultas.csv", "en cada medición")
+    kr("O5", "KR5.1", "fragmentos ajenos entregados por consulta con el permiso dentro de la consulta (autorización del recuperador)", round(sum(int(r["pre_expuestos"]) for r in cons) / len(cons), 2), "fragmentos", 0, "≤", "rag-sintetico/consultas.csv", "en cada medición")
     kr("C", "C5", "los mismos fragmentos ajenos por consulta con el permiso aplicado después de recuperar", round(sum(int(r["post_expuestos"]) for r in cons) / len(cons), 2), "fragmentos", "", "", "rag-sintetico/consultas.csv", "en cada medición", "contexto")
     s90 = filas_csv(F, "soa_27090.csv"); apl = [r for r in s90 if r["aplica"] == "sí"]
     kr("O5", "KR5.2", "elementos de ISO/IEC 27090 con declaración (las nueve amenazas de la cláusula 6 y el anexo B)", len(s90), "de 10", 10, "≥", "sgsi-medido/fuentes/soa_27090.csv", "semestral")

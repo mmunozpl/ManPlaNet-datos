@@ -13,8 +13,10 @@ de accesos privilegiados (`pam-minimo`), el DataMart de Kimball sobre los
 accesos a Wikipedia (`datamart-wikipedia`) y la demo del RAG sintético
 (`rag-sintetico`), que es el sistema de inteligencia artificial del alcance.
 Quedan fuera el equipo anfitrión, su red y las cuentas personales de las
-plataformas que alojan el código, los datos y la demo. Ninguno de los tres
-sistemas trata datos personales.
+plataformas que alojan el código, los datos y la demo. Los datos de negocio de los
+tres sistemas no son personales; los registros operativos llevan identidades
+ficticias de laboratorio y direcciones de la red interna, que con personas
+reales serían datos personales.
 
 ## Compromisos
 

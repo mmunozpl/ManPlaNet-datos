@@ -263,13 +263,13 @@ def rag() -> None:
     c("R01", sis, "el corpus y las consultas nacen de una semilla fija: el índice es reproducible byte a byte", "SEMILLA =" in gen,
       "generar.py: SEMILLA = 20260825; el simulacro reconstruye 600 fragmentos iguales a cinco decimales", "8.9; 8.32", "op.exp.2", "PR.PS-01", "", "art. 9", "", "6.2")
     c("R02", sis, "el permiso se aplica dentro de la consulta al índice (filtro sobre la lista de autorizados), no después de recuperar", "query_filter" in gen,
-      "generar.py: query_points(..., query_filter=filtro_de(acl))", "5.15; 8.3", "op.acc.4", "PR.AA-05", "art. 21.2 i)", "art. 9.4 c)", "7", "6.8")
+      "generar.py: query_points(..., query_filter=filtro_de(acl))", "5.15; 8.3", "op.acc.4", "PR.AA-05", "art. 21.2 i)", "art. 9.4 c)", "7", "")
     cons = filas_csv(p, "consultas.csv")
     pre = sum(int(r["pre_expuestos"]) for r in cons); post = sum(int(r["post_expuestos"]) for r in cons)
     c("R03", sis, "con el permiso dentro de la consulta ningún fragmento ajeno llega al usuario", bool(cons) and pre == 0,
-      f"consultas.csv: {pre} fragmentos ajenos en {len(cons)} consultas con el filtro dentro; {post} con el permiso aplicado después", "8.3; 8.11", "op.acc.4; mp.info.1", "PR.AA-05; PR.DS-01", "art. 21.2 i)", "art. 9.4 c)", "7", "6.8")
+      f"consultas.csv: {pre} fragmentos ajenos en {len(cons)} consultas con el filtro dentro; {post} con el permiso aplicado después", "8.3; 8.11", "op.acc.4; mp.info.1", "PR.AA-05; PR.DS-01", "art. 21.2 i)", "art. 9.4 c)", "7", "")
     inst = leer(p, "INSTANTANEA.md")
-    c("R04", sis, "el sistema de IA no trata datos personales ni documentos reales y lo declara", bool(re.search(r"(?i)ning[uú]n dato de ninguna persona", inst)),
+    c("R04", sis, "el recuperador no trata datos personales ni documentos reales y lo declara", bool(re.search(r"(?i)ning[uú]n dato de ninguna persona", inst)),
       "INSTANTANEA.md: vectores de ruido con semilla; «No interviene ningún dato de ninguna persona»", "5.34", "mp.info.1", "GV.OC-03", "", "", "", "6.4; 6.6")
     libs = [l.strip() for l in req.splitlines() if l.strip() and not l.startswith("#")]
     fijas = [l for l in libs if "==" in l]

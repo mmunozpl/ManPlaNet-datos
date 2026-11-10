@@ -9,7 +9,9 @@ es el sistema de inteligencia artificial del alcance y se evalúa contra
 ISO/IEC 27090:2026. Todo lo que el SGSI afirma sale de un fichero de este
 repositorio y se vuelve a calcular con `generar.py`.
 
-Ninguno de los tres sistemas trata datos personales. Nada de aquí describe
+Los datos de negocio de los tres sistemas no son personales; los registros
+operativos llevan identidades ficticias y direcciones de la red interna del
+laboratorio. Nada de aquí describe
 la infraestructura del autor: el alcance son los laboratorios publicados, no
 el equipo en que corren ni las cuentas de las plataformas.
 
@@ -78,7 +80,8 @@ RAG desde la semilla; es el único paso que no es puro cálculo y por eso
   desde las mediciones publicadas, más siete indicadores de contexto sin meta.
 - **La continuidad**: cada sistema destruido y reconstruido desde el código y
   su copia externa, con el tiempo real de recuperación (para contrastarlo con el objetivo RTO) y la comprobación de
-  que los datos vuelven idénticos (RPO), y lo que se pierde porque no tenía
+  que los datos vuelven idénticos (integridad de la reconstrucción, que no es una
+  medición del RPO), y lo que se pierde porque no tenía
   copia.
 
 ## Límites

@@ -47,7 +47,7 @@ M7,[A.19],2,10,30,100,100,50,ficheros locales; sin rotación,50
 M8,[E.18],2,80,80,0,20,20,fuera del repositorio; se vuelve a descargar en unos veinte minutos (probado),60
 M8,[I.10],2,80,80,0,20,20,un solo disco,10
 R1,[27090-6.2],2,20,100,0,40,60,corpus y lista de autorizados generados por un guion versionado con semilla fija; índice reconstruido en memoria en cada arranque; huella del CSV comprobada cada mes,80
-R1,[27090-6.8],4,0,20,100,20,40,permiso dentro de la consulta (filtro sobre la lista de autorizados): 0 fragmentos ajenos en 300 consultas frente a 1.886 con el permiso aplicado después,95
+R1,[A.11],4,0,20,100,20,40,autorización en el recuperador: permiso dentro de la consulta (filtro sobre la lista de autorizados); 0 fragmentos ajenos en 300 consultas frente a 1.886 con el permiso aplicado después,95
 R3,[E.20],3,50,50,30,40,20,SDK fijado por versión; qdrant-client; numpy y pandas con cota inferior y sin huella,30
 R3,[27090-B],1,40,100,20,80,60,imagen construida por la plataforma de alojamiento; sin verificación de procedencia de las bibliotecas,40
 R4,[E.24],4,100,0,0,0,10,hardware gratuito que duerme a las 48 horas sin uso; el texto junto al marco lo dice y da el enlace a pantalla completa,20

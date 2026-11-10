@@ -6,7 +6,7 @@
 # reconstruye solo desde lo versionado y la copia externa de los datos
 # (`laboratorio.sh init`), midiendo el tiempo hasta que el servicio responde
 # (el tiempo real de recuperación, que se contrasta con el objetivo RTO) y comprobando que los datos vuelven idénticos a los
-# publicados (el RPO conseguido). Para la demo del RAG se mide cuánto tarda
+# publicados (integridad de la reconstrucción; el punto de recuperación es la fuente externa). Para la demo del RAG se mide cuánto tarda
 # en reconstruirse el índice desde la semilla y se comprueba que los vectores
 # coinciden con el CSV publicado.
 #
@@ -48,14 +48,14 @@ pam() {
   esperadas=$(( $(wc -l < datos/ine_28193_salarios.csv) - 1 ))
   filas=$(docker compose exec -T postgres psql -U admin_bd -d salarios -tAc "SELECT count(*) FROM salarios" 2>/dev/null | tr -d '[:space:]')
   fila pam-minimo "comprobación: datos restaurados desde el fichero versionado" "$(desde $T0)" "$([ -n "$filas" ] && [ "$filas" -gt 0 ] && echo ok || echo fallo)" \
-    "$filas filas en la tabla salarios a partir de $esperadas líneas del CSV del INE; RPO 0: la fuente es un fichero versionado"
+    "$filas filas en la tabla salarios a partir de $esperadas líneas del CSV del INE; punto de recuperación de los datos: el fichero versionado"
   local codigo
   codigo=$(curl -ks -o /dev/null -w '%{http_code}' --max-time 10 https://127.0.0.1:8888/ || echo 000)
   fila pam-minimo "comprobación: consola del bastión responde" "$(desde $T0)" "$([ "$codigo" != 000 ] && echo ok || echo fallo)" "HTTP $codigo en https://127.0.0.1:8888/"
   fila pam-minimo "comprobación: puerto SSH del bastión" "$(desde $T0)" "$([ "$(puerto_abierto 2223)" = sí ] && echo ok || echo fallo)" "127.0.0.1:2223 abierto: $(puerto_abierto 2223)"
   local lineas
   lineas=$(docker compose exec -T openbao sh -c 'wc -l < /openbao/logs/auditoria.log' 2>/dev/null | tr -d '[:space:]')
-  fila pam-minimo "comprobación: diario de auditoría nuevo" "$(desde $T0)" ok "${lineas:-0} líneas: el diario empieza de cero; el anterior se perdió (RPO del diario: todo)"
+  fila pam-minimo "comprobación: diario de auditoría nuevo" "$(desde $T0)" ok "${lineas:-0} líneas: el diario empieza de cero; el anterior se perdió (el diario no tenía punto de recuperación)"
   fila pam-minimo "tiempo real de recuperación" "$(desde $T0)" ok "segundos desde la pérdida hasta las comprobaciones superadas"
   ./laboratorio.sh parar > "$LOG/pam-parar.log" 2>&1
 }
@@ -135,7 +135,7 @@ EOF
     fi
   done < <(docker compose exec -T postgres psql -U admin_bd -d datamart -tA < "$LOG/datamart-huellas.sql" 2>>"$LOG/datamart-huellas.err")
   fila datamart-wikipedia "tiempo real de recuperación" "$ultimo" "$([ "$distintos" -eq 0 ] && [ "$iguales" -ge 10 ] && echo ok || echo fallo)" \
-    "segundos desde la pérdida hasta los 34 meses cargados, según el instante de fin del último run de Airflow; las comprobaciones de identidad se hicieron después, con el servicio ya en pie ($iguales iguales; $distintos distintas; $observadas explicadas); RPO 0 sobre los datos: la zona cruda se rehace desde la caché externa"
+    "segundos desde la pérdida hasta los 34 meses cargados, según el instante de fin del último run de Airflow; las comprobaciones de identidad se hicieron después, con el servicio ya en pie ($iguales iguales; $distintos distintas; $observadas explicadas); punto de recuperación de los datos de negocio: la caché externa"
   ./laboratorio.sh parar > "$LOG/datamart-parar.log" 2>&1
 }
 
@@ -159,7 +159,7 @@ print(f"{t_indice:.2f} {n} {iguales} {len(pub)} {iguales_q} {len(cons)}")
 EOF
   read -r t_indice n iguales total iguales_q total_q < <(tail -1 "$LOG/rag.log")
   fila rag-sintetico "índice reconstruido desde la semilla" "$(desde $T0)" "$([ "${n:-0}" = 600 ] && echo ok || echo fallo)" "${t_indice:-?} s para ${n:-?} fragmentos en memoria"
-  fila rag-sintetico "comprobación: vectores idénticos a los publicados" "$(desde $T0)" "$([ "${iguales:-0}" = "${total:-1}" ] && echo ok || echo fallo)" "${iguales:-?} de ${total:-?} fragmentos y ${iguales_q:-?} de ${total_q:-?} consultas iguales a cinco decimales; RPO 0: el estado es la semilla"
+  fila rag-sintetico "comprobación: vectores idénticos a los publicados" "$(desde $T0)" "$([ "${iguales:-0}" = "${total:-1}" ] && echo ok || echo fallo)" "${iguales:-?} de ${total:-?} fragmentos y ${iguales_q:-?} de ${total_q:-?} consultas iguales a cinco decimales; punto de recuperación: la semilla"
   local codigo
   codigo=$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 https://manpla-rag-sintetico.hf.space/ || echo 000)
   fila rag-sintetico "comprobación: la demo publicada responde" "$(desde $T0)" "$([ "$codigo" = 200 ] && echo ok || echo observación)" "HTTP $codigo; el alojamiento gratuito duerme a las 48 horas sin uso"

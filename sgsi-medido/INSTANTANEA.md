@@ -20,7 +20,7 @@ Pares con menor solape (Jaccard): NIS2 / DORA 0.591; ENS (RD 311/2022) / NIS2 0.
 
 ## Sistema de IA (ISO/IEC 27090:2026)
 
-10 elementos declarados (las nueve amenazas de la cláusula 6 y el anexo B): 3 aplican (2 implantadas, 1 parciales); mitigaciones de ATLAS asociadas a las aplicables: 42.
+10 elementos declarados (las nueve amenazas de la cláusula 6 y el anexo B): 2 aplican (1 implantadas, 1 parciales); mitigaciones de ATLAS asociadas a las aplicables: 27.
 
 ## Auditoría interna
 
@@ -29,7 +29,7 @@ Pares con menor solape (Jaccard): NIS2 / DORA 0.591; ENS (RD 311/2022) / NIS2 0.
 - rag-sintetico: 13 comprobaciones; 11 conformes, 2 no conformes, 0 observaciones; conformidad 84.6 %
 - sgsi: 20 comprobaciones; 12 conformes, 4 no conformes, 4 observaciones; conformidad 75.0 %
 - total: 91 comprobaciones; 66 conformes, 15 no conformes, 10 observaciones; conformidad 81.5 %
-- por marco: ISO/IEC 27001:2022 91 comprobaciones y 59 referencias; ISO/IEC 27090:2026 14 comprobaciones y 9 referencias; ENS (RD 311/2022) 87 comprobaciones y 32 referencias; NIST CSF 2.0 91 comprobaciones y 44 referencias; NIS2 art. 21.2 76 comprobaciones y 13 referencias; DORA 82 comprobaciones y 20 referencias; PCI DSS v4.0.1 72 comprobaciones y 18 referencias
+- por marco: ISO/IEC 27001:2022 91 comprobaciones y 59 referencias; ISO/IEC 27090:2026 12 comprobaciones y 8 referencias; ENS (RD 311/2022) 87 comprobaciones y 32 referencias; NIST CSF 2.0 91 comprobaciones y 44 referencias; NIS2 art. 21.2 76 comprobaciones y 13 referencias; DORA 82 comprobaciones y 20 referencias; PCI DSS v4.0.1 72 comprobaciones y 18 referencias
 
 ## Indicadores (OKR)
 

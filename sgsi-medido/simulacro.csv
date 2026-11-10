@@ -10,10 +10,10 @@ pam-minimo,init: bastión arrancado,2026-11-09T00:35:48Z,33,ok,fase del guion de
 pam-minimo,init: bastión configurado,2026-11-09T00:35:48Z,33,ok,fase del guion de arranque
 pam-minimo,init: listo,2026-11-09T00:35:48Z,33,ok,fase del guion de arranque
 pam-minimo,comprobación: bóveda desprecintada,2026-11-09T00:35:48Z,33,ok,sealed=False
-pam-minimo,comprobación: datos restaurados desde el fichero versionado,2026-11-09T00:35:48Z,33,ok,3672 filas en la tabla salarios a partir de 3672 líneas del CSV del INE; RPO 0: la fuente es un fichero versionado
+pam-minimo,comprobación: datos restaurados desde el fichero versionado,2026-11-09T00:35:48Z,33,ok,3672 filas en la tabla salarios a partir de 3672 líneas del CSV del INE; punto de recuperación de los datos: el fichero versionado
 pam-minimo,comprobación: consola del bastión responde,2026-11-09T00:35:49Z,34,ok,HTTP 401 en https://127.0.0.1:8888/
 pam-minimo,comprobación: puerto SSH del bastión,2026-11-09T00:35:49Z,34,ok,127.0.0.1:2223 abierto: sí
-pam-minimo,comprobación: diario de auditoría nuevo,2026-11-09T00:35:49Z,34,ok,39 líneas: el diario empieza de cero; el anterior se perdió (RPO del diario: todo)
+pam-minimo,comprobación: diario de auditoría nuevo,2026-11-09T00:35:49Z,34,ok,39 líneas: el diario empieza de cero; el anterior se perdió (el diario no tenía punto de recuperación)
 pam-minimo,tiempo real de recuperación,2026-11-09T00:35:49Z,34,ok,segundos desde la pérdida hasta las comprobaciones superadas
 datamart-wikipedia,pérdida simulada (contenedores; volúmenes y secretos borrados),2026-11-09T00:35:52Z,1,ok,se conservan el código versionado y la caché externa de la API (61M); los registros de Airflow se pierden: no tenían copia
 datamart-wikipedia,plataforma reconstruida desde el código (init),2026-11-09T00:36:18Z,27,ok,PostgreSQL; RustFS y Airflow arrancados; DAG en marcha con el relleno histórico
@@ -35,8 +35,8 @@ datamart-wikipedia,comprobación: huella marts.hechos_ranking_mensual (2026-10),
 datamart-wikipedia,comprobación: huella marts.snap_articulo_tramo,2026-11-09T00:54:56Z,1145,observación,"reconstruido 3a232160e0568642dce9b95a6dbd85f8; publicado ffa7d35f06b40ad098cfe02f4089163f: la huella publicada incluye dbt_valid_from y dbt_valid_to, que la estrategia check de dbt rellena con la hora de cada ejecución, así que cambia por definición al reconstruir; el contenido de negocio se compara aparte"
 datamart-wikipedia,comprobación: snapshot: versiones/artículos,2026-11-09T00:54:56Z,1145,ok,reconstruido 66331/58712; publicado 66331/58712
 datamart-wikipedia,comprobación: huella de negocio del snapshot (sin marcas de dbt),2026-11-09T00:54:57Z,1146,ok,reconstruido cc1c6ca3b0ab15ba9990602baadd0dd5; se guarda para el próximo simulacro
-datamart-wikipedia,tiempo real de recuperación,2026-11-09T00:51:42Z,951,ok,"segundos desde la pérdida hasta los 34 meses cargados, según el instante de fin del último run de Airflow; las comprobaciones de identidad se hicieron después, con el servicio ya en pie (10 iguales; 0 distintas; 1 explicada); RPO 0 sobre los datos: la zona cruda se rehace desde la caché externa"
+datamart-wikipedia,tiempo real de recuperación,2026-11-09T00:51:42Z,951,ok,"segundos desde la pérdida hasta los 34 meses cargados, según el instante de fin del último run de Airflow; las comprobaciones de identidad se hicieron después, con el servicio ya en pie (10 iguales; 0 distintas; 1 explicada); punto de recuperación de los datos de negocio: la caché externa"
 rag-sintetico,índice reconstruido desde la semilla,2026-11-09T00:52:12Z,1,ok,0.22 s para 600 fragmentos en memoria
-rag-sintetico,comprobación: vectores idénticos a los publicados,2026-11-09T00:52:12Z,1,ok,600 de 600 fragmentos y 300 de 300 consultas iguales a cinco decimales; RPO 0: el estado es la semilla
+rag-sintetico,comprobación: vectores idénticos a los publicados,2026-11-09T00:52:12Z,1,ok,600 de 600 fragmentos y 300 de 300 consultas iguales a cinco decimales; punto de recuperación: la semilla
 rag-sintetico,comprobación: la demo publicada responde,2026-11-09T00:52:13Z,2,ok,HTTP 200; el alojamiento gratuito duerme a las 48 horas sin uso
 rag-sintetico,tiempo real de recuperación,2026-11-09T00:52:13Z,2,ok,segundos desde el arranque del guion hasta el índice comprobado

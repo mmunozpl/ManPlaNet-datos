@@ -27,3 +27,9 @@ estadística de versiones de PHP de WordPress.org,php2shell,https://api.wordpres
 lista de productos afectados del NCSC-NL (php2shell),php2shell,https://raw.githubusercontent.com/NCSC-NL/php2shell/main/software/software_list_a.md
 tabla 28193 del INE (Encuesta Anual de Estructura Salarial),pam-minimo,https://servicios.ine.es/wstempus/csv/ES/DATOS_TABLA/28193
 API de visualizaciones de Wikimedia (pageviews/top por día y all-days),datamart-wikipedia,https://wikimedia.org/api/rest_v1/metrics/pageviews/top/es.wikipedia/all-access/2024/01/01
+núcleo de NIST CSF 2.0 con sus referencias informativas (CPRT del NIST),sgsi-medido,https://csrc.nist.gov/extensions/nudp/services/json/csf/download?olirids=all
+Real Decreto 311/2022 del Esquema Nacional de Seguridad (texto consolidado del BOE),sgsi-medido,https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191
+Directiva (UE) 2022/2555 (NIS2) en EUR-Lex,sgsi-medido,https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32022L2555
+Reglamento (UE) 2022/2554 (DORA) en EUR-Lex,sgsi-medido,https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32022R2554
+MAGERIT v3 Libro II: catálogo de elementos (PAe),sgsi-medido,https://administracionelectronica.gob.es/ctt/resources/Soluciones/184/Descargas/Libro-II-Catalogo-de-Elementos.pdf
+repositorio público de la demo del RAG sintético,sgsi-medido,https://huggingface.co/spaces/ManPla/rag-sintetico

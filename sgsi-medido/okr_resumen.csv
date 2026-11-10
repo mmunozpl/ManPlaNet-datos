@@ -1,0 +1,7 @@
+objetivo,objetivo_texto,resultados_clave,cumplen,no_cumplen,sin_meta
+O1,Los accesos privilegiados están bajo control,5,4,1,0
+O2,Los datos son íntegros y recuperables,9,7,2,0
+O3,Las vulnerabilidades y la cadena de suministro se tratan en plazo,3,1,2,0
+O4,"El cumplimiento se mide, no se declara",5,2,3,0
+O5,El sistema de IA está evaluado frente a ISO/IEC 27090,4,2,2,0
+C,Contexto del sector (sin meta propia),7,0,0,7

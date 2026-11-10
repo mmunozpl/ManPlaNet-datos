@@ -1,0 +1,56 @@
+activo,amenaza,frecuencia,deg_D,deg_I,deg_C,deg_A,deg_T,salvaguardas,eficacia
+P1,[A.11],3,20,50,100,80,50,políticas por ruta exacta; AppRole y userpass; TLS; auditoría en fichero,80
+P1,[A.5],3,10,60,100,90,60,contraseña de 32 hex y TOTP en el bastión; AppRole para el bastión,80
+P1,[E.4],3,60,40,30,30,20,configuración declarativa versionada; init reproducible,70
+P1,[I.5],2,100,30,0,0,20,un solo nodo: sin alta disponibilidad,10
+P1,[A.24],2,100,0,0,0,10,sin protección específica,10
+P2,[A.19],2,10,30,100,100,50,secretos fuera del repositorio (.gitignore); permisos 600; token raíz fuera de la operación,70
+P2,[E.19],3,10,20,100,80,40,.gitignore y auditoría de rastros antes de publicar,75
+P2,[E.18],2,100,60,0,0,20,clave de desprecinto en un solo fichero; sin copia,10
+P2,[A.6],2,20,60,100,100,60,credenciales dinámicas de 180 s y certificados de 150 s; revocación probada,85
+P3,[A.5],4,10,50,90,100,70,dos factores (contraseña y TOTP); bloqueo de la IP al quinto fallo,85
+P3,[A.11],3,20,50,80,90,60,certificado por sesión firmado por la bóveda; principal único,85
+P3,[A.24],2,100,0,0,0,10,sin límite de conexiones ni protección DoS,10
+P3,[E.4],3,50,40,60,50,30,configuración por API desde el guion; tls_skip_verify hacia la bóveda,50
+P4,[A.11],3,10,60,70,100,60,solo certificados de la CA; sin contraseñas ni claves fijas; key ID en el diario,90
+P4,[E.20],3,40,50,50,50,20,imagen fijada por versión; sin vigilancia de vulnerabilidades de la imagen,30
+P4,[A.6],2,30,70,70,100,70,caducidad del certificado; la sesión abierta sigue viva (hueco medido),50
+P5,[A.15],2,10,100,0,60,40,credenciales de solo lectura de 180 s; rol sin escritura probado,85
+P5,[A.19],2,0,0,100,30,20,dato público del INE: la confidencialidad no está en juego,95
+P5,[E.18],2,100,100,0,0,20,sin copia de seguridad propia; el dato se rehace desde el CSV del INE,60
+P6,[A.4],2,20,100,20,100,100,diario en fichero de la bóveda; sin protección frente al administrador del anfitrión; sin envío a un servidor externo,30
+P6,[E.3],3,30,60,0,50,80,registros probados por el medidor (40 respuestas; 607 octetos de grabación); sin revisión periódica,40
+P6,[E.18],2,80,100,0,60,100,volúmenes de Docker sin retención ni copia,10
+P7,[A.14],2,0,30,80,60,30,red interna de Docker; TLS y SSH dentro; puertos solo en la máquina,80
+P7,[A.24],2,100,0,0,0,10,sin protección específica,10
+P8,[N.1],1,100,100,0,0,0,ninguna: el laboratorio corre en un solo equipo,0
+P8,[I.6],2,100,30,0,0,0,sin SAI,0
+P8,[A.11],2,50,80,100,100,80,el anfitrión queda fuera del alcance del laboratorio; cuentas del sistema operativo,40
+P8,[E.21],3,60,40,20,20,10,imágenes fijadas por versión; actualizaciones del anfitrión fuera del alcance,30
+M1,[E.18],2,100,100,0,30,30,el JSON se puede volver a pedir a la API (los días con 404 se anotan); caché externa al repositorio,70
+M1,[A.15],2,20,100,0,80,60,bucket privado con clave única; sin versionado de objetos,40
+M1,[I.10],2,80,80,0,20,20,sin copia en otro lugar,10
+M2,[E.15],3,20,100,0,40,30,se rehace desde la zona cruda (preparar) de forma idempotente,90
+M3,[E.2],3,40,80,0,40,40,tres roles separados; COPY idempotente por mes; 27 tests en cada carga,80
+M3,[A.11],2,30,80,20,90,60,contraseñas aleatorias; puerto solo en la máquina; red interna,75
+M3,[E.24],2,100,0,0,0,20,shared_buffers fijado y memoria en uso medida; sin alertas de capacidad,30
+M3,[E.18],2,100,100,0,30,40,se rehace desde la zona cruda en 886 s (probado); sin copia de la base,70
+M4,[E.4],3,60,60,20,40,30,DAG versionado; reintentos; aviso de fallo definitivo,70
+M4,[A.5],2,40,70,80,100,70,usuario y contraseña del gestor simple; JWT; puerto solo en la máquina,60
+M4,[E.24],2,100,20,0,0,20,max_active_runs=1; sin límites de recursos en los contenedores,30
+M5,[E.2],3,20,100,0,60,50,tests de dbt (grano; relaciones; rangos; días contiguos); portón antes de la snapshot,80
+M5,[A.22],1,30,100,20,100,80,código en git con historial; sin firma de commits del laboratorio,60
+M6,[E.3],3,20,60,0,40,80,registros por run y por intento en la API de Airflow; sin retención definida,40
+M6,[E.18],2,60,100,0,40,100,volúmenes sin copia ni retención,10
+M7,[E.19],3,10,20,100,80,40,.gitignore del laboratorio; permisos 600 y 644 donde el servicio lo exige; sin bóveda,60
+M7,[A.19],2,10,30,100,100,50,ficheros locales; sin rotación,50
+M8,[E.18],2,80,80,0,20,20,fuera del repositorio; se vuelve a descargar en unos veinte minutos (probado),60
+M8,[I.10],2,80,80,0,20,20,un solo disco,10
+R1,[27090-6.2],2,20,100,0,40,60,corpus y lista de autorizados generados por un guion versionado con semilla fija; índice reconstruido en memoria en cada arranque; huella del CSV comprobada cada mes,80
+R1,[27090-6.8],4,0,20,100,20,40,permiso dentro de la consulta (filtro sobre la lista de autorizados): 0 fragmentos ajenos en 300 consultas frente a 1.886 con el permiso aplicado después,95
+R3,[E.20],3,50,50,30,40,20,SDK fijado por versión; qdrant-client; numpy y pandas con cota inferior y sin huella,30
+R3,[27090-B],1,40,100,20,80,60,imagen construida por la plataforma de alojamiento; sin verificación de procedencia de las bibliotecas,40
+R4,[E.24],4,100,0,0,0,10,hardware gratuito que duerme a las 48 horas sin uso; el texto junto al marco lo dice y da el enlace a pantalla completa,20
+R4,[A.11],2,30,100,20,100,70,control de acceso de la plataforma de alojamiento; código público: una alteración sería de integridad; sin vigilancia de cambios,60
+R6,[A.15],2,0,100,0,40,80,repositorio con historial; huellas comprobadas cada mes en la integración continua,85
+R6,[E.18],1,100,100,0,0,20,repositorio remoto y copia local; reproducible desde la semilla,90

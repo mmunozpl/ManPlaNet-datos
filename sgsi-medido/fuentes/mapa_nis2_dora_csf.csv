@@ -1,0 +1,23 @@
+norma,referencia,csf_categorias,lectura
+NIS2,art. 21.2.a,GV.PO;ID.RA,políticas de seguridad de los sistemas de información y análisis de riesgos
+NIS2,art. 21.2.b,RS.MA;RS.AN;RS.CO,gestión de incidentes
+NIS2,art. 21.2.c,PR.DS;RC.RP;RC.CO,continuidad de las actividades: copias de seguridad y recuperación en caso de catástrofe y gestión de crisis
+NIS2,art. 21.2.d,GV.SC,seguridad de la cadena de suministro y relaciones con proveedores
+NIS2,art. 21.2.e,PR.PS;ID.RA,seguridad en la adquisición y el desarrollo y mantenimiento de sistemas y gestión y divulgación de vulnerabilidades
+NIS2,art. 21.2.f,GV.OV;ID.IM,políticas y procedimientos para evaluar la eficacia de las medidas
+NIS2,art. 21.2.g,PR.AT,prácticas básicas de ciberhigiene y formación en ciberseguridad
+NIS2,art. 21.2.h,PR.DS,políticas y procedimientos sobre el uso de criptografía y cifrado
+NIS2,art. 21.2.i,GV.RR;PR.AA;ID.AM,seguridad de los recursos humanos y políticas de control de acceso y gestión de activos
+NIS2,art. 21.2.j,PR.AA;PR.DS,autenticación multifactor o continua y comunicaciones seguras
+DORA,art. 5,GV.RR;GV.OC,gobernanza y organización: el órgano de dirección responde del riesgo relacionado con las TIC
+DORA,art. 6,GV.RM;ID.RA;GV.PO,marco de gestión del riesgo relacionado con las TIC
+DORA,art. 7,PR.PS;PR.IR,sistemas y protocolos y herramientas de TIC fiables y con capacidad suficiente
+DORA,art. 8,ID.AM;ID.RA,identificación de funciones y activos y fuentes de riesgo
+DORA,art. 9,PR.AA;PR.DS;PR.PS;PR.IR,protección y prevención
+DORA,art. 10,DE.CM;DE.AE,detección de actividades anómalas
+DORA,art. 11,RS.MA;RS.MI;RC.RP,respuesta y recuperación: política de continuidad de la actividad de las TIC
+DORA,art. 12,PR.DS;RC.RP,políticas de copia de seguridad y procedimientos de restablecimiento y recuperación
+DORA,art. 13,ID.IM;PR.AT,aprendizaje y evolución: lecciones de los incidentes y formación
+DORA,art. 14,RS.CO;RC.CO,comunicación de incidentes a clientes y contrapartes y al público
+DORA,art. 15,GV.PO,armonización por normas técnicas de regulación de las herramientas y métodos y políticas
+DORA,art. 16,GV.RM,marco simplificado para las entidades pequeñas: proporcionalidad del riesgo

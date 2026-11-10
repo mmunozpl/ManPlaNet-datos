@@ -1,0 +1,94 @@
+control,tema,titulo_en,titulo_es
+5.1,organizativo,Policies for information security,Políticas de seguridad de la información
+5.2,organizativo,Information security roles and responsibilities,Roles y responsabilidades de seguridad de la información
+5.3,organizativo,Segregation of duties,Segregación de funciones
+5.4,organizativo,Management responsibilities,Responsabilidades de la dirección
+5.5,organizativo,Contact with authorities,Contacto con las autoridades
+5.6,organizativo,Contact with special interest groups,Contacto con grupos de interés especial
+5.7,organizativo,Threat intelligence,Inteligencia de amenazas
+5.8,organizativo,Information security in project management,Seguridad de la información en la gestión de proyectos
+5.9,organizativo,Inventory of information and other associated assets,Inventario de información y otros activos asociados
+5.10,organizativo,Acceptable use of information and other associated assets,Uso aceptable de la información y otros activos asociados
+5.11,organizativo,Return of assets,Devolución de activos
+5.12,organizativo,Classification of information,Clasificación de la información
+5.13,organizativo,Labelling of information,Etiquetado de la información
+5.14,organizativo,Information transfer,Transferencia de información
+5.15,organizativo,Access control,Control de acceso
+5.16,organizativo,Identity management,Gestión de identidades
+5.17,organizativo,Authentication information,Información de autenticación
+5.18,organizativo,Access rights,Derechos de acceso
+5.19,organizativo,Information security in supplier relationships,Seguridad de la información en las relaciones con proveedores
+5.20,organizativo,Addressing information security within supplier agreements,Seguridad de la información en los acuerdos con proveedores
+5.21,organizativo,Managing information security in the ICT supply chain,Gestión de la seguridad en la cadena de suministro de TIC
+5.22,organizativo,"Monitoring, review and change management of supplier services","Seguimiento, revisión y gestión de cambios de los servicios de proveedores"
+5.23,organizativo,Information security for use of cloud services,Seguridad de la información en el uso de servicios en la nube
+5.24,organizativo,Information security incident management planning and preparation,Planificación y preparación de la gestión de incidentes
+5.25,organizativo,Assessment and decision on information security events,Evaluación y decisión sobre eventos de seguridad
+5.26,organizativo,Response to information security incidents,Respuesta a incidentes de seguridad
+5.27,organizativo,Learning from information security incidents,Aprendizaje de los incidentes de seguridad
+5.28,organizativo,Collection of evidence,Recopilación de evidencias
+5.29,organizativo,Information security during disruption,Seguridad de la información durante una interrupción
+5.30,organizativo,ICT readiness for business continuity,Preparación de las TIC para la continuidad del negocio
+5.31,organizativo,"Legal, statutory, regulatory and contractual requirements","Requisitos legales, estatutarios, reglamentarios y contractuales"
+5.32,organizativo,Intellectual property rights,Derechos de propiedad intelectual
+5.33,organizativo,Protection of records,Protección de los registros
+5.34,organizativo,Privacy and protection of PII,Privacidad y protección de la información personal
+5.35,organizativo,Independent review of information security,Revisión independiente de la seguridad de la información
+5.36,organizativo,"Compliance with policies, rules and standards for information security","Cumplimiento de políticas, reglas y normas de seguridad"
+5.37,organizativo,Documented operating procedures,Procedimientos operativos documentados
+6.1,personas,Screening,Investigación de antecedentes
+6.2,personas,Terms and conditions of employment,Términos y condiciones del empleo
+6.3,personas,"Information security awareness, education and training","Concienciación, educación y formación en seguridad"
+6.4,personas,Disciplinary process,Proceso disciplinario
+6.5,personas,Responsibilities after termination or change of employment,Responsabilidades tras la finalización o el cambio de empleo
+6.6,personas,Confidentiality or non-disclosure agreements,Acuerdos de confidencialidad
+6.7,personas,Remote working,Trabajo remoto
+6.8,personas,Information security event reporting,Notificación de eventos de seguridad
+7.1,físico,Physical security perimeters,Perímetros de seguridad física
+7.2,físico,Physical entry,Entrada física
+7.3,físico,"Securing offices, rooms and facilities","Seguridad de oficinas, salas e instalaciones"
+7.4,físico,Physical security monitoring,Vigilancia de la seguridad física
+7.5,físico,Protecting against physical and environmental threats,Protección frente a amenazas físicas y ambientales
+7.6,físico,Working in secure areas,Trabajo en áreas seguras
+7.7,físico,Clear desk and clear screen,Puesto de trabajo despejado y pantalla limpia
+7.8,físico,Equipment siting and protection,Ubicación y protección de los equipos
+7.9,físico,Security of assets off-premises,Seguridad de los activos fuera de las instalaciones
+7.10,físico,Storage media,Soportes de almacenamiento
+7.11,físico,Supporting utilities,Servicios de suministro
+7.12,físico,Cabling security,Seguridad del cableado
+7.13,físico,Equipment maintenance,Mantenimiento de los equipos
+7.14,físico,Secure disposal or re-use of equipment,Eliminación o reutilización segura de equipos
+8.1,tecnológico,User endpoint devices,Dispositivos de usuario final
+8.2,tecnológico,Privileged access rights,Derechos de acceso privilegiado
+8.3,tecnológico,Information access restriction,Restricción del acceso a la información
+8.4,tecnológico,Access to source code,Acceso al código fuente
+8.5,tecnológico,Secure authentication,Autenticación segura
+8.6,tecnológico,Capacity management,Gestión de la capacidad
+8.7,tecnológico,Protection against malware,Protección contra el código dañino
+8.8,tecnológico,Management of technical vulnerabilities,Gestión de las vulnerabilidades técnicas
+8.9,tecnológico,Configuration management,Gestión de la configuración
+8.10,tecnológico,Information deletion,Borrado de información
+8.11,tecnológico,Data masking,Enmascaramiento de datos
+8.12,tecnológico,Data leakage prevention,Prevención de fugas de datos
+8.13,tecnológico,Information backup,Copias de seguridad de la información
+8.14,tecnológico,Redundancy of information processing facilities,Redundancia de las instalaciones de tratamiento de la información
+8.15,tecnológico,Logging,Registro de eventos
+8.16,tecnológico,Monitoring activities,Actividades de supervisión
+8.17,tecnológico,Clock synchronization,Sincronización de relojes
+8.18,tecnológico,Use of privileged utility programs,Uso de programas de utilidad privilegiados
+8.19,tecnológico,Installation of software on operational systems,Instalación de software en sistemas en producción
+8.20,tecnológico,Networks security,Seguridad de las redes
+8.21,tecnológico,Security of network services,Seguridad de los servicios de red
+8.22,tecnológico,Segregation of networks,Segregación de redes
+8.23,tecnológico,Web filtering,Filtrado web
+8.24,tecnológico,Use of cryptography,Uso de la criptografía
+8.25,tecnológico,Secure development life cycle,Ciclo de vida de desarrollo seguro
+8.26,tecnológico,Application security requirements,Requisitos de seguridad de las aplicaciones
+8.27,tecnológico,Secure system architecture and engineering principles,Principios de arquitectura e ingeniería de sistemas seguros
+8.28,tecnológico,Secure coding,Codificación segura
+8.29,tecnológico,Security testing in development and acceptance,Pruebas de seguridad en desarrollo y aceptación
+8.30,tecnológico,Outsourced development,Desarrollo externalizado
+8.31,tecnológico,"Separation of development, test and production environments","Separación de los entornos de desarrollo, prueba y producción"
+8.32,tecnológico,Change management,Gestión de cambios
+8.33,tecnológico,Test information,Información de prueba
+8.34,tecnológico,Protection of information systems during audit testing,Protección de los sistemas de información durante las pruebas de auditoría

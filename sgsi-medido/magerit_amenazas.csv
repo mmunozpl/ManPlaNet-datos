@@ -1,0 +1,54 @@
+codigo,grupo,amenaza
+[N.1],desastres naturales,Fuego
+[N.2],desastres naturales,Daños por agua
+[I.1],de origen industrial,Fuego
+[I.2],de origen industrial,Daños por agua
+[I.3],de origen industrial,Contaminación mecánica
+[I.4],de origen industrial,Contaminación electromagnética
+[I.5],de origen industrial,Avería de origen físico o lógico
+[I.6],de origen industrial,Corte del suministro eléctrico
+[I.7],de origen industrial,Condiciones inadecuadas de temperatura y/o humedad
+[I.8],de origen industrial,Fallo de servicios de comunicaciones
+[I.9],de origen industrial,Interrupción de otros servicios y suministros esenciales
+[I.10],de origen industrial,Degradación de los soportes de almacenamiento de la información
+[I.11],de origen industrial,Emanaciones electromagnéticas
+[E.1],errores y fallos no intencionados,Errores de los usuarios
+[E.2],errores y fallos no intencionados,Errores del administrador
+[E.3],errores y fallos no intencionados,Errores de monitorización (log)
+[E.4],errores y fallos no intencionados,Errores de configuración
+[E.7],errores y fallos no intencionados,Deficiencias en la organización
+[E.8],errores y fallos no intencionados,Difusión de software dañino
+[E.9],errores y fallos no intencionados,Errores de [re-]encaminamiento
+[E.10],errores y fallos no intencionados,Errores de secuencia
+[E.14],errores y fallos no intencionados,Escapes de información
+[E.15],errores y fallos no intencionados,Alteración accidental de la información
+[E.18],errores y fallos no intencionados,Destrucción de información
+[E.19],errores y fallos no intencionados,Fugas de información
+[E.20],errores y fallos no intencionados,Vulnerabilidades de los programas (software)
+[E.21],errores y fallos no intencionados,Errores de mantenimiento / actualización de programas (software)
+[E.23],errores y fallos no intencionados,Errores de mantenimiento / actualización de equipos (hardware)
+[E.24],errores y fallos no intencionados,Caída del sistema por agotamiento de recursos
+[E.25],errores y fallos no intencionados,Robo
+[E.28],errores y fallos no intencionados,Indisponibilidad del personal
+[A.4],ataques intencionados,Manipulación de los registros de actividad (log)
+[A.5],ataques intencionados,Suplantación de la identidad del usuario
+[A.6],ataques intencionados,Abuso de privilegios de acceso
+[A.7],ataques intencionados,Uso no previsto
+[A.8],ataques intencionados,Difusión de software dañino
+[A.9],ataques intencionados,[Re-]encaminamiento de mensajes
+[A.10],ataques intencionados,Alteración de secuencia
+[A.11],ataques intencionados,Acceso no autorizado
+[A.12],ataques intencionados,Análisis de tráfico
+[A.13],ataques intencionados,Repudio
+[A.14],ataques intencionados,Interceptación de información (escucha)
+[A.15],ataques intencionados,Modificación deliberada de la información
+[A.18],ataques intencionados,Destrucción de información
+[A.19],ataques intencionados,Revelación de información
+[A.22],ataques intencionados,Manipulación de programas
+[A.24],ataques intencionados,Denegación de servicio
+[A.25],ataques intencionados,Robo
+[A.26],ataques intencionados,Ataque destructivo
+[A.27],ataques intencionados,Ocupación enemiga
+[A.28],ataques intencionados,Indisponibilidad del personal
+[A.29],ataques intencionados,Extorsión
+[A.30],ataques intencionados,Ingeniería social (picaresca)

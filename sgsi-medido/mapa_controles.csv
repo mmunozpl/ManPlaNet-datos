@@ -1,0 +1,970 @@
+marco,control,categoria_csf,funcion
+DORA,art. 10,DE.AE,Detectar
+DORA,art. 10,DE.CM,Detectar
+DORA,art. 11,RC.RP,Recuperar
+DORA,art. 11,RS.MA,Responder
+DORA,art. 11,RS.MI,Responder
+DORA,art. 12,PR.DS,Proteger
+DORA,art. 12,RC.RP,Recuperar
+DORA,art. 13,ID.IM,Identificar
+DORA,art. 13,PR.AT,Proteger
+DORA,art. 14,RC.CO,Recuperar
+DORA,art. 14,RS.CO,Responder
+DORA,art. 15,GV.PO,Gobernar
+DORA,art. 16,GV.RM,Gobernar
+DORA,art. 5,GV.OC,Gobernar
+DORA,art. 5,GV.RR,Gobernar
+DORA,art. 6,GV.PO,Gobernar
+DORA,art. 6,GV.RM,Gobernar
+DORA,art. 6,ID.RA,Identificar
+DORA,art. 7,PR.IR,Proteger
+DORA,art. 7,PR.PS,Proteger
+DORA,art. 8,ID.AM,Identificar
+DORA,art. 8,ID.RA,Identificar
+DORA,art. 9,PR.AA,Proteger
+DORA,art. 9,PR.DS,Proteger
+DORA,art. 9,PR.IR,Proteger
+DORA,art. 9,PR.PS,Proteger
+ENS (RD 311/2022),mp.com.1,PR.IR,Proteger
+ENS (RD 311/2022),mp.com.2,PR.DS,Proteger
+ENS (RD 311/2022),mp.com.3,PR.DS,Proteger
+ENS (RD 311/2022),mp.com.4,PR.IR,Proteger
+ENS (RD 311/2022),mp.eq.1,PR.AT,Proteger
+ENS (RD 311/2022),mp.eq.1,PR.DS,Proteger
+ENS (RD 311/2022),mp.eq.2,PR.PS,Proteger
+ENS (RD 311/2022),mp.eq.3,PR.DS,Proteger
+ENS (RD 311/2022),mp.eq.3,PR.PS,Proteger
+ENS (RD 311/2022),mp.eq.4,ID.AM,Identificar
+ENS (RD 311/2022),mp.eq.4,PR.PS,Proteger
+ENS (RD 311/2022),mp.if.1,PR.AA,Proteger
+ENS (RD 311/2022),mp.if.1,PR.IR,Proteger
+ENS (RD 311/2022),mp.if.2,PR.AA,Proteger
+ENS (RD 311/2022),mp.if.3,PR.IR,Proteger
+ENS (RD 311/2022),mp.if.4,PR.IR,Proteger
+ENS (RD 311/2022),mp.if.5,PR.IR,Proteger
+ENS (RD 311/2022),mp.if.6,PR.IR,Proteger
+ENS (RD 311/2022),mp.if.7,ID.AM,Identificar
+ENS (RD 311/2022),mp.if.7,PR.AA,Proteger
+ENS (RD 311/2022),mp.info.1,GV.OC,Gobernar
+ENS (RD 311/2022),mp.info.1,GV.PO,Gobernar
+ENS (RD 311/2022),mp.info.2,ID.AM,Identificar
+ENS (RD 311/2022),mp.info.3,PR.DS,Proteger
+ENS (RD 311/2022),mp.info.4,PR.DS,Proteger
+ENS (RD 311/2022),mp.info.5,PR.DS,Proteger
+ENS (RD 311/2022),mp.info.6,PR.DS,Proteger
+ENS (RD 311/2022),mp.per.1,GV.RR,Gobernar
+ENS (RD 311/2022),mp.per.2,GV.RR,Gobernar
+ENS (RD 311/2022),mp.per.2,PR.AT,Proteger
+ENS (RD 311/2022),mp.per.3,PR.AT,Proteger
+ENS (RD 311/2022),mp.per.4,PR.AT,Proteger
+ENS (RD 311/2022),mp.s.1,DE.CM,Detectar
+ENS (RD 311/2022),mp.s.1,PR.PS,Proteger
+ENS (RD 311/2022),mp.s.2,PR.PS,Proteger
+ENS (RD 311/2022),mp.s.3,DE.CM,Detectar
+ENS (RD 311/2022),mp.s.3,PR.PS,Proteger
+ENS (RD 311/2022),mp.s.4,PR.IR,Proteger
+ENS (RD 311/2022),mp.s.4,RS.MI,Responder
+ENS (RD 311/2022),mp.si.1,ID.AM,Identificar
+ENS (RD 311/2022),mp.si.1,PR.DS,Proteger
+ENS (RD 311/2022),mp.si.2,PR.DS,Proteger
+ENS (RD 311/2022),mp.si.3,PR.DS,Proteger
+ENS (RD 311/2022),mp.si.4,PR.DS,Proteger
+ENS (RD 311/2022),mp.si.5,ID.AM,Identificar
+ENS (RD 311/2022),mp.si.5,PR.DS,Proteger
+ENS (RD 311/2022),mp.sw.1,PR.PS,Proteger
+ENS (RD 311/2022),mp.sw.2,PR.PS,Proteger
+ENS (RD 311/2022),op.acc.1,PR.AA,Proteger
+ENS (RD 311/2022),op.acc.2,PR.AA,Proteger
+ENS (RD 311/2022),op.acc.3,GV.RR,Gobernar
+ENS (RD 311/2022),op.acc.3,PR.AA,Proteger
+ENS (RD 311/2022),op.acc.4,PR.AA,Proteger
+ENS (RD 311/2022),op.acc.5,PR.AA,Proteger
+ENS (RD 311/2022),op.acc.6,PR.AA,Proteger
+ENS (RD 311/2022),op.cont.1,GV.OC,Gobernar
+ENS (RD 311/2022),op.cont.1,ID.RA,Identificar
+ENS (RD 311/2022),op.cont.2,PR.IR,Proteger
+ENS (RD 311/2022),op.cont.2,RC.RP,Recuperar
+ENS (RD 311/2022),op.cont.3,ID.IM,Identificar
+ENS (RD 311/2022),op.cont.3,RC.RP,Recuperar
+ENS (RD 311/2022),op.cont.4,PR.IR,Proteger
+ENS (RD 311/2022),op.exp.1,ID.AM,Identificar
+ENS (RD 311/2022),op.exp.10,PR.DS,Proteger
+ENS (RD 311/2022),op.exp.2,PR.PS,Proteger
+ENS (RD 311/2022),op.exp.3,PR.PS,Proteger
+ENS (RD 311/2022),op.exp.4,ID.RA,Identificar
+ENS (RD 311/2022),op.exp.4,PR.PS,Proteger
+ENS (RD 311/2022),op.exp.5,PR.PS,Proteger
+ENS (RD 311/2022),op.exp.6,DE.CM,Detectar
+ENS (RD 311/2022),op.exp.6,PR.PS,Proteger
+ENS (RD 311/2022),op.exp.7,GV.PO,Gobernar
+ENS (RD 311/2022),op.exp.7,RS.AN,Responder
+ENS (RD 311/2022),op.exp.7,RS.CO,Responder
+ENS (RD 311/2022),op.exp.7,RS.MA,Responder
+ENS (RD 311/2022),op.exp.8,DE.CM,Detectar
+ENS (RD 311/2022),op.exp.8,PR.PS,Proteger
+ENS (RD 311/2022),op.exp.9,RS.AN,Responder
+ENS (RD 311/2022),op.exp.9,RS.MA,Responder
+ENS (RD 311/2022),op.ext.1,GV.SC,Gobernar
+ENS (RD 311/2022),op.ext.2,GV.SC,Gobernar
+ENS (RD 311/2022),op.ext.3,GV.SC,Gobernar
+ENS (RD 311/2022),op.ext.4,GV.SC,Gobernar
+ENS (RD 311/2022),op.ext.4,PR.IR,Proteger
+ENS (RD 311/2022),op.mon.1,DE.CM,Detectar
+ENS (RD 311/2022),op.mon.2,GV.OV,Gobernar
+ENS (RD 311/2022),op.mon.2,ID.IM,Identificar
+ENS (RD 311/2022),op.mon.3,DE.AE,Detectar
+ENS (RD 311/2022),op.mon.3,DE.CM,Detectar
+ENS (RD 311/2022),op.nub.1,GV.SC,Gobernar
+ENS (RD 311/2022),op.nub.1,PR.IR,Proteger
+ENS (RD 311/2022),op.pl.1,GV.RM,Gobernar
+ENS (RD 311/2022),op.pl.1,ID.RA,Identificar
+ENS (RD 311/2022),op.pl.2,ID.AM,Identificar
+ENS (RD 311/2022),op.pl.2,PR.IR,Proteger
+ENS (RD 311/2022),op.pl.3,GV.SC,Gobernar
+ENS (RD 311/2022),op.pl.3,ID.RA,Identificar
+ENS (RD 311/2022),op.pl.4,PR.IR,Proteger
+ENS (RD 311/2022),op.pl.5,GV.SC,Gobernar
+ENS (RD 311/2022),op.pl.5,PR.PS,Proteger
+ENS (RD 311/2022),org.1,GV.PO,Gobernar
+ENS (RD 311/2022),org.2,GV.PO,Gobernar
+ENS (RD 311/2022),org.3,GV.PO,Gobernar
+ENS (RD 311/2022),org.3,PR.PS,Proteger
+ENS (RD 311/2022),org.4,GV.RR,Gobernar
+ENS (RD 311/2022),org.4,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),5.1,GV.OV,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.1,GV.PO,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.1,GV.RM,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.1,GV.SC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.1,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),5.1,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),5.10,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),5.12,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.13,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.13,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),5.14,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.14,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),5.14,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),5.15,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),5.15,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),5.16,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),5.17,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),5.18,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),5.19,GV.OV,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.19,GV.RM,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.19,GV.SC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.19,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.19,ID.IM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.19,ID.RA,Identificar
+ISO/IEC 27001:2022 (anexo A),5.2,GV.SC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.2,PR.AT,Proteger
+ISO/IEC 27001:2022 (anexo A),5.20,GV.OC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.20,GV.OV,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.20,GV.SC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.20,ID.RA,Identificar
+ISO/IEC 27001:2022 (anexo A),5.21,GV.SC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.22,DE.CM,Detectar
+ISO/IEC 27001:2022 (anexo A),5.22,GV.SC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.22,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.22,ID.RA,Identificar
+ISO/IEC 27001:2022 (anexo A),5.24,DE.AE,Detectar
+ISO/IEC 27001:2022 (anexo A),5.24,ID.IM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.24,RS.MA,Responder
+ISO/IEC 27001:2022 (anexo A),5.25,DE.AE,Detectar
+ISO/IEC 27001:2022 (anexo A),5.25,RS.AN,Responder
+ISO/IEC 27001:2022 (anexo A),5.25,RS.MA,Responder
+ISO/IEC 27001:2022 (anexo A),5.26,DE.AE,Detectar
+ISO/IEC 27001:2022 (anexo A),5.26,GV.SC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.26,ID.IM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.26,RC.RP,Recuperar
+ISO/IEC 27001:2022 (anexo A),5.26,RS.CO,Responder
+ISO/IEC 27001:2022 (anexo A),5.26,RS.MA,Responder
+ISO/IEC 27001:2022 (anexo A),5.26,RS.MI,Responder
+ISO/IEC 27001:2022 (anexo A),5.27,ID.IM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.27,RC.RP,Recuperar
+ISO/IEC 27001:2022 (anexo A),5.27,RS.AN,Responder
+ISO/IEC 27001:2022 (anexo A),5.27,RS.MA,Responder
+ISO/IEC 27001:2022 (anexo A),5.28,RC.CO,Recuperar
+ISO/IEC 27001:2022 (anexo A),5.28,RS.AN,Responder
+ISO/IEC 27001:2022 (anexo A),5.28,RS.MA,Responder
+ISO/IEC 27001:2022 (anexo A),5.29,PR.IR,Proteger
+ISO/IEC 27001:2022 (anexo A),5.3,GV.OC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.3,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),5.3,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),5.31,GV.OC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.31,GV.SC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.35,ID.IM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.4,GV.RR,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.4,GV.SC,Gobernar
+ISO/IEC 27001:2022 (anexo A),5.7,DE.AE,Detectar
+ISO/IEC 27001:2022 (anexo A),5.7,ID.RA,Identificar
+ISO/IEC 27001:2022 (anexo A),5.8,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.9,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),5.9,PR.PS,Proteger
+ISO/IEC 27001:2022 (anexo A),6.1,GV.RR,Gobernar
+ISO/IEC 27001:2022 (anexo A),6.1,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),6.2,GV.RR,Gobernar
+ISO/IEC 27001:2022 (anexo A),6.2,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),6.3,GV.RR,Gobernar
+ISO/IEC 27001:2022 (anexo A),6.3,PR.AT,Proteger
+ISO/IEC 27001:2022 (anexo A),6.4,GV.RR,Gobernar
+ISO/IEC 27001:2022 (anexo A),6.5,GV.RR,Gobernar
+ISO/IEC 27001:2022 (anexo A),6.5,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),6.6,GV.RR,Gobernar
+ISO/IEC 27001:2022 (anexo A),6.7,GV.RR,Gobernar
+ISO/IEC 27001:2022 (anexo A),6.8,GV.RR,Gobernar
+ISO/IEC 27001:2022 (anexo A),6.8,RS.MA,Responder
+ISO/IEC 27001:2022 (anexo A),7.1,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),7.10,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),7.10,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),7.12,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),7.13,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),7.14,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),7.2,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),7.3,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),7.4,DE.CM,Detectar
+ISO/IEC 27001:2022 (anexo A),7.4,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),7.5,PR.IR,Proteger
+ISO/IEC 27001:2022 (anexo A),7.7,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.13,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.13,RC.RP,Recuperar
+ISO/IEC 27001:2022 (anexo A),8.14,PR.IR,Proteger
+ISO/IEC 27001:2022 (anexo A),8.15,DE.AE,Detectar
+ISO/IEC 27001:2022 (anexo A),8.15,PR.PS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.16,DE.AE,Detectar
+ISO/IEC 27001:2022 (anexo A),8.16,DE.CM,Detectar
+ISO/IEC 27001:2022 (anexo A),8.16,ID.RA,Identificar
+ISO/IEC 27001:2022 (anexo A),8.17,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.17,PR.PS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.18,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),8.19,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.19,PR.PS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.2,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),8.2,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.20,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),8.20,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.20,PR.IR,Proteger
+ISO/IEC 27001:2022 (anexo A),8.21,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),8.21,PR.IR,Proteger
+ISO/IEC 27001:2022 (anexo A),8.22,ID.AM,Identificar
+ISO/IEC 27001:2022 (anexo A),8.22,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.22,PR.IR,Proteger
+ISO/IEC 27001:2022 (anexo A),8.25,PR.PS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.26,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.28,PR.PS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.3,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),8.3,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.32,ID.RA,Identificar
+ISO/IEC 27001:2022 (anexo A),8.4,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.5,PR.AA,Proteger
+ISO/IEC 27001:2022 (anexo A),8.6,PR.IR,Proteger
+ISO/IEC 27001:2022 (anexo A),8.7,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.8,ID.RA,Identificar
+ISO/IEC 27001:2022 (anexo A),8.8,PR.DS,Proteger
+ISO/IEC 27001:2022 (anexo A),8.9,PR.PS,Proteger
+NIS2,art. 21.2.a,GV.PO,Gobernar
+NIS2,art. 21.2.a,ID.RA,Identificar
+NIS2,art. 21.2.b,RS.AN,Responder
+NIS2,art. 21.2.b,RS.CO,Responder
+NIS2,art. 21.2.b,RS.MA,Responder
+NIS2,art. 21.2.c,PR.DS,Proteger
+NIS2,art. 21.2.c,RC.CO,Recuperar
+NIS2,art. 21.2.c,RC.RP,Recuperar
+NIS2,art. 21.2.d,GV.SC,Gobernar
+NIS2,art. 21.2.e,ID.RA,Identificar
+NIS2,art. 21.2.e,PR.PS,Proteger
+NIS2,art. 21.2.f,GV.OV,Gobernar
+NIS2,art. 21.2.f,ID.IM,Identificar
+NIS2,art. 21.2.g,PR.AT,Proteger
+NIS2,art. 21.2.h,PR.DS,Proteger
+NIS2,art. 21.2.i,GV.RR,Gobernar
+NIS2,art. 21.2.i,ID.AM,Identificar
+NIS2,art. 21.2.i,PR.AA,Proteger
+NIS2,art. 21.2.j,PR.AA,Proteger
+NIS2,art. 21.2.j,PR.DS,Proteger
+NIST CSF 2.0,DE.AE-02,DE.AE,Detectar
+NIST CSF 2.0,DE.AE-03,DE.AE,Detectar
+NIST CSF 2.0,DE.AE-04,DE.AE,Detectar
+NIST CSF 2.0,DE.AE-06,DE.AE,Detectar
+NIST CSF 2.0,DE.AE-07,DE.AE,Detectar
+NIST CSF 2.0,DE.AE-08,DE.AE,Detectar
+NIST CSF 2.0,DE.CM-01,DE.CM,Detectar
+NIST CSF 2.0,DE.CM-02,DE.CM,Detectar
+NIST CSF 2.0,DE.CM-03,DE.CM,Detectar
+NIST CSF 2.0,DE.CM-06,DE.CM,Detectar
+NIST CSF 2.0,DE.CM-09,DE.CM,Detectar
+NIST CSF 2.0,GV.OC-01,GV.OC,Gobernar
+NIST CSF 2.0,GV.OC-02,GV.OC,Gobernar
+NIST CSF 2.0,GV.OC-03,GV.OC,Gobernar
+NIST CSF 2.0,GV.OC-04,GV.OC,Gobernar
+NIST CSF 2.0,GV.OC-05,GV.OC,Gobernar
+NIST CSF 2.0,GV.OV-01,GV.OV,Gobernar
+NIST CSF 2.0,GV.OV-02,GV.OV,Gobernar
+NIST CSF 2.0,GV.OV-03,GV.OV,Gobernar
+NIST CSF 2.0,GV.PO-01,GV.PO,Gobernar
+NIST CSF 2.0,GV.PO-02,GV.PO,Gobernar
+NIST CSF 2.0,GV.RM-01,GV.RM,Gobernar
+NIST CSF 2.0,GV.RM-02,GV.RM,Gobernar
+NIST CSF 2.0,GV.RM-03,GV.RM,Gobernar
+NIST CSF 2.0,GV.RM-04,GV.RM,Gobernar
+NIST CSF 2.0,GV.RM-05,GV.RM,Gobernar
+NIST CSF 2.0,GV.RM-06,GV.RM,Gobernar
+NIST CSF 2.0,GV.RM-07,GV.RM,Gobernar
+NIST CSF 2.0,GV.RR-01,GV.RR,Gobernar
+NIST CSF 2.0,GV.RR-02,GV.RR,Gobernar
+NIST CSF 2.0,GV.RR-03,GV.RR,Gobernar
+NIST CSF 2.0,GV.RR-04,GV.RR,Gobernar
+NIST CSF 2.0,GV.SC-01,GV.SC,Gobernar
+NIST CSF 2.0,GV.SC-02,GV.SC,Gobernar
+NIST CSF 2.0,GV.SC-03,GV.SC,Gobernar
+NIST CSF 2.0,GV.SC-04,GV.SC,Gobernar
+NIST CSF 2.0,GV.SC-05,GV.SC,Gobernar
+NIST CSF 2.0,GV.SC-06,GV.SC,Gobernar
+NIST CSF 2.0,GV.SC-07,GV.SC,Gobernar
+NIST CSF 2.0,GV.SC-08,GV.SC,Gobernar
+NIST CSF 2.0,GV.SC-09,GV.SC,Gobernar
+NIST CSF 2.0,GV.SC-10,GV.SC,Gobernar
+NIST CSF 2.0,ID.AM-01,ID.AM,Identificar
+NIST CSF 2.0,ID.AM-02,ID.AM,Identificar
+NIST CSF 2.0,ID.AM-03,ID.AM,Identificar
+NIST CSF 2.0,ID.AM-04,ID.AM,Identificar
+NIST CSF 2.0,ID.AM-05,ID.AM,Identificar
+NIST CSF 2.0,ID.AM-07,ID.AM,Identificar
+NIST CSF 2.0,ID.AM-08,ID.AM,Identificar
+NIST CSF 2.0,ID.IM-01,ID.IM,Identificar
+NIST CSF 2.0,ID.IM-02,ID.IM,Identificar
+NIST CSF 2.0,ID.IM-03,ID.IM,Identificar
+NIST CSF 2.0,ID.IM-04,ID.IM,Identificar
+NIST CSF 2.0,ID.RA-01,ID.RA,Identificar
+NIST CSF 2.0,ID.RA-02,ID.RA,Identificar
+NIST CSF 2.0,ID.RA-03,ID.RA,Identificar
+NIST CSF 2.0,ID.RA-04,ID.RA,Identificar
+NIST CSF 2.0,ID.RA-05,ID.RA,Identificar
+NIST CSF 2.0,ID.RA-06,ID.RA,Identificar
+NIST CSF 2.0,ID.RA-07,ID.RA,Identificar
+NIST CSF 2.0,ID.RA-08,ID.RA,Identificar
+NIST CSF 2.0,ID.RA-09,ID.RA,Identificar
+NIST CSF 2.0,ID.RA-10,ID.RA,Identificar
+NIST CSF 2.0,PR.AA-01,PR.AA,Proteger
+NIST CSF 2.0,PR.AA-02,PR.AA,Proteger
+NIST CSF 2.0,PR.AA-03,PR.AA,Proteger
+NIST CSF 2.0,PR.AA-04,PR.AA,Proteger
+NIST CSF 2.0,PR.AA-05,PR.AA,Proteger
+NIST CSF 2.0,PR.AA-06,PR.AA,Proteger
+NIST CSF 2.0,PR.AT-01,PR.AT,Proteger
+NIST CSF 2.0,PR.AT-02,PR.AT,Proteger
+NIST CSF 2.0,PR.DS-01,PR.DS,Proteger
+NIST CSF 2.0,PR.DS-02,PR.DS,Proteger
+NIST CSF 2.0,PR.DS-10,PR.DS,Proteger
+NIST CSF 2.0,PR.DS-11,PR.DS,Proteger
+NIST CSF 2.0,PR.IR-01,PR.IR,Proteger
+NIST CSF 2.0,PR.IR-02,PR.IR,Proteger
+NIST CSF 2.0,PR.IR-03,PR.IR,Proteger
+NIST CSF 2.0,PR.IR-04,PR.IR,Proteger
+NIST CSF 2.0,PR.PS-01,PR.PS,Proteger
+NIST CSF 2.0,PR.PS-02,PR.PS,Proteger
+NIST CSF 2.0,PR.PS-03,PR.PS,Proteger
+NIST CSF 2.0,PR.PS-04,PR.PS,Proteger
+NIST CSF 2.0,PR.PS-05,PR.PS,Proteger
+NIST CSF 2.0,PR.PS-06,PR.PS,Proteger
+NIST CSF 2.0,RC.CO-03,RC.CO,Recuperar
+NIST CSF 2.0,RC.CO-04,RC.CO,Recuperar
+NIST CSF 2.0,RC.RP-01,RC.RP,Recuperar
+NIST CSF 2.0,RC.RP-02,RC.RP,Recuperar
+NIST CSF 2.0,RC.RP-03,RC.RP,Recuperar
+NIST CSF 2.0,RC.RP-04,RC.RP,Recuperar
+NIST CSF 2.0,RC.RP-05,RC.RP,Recuperar
+NIST CSF 2.0,RC.RP-06,RC.RP,Recuperar
+NIST CSF 2.0,RS.AN-03,RS.AN,Responder
+NIST CSF 2.0,RS.AN-06,RS.AN,Responder
+NIST CSF 2.0,RS.AN-07,RS.AN,Responder
+NIST CSF 2.0,RS.AN-08,RS.AN,Responder
+NIST CSF 2.0,RS.CO-02,RS.CO,Responder
+NIST CSF 2.0,RS.CO-03,RS.CO,Responder
+NIST CSF 2.0,RS.MA-01,RS.MA,Responder
+NIST CSF 2.0,RS.MA-02,RS.MA,Responder
+NIST CSF 2.0,RS.MA-03,RS.MA,Responder
+NIST CSF 2.0,RS.MA-04,RS.MA,Responder
+NIST CSF 2.0,RS.MA-05,RS.MA,Responder
+NIST CSF 2.0,RS.MI-01,RS.MI,Responder
+NIST CSF 2.0,RS.MI-02,RS.MI,Responder
+NIST SP 800-53 Rev. 5,AC-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,AC-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,AC-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,AC-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,AC-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,AC-01,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-02,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,AC-02,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-02,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,AC-03,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-03,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,AC-03,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,AC-04,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,AC-04,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,AC-04,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,AC-04,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,AC-05,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-06,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-07,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-09,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,AC-10,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-12,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-14,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-16,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-17,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-18,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-19,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AC-20,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,AC-24,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,AT-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,AT-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,AT-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,AT-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,AT-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,AT-02,PR.AT,Proteger
+NIST SP 800-53 Rev. 5,AT-03,PR.AT,Proteger
+NIST SP 800-53 Rev. 5,AU-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,AU-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,AU-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,AU-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,AU-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,AU-02,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,AU-03,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,AU-06,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,AU-06,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,AU-07,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,AU-07,RS.AN,Responder
+NIST SP 800-53 Rev. 5,AU-09,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,AU-11,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,AU-12,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,AU-12,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,AU-13,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,AU-13,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,AU-16,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,CA-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,CA-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,CA-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,CA-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,CA-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,CA-02,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,CA-02,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,CA-03,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,CA-03,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,CA-05,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,CA-07,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,CA-07,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,CA-07,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,CA-07,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,CA-08,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,CA-08,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,CA-09,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,CM-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,CM-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,CM-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,CM-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,CM-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,CM-01,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-02,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-03,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,CM-03,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,CM-03,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-04,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,CM-04,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-05,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-06,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,CM-06,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-07,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-07(02),PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-07(04),PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-07(05),PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-07(09),PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-08,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,CM-08,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-09,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,CM-09,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-10,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,CM-10,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-11,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,CM-11,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,CM-12,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,CM-13,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,CP,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,CP-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,CP-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,CP-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,CP-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,CP-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,CP-02,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,CP-02,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,CP-02,RC.CO,Recuperar
+NIST SP 800-53 Rev. 5,CP-02,RC.RP,Recuperar
+NIST SP 800-53 Rev. 5,CP-02(08),GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,CP-04,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,CP-04,RC.RP,Recuperar
+NIST SP 800-53 Rev. 5,CP-06,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,CP-06,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,CP-07,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,CP-08,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,CP-09,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,CP-09,RC.RP,Recuperar
+NIST SP 800-53 Rev. 5,CP-10,RC.RP,Recuperar
+NIST SP 800-53 Rev. 5,IA-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,IA-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,IA-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,IA-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,IA-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,IA-01,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-02,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-03,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-04,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-05,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-06,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-07,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-08,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-09,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-10,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-11,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-12,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IA-13,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,IR,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,IR-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,IR-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,IR-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,IR-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,IR-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,IR-01,RC.RP,Recuperar
+NIST SP 800-53 Rev. 5,IR-03,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,IR-04,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,IR-04,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,IR-04,RC.CO,Recuperar
+NIST SP 800-53 Rev. 5,IR-04,RC.RP,Recuperar
+NIST SP 800-53 Rev. 5,IR-04,RS.AN,Responder
+NIST SP 800-53 Rev. 5,IR-04,RS.CO,Responder
+NIST SP 800-53 Rev. 5,IR-04,RS.MA,Responder
+NIST SP 800-53 Rev. 5,IR-04,RS.MI,Responder
+NIST SP 800-53 Rev. 5,IR-05,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,IR-05,RS.MA,Responder
+NIST SP 800-53 Rev. 5,IR-06,RC.CO,Recuperar
+NIST SP 800-53 Rev. 5,IR-06,RS.AN,Responder
+NIST SP 800-53 Rev. 5,IR-06,RS.CO,Responder
+NIST SP 800-53 Rev. 5,IR-06,RS.MA,Responder
+NIST SP 800-53 Rev. 5,IR-07,RS.CO,Responder
+NIST SP 800-53 Rev. 5,IR-07,RS.MA,Responder
+NIST SP 800-53 Rev. 5,IR-08,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,IR-08,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,IR-08,RC.RP,Recuperar
+NIST SP 800-53 Rev. 5,IR-08,RS.AN,Responder
+NIST SP 800-53 Rev. 5,IR-08,RS.MA,Responder
+NIST SP 800-53 Rev. 5,MA-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,MA-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,MA-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,MA-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,MA-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,MA-02,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,MA-03(06),PR.PS,Proteger
+NIST SP 800-53 Rev. 5,MA-06,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,MP-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,MP-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,MP-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,MP-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,MP-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,MP-08,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,PE-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PE-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PE-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,PE-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,PE-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,PE-02,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,PE-03,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,PE-03,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,PE-04,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,PE-05,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,PE-06,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,PE-06,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,PE-08,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,PE-09,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,PE-10,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,PE-11,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,PE-12,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,PE-13,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,PE-14,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,PE-15,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,PE-18,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,PE-18,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,PE-19,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,PE-20,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,PE-20,PR.AA,Proteger
+NIST SP 800-53 Rev. 5,PE-23,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,PL-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PL-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PL-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,PL-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,PL-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,PL-02,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,PL-02,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,PL-08,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,PM-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PM-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PM-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,PM-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,PM-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,PM-02,GV.RR,Gobernar
+NIST SP 800-53 Rev. 5,PM-03,GV.RM,Gobernar
+NIST SP 800-53 Rev. 5,PM-03,GV.RR,Gobernar
+NIST SP 800-53 Rev. 5,PM-03,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,PM-04,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PM-04,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,PM-05,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,PM-06,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PM-07,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,PM-08,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PM-08,RC.RP,Recuperar
+NIST SP 800-53 Rev. 5,PM-09,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,PM-09,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PM-09,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PM-09,GV.RM,Gobernar
+NIST SP 800-53 Rev. 5,PM-09,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,PM-09,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,PM-09,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,PM-09,RC.RP,Recuperar
+NIST SP 800-53 Rev. 5,PM-11,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,PM-11,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PM-11,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,PM-11,RC.RP,Recuperar
+NIST SP 800-53 Rev. 5,PM-12,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,PM-13,GV.RR,Gobernar
+NIST SP 800-53 Rev. 5,PM-15,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,PM-15,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,PM-16,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,PM-16,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,PM-18,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,PM-18,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PM-18,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PM-18,GV.RM,Gobernar
+NIST SP 800-53 Rev. 5,PM-18,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,PM-18,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,PM-19,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PM-19,GV.RR,Gobernar
+NIST SP 800-53 Rev. 5,PM-19,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,PM-22,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,PM-23,GV.RR,Gobernar
+NIST SP 800-53 Rev. 5,PM-23,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,PM-24,GV.RR,Gobernar
+NIST SP 800-53 Rev. 5,PM-28,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,PM-28,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PM-28,GV.RM,Gobernar
+NIST SP 800-53 Rev. 5,PM-28,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,PM-29,GV.RR,Gobernar
+NIST SP 800-53 Rev. 5,PM-30,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,PM-30,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PM-30,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PM-30,GV.RM,Gobernar
+NIST SP 800-53 Rev. 5,PM-30,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,PM-30,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,PM-30(01),GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PM-31,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PM-31,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,PM-31,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,PS-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PS-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PS-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,PS-01,GV.RR,Gobernar
+NIST SP 800-53 Rev. 5,PS-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,PS-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,PS-07,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,PS-07,GV.RR,Gobernar
+NIST SP 800-53 Rev. 5,PS-09,GV.RR,Gobernar
+NIST SP 800-53 Rev. 5,PT,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PT-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,PT-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,PT-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,PT-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,PT-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,RA-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,RA-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,RA-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,RA-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,RA-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,RA-02,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,RA-02,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,RA-03,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,RA-03,GV.RM,Gobernar
+NIST SP 800-53 Rev. 5,RA-03,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,RA-03,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,RA-03,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,RA-03,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,RA-03,RS.AN,Responder
+NIST SP 800-53 Rev. 5,RA-04,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,RA-05,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,RA-05,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,RA-05,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,RA-07,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,RA-07,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,RA-07,GV.RM,Gobernar
+NIST SP 800-53 Rev. 5,RA-07,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,RA-07,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,RA-07,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,RA-07,RS.AN,Responder
+NIST SP 800-53 Rev. 5,RA-08,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,RA-09,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,RA-09,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,RA-09,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,RA-09,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,RA-10,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,SA-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,SA-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,SA-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,SA-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SA-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SA-03,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,SA-03,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SA-04,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,SA-04,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SA-04,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,SA-04,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SA-04,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SA-05,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,SA-05,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SA-08,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,SA-08,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SA-08,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SA-08,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,SA-08,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SA-09,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,SA-09,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,SA-09,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SA-09,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,SA-10,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SA-10,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SA-10(01),PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SA-10(03),PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SA-11,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SA-11,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SA-11,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SA-11(02),ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SA-15,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SA-15,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SA-15(07),ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SA-15(08),ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SA-15(13),PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SA-17,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SA-17,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SA-17(06),ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SA-22,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,SA-24,GV.RM,Gobernar
+NIST SP 800-53 Rev. 5,SA-24,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,SA-24,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SC-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,SC-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,SC-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,SC-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SC-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SC-03(01),PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SC-04,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-04,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,SC-05,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,SC-05,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,SC-06,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,SC-07,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,SC-07,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-07,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,SC-08,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-11,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-12,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-13,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-16,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-24,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-24,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,SC-28,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-32,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-34,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,SC-34,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SC-35,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,SC-36,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,SC-39,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-39,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,SC-39(01),PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SC-40,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-43,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SC-49,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SC-51,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SI-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,SI-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,SI-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,SI-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SI-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SI-02,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SI-02,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SI-02(07),RS.AN,Responder
+NIST SP 800-53 Rev. 5,SI-03,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SI-04,DE.AE,Detectar
+NIST SP 800-53 Rev. 5,SI-04,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,SI-04,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SI-04,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SI-04,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SI-05,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SI-07,DE.CM,Detectar
+NIST SP 800-53 Rev. 5,SI-07,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SI-07,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SI-07,PR.PS,Proteger
+NIST SP 800-53 Rev. 5,SI-10,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SI-12,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,SI-13,PR.IR,Proteger
+NIST SP 800-53 Rev. 5,SI-16,PR.DS,Proteger
+NIST SP 800-53 Rev. 5,SI-18,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,SR-01,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,SR-01,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,SR-01,GV.PO,Gobernar
+NIST SP 800-53 Rev. 5,SR-01,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SR-01,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SR-02,GV.RM,Gobernar
+NIST SP 800-53 Rev. 5,SR-02,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SR-02,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,SR-02,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SR-03,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,SR-03,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SR-03,RS.CO,Responder
+NIST SP 800-53 Rev. 5,SR-03,RS.MA,Responder
+NIST SP 800-53 Rev. 5,SR-05,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,SR-05,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SR-05,ID.AM,Identificar
+NIST SP 800-53 Rev. 5,SR-05,ID.IM,Identificar
+NIST SP 800-53 Rev. 5,SR-05,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SR-06,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,SR-06,GV.OV,Gobernar
+NIST SP 800-53 Rev. 5,SR-06,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SR-06,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SR-08,GV.OC,Gobernar
+NIST SP 800-53 Rev. 5,SR-08,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SR-08,RC.CO,Recuperar
+NIST SP 800-53 Rev. 5,SR-08,RS.CO,Responder
+NIST SP 800-53 Rev. 5,SR-08,RS.MA,Responder
+NIST SP 800-53 Rev. 5,SR-10,GV.SC,Gobernar
+NIST SP 800-53 Rev. 5,SR-10,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SR-11,ID.RA,Identificar
+NIST SP 800-53 Rev. 5,SR-12,ID.AM,Identificar
+PCI DSS v4.0,1,DE.AE,Detectar
+PCI DSS v4.0,1,DE.CM,Detectar
+PCI DSS v4.0,1,GV.OC,Gobernar
+PCI DSS v4.0,1,GV.PO,Gobernar
+PCI DSS v4.0,1,GV.RR,Gobernar
+PCI DSS v4.0,1,GV.SC,Gobernar
+PCI DSS v4.0,1,ID.AM,Identificar
+PCI DSS v4.0,1,PR.IR,Proteger
+PCI DSS v4.0,1,RC.RP,Recuperar
+PCI DSS v4.0,1,RS.AN,Responder
+PCI DSS v4.0,10,DE.AE,Detectar
+PCI DSS v4.0,10,DE.CM,Detectar
+PCI DSS v4.0,10,GV.OV,Gobernar
+PCI DSS v4.0,10,GV.PO,Gobernar
+PCI DSS v4.0,10,GV.RM,Gobernar
+PCI DSS v4.0,10,GV.RR,Gobernar
+PCI DSS v4.0,10,ID.AM,Identificar
+PCI DSS v4.0,10,ID.IM,Identificar
+PCI DSS v4.0,10,ID.RA,Identificar
+PCI DSS v4.0,10,PR.IR,Proteger
+PCI DSS v4.0,10,PR.PS,Proteger
+PCI DSS v4.0,10,RC.RP,Recuperar
+PCI DSS v4.0,10,RS.AN,Responder
+PCI DSS v4.0,10,RS.MA,Responder
+PCI DSS v4.0,11,DE.CM,Detectar
+PCI DSS v4.0,11,GV.OV,Gobernar
+PCI DSS v4.0,11,GV.PO,Gobernar
+PCI DSS v4.0,11,GV.RM,Gobernar
+PCI DSS v4.0,11,GV.RR,Gobernar
+PCI DSS v4.0,11,GV.SC,Gobernar
+PCI DSS v4.0,11,ID.AM,Identificar
+PCI DSS v4.0,11,ID.IM,Identificar
+PCI DSS v4.0,11,ID.RA,Identificar
+PCI DSS v4.0,11,PR.IR,Proteger
+PCI DSS v4.0,11,PR.PS,Proteger
+PCI DSS v4.0,11,RC.RP,Recuperar
+PCI DSS v4.0,12,DE.AE,Detectar
+PCI DSS v4.0,12,DE.CM,Detectar
+PCI DSS v4.0,12,GV.OC,Gobernar
+PCI DSS v4.0,12,GV.OV,Gobernar
+PCI DSS v4.0,12,GV.PO,Gobernar
+PCI DSS v4.0,12,GV.RM,Gobernar
+PCI DSS v4.0,12,GV.RR,Gobernar
+PCI DSS v4.0,12,GV.SC,Gobernar
+PCI DSS v4.0,12,ID.AM,Identificar
+PCI DSS v4.0,12,ID.IM,Identificar
+PCI DSS v4.0,12,ID.RA,Identificar
+PCI DSS v4.0,12,PR.AA,Proteger
+PCI DSS v4.0,12,PR.AT,Proteger
+PCI DSS v4.0,12,PR.DS,Proteger
+PCI DSS v4.0,12,PR.IR,Proteger
+PCI DSS v4.0,12,PR.PS,Proteger
+PCI DSS v4.0,12,RC.CO,Recuperar
+PCI DSS v4.0,12,RC.RP,Recuperar
+PCI DSS v4.0,12,RS.AN,Responder
+PCI DSS v4.0,12,RS.CO,Responder
+PCI DSS v4.0,12,RS.MA,Responder
+PCI DSS v4.0,12,RS.MI,Responder
+PCI DSS v4.0,2,GV.PO,Gobernar
+PCI DSS v4.0,2,GV.RR,Gobernar
+PCI DSS v4.0,2,PR.AA,Proteger
+PCI DSS v4.0,2,PR.DS,Proteger
+PCI DSS v4.0,2,PR.PS,Proteger
+PCI DSS v4.0,2,RS.MI,Responder
+PCI DSS v4.0,3,GV.OC,Gobernar
+PCI DSS v4.0,3,GV.PO,Gobernar
+PCI DSS v4.0,3,GV.RR,Gobernar
+PCI DSS v4.0,3,GV.SC,Gobernar
+PCI DSS v4.0,3,ID.AM,Identificar
+PCI DSS v4.0,3,PR.AA,Proteger
+PCI DSS v4.0,3,PR.DS,Proteger
+PCI DSS v4.0,4,GV.PO,Gobernar
+PCI DSS v4.0,4,GV.RR,Gobernar
+PCI DSS v4.0,4,PR.AA,Proteger
+PCI DSS v4.0,4,PR.DS,Proteger
+PCI DSS v4.0,5,DE.CM,Detectar
+PCI DSS v4.0,5,GV.PO,Gobernar
+PCI DSS v4.0,5,GV.RM,Gobernar
+PCI DSS v4.0,5,GV.RR,Gobernar
+PCI DSS v4.0,5,PR.IR,Proteger
+PCI DSS v4.0,5,PR.PS,Proteger
+PCI DSS v4.0,5,RC.RP,Recuperar
+PCI DSS v4.0,5,RS.MI,Responder
+PCI DSS v4.0,6,DE.AE,Detectar
+PCI DSS v4.0,6,DE.CM,Detectar
+PCI DSS v4.0,6,GV.PO,Gobernar
+PCI DSS v4.0,6,GV.RM,Gobernar
+PCI DSS v4.0,6,GV.RR,Gobernar
+PCI DSS v4.0,6,GV.SC,Gobernar
+PCI DSS v4.0,6,ID.AM,Identificar
+PCI DSS v4.0,6,ID.IM,Identificar
+PCI DSS v4.0,6,ID.RA,Identificar
+PCI DSS v4.0,6,PR.AT,Proteger
+PCI DSS v4.0,6,PR.PS,Proteger
+PCI DSS v4.0,6,RC.RP,Recuperar
+PCI DSS v4.0,6,RS.AN,Responder
+PCI DSS v4.0,6,RS.MI,Responder
+PCI DSS v4.0,7,DE.CM,Detectar
+PCI DSS v4.0,7,GV.OV,Gobernar
+PCI DSS v4.0,7,GV.PO,Gobernar
+PCI DSS v4.0,7,GV.RM,Gobernar
+PCI DSS v4.0,7,GV.RR,Gobernar
+PCI DSS v4.0,7,PR.AA,Proteger
+PCI DSS v4.0,7,PR.DS,Proteger
+PCI DSS v4.0,8,DE.CM,Detectar
+PCI DSS v4.0,8,GV.PO,Gobernar
+PCI DSS v4.0,8,GV.RM,Gobernar
+PCI DSS v4.0,8,GV.RR,Gobernar
+PCI DSS v4.0,8,GV.SC,Gobernar
+PCI DSS v4.0,8,ID.RA,Identificar
+PCI DSS v4.0,8,PR.AA,Proteger
+PCI DSS v4.0,8,PR.DS,Proteger
+PCI DSS v4.0,9,DE.CM,Detectar
+PCI DSS v4.0,9,GV.OC,Gobernar
+PCI DSS v4.0,9,GV.PO,Gobernar
+PCI DSS v4.0,9,GV.RM,Gobernar
+PCI DSS v4.0,9,GV.RR,Gobernar
+PCI DSS v4.0,9,GV.SC,Gobernar
+PCI DSS v4.0,9,ID.AM,Identificar
+PCI DSS v4.0,9,ID.RA,Identificar
+PCI DSS v4.0,9,PR.AA,Proteger
+PCI DSS v4.0,9,PR.DS,Proteger
+PCI DSS v4.0,9,PR.IR,Proteger
+PCI DSS v4.0,9,PR.PS,Proteger
+PCI DSS v4.0,9,RC.RP,Recuperar

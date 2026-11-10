@@ -1,0 +1,23 @@
+id,laboratorio,activo,tipo_magerit,D,I,C,A,T
+P1,pam-minimo,bóveda de secretos (OpenBao),[S] servicio,7,9,9,9,8
+P2,pam-minimo,claves y secretos (token raíz; clave de desprecinto; CA SSH; contraseñas),[K] claves,7,9,10,9,7
+P3,pam-minimo,bastión (Warpgate) con segundo factor y grabación,[S] servicio,6,8,8,9,9
+P4,pam-minimo,servidor SSH objetivo,[HW] equipo,5,7,6,8,7
+P5,pam-minimo,PostgreSQL con la tabla 28193 del INE (dato público),[D] datos,4,5,1,5,6
+P6,pam-minimo,diarios (auditoría de la bóveda; sshd; grabaciones; sesiones),[D] registros,4,9,6,8,9
+P7,pam-minimo,red interna de Docker,[COM] comunicaciones,6,6,6,6,5
+P8,pam-minimo,anfitrión Docker,[HW] equipo,7,7,7,7,6
+M1,datamart-wikipedia,zona cruda S3 (RustFS): los JSON de la API tal cual,[D] datos,6,8,1,6,6
+M2,datamart-wikipedia,zona preparada (Parquet por acceso y mes),[D] datos,4,7,1,5,5
+M3,datamart-wikipedia,PostgreSQL analítico (aterrizaje; preparado; marts),[S] servicio,5,8,1,6,6
+M4,datamart-wikipedia,Airflow (DAG; scheduler; metadatos),[S] servicio,5,7,5,7,7
+M5,datamart-wikipedia,proyecto dbt (modelos; tests; snapshot),[SW] software,4,8,2,7,6
+M6,datamart-wikipedia,registros de Airflow y dbt,[D] registros,3,7,4,6,8
+M7,datamart-wikipedia,secretos del laboratorio (contraseñas; claves S3; secreto JWT),[K] claves,5,8,9,8,6
+M8,datamart-wikipedia,caché de la API (JSON originales fuera del repositorio),[D] datos,6,8,1,5,6
+R1,rag-sintetico,índice vectorial en memoria (600 fragmentos con su lista de autorizados),[D] datos,5,8,2,6,7
+R2,rag-sintetico,aplicación de la demo (app.py y generar.py del Space),[SW] software,5,8,2,7,6
+R3,rag-sintetico,dependencias y entorno de ejecución del Space (SDK; qdrant-client; numpy; pandas),[SW] software,5,8,3,6,5
+R4,rag-sintetico,alojamiento de la demo (Space en hardware gratuito),[S] servicio externo,4,6,2,6,5
+R5,rag-sintetico,entradas del usuario de la demo (consulta y usuario elegidos de una lista),[D] datos,3,6,2,6,6
+R6,rag-sintetico,medición publicada (corpus.csv; consultas.csv; resumen.json),[D] datos,5,9,1,7,8

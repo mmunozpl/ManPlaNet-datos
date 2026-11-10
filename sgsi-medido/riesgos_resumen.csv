@@ -1,0 +1,5 @@
+laboratorio,riesgos,sobre_apetito,riesgo_promedio,residual_promedio,reduccion_pct,inherente_crítico,residual_crítico,inherente_alto,residual_alto,inherente_medio,residual_medio,inherente_bajo,residual_bajo
+pam-minimo,28,7,16.7,7.6,54.4,2,0,7,0,16,9,3,19
+datamart-wikipedia,19,1,15.7,7.0,55.2,0,0,3,0,15,5,1,14
+rag-sintetico,8,1,12.8,4.8,62.6,0,0,0,0,6,1,2,7
+total,55,9,15.8,7.0,55.6,2,0,10,0,37,15,6,40

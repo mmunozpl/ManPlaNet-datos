@@ -1,0 +1,23 @@
+categoria,categoria_nombre,marcos_que_la_cubren,marcos,faltan
+DE.AE,Adverse Event Analysis (DE.AE),4,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | DORA | PCI DSS v4.0,NIS2
+DE.CM,Continuous Monitoring (DE.CM),4,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | DORA | PCI DSS v4.0,NIS2
+GV.OC,Organizational Context (GV.OC),4,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | DORA | PCI DSS v4.0,NIS2
+GV.OV,Oversight (GV.OV),4,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | PCI DSS v4.0,DORA
+GV.PO,Policy (GV.PO),5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+GV.RM,Risk Management Strategy (GV.RM),4,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | DORA | PCI DSS v4.0,NIS2
+GV.RR,"Roles, Responsibilities, and Authorities (GV.RR)",5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+GV.SC,Cybersecurity Supply Chain Risk Management (GV.SC),4,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | PCI DSS v4.0,DORA
+ID.AM,Asset Management (ID.AM),5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+ID.IM,Improvement (ID.IM),5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+ID.RA,Risk Assessment (ID.RA),5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+PR.AA,"Identity Management, Authentication, and Access Control (PR.AA)",5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+PR.AT,Awareness and Training (PR.AT),5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+PR.DS,Data Security (PR.DS),5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+PR.IR,Technology Infrastructure Resilience (PR.IR),4,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | DORA | PCI DSS v4.0,NIS2
+PR.PS,Platform Security (PR.PS),5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+RC.CO,Incident Recovery Communication (RC.CO),4,ISO/IEC 27001:2022 (anexo A) | NIS2 | DORA | PCI DSS v4.0,ENS (RD 311/2022)
+RC.RP,Incident Recovery Plan Execution (RC.RP),5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+RS.AN,Incident Analysis (RS.AN),4,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | PCI DSS v4.0,DORA
+RS.CO,Incident Response Reporting and Communication (RS.CO),5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+RS.MA,Incident Management (RS.MA),5,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | NIS2 | DORA | PCI DSS v4.0,
+RS.MI,Incident Mitigation (RS.MI),4,ISO/IEC 27001:2022 (anexo A) | ENS (RD 311/2022) | DORA | PCI DSS v4.0,NIS2

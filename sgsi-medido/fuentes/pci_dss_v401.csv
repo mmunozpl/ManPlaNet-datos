@@ -1,0 +1,13 @@
+requisito,titulo_en,titulo_es,csf_categorias
+1,Install and maintain network security controls,Instalar y mantener controles de seguridad de red,PR.IR
+2,Apply secure configurations to all system components,Aplicar configuraciones seguras a todos los componentes del sistema,PR.PS
+3,Protect stored account data,Proteger los datos de cuenta almacenados,PR.DS
+4,"Protect cardholder data with strong cryptography during transmission over open, public networks","Proteger los datos del titular de la tarjeta con criptografía robusta durante su transmisión por redes abiertas y públicas",PR.DS
+5,Protect all systems and networks from malicious software,Proteger todos los sistemas y redes frente al software malicioso,PR.PS;DE.CM
+6,Develop and maintain secure systems and software,Desarrollar y mantener sistemas y software seguros,PR.PS;ID.RA
+7,Restrict access to system components and cardholder data by business need to know,Restringir el acceso a los componentes del sistema y a los datos del titular por necesidad de negocio,PR.AA
+8,Identify users and authenticate access to system components,Identificar a los usuarios y autenticar el acceso a los componentes del sistema,PR.AA
+9,Restrict physical access to cardholder data,Restringir el acceso físico a los datos del titular de la tarjeta,PR.AA;PR.IR
+10,Log and monitor all access to system components and cardholder data,Registrar y supervisar todo acceso a los componentes del sistema y a los datos del titular,PR.PS;DE.CM
+11,Test security of systems and networks regularly,Probar con regularidad la seguridad de los sistemas y las redes,ID.RA;ID.IM;DE.CM
+12,Support information security with organizational policies and programs,Sostener la seguridad de la información con políticas y programas de la organización,GV.PO;GV.RR;GV.SC;PR.AT;RS.MA

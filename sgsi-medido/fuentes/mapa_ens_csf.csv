@@ -1,0 +1,74 @@
+codigo,csf_categorias,lectura
+org.1,GV.PO,la política de seguridad es la política de la función Gobernar
+org.2,GV.PO,la normativa interna desarrolla la política
+org.3,GV.PO;PR.PS,los procedimientos operativos aplican la política en la plataforma
+org.4,GV.RR;PR.AA,la autorización de recursos y accesos es una decisión de roles y de acceso
+op.pl.1,ID.RA;GV.RM,el análisis de riesgos es la base de la gestión del riesgo
+op.pl.2,PR.IR;ID.AM,la arquitectura de seguridad documenta la infraestructura y sus defensas
+op.pl.3,GV.SC;ID.RA,los componentes nuevos se adquieren con criterios de seguridad y de cadena de suministro
+op.pl.4,PR.IR,el dimensionamiento es la capacidad de la infraestructura
+op.pl.5,GV.SC;PR.PS,los componentes certificados son una exigencia a los proveedores y a la plataforma
+op.acc.1,PR.AA,la identificación singular es la gestión de identidades
+op.acc.2,PR.AA,los requisitos de acceso son permisos por necesidad
+op.acc.3,PR.AA;GV.RR,la segregación de funciones es permisos y roles
+op.acc.4,PR.AA,la gestión de derechos de acceso es el ciclo de vida de los permisos
+op.acc.5,PR.AA,la autenticación de usuarios externos es la gestión de autenticadores
+op.acc.6,PR.AA,la autenticación de usuarios de la organización es la gestión de autenticadores
+op.exp.1,ID.AM,el inventario de activos es la gestión de activos
+op.exp.2,PR.PS,la configuración de seguridad es la gestión de la configuración de la plataforma
+op.exp.3,PR.PS,la gestión de la configuración mantiene la línea base
+op.exp.4,PR.PS;ID.RA,mantenimiento y actualizaciones: parches y vulnerabilidades
+op.exp.5,PR.PS,la gestión de cambios es control de la configuración
+op.exp.6,PR.PS;DE.CM,la protección frente a código dañino es prevención en la plataforma y vigilancia
+op.exp.7,RS.MA;RS.AN;RS.CO;GV.PO,la gestión de incidentes es la función Responder (y la notificación al CCN-CERT del refuerzo R1 es su comunicación) y su política
+op.exp.8,DE.CM;PR.PS,el registro de la actividad alimenta la vigilancia continua
+op.exp.9,RS.AN;RS.MA,el registro de la gestión de incidentes documenta la respuesta
+op.exp.10,PR.DS,la protección de claves criptográficas protege los datos en reposo y en tránsito
+op.ext.1,GV.SC,la contratación y los acuerdos de nivel de servicio son gestión de proveedores
+op.ext.2,GV.SC,la gestión diaria de los servicios externos es supervisión de proveedores
+op.ext.3,GV.SC,la protección de la cadena de suministro es la categoría de cadena de suministro
+op.ext.4,PR.IR;GV.SC,la interconexión de sistemas es resiliencia de red y acuerdos con terceros
+op.nub.1,GV.SC;PR.IR,los servicios en la nube son proveedores y plataforma externa
+op.cont.1,ID.RA;GV.OC,el análisis de impacto es parte del riesgo y del contexto de la organización
+op.cont.2,RC.RP;PR.IR,el plan de continuidad es recuperación y resiliencia de la infraestructura
+op.cont.3,RC.RP;ID.IM,las pruebas periódicas de continuidad son ejercicios y mejora
+op.cont.4,PR.IR,los medios alternativos son resiliencia de la infraestructura
+op.mon.1,DE.CM,la detección de intrusión es vigilancia continua
+op.mon.2,GV.OV;ID.IM,el sistema de métricas es supervisión de la estrategia y mejora
+op.mon.3,DE.CM;DE.AE,la vigilancia es monitorización y análisis de eventos
+mp.if.1,PR.AA;PR.IR,áreas separadas con control de acceso físico
+mp.if.2,PR.AA,identificación de las personas que acceden a las instalaciones
+mp.if.3,PR.IR,acondicionamiento de los locales: resiliencia física
+mp.if.4,PR.IR,energía eléctrica: resiliencia física
+mp.if.5,PR.IR,protección frente a incendios: amenazas ambientales
+mp.if.6,PR.IR,protección frente a inundaciones: amenazas ambientales
+mp.if.7,PR.AA;ID.AM,registro de entrada y salida de equipamiento: acceso físico e inventario
+mp.per.1,GV.RR,la caracterización del puesto de trabajo es responsabilidad y recursos humanos
+mp.per.2,GV.RR;PR.AT,deberes y obligaciones del personal
+mp.per.3,PR.AT,concienciación
+mp.per.4,PR.AT,formación
+mp.eq.1,PR.AT;PR.DS,puesto de trabajo despejado: conducta y protección del dato
+mp.eq.2,PR.PS,bloqueo del puesto de trabajo: configuración de la plataforma
+mp.eq.3,PR.DS;PR.PS,protección de dispositivos portátiles: datos y configuración
+mp.eq.4,ID.AM;PR.PS,otros dispositivos conectados a la red: inventario y configuración
+mp.com.1,PR.IR,perímetro seguro: segmentación de red
+mp.com.2,PR.DS,protección de la confidencialidad en las comunicaciones: datos en tránsito
+mp.com.3,PR.DS,protección de la integridad y la autenticidad: datos en tránsito
+mp.com.4,PR.IR,separación de flujos de información en la red
+mp.si.1,ID.AM;PR.DS,marcado de soportes: clasificación y protección del dato
+mp.si.2,PR.DS,criptografía en soportes: datos en reposo
+mp.si.3,PR.DS,custodia de soportes
+mp.si.4,PR.DS,transporte de soportes
+mp.si.5,ID.AM;PR.DS,borrado y destrucción: fin del ciclo de vida del activo
+mp.sw.1,PR.PS,desarrollo de aplicaciones: desarrollo seguro
+mp.sw.2,PR.PS,aceptación y puesta en servicio: pruebas antes de producción
+mp.info.1,GV.OC;GV.PO,datos personales: requisitos legales y política
+mp.info.2,ID.AM,calificación de la información: clasificación de activos
+mp.info.3,PR.DS,firma electrónica: integridad y autenticidad del dato
+mp.info.4,PR.DS,sellos de tiempo: integridad en el tiempo
+mp.info.5,PR.DS,limpieza de documentos: metadatos y fugas
+mp.info.6,PR.DS,copias de seguridad
+mp.s.1,PR.PS;DE.CM,protección del correo electrónico
+mp.s.2,PR.PS,protección de servicios y aplicaciones web: desarrollo y despliegue seguros
+mp.s.3,PR.PS;DE.CM,protección de la navegación web
+mp.s.4,PR.IR;RS.MI,protección frente a denegación de servicio: capacidad y mitigación

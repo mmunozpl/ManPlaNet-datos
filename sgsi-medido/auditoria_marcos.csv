@@ -1,0 +1,8 @@
+marco,comprobaciones,conformes,no_conformes,observaciones,conformidad_pct,referencias_distintas
+ISO/IEC 27001:2022,91,66,15,10,81.5,59
+ISO/IEC 27090:2026,14,10,4,0,71.4,9
+ENS (RD 311/2022),87,64,13,10,83.1,32
+NIST CSF 2.0,91,66,15,10,81.5,44
+NIS2 art. 21.2,76,54,14,8,79.4,13
+DORA,82,60,14,8,81.1,20
+PCI DSS v4.0.1,72,54,11,7,83.1,18

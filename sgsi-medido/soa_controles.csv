@@ -1,0 +1,94 @@
+control,titulo,aplica,estado,justificacion,evidencia,ens
+5.1,Políticas de seguridad de la información,sí,parcial,la política existe como reglas escritas en los LEEME y en el método de cada laboratorio; no hay una política aprobada por una dirección,pam-minimo/LEEME.md; datamart-wikipedia/LEEME.md,org.1
+5.2,Roles y responsabilidades de seguridad de la información,sí,parcial,los roles técnicos están definidos (operadora / administración / medidor; airflow / dbt / admin_bd) y no hay responsable de seguridad nombrado,pam-minimo/openbao/politicas; datamart-wikipedia/postgres/init.sh,org.2
+5.3,Segregación de funciones,sí,implantado,cuenta de operación separada de la de administración y del token raíz; tres usuarios de PostgreSQL con esquemas propios,pam-minimo/pruebas.csv (permisos); datamart-wikipedia/postgres/init.sh,op.acc.3
+5.4,Responsabilidades de la dirección,sí,no implantado,no hay dirección que exija el cumplimiento: es un laboratorio de una persona,,org.4
+5.5,Contacto con las autoridades,sí,no implantado,sin contacto establecido con autoridades (CCN-CERT; INCIBE),,op.exp.7
+5.6,Contacto con grupos de interés especial,no,no aplica,sin grupos de interés especial para un laboratorio,,
+5.7,Inteligencia de amenazas,sí,parcial,la inteligencia de amenazas entra por las mediciones del KEV y del EUVD y por ATLAS; no hay proceso continuo,data/kev; data/euvd-kev; data/iso-27090,op.exp.4
+5.8,Seguridad de la información en la gestión de proyectos,no,no aplica,sin proyectos con terceros,,
+5.9,Inventario de información y otros activos asociados,sí,implantado,el inventario es el compose de cada laboratorio: servicios; imágenes con versión; volúmenes; puertos,pam-minimo/compose.yaml; datamart-wikipedia/compose.yaml,op.exp.1
+5.10,Uso aceptable de la información y otros activos asociados,sí,parcial,uso aceptable implícito en los LEEME; sin norma escrita,,org.2
+5.11,Devolución de activos,no,no aplica,sin activos entregados a personas,,
+5.12,Clasificación de la información,sí,parcial,la información está clasificada de hecho (secretos; datos públicos) y no por una norma,pam-minimo/.gitignore; datamart-wikipedia/.gitignore,mp.info.2
+5.13,Etiquetado de la información,sí,parcial,los secretos viven en carpetas marcadas como tales; el resto no se etiqueta,secretos/ en los dos laboratorios,mp.si.1
+5.14,Transferencia de información,sí,implantado,las transferencias van cifradas (TLS en la bóveda; SSH; HTTPS a las API) y los datos públicos salen por el repositorio,pam-minimo/openbao/config.hcl; datamart-wikipedia/ingesta/descargar.py,mp.com.2
+5.15,Control de acceso,sí,implantado,control de acceso por políticas de la bóveda; roles de PostgreSQL y principal del certificado SSH,pam-minimo/openbao/politicas; pam-minimo/objetivo-ssh/sshd_config,op.acc.2
+5.16,Gestión de identidades,sí,implantado,identidades singulares en el bastión; la bóveda; PostgreSQL y Airflow,pam-minimo/pruebas.csv; datamart-wikipedia/secretos/airflow-contrasenas.json,op.acc.1
+5.17,Información de autenticación,sí,implantado,contraseñas aleatorias de 32 caracteres hexadecimales generadas al arrancar; TOTP en el bastión; certificados de 150 s,pam-minimo/laboratorio.sh; datamart-wikipedia/laboratorio.sh,op.acc.6
+5.18,Derechos de acceso,sí,parcial,los derechos nacen con el arranque y no hay revisión periódica ni baja,pam-minimo/openbao/politicas,op.acc.4
+5.19,Seguridad de la información en las relaciones con proveedores,sí,parcial,los proveedores son las imágenes públicas fijadas por versión; sin evaluación formal,compose.yaml de los dos laboratorios,op.ext.1
+5.20,Seguridad de la información en los acuerdos con proveedores,no,no aplica,sin acuerdos con proveedores: software libre sin contrato,,
+5.21,Gestión de la seguridad en la cadena de suministro de TIC,sí,parcial,imágenes fijadas por versión y procedencia declarada; sin verificación de firmas ni SBOM,compose.yaml; airflow/Dockerfile; medidor/Dockerfile,op.ext.3
+5.22,"Seguimiento, revisión y gestión de cambios de los servicios de proveedores",sí,parcial,la comprobación mensual de versiones vigila los cuadernos; no las imágenes del laboratorio,data/comprobar.py; data/.github,op.ext.2
+5.23,Seguridad de la información en el uso de servicios en la nube,no,no aplica,sin servicios en la nube: todo corre en local; la traducción a AWS se describe y no se usa,,op.nub.1
+5.24,Planificación y preparación de la gestión de incidentes,sí,parcial,hay aviso de fallo definitivo en el DAG y bloqueo por fuerza bruta en el bastión; no hay plan de gestión de incidentes,datamart-wikipedia/airflow/dags/visualizaciones.py; pam-minimo/pruebas.csv,op.exp.7
+5.25,Evaluación y decisión sobre eventos de seguridad,sí,no implantado,sin criterios de clasificación de eventos,,op.exp.7
+5.26,Respuesta a incidentes de seguridad,sí,parcial,respuesta automática: reintentos; bloqueo de IP; revocación de credenciales; sin procedimiento humano,pam-minimo/pruebas.csv; datamart-wikipedia/runs_airflow.csv,op.exp.7
+5.27,Aprendizaje de los incidentes de seguridad,sí,parcial,las lecciones se escriben en las entradas y en el LEEME; sin registro de incidentes,,op.exp.9
+5.28,Recopilación de evidencias,sí,parcial,los registros se conservan (auditoría de la bóveda; sshd; grabaciones; registros de tareas) y no hay cadena de custodia,pam-minimo/auditoria_openbao.csv; pam-minimo/grabaciones.csv,op.exp.8
+5.29,Seguridad de la información durante una interrupción,sí,no implantado,sin plan de seguridad durante una interrupción,,op.cont.2
+5.30,Preparación de las TIC para la continuidad del negocio,sí,parcial,la restauración desde la zona cruda está probada y medida (886 s); sin plan documentado,datamart-wikipedia/runs_airflow.csv; simulacro.csv,op.cont.2
+5.31,"Requisitos legales, estatutarios, reglamentarios y contractuales",sí,parcial,los requisitos legales están identificados (RGPD; ENS; AI Act) en las entradas; sin registro formal,consultas; entradas de normativa,mp.info.1
+5.32,Derechos de propiedad intelectual,sí,implantado,licencias de las piezas y de los datos declaradas (Apache-2.0; MPL-2.0; CC0; INE),LEEME de cada laboratorio; data/LICENSE,
+5.33,Protección de los registros,sí,parcial,los registros de medición son inmutables en git; los diarios de los laboratorios no tienen retención definida,data/ en git,op.exp.8
+5.34,Privacidad y protección de la información personal,sí,parcial,"los datos de negocio no son personales (tabla agregada del INE; visitas sin lectores; vectores sintéticos); los registros operativos llevan identidades ficticias y direcciones de la red interna de Docker, que con personas reales serían datos personales: la declaración existe y la revisión de esos registros no",pam-minimo/LEEME.md; datamart-wikipedia/LEEME.md,mp.info.1
+5.35,Revisión independiente de la seguridad de la información,sí,parcial,revisiones de terceros de cada entrada; sin auditoría independiente del sistema,entradas publicadas,op.mon.2
+5.36,"Cumplimiento de políticas, reglas y normas de seguridad",sí,parcial,esta auditoría de primera parte es la primera comprobación de cumplimiento,auditoria.csv,org.3
+5.37,Procedimientos operativos documentados,sí,implantado,procedimientos operativos documentados y ejecutables: laboratorio.sh con init; medir; parar; limpiar,laboratorio.sh de los dos laboratorios,org.3
+6.1,Investigación de antecedentes,no,no aplica,sin personal contratado,,mp.per.1
+6.2,Términos y condiciones del empleo,no,no aplica,sin personal contratado,,mp.per.2
+6.3,"Concienciación, educación y formación en seguridad",sí,parcial,la formación es la propia publicación; sin programa,libros y entradas,mp.per.3
+6.4,Proceso disciplinario,no,no aplica,sin personal,,mp.per.2
+6.5,Responsabilidades tras la finalización o el cambio de empleo,no,no aplica,sin personal,,mp.per.2
+6.6,Acuerdos de confidencialidad,no,no aplica,sin terceros con acceso,,
+6.7,Trabajo remoto,sí,parcial,el acceso remoto pasa por el bastión con segundo factor; sin norma de trabajo remoto,pam-minimo/pruebas.csv,op.acc.6
+6.8,Notificación de eventos de seguridad,sí,parcial,el aviso de fallo existe para el orquestador; no hay canal de notificación de eventos por personas,datamart-wikipedia/avisos_airflow.csv,op.exp.7
+7.1,Perímetros de seguridad física,no,no aplica,un ordenador en un domicilio: sin perímetro de seguridad física definido,,mp.if.1
+7.2,Entrada física,no,no aplica,sin control de entrada física,,mp.if.2
+7.3,"Seguridad de oficinas, salas e instalaciones",no,no aplica,sin instalaciones,,mp.if.3
+7.4,Vigilancia de la seguridad física,no,no aplica,sin instalaciones,,mp.if.1
+7.5,Protección frente a amenazas físicas y ambientales,sí,no implantado,sin medidas frente a amenazas físicas y ambientales (incendio; agua; energía),,mp.if.4
+7.6,Trabajo en áreas seguras,no,no aplica,sin áreas seguras,,mp.if.1
+7.7,Puesto de trabajo despejado y pantalla limpia,sí,parcial,bloqueo de sesión del anfitrión; sin norma de puesto despejado,,mp.eq.1
+7.8,Ubicación y protección de los equipos,no,no aplica,un solo equipo,,mp.eq.3
+7.9,Seguridad de los activos fuera de las instalaciones,no,no aplica,sin activos fuera de las instalaciones,,mp.eq.3
+7.10,Soportes de almacenamiento,sí,parcial,los soportes son discos del anfitrión; la caché y los volúmenes no están cifrados,,mp.si.2
+7.11,Servicios de suministro,sí,no implantado,sin SAI ni redundancia de suministro,,mp.if.4
+7.12,Seguridad del cableado,no,no aplica,sin cableado propio,,mp.if.3
+7.13,Mantenimiento de los equipos,sí,parcial,el anfitrión se actualiza; las imágenes del laboratorio están fijadas por versión y no se mantienen,compose.yaml,op.exp.4
+7.14,Eliminación o reutilización segura de equipos,sí,implantado,la retirada del laboratorio borra volúmenes y secretos (limpiar),laboratorio.sh,mp.si.5
+8.1,Dispositivos de usuario final,sí,parcial,el anfitrión es un puesto de trabajo con las medidas por defecto de la distribución,,mp.eq.3
+8.2,Derechos de acceso privilegiado,sí,implantado,acceso privilegiado por el bastión con contraseña y TOTP; certificados de cinco minutos; credenciales dinámicas; grabación,pam-minimo/pruebas.csv,op.acc.5
+8.3,Restricción del acceso a la información,sí,implantado,políticas de la bóveda por ruta exacta; permisos de PostgreSQL por esquema,pam-minimo/openbao/politicas; datamart-wikipedia/postgres/init.sh,op.acc.4
+8.4,Acceso al código fuente,sí,implantado,el código fuente está en repositorios con control de acceso y firma de commits,repositorios de GitHub,op.acc.2
+8.5,Autenticación segura,sí,implantado,autenticación con dos factores en el bastión; certificados firmados por una CA en el servidor,pam-minimo/pruebas.csv,op.acc.6
+8.6,Gestión de la capacidad,sí,parcial,la capacidad se midió (memoria; disco) y no se planifica,pam-minimo/recursos.csv; datamart-wikipedia/recursos.csv,op.pl.4
+8.7,Protección contra el código dañino,sí,no implantado,sin protección frente a código dañino en los contenedores,,op.exp.6
+8.8,Gestión de las vulnerabilidades técnicas,sí,parcial,las vulnerabilidades se siguen en las mediciones del KEV y no en las imágenes del laboratorio,data/kev,op.exp.4
+8.9,Gestión de la configuración,sí,implantado,la configuración entera está en ficheros versionados (compose; Dockerfile; init.sh; DAG; dbt),repositorio de datos,op.exp.2
+8.10,Borrado de información,sí,implantado,el borrado de datos es la retirada de volúmenes (limpiar) y las credenciales caducan y se revocan,laboratorio.sh; pam-minimo/credenciales_bd.csv,mp.si.5
+8.11,Enmascaramiento de datos,no,no aplica,sin datos personales que enmascarar,,mp.info.1
+8.12,Prevención de fugas de datos,sí,parcial,los secretos están fuera del repositorio por el .gitignore; sin DLP,.gitignore de los dos laboratorios,mp.info.5
+8.13,Copias de seguridad de la información,sí,parcial,la zona cruda es la copia desde la que se rehace todo (probado); sin copia en otro lugar ni calendario,datamart-wikipedia/idempotencia.csv; simulacro.csv,mp.info.6
+8.14,Redundancia de las instalaciones de tratamiento de la información,sí,no implantado,sin redundancia: una máquina,,op.cont.4
+8.15,Registro de eventos,sí,implantado,registros en la bóveda; sshd; el bastión; Airflow y dbt,pam-minimo/auditoria_openbao.csv; datamart-wikipedia/tareas_airflow.csv,op.exp.8
+8.16,Actividades de supervisión,sí,parcial,la supervisión es la del medidor y del aviso de fallo; sin revisión periódica ni correlación,datamart-wikipedia/avisos_airflow.csv,op.mon.3
+8.17,Sincronización de relojes,sí,parcial,los contenedores comparten el reloj del anfitrión; su sincronización no se ha comprobado,,op.exp.8
+8.18,Uso de programas de utilidad privilegiados,sí,implantado,las utilidades privilegiadas (token raíz; admin_bd) quedan fuera de la operación diaria,pam-minimo/openbao/politicas,op.acc.4
+8.19,Instalación de software en sistemas en producción,sí,implantado,el software se instala desde imágenes fijadas por versión; nada se instala en caliente,compose.yaml; Dockerfile,op.exp.3
+8.20,Seguridad de las redes,sí,implantado,red interna de Docker con los puertos expuestos solo en la máquina,compose.yaml,mp.com.1
+8.21,Seguridad de los servicios de red,sí,parcial,TLS en la bóveda y SSH; el bastión no verifica el certificado de la bóveda,pam-minimo/LEEME.md (tls_skip_verify),mp.com.3
+8.22,Segregación de redes,sí,implantado,una red interna por laboratorio; sin acceso entre ellos,compose.yaml,mp.com.4
+8.23,Filtrado web,no,no aplica,sin navegación desde los sistemas,,mp.s.3
+8.24,Uso de la criptografía,sí,parcial,claves y certificados con algoritmos actuales (ED25519; TLS); sin política ni ciclo de vida de claves escrito,pam-minimo/openbao/config.hcl,op.exp.10
+8.25,Ciclo de vida de desarrollo seguro,sí,parcial,el código se desarrolla con pruebas (27 tests de dbt; 36 comprobaciones del PAM) y sin un ciclo formal,tests_dbt.csv; pruebas.csv,mp.sw.1
+8.26,Requisitos de seguridad de las aplicaciones,sí,parcial,los requisitos de seguridad están en el método de cada laboratorio; no en un documento previo,LEEME,mp.sw.1
+8.27,Principios de arquitectura e ingeniería de sistemas seguros,sí,implantado,mínimo privilegio; secretos fuera del código; red interna; credenciales efímeras,compose.yaml; openbao/politicas,op.pl.2
+8.28,Codificación segura,sí,parcial,sin guía de codificación segura; revisión por terceros de cada entrada,,mp.sw.1
+8.29,Pruebas de seguridad en desarrollo y aceptación,sí,implantado,pruebas de seguridad en el banco: denegaciones; caducidades; idempotencia,pam-minimo/pruebas.csv; datamart-wikipedia/pruebas.csv,mp.sw.2
+8.30,Desarrollo externalizado,no,no aplica,sin desarrollo externalizado,,
+8.31,"Separación de los entornos de desarrollo, prueba y producción",sí,parcial,los laboratorios son entornos aislados; no hay separación desarrollo / producción porque no hay producción,,mp.sw.2
+8.32,Gestión de cambios,sí,implantado,los cambios pasan por git con mensajes y por el portón de construcción,repositorios,op.exp.5
+8.33,Información de prueba,sí,implantado,los datos de prueba son públicos y reales (INE; Wikimedia),LEEME,mp.info.1
+8.34,Protección de los sistemas de información durante las pruebas de auditoría,no,no aplica,sin auditorías con acceso a sistemas en producción,,

@@ -1,0 +1,27 @@
+control,tema,titulo_es
+5.5,organizativo,Contacto con las autoridades
+5.6,organizativo,Contacto con grupos de interés especial
+5.11,organizativo,Devolución de activos
+5.23,organizativo,Seguridad de la información en el uso de servicios en la nube
+5.30,organizativo,Preparación de las TIC para la continuidad del negocio
+5.32,organizativo,Derechos de propiedad intelectual
+5.33,organizativo,Protección de los registros
+5.34,organizativo,Privacidad y protección de la información personal
+5.36,organizativo,"Cumplimiento de políticas, reglas y normas de seguridad"
+5.37,organizativo,Procedimientos operativos documentados
+7.6,físico,Trabajo en áreas seguras
+7.8,físico,Ubicación y protección de los equipos
+7.9,físico,Seguridad de los activos fuera de las instalaciones
+7.11,físico,Servicios de suministro
+8.1,tecnológico,Dispositivos de usuario final
+8.10,tecnológico,Borrado de información
+8.11,tecnológico,Enmascaramiento de datos
+8.12,tecnológico,Prevención de fugas de datos
+8.23,tecnológico,Filtrado web
+8.24,tecnológico,Uso de la criptografía
+8.27,tecnológico,Principios de arquitectura e ingeniería de sistemas seguros
+8.29,tecnológico,Pruebas de seguridad en desarrollo y aceptación
+8.30,tecnológico,Desarrollo externalizado
+8.31,tecnológico,"Separación de los entornos de desarrollo, prueba y producción"
+8.33,tecnológico,Información de prueba
+8.34,tecnológico,Protección de los sistemas de información durante las pruebas de auditoría

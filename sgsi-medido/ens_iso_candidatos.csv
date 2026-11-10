@@ -1,0 +1,74 @@
+codigo,medida,csf_categorias,n_controles_iso,controles_iso
+org.1,Política de seguridad,GV.PO,1,5.1
+org.2,Normativa de seguridad,GV.PO,1,5.1
+org.3,Procedimientos de seguridad,GV.PO PR.PS,8,5.1 5.9 8.9 8.15 8.17 8.19 8.25 8.28
+org.4,Proceso de autorización,GV.RR PR.AA,25,5.1 5.3 5.4 5.14 5.15 5.16 5.17 5.18 6.1 6.2 6.3 6.4 6.5 6.6 6.7 6.8 7.1 7.2 7.3 7.4 7.12 8.2 8.3 8.5 8.18
+op.pl.1,Análisis de riesgos,ID.RA GV.RM,8,5.1 5.7 5.19 5.20 5.22 8.8 8.16 8.32
+op.pl.2,Arquitectura de Seguridad,PR.IR ID.AM,17,5.8 5.9 5.12 5.13 5.14 5.19 5.22 5.29 7.5 7.10 7.13 7.14 8.6 8.14 8.20 8.21 8.22
+op.pl.3,Adquisición de nuevos componentes,GV.SC ID.RA,13,5.1 5.2 5.4 5.7 5.19 5.20 5.21 5.22 5.26 5.31 8.8 8.16 8.32
+op.pl.4,Dimensionamiento/gestión de la capacidad,PR.IR,7,5.29 7.5 8.6 8.14 8.20 8.21 8.22
+op.pl.5,Componentes certificados,GV.SC PR.PS,16,5.1 5.2 5.4 5.9 5.19 5.20 5.21 5.22 5.26 5.31 8.9 8.15 8.17 8.19 8.25 8.28
+op.acc.1,Identificación,PR.AA,16,5.1 5.3 5.14 5.15 5.16 5.17 5.18 7.1 7.2 7.3 7.4 7.12 8.2 8.3 8.5 8.18
+op.acc.2,Requisitos de acceso,PR.AA,16,5.1 5.3 5.14 5.15 5.16 5.17 5.18 7.1 7.2 7.3 7.4 7.12 8.2 8.3 8.5 8.18
+op.acc.3,Segregación de funciones y tareas,PR.AA GV.RR,25,5.1 5.3 5.4 5.14 5.15 5.16 5.17 5.18 6.1 6.2 6.3 6.4 6.5 6.6 6.7 6.8 7.1 7.2 7.3 7.4 7.12 8.2 8.3 8.5 8.18
+op.acc.4,Proceso de gestión de derechos de acceso,PR.AA,16,5.1 5.3 5.14 5.15 5.16 5.17 5.18 7.1 7.2 7.3 7.4 7.12 8.2 8.3 8.5 8.18
+op.acc.5,Mecanismo de autenticación (usuarios externos),PR.AA,16,5.1 5.3 5.14 5.15 5.16 5.17 5.18 7.1 7.2 7.3 7.4 7.12 8.2 8.3 8.5 8.18
+op.acc.6,Mecanismo de autenticación (usuarios de la organización),PR.AA,16,5.1 5.3 5.14 5.15 5.16 5.17 5.18 7.1 7.2 7.3 7.4 7.12 8.2 8.3 8.5 8.18
+op.exp.1,Inventario de activos,ID.AM,13,5.8 5.9 5.12 5.13 5.14 5.19 5.22 7.10 7.13 7.14 8.20 8.21 8.22
+op.exp.2,Configuración de seguridad,PR.PS,7,5.9 8.9 8.15 8.17 8.19 8.25 8.28
+op.exp.3,Gestión de la configuración de seguridad,PR.PS,7,5.9 8.9 8.15 8.17 8.19 8.25 8.28
+op.exp.4,Mantenimiento y actualizaciones de seguridad,PR.PS ID.RA,14,5.7 5.9 5.19 5.20 5.22 8.8 8.9 8.15 8.16 8.17 8.19 8.25 8.28 8.32
+op.exp.5,Gestión de cambios,PR.PS,7,5.9 8.9 8.15 8.17 8.19 8.25 8.28
+op.exp.6,Protección frente a código dañino,PR.PS DE.CM,10,5.9 5.22 7.4 8.9 8.15 8.16 8.17 8.19 8.25 8.28
+op.exp.7,Gestión de incidentes,RS.MA RS.AN RS.CO GV.PO,7,5.1 5.24 5.25 5.26 5.27 5.28 6.8
+op.exp.8,Registro de la actividad,DE.CM PR.PS,10,5.9 5.22 7.4 8.9 8.15 8.16 8.17 8.19 8.25 8.28
+op.exp.9,Registro de la gestión de incidentes,RS.AN RS.MA,6,5.24 5.25 5.26 5.27 5.28 6.8
+op.exp.10,Protección de claves criptográficas,PR.DS,22,5.1 5.3 5.10 5.13 5.14 5.15 6.1 6.2 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.22 8.26
+op.ext.1,Contratación y acuerdos de nivel de servicio,GV.SC,9,5.1 5.2 5.4 5.19 5.20 5.21 5.22 5.26 5.31
+op.ext.2,Gestión diaria,GV.SC,9,5.1 5.2 5.4 5.19 5.20 5.21 5.22 5.26 5.31
+op.ext.3,Protección de la cadena de suministro,GV.SC,9,5.1 5.2 5.4 5.19 5.20 5.21 5.22 5.26 5.31
+op.ext.4,Interconexión de sistemas,PR.IR GV.SC,16,5.1 5.2 5.4 5.19 5.20 5.21 5.22 5.26 5.29 5.31 7.5 8.6 8.14 8.20 8.21 8.22
+op.nub.1,Protección de servicios en la nube,GV.SC PR.IR,16,5.1 5.2 5.4 5.19 5.20 5.21 5.22 5.26 5.29 5.31 7.5 8.6 8.14 8.20 8.21 8.22
+op.cont.1,Análisis de impacto,ID.RA GV.OC,9,5.3 5.7 5.19 5.20 5.22 5.31 8.8 8.16 8.32
+op.cont.2,Plan de continuidad,RC.RP PR.IR,10,5.26 5.27 5.29 7.5 8.6 8.13 8.14 8.20 8.21 8.22
+op.cont.3,Pruebas periódicas,RC.RP ID.IM,6,5.19 5.24 5.26 5.27 5.35 8.13
+op.cont.4,Medios alternativos,PR.IR,7,5.29 7.5 8.6 8.14 8.20 8.21 8.22
+op.mon.1,Detección de intrusión,DE.CM,3,5.22 7.4 8.16
+op.mon.2,Sistema de métricas,GV.OV ID.IM,7,5.1 5.19 5.20 5.24 5.26 5.27 5.35
+op.mon.3,Vigilancia,DE.CM DE.AE,8,5.7 5.22 5.24 5.25 5.26 7.4 8.15 8.16
+mp.if.1,Áreas separadas y con control de acceso,PR.AA PR.IR,23,5.1 5.3 5.14 5.15 5.16 5.17 5.18 5.29 7.1 7.2 7.3 7.4 7.5 7.12 8.2 8.3 8.5 8.6 8.14 8.18 8.20 8.21 8.22
+mp.if.2,Identificación de las personas,PR.AA,16,5.1 5.3 5.14 5.15 5.16 5.17 5.18 7.1 7.2 7.3 7.4 7.12 8.2 8.3 8.5 8.18
+mp.if.3,Acondicionamiento de los locales,PR.IR,7,5.29 7.5 8.6 8.14 8.20 8.21 8.22
+mp.if.4,Energía eléctrica,PR.IR,7,5.29 7.5 8.6 8.14 8.20 8.21 8.22
+mp.if.5,Protección frente a incendios,PR.IR,7,5.29 7.5 8.6 8.14 8.20 8.21 8.22
+mp.if.6,Protección frente a inundaciones,PR.IR,7,5.29 7.5 8.6 8.14 8.20 8.21 8.22
+mp.if.7,Registro de entrada y salida de equipamiento,PR.AA ID.AM,28,5.1 5.3 5.8 5.9 5.12 5.13 5.14 5.15 5.16 5.17 5.18 5.19 5.22 7.1 7.2 7.3 7.4 7.10 7.12 7.13 7.14 8.2 8.3 8.5 8.18 8.20 8.21 8.22
+mp.per.1,Caracterización del puesto de trabajo,GV.RR,9,5.4 6.1 6.2 6.3 6.4 6.5 6.6 6.7 6.8
+mp.per.2,Deberes y obligaciones,GV.RR PR.AT,10,5.2 5.4 6.1 6.2 6.3 6.4 6.5 6.6 6.7 6.8
+mp.per.3,Concienciación,PR.AT,2,5.2 6.3
+mp.per.4,Formación,PR.AT,2,5.2 6.3
+mp.eq.1,Puesto de trabajo despejado,PR.AT PR.DS,24,5.1 5.2 5.3 5.10 5.13 5.14 5.15 6.1 6.2 6.3 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.22 8.26
+mp.eq.2,Bloqueo de puesto de trabajo,PR.PS,7,5.9 8.9 8.15 8.17 8.19 8.25 8.28
+mp.eq.3,Protección de dispositivos portátiles,PR.DS PR.PS,27,5.1 5.3 5.9 5.10 5.13 5.14 5.15 6.1 6.2 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.9 8.13 8.15 8.17 8.19 8.20 8.22 8.25 8.26 8.28
+mp.eq.4,Otros dispositivos conectados a la red,ID.AM PR.PS,19,5.8 5.9 5.12 5.13 5.14 5.19 5.22 7.10 7.13 7.14 8.9 8.15 8.17 8.19 8.20 8.21 8.22 8.25 8.28
+mp.com.1,Perímetro seguro,PR.IR,7,5.29 7.5 8.6 8.14 8.20 8.21 8.22
+mp.com.2,Protección de la confidencialidad,PR.DS,22,5.1 5.3 5.10 5.13 5.14 5.15 6.1 6.2 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.22 8.26
+mp.com.3,Protección de la integridad y de la autenticidad,PR.DS,22,5.1 5.3 5.10 5.13 5.14 5.15 6.1 6.2 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.22 8.26
+mp.com.4,Separación de flujos de información en la red,PR.IR,7,5.29 7.5 8.6 8.14 8.20 8.21 8.22
+mp.si.1,Marcado de soportes,ID.AM PR.DS,30,5.1 5.3 5.8 5.9 5.10 5.12 5.13 5.14 5.15 5.19 5.22 6.1 6.2 6.5 7.7 7.10 7.13 7.14 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.21 8.22 8.26
+mp.si.2,Criptografía,PR.DS,22,5.1 5.3 5.10 5.13 5.14 5.15 6.1 6.2 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.22 8.26
+mp.si.3,Custodia,PR.DS,22,5.1 5.3 5.10 5.13 5.14 5.15 6.1 6.2 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.22 8.26
+mp.si.4,Transporte,PR.DS,22,5.1 5.3 5.10 5.13 5.14 5.15 6.1 6.2 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.22 8.26
+mp.si.5,Borrado y destrucción,ID.AM PR.DS,30,5.1 5.3 5.8 5.9 5.10 5.12 5.13 5.14 5.15 5.19 5.22 6.1 6.2 6.5 7.7 7.10 7.13 7.14 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.21 8.22 8.26
+mp.sw.1,Desarrollo de aplicaciones,PR.PS,7,5.9 8.9 8.15 8.17 8.19 8.25 8.28
+mp.sw.2,Aceptación y puesta en servicio,PR.PS,7,5.9 8.9 8.15 8.17 8.19 8.25 8.28
+mp.info.1,Datos personales,GV.OC GV.PO,4,5.1 5.3 5.20 5.31
+mp.info.2,Calificación de la información,ID.AM,13,5.8 5.9 5.12 5.13 5.14 5.19 5.22 7.10 7.13 7.14 8.20 8.21 8.22
+mp.info.3,Firma electrónica,PR.DS,22,5.1 5.3 5.10 5.13 5.14 5.15 6.1 6.2 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.22 8.26
+mp.info.4,Sellos de tiempo,PR.DS,22,5.1 5.3 5.10 5.13 5.14 5.15 6.1 6.2 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.22 8.26
+mp.info.5,Limpieza de documentos,PR.DS,22,5.1 5.3 5.10 5.13 5.14 5.15 6.1 6.2 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.22 8.26
+mp.info.6,Copias de seguridad,PR.DS,22,5.1 5.3 5.10 5.13 5.14 5.15 6.1 6.2 6.5 7.7 7.10 8.2 8.3 8.4 8.7 8.8 8.13 8.17 8.19 8.20 8.22 8.26
+mp.s.1,Protección del correo electrónico,PR.PS DE.CM,10,5.9 5.22 7.4 8.9 8.15 8.16 8.17 8.19 8.25 8.28
+mp.s.2,Protección de servicios y aplicaciones web,PR.PS,7,5.9 8.9 8.15 8.17 8.19 8.25 8.28
+mp.s.3,Protección de la navegación web,PR.PS DE.CM,10,5.9 5.22 7.4 8.9 8.15 8.16 8.17 8.19 8.25 8.28
+mp.s.4,Protección frente a denegación de servicio,PR.IR RS.MI,8,5.26 5.29 7.5 8.6 8.14 8.20 8.21 8.22

@@ -1,0 +1,11 @@
+proveedor,tipo,que_entrega,sistemas,criticidad,control_actual,evaluado
+registro de imágenes de Docker Hub,software de terceros,"imágenes postgres:17.11 y rustfs/rustfs:1.0.4",pam-minimo; datamart-wikipedia,alta,versión fijada; sin verificación de firma ni escaneo,no
+registro de imágenes de GitHub (ghcr.io),software de terceros,imagen warp-tech/warpgate:0.30.2,pam-minimo,alta,versión fijada; sin verificación de firma ni escaneo,no
+OpenBao (imagen oficial),software de terceros,imagen openbao/openbao:2.7.2,pam-minimo,alta,versión fijada; sin verificación de firma ni escaneo,no
+Apache Airflow y dbt (PyPI),software de terceros,"airflow 3.3.2; dbt-core 1.12.6; dbt-postgres 1.11.0",datamart-wikipedia,alta,versiones fijadas en el Dockerfile; sin huellas,no
+qdrant-client; numpy; pandas; gradio (PyPI),software de terceros,bibliotecas de la demo y de la medición del RAG,rag-sintetico,media,SDK fijado; bibliotecas con cota inferior en el Space y fijadas con uv.lock en el repositorio de datos,no
+plataforma de alojamiento de la demo,servicio en la nube,"ejecución de la demo en hardware gratuito compartido",rag-sintetico,media,cuenta con control de acceso de la plataforma; sin acuerdo de nivel de servicio,no
+plataforma de alojamiento del código y los datos,servicio en la nube,"repositorios; integración continua mensual de las huellas",los tres,alta,control de acceso; historial; comprobación mensual,no
+API de Wikimedia (REST),fuente de datos,"los mil artículos más vistos por día y las listas mensuales",datamart-wikipedia,media,URL y licencia fijadas en fuentes.csv; caché externa de lo descargado,no
+INE (tabla 28193),fuente de datos,"salarios por comunidad, ocupación y sexo",pam-minimo,baja,fichero versionado con su huella,no
+MITRE ATLAS (GitHub),fuente de datos,"catálogo de técnicas, casos y mitigaciones de la IA",rag-sintetico (27090),baja,versión fijada a la etiqueta 2026.09,no

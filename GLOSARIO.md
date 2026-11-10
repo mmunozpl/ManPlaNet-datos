@@ -105,3 +105,10 @@ form of each term, and it is the one `README.md` uses.
 | ranking derivado / lista mensual oficial | derived ranking / official monthly list | `datamart-wikipedia/ranking_oficial.csv` |
 | estrategia incremental | incremental strategy | `datamart-wikipedia/estrategias.csv` |
 | huella (md5 del contenido) | content hash | `datamart-wikipedia/idempotencia.csv` |
+| categoría del CSF / cobertura | CSF category / coverage | `sgsi-medido/cobertura_csf.csv` |
+| declaración de aplicabilidad | statement of applicability | `sgsi-medido/fuentes/soa_laboratorios.csv`, `soa_controles.csv` |
+| riesgo inherente / riesgo residual / apetito | inherent risk / residual risk / appetite | `sgsi-medido/riesgos.csv` |
+| comprobación: conforme / no conforme / observación | check: conforming / non-conforming / observation | `sgsi-medido/auditoria.csv` |
+| objetivo / resultado clave / indicador de contexto | objective / key result / context indicator | `sgsi-medido/kpis.csv` |
+| tiempo real de recuperación | actual recovery time | `sgsi-medido/simulacro.csv` |
+| plan director / iniciativa | master plan / initiative | `sgsi-medido/fuentes/plan_director.csv` |

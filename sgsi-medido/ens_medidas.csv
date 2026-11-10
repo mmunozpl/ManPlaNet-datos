@@ -1,0 +1,74 @@
+codigo,medida,grupo,dimension_o_categoria
+org.1,Política de seguridad,marco organizativo,Categoría
+org.2,Normativa de seguridad,marco organizativo,Categoría
+org.3,Procedimientos de seguridad,marco organizativo,Categoría
+org.4,Proceso de autorización,marco organizativo,Categoría
+op.pl.1,Análisis de riesgos,marco operacional,Categoría
+op.pl.2,Arquitectura de Seguridad,marco operacional,Categoría
+op.pl.3,Adquisición de nuevos componentes,marco operacional,Categoría
+op.pl.4,Dimensionamiento/gestión de la capacidad,marco operacional,D
+op.pl.5,Componentes certificados,marco operacional,Categoría
+op.acc.1,Identificación,marco operacional,T A
+op.acc.2,Requisitos de acceso,marco operacional,C I T A
+op.acc.3,Segregación de funciones y tareas,marco operacional,C I T A
+op.acc.4,Proceso de gestión de derechos de acceso,marco operacional,C I T A
+op.acc.5,Mecanismo de autenticación (usuarios externos),marco operacional,C I T A
+op.acc.6,Mecanismo de autenticación (usuarios de la organización),marco operacional,C I T A
+op.exp.1,Inventario de activos,marco operacional,Categoría
+op.exp.2,Configuración de seguridad,marco operacional,Categoría
+op.exp.3,Gestión de la configuración de seguridad,marco operacional,Categoría
+op.exp.4,Mantenimiento y actualizaciones de seguridad,marco operacional,Categoría
+op.exp.5,Gestión de cambios,marco operacional,Categoría
+op.exp.6,Protección frente a código dañino,marco operacional,Categoría
+op.exp.7,Gestión de incidentes,marco operacional,Categoría
+op.exp.8,Registro de la actividad,marco operacional,T
+op.exp.9,Registro de la gestión de incidentes,marco operacional,Categoría
+op.exp.10,Protección de claves criptográficas,marco operacional,Categoría
+op.ext.1,Contratación y acuerdos de nivel de servicio,marco operacional,Categoría
+op.ext.2,Gestión diaria,marco operacional,Categoría
+op.ext.3,Protección de la cadena de suministro,marco operacional,Categoría
+op.ext.4,Interconexión de sistemas,marco operacional,Categoría
+op.nub.1,Protección de servicios en la nube,marco operacional,Categoría
+op.cont.1,Análisis de impacto,marco operacional,D
+op.cont.2,Plan de continuidad,marco operacional,D
+op.cont.3,Pruebas periódicas,marco operacional,D
+op.cont.4,Medios alternativos,marco operacional,D
+op.mon.1,Detección de intrusión,marco operacional,Categoría
+op.mon.2,Sistema de métricas,marco operacional,Categoría
+op.mon.3,Vigilancia,marco operacional,Categoría
+mp.if.1,Áreas separadas y con control de acceso,medidas de protección,Categoría
+mp.if.2,Identificación de las personas,medidas de protección,Categoría
+mp.if.3,Acondicionamiento de los locales,medidas de protección,Categoría
+mp.if.4,Energía eléctrica,medidas de protección,D
+mp.if.5,Protección frente a incendios,medidas de protección,D
+mp.if.6,Protección frente a inundaciones,medidas de protección,D
+mp.if.7,Registro de entrada y salida de equipamiento,medidas de protección,Categoría
+mp.per.1,Caracterización del puesto de trabajo,medidas de protección,Categoría
+mp.per.2,Deberes y obligaciones,medidas de protección,Categoría
+mp.per.3,Concienciación,medidas de protección,Categoría
+mp.per.4,Formación,medidas de protección,Categoría
+mp.eq.1,Puesto de trabajo despejado,medidas de protección,Categoría
+mp.eq.2,Bloqueo de puesto de trabajo,medidas de protección,A
+mp.eq.3,Protección de dispositivos portátiles,medidas de protección,Categoría
+mp.eq.4,Otros dispositivos conectados a la red,medidas de protección,C
+mp.com.1,Perímetro seguro,medidas de protección,Categoría
+mp.com.2,Protección de la confidencialidad,medidas de protección,C
+mp.com.3,Protección de la integridad y de la autenticidad,medidas de protección,I A
+mp.com.4,Separación de flujos de información en la red,medidas de protección,Categoría
+mp.si.1,Marcado de soportes,medidas de protección,C
+mp.si.2,Criptografía,medidas de protección,C I
+mp.si.3,Custodia,medidas de protección,Categoría
+mp.si.4,Transporte,medidas de protección,Categoría
+mp.si.5,Borrado y destrucción,medidas de protección,C
+mp.sw.1,Desarrollo de aplicaciones,medidas de protección,Categoría
+mp.sw.2,Aceptación y puesta en servicio,medidas de protección,Categoría
+mp.info.1,Datos personales,medidas de protección,Categoría
+mp.info.2,Calificación de la información,medidas de protección,C
+mp.info.3,Firma electrónica,medidas de protección,I A
+mp.info.4,Sellos de tiempo,medidas de protección,T
+mp.info.5,Limpieza de documentos,medidas de protección,C
+mp.info.6,Copias de seguridad,medidas de protección,D
+mp.s.1,Protección del correo electrónico,medidas de protección,Categoría
+mp.s.2,Protección de servicios y aplicaciones web,medidas de protección,Categoría
+mp.s.3,Protección de la navegación web,medidas de protección,Categoría
+mp.s.4,Protección frente a denegación de servicio,medidas de protección,D

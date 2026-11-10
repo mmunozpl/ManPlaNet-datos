@@ -1,0 +1,34 @@
+objetivo,objetivo_texto,kr,kpi,valor,unidad,meta,sentido,estado,fuente,periodicidad,tipo
+O1,Los accesos privilegiados están bajo control,KR1.1,pruebas del control de acceso privilegiado superadas,100.0,%,100,≥,cumple,pam-minimo/pruebas.csv,en cada medición,propio
+O1,Los accesos privilegiados están bajo control,KR1.2,vida máxima de una credencial privilegiada emitida,180,s,900,≤,cumple,pam-minimo/credenciales_bd.csv; certificados.csv,en cada medición,propio
+O1,Los accesos privilegiados están bajo control,KR1.3,vías de acceso privilegiado que exigen segundo factor,100.0,%,100,≥,cumple,pam-minimo/pruebas.csv,en cada medición,propio
+O1,Los accesos privilegiados están bajo control,KR1.4,sesiones privilegiadas con grabación de su salida,33.3,%,100,≥,no cumple,pam-minimo/grabaciones.csv; sesiones.csv,en cada medición,propio
+O1,Los accesos privilegiados están bajo control,KR1.5,"denegaciones de la bóveda con rastro en el diario (quién, qué, dónde)",100.0,%,100,≥,cumple,pam-minimo/auditoria_openbao.csv,en cada medición,propio
+O2,Los datos son íntegros y recuperables,KR2.1,pruebas de calidad del dato superadas sin aviso,96.3,%,100,≥,no cumple,datamart-wikipedia/tests_dbt.csv,en cada carga,propio
+O2,Los datos son íntegros y recuperables,KR2.2,objetos idénticos tras repetir la carga (recuentos y huellas),100.0,%,100,≥,cumple,datamart-wikipedia/idempotencia.csv,en cada medición,propio
+O2,Los datos son íntegros y recuperables,KR2.3,artículos del ranking mensual derivado que coinciden con la lista oficial,91.7,%,90,≥,cumple,datamart-wikipedia/ranking_oficial.csv,mensual,propio
+O2,Los datos son íntegros y recuperables,KR2.4,ejecuciones programadas de la canalización terminadas con éxito,100.0,%,100,≥,cumple,datamart-wikipedia/runs_airflow.csv,mensual,propio
+O2,Los datos son íntegros y recuperables,KR2.5a,tiempo real de recuperación del PAM tras la pérdida total (objetivo RTO declarado: 300 s),34,s,300,≤,cumple,sgsi-medido/simulacro.csv,anual,propio
+O2,Los datos son íntegros y recuperables,KR2.5b,tiempo real de recuperación del DataMart con los 34 meses cargados e idénticos (objetivo RTO declarado: 60 min),15.9,min,60,≤,cumple,sgsi-medido/simulacro.csv,anual,propio
+O2,Los datos son íntegros y recuperables,KR2.5c,"tiempo real de recuperación del índice del RAG, reconstruido y comprobado (objetivo RTO declarado: 60 s)",2,s,60,≤,cumple,sgsi-medido/simulacro.csv,anual,propio
+O2,Los datos son íntegros y recuperables,KR2.6,comprobaciones de datos idénticos tras la reconstrucción superadas (RPO conseguido: 0 sobre los datos),100.0,%,100,≥,cumple,sgsi-medido/simulacro.csv,anual,propio
+O2,Los datos son íntegros y recuperables,KR2.7,sistemas con copia de seguridad de registros y volúmenes probada,0,de 3,3,≥,no cumple,sgsi-medido/auditoria.csv (P09; D09; S14),trimestral,propio
+O3,Las vulnerabilidades y la cadena de suministro se tratan en plazo,KR3.1,imágenes de contenedor fijadas por versión,100.0,%,100,≥,cumple,compose.yaml y Dockerfile de los dos laboratorios,en cada cambio,propio
+O3,Las vulnerabilidades y la cadena de suministro se tratan en plazo,KR3.2,dependencias de la demo del RAG fijadas por versión exacta (SDK y bibliotecas),25.0,%,100,≥,no cumple,repositorio público de la demo: requirements.txt; README.md,en cada cambio,propio
+O3,Las vulnerabilidades y la cadena de suministro se tratan en plazo,KR3.3,sistemas con escaneo de vulnerabilidades de imágenes y bibliotecas,0,de 2,2,≥,no cumple,sgsi-medido/auditoria.csv (P04; D04),en cada construcción,propio
+C,Contexto del sector (sin meta propia),C1,"mediana de días entre la publicación de un CVE y su alta en el catálogo KEV, altas de 2026 (n = 274)",13.5,días,,,contexto,php2shell/resumen_kev.json (catálogo 2026.10.26),mensual,contexto
+C,Contexto del sector (sin meta propia),C2,la misma mediana desde la directiva BOD 26-04 (n = 141),8,días,,,contexto,php2shell/resumen_kev.json,mensual,contexto
+C,Contexto del sector (sin meta propia),C3,mediana de horas desde el parche de PHP hasta el paquete de cada rama de sistema operativo (n = 55),23.3,horas,,,contexto,php2shell/parches_sistemas.csv,por aviso,contexto
+O4,"El cumplimiento se mide, no se declara",KR4.1,controles aplicables del anexo A implantados del todo,33.8,%,60,≥,no cumple,sgsi-medido/fuentes/soa_laboratorios.csv,semestral,propio
+O4,"El cumplimiento se mide, no se declara",KR4.1b,controles aplicables del anexo A implantados o parciales,88.7,%,90,≥,no cumple,sgsi-medido/fuentes/soa_laboratorios.csv,semestral,propio
+O4,"El cumplimiento se mide, no se declara",KR4.2,comprobaciones de la auditoría interna conformes sobre las evaluables,81.5,%,80,≥,cumple,sgsi-medido/auditoria_resumen.csv,semestral,propio
+O4,"El cumplimiento se mide, no se declara",KR4.3,riesgos residuales por encima del apetito (12 sobre 50),9,riesgos,0,≤,no cumple,sgsi-medido/riesgos_resumen.csv,semestral,propio
+O4,"El cumplimiento se mide, no se declara",KR4.4,no conformidades de la auditoría con iniciativa en el plan director,100.0,%,100,≥,cumple,sgsi-medido/auditoria.csv; fuentes/plan_director.csv,semestral,propio
+C,Contexto del sector (sin meta propia),C4,categorías de NIST CSF 2.0 que cubren las 73 medidas del ENS (lectura propia),21,de 22,,,contexto,sgsi-medido/cobertura_csf.csv,con cada edición,contexto
+O5,El sistema de IA está evaluado frente a ISO/IEC 27090,KR5.1,fragmentos ajenos entregados por consulta con el permiso dentro de la consulta,0.0,fragmentos,0,≤,cumple,rag-sintetico/consultas.csv,en cada medición,propio
+C,Contexto del sector (sin meta propia),C5,los mismos fragmentos ajenos por consulta con el permiso aplicado después de recuperar,6.29,fragmentos,,,contexto,rag-sintetico/consultas.csv,en cada medición,contexto
+O5,El sistema de IA está evaluado frente a ISO/IEC 27090,KR5.2,elementos de ISO/IEC 27090 con declaración (las nueve amenazas de la cláusula 6 y el anexo B),10,de 10,10,≥,cumple,sgsi-medido/fuentes/soa_27090.csv,semestral,propio
+O5,El sistema de IA está evaluado frente a ISO/IEC 27090,KR5.3,elementos aplicables de ISO/IEC 27090 con salvaguarda implantada del todo,66.7,%,100,≥,no cumple,sgsi-medido/fuentes/soa_27090.csv,semestral,propio
+O5,El sistema de IA está evaluado frente a ISO/IEC 27090,KR5.4,reevaluaciones periódicas de las amenazas de IA con calendario fijado y ejecutado (cláusula 7),0,calendarios,1,≥,no cumple,sgsi-medido/auditoria.csv (R11),semestral,propio
+C,Contexto del sector (sin meta propia),C6,certificados de conformidad con el ENS vigentes por categoría (sistemas certificados),2967,certificados,,,contexto,ens-certificados/salidas/resumen.csv,con cada lectura,contexto
+C,Contexto del sector (sin meta propia),C7,mediana de la multa final en las resoluciones sancionadoras de la AEPD de 2025 (n = 207),6000.0,€,,,contexto,aepd-correctivos/salidas/importes_anuales.csv,anual,contexto

@@ -1,0 +1,11 @@
+codigo,amenaza,grupo
+[27090-6.2],Envenenamiento de datos,IA (ISO/IEC 27090 cláusula 6)
+[27090-6.3],Evasión,IA (ISO/IEC 27090 cláusula 6)
+[27090-6.4],Inferencia de pertenencia,IA (ISO/IEC 27090 cláusula 6)
+[27090-6.5],Exfiltración del modelo,IA (ISO/IEC 27090 cláusula 6)
+[27090-6.6],Inversión del modelo,IA (ISO/IEC 27090 cláusula 6)
+[27090-6.7],Envenenamiento directo del modelo,IA (ISO/IEC 27090 cláusula 6)
+[27090-6.8],Salida sensible del modelo,IA (ISO/IEC 27090 cláusula 6)
+[27090-6.9],Inyección de prompt,IA (ISO/IEC 27090 cláusula 6)
+[27090-6.10],Salida con ataques de inyección,IA (ISO/IEC 27090 cláusula 6)
+[27090-B],Versiones para IA de ataques convencionales (anexo B: cadena de suministro),IA (ISO/IEC 27090 anexo B)

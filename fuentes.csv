@@ -28,8 +28,11 @@ lista de productos afectados del NCSC-NL (php2shell),php2shell,https://raw.githu
 tabla 28193 del INE (Encuesta Anual de Estructura Salarial),pam-minimo,https://servicios.ine.es/wstempus/csv/ES/DATOS_TABLA/28193
 API de visualizaciones de Wikimedia (pageviews/top por día y all-days),datamart-wikipedia,https://wikimedia.org/api/rest_v1/metrics/pageviews/top/es.wikipedia/all-access/2024/01/01
 núcleo de NIST CSF 2.0 con sus referencias informativas (CPRT del NIST),sgsi-medido,https://csrc.nist.gov/extensions/nudp/services/json/csf/download?olirids=all
-Real Decreto 311/2022 del Esquema Nacional de Seguridad (texto consolidado del BOE),sgsi-medido,https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191
+Real Decreto 311/2022 del Esquema Nacional de Seguridad (texto consolidado del BOE),sgsi-medido grc-extendido,https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191
 Directiva (UE) 2022/2555 (NIS2) en EUR-Lex,sgsi-medido,https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32022L2555
 Reglamento (UE) 2022/2554 (DORA) en EUR-Lex,sgsi-medido,https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32022R2554
 MAGERIT v3 Libro II: catálogo de elementos (PAe),sgsi-medido,https://administracionelectronica.gob.es/ctt/resources/Soluciones/184/Descargas/Libro-II-Catalogo-de-Elementos.pdf
 repositorio público de la demo del RAG sintético,sgsi-medido,https://huggingface.co/spaces/ManPla/rag-sintetico
+componentes del marco NICE v2.2.0 (JSON del CPRT del NIST),grc-extendido,https://csrc.nist.gov/csrc/media/Projects/cprt/documents/nice/v2-2-0_nf_components.json
+"línea base alta de SP 800-53B en OSCAL (usnistgov/oscal-content; también LOW, MODERATE y PRIVACY)",grc-extendido,https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_HIGH-baseline_profile.json
+"VERIS Community Database (vz-risk/VCDB, fichero unido; CC BY-SA 4.0)",grc-extendido,https://github.com/vz-risk/VCDB/raw/master/data/joined/vcdb.json.zip

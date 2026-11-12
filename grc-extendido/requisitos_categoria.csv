@@ -1,0 +1,8 @@
+marco,nivel,requisitos,controles,mejoras,familias
+NIST SP 800-53B,low,149,131,18,18
+NIST SP 800-53B,moderate,287,177,110,18
+NIST SP 800-53B,high,370,188,182,18
+NIST SP 800-53B,privacy,96,75,21,16
+ENS (RD 311/2022),básica,57,52,5,3
+ENS (RD 311/2022),media,114,68,46,3
+ENS (RD 311/2022),alta,155,73,82,3

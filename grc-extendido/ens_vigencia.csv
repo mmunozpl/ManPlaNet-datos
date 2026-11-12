@@ -1,0 +1,10 @@
+categoria,estado,certificados
+ALTA,vence en 90 días,89
+ALTA,vencido,1
+ALTA,vigente,934
+BÁSICA,vence en 90 días,5
+BÁSICA,vencido,3
+BÁSICA,vigente,66
+MEDIA,vence en 90 días,159
+MEDIA,vencido,2
+MEDIA,vigente,1708

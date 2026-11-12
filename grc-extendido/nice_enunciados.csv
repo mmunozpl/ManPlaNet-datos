@@ -1,0 +1,610 @@
+id,tipo,roles,en_roles,texto
+K0675,knowledge,8,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-017 OG-WRL-007 OG-WRL-006,Knowledge of risk management processes
+K0683,knowledge,8,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-017 OG-WRL-007 OG-WRL-006,Knowledge of cybersecurity vulnerabilities
+K0676,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of cybersecurity laws and regulations
+K0677,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of cybersecurity policies and procedures
+K0678,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of privacy laws and regulations
+K0679,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of privacy policies and procedures
+K0680,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of cybersecurity principles and practices
+K0681,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of privacy principles and practices
+K0682,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of cybersecurity threats
+K0684,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of cybersecurity threat characteristics
+K0751,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of system threats
+K0752,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of system vulnerabilities
+K0983,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of computer networking principles and practices
+K1014,knowledge,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of network security principles and practices
+T1020,task,7,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007 OG-WRL-006,Determine the operational and safety impacts of cybersecurity lapses
+K0674,knowledge,6,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-016 OG-WRL-007,Knowledge of computer networking protocols
+K0819,knowledge,6,OG-WRL-012 OG-WRL-013 OG-WRL-016 OG-WRL-017 OG-WRL-007 OG-WRL-006,Knowledge of import and export control laws and regulations
+K0820,knowledge,6,OG-WRL-012 OG-WRL-013 OG-WRL-016 OG-WRL-017 OG-WRL-007 OG-WRL-006,Knowledge of supply chain risks
+K0892,knowledge,6,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-007 OG-WRL-006,Knowledge of cyber defense laws and regulations
+K0990,knowledge,6,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008 OG-WRL-007 OG-WRL-006,Knowledge of cyber operations principles and practices
+K0743,knowledge,5,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-007 OG-WRL-006,Knowledge of new and emerging technologies
+K0821,knowledge,5,OG-WRL-012 OG-WRL-013 OG-WRL-016 OG-WRL-007 OG-WRL-006,Knowledge of federal agency roles and responsibilities
+S0406,skill,5,OG-WRL-002 OG-WRL-013 OG-WRL-008 OG-WRL-017 OG-WRL-007,Skill in developing policy plans
+S0686,skill,5,OG-WRL-012 OG-WRL-013 OG-WRL-017 OG-WRL-007 OG-WRL-006,Skill in performing risk assessments
+K0735,knowledge,4,OG-WRL-012 OG-WRL-013 OG-WRL-016 OG-WRL-017,Knowledge of risk management models and frameworks
+K0784,knowledge,4,OG-WRL-012 OG-WRL-013 OG-WRL-007 OG-WRL-006,Knowledge of insider threat laws and regulations
+K0785,knowledge,4,OG-WRL-012 OG-WRL-013 OG-WRL-007 OG-WRL-006,Knowledge of insider threat tools and techniques
+K0800,knowledge,4,OG-WRL-012 OG-WRL-013 OG-WRL-007 OG-WRL-006,Knowledge of evidence admissibility laws and regulations
+K0803,knowledge,4,OG-WRL-012 OG-WRL-013 OG-WRL-016 OG-WRL-017,Knowledge of supply chain risk management principles and practices
+K0962,knowledge,4,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008,Knowledge of targeting laws and regulations
+K0963,knowledge,4,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-008,Knowledge of exploitation laws and regulations
+K1079,knowledge,4,OG-WRL-002 OG-WRL-012 OG-WRL-013 OG-WRL-007,Knowledge of web application security risks
+K1183,knowledge,4,OG-WRL-002 OG-WRL-008 OG-WRL-017 OG-WRL-007,Knowledge of organizational cybersecurity policies and procedures
+S0414,skill,4,OG-WRL-012 OG-WRL-013 OG-WRL-007 OG-WRL-006,Skill in evaluating laws
+S0415,skill,4,OG-WRL-012 OG-WRL-013 OG-WRL-007 OG-WRL-006,Skill in evaluating regulations
+S0416,skill,4,OG-WRL-012 OG-WRL-013 OG-WRL-007 OG-WRL-006,Skill in evaluating policies
+K0644,knowledge,3,OG-WRL-013 OG-WRL-008 OG-WRL-007,Knowledge of cybersecurity operation policies and procedures
+K0685,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-006,Knowledge of access control principles and practices
+K0686,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-006,Knowledge of authentication and authorization tools and techniques
+K0687,knowledge,3,OG-WRL-012 OG-WRL-008 OG-WRL-017,Knowledge of business operations standards and best practices
+K0691,knowledge,3,OG-WRL-002 OG-WRL-012 OG-WRL-013,Knowledge of cyber defense tools and techniques
+K0692,knowledge,3,OG-WRL-002 OG-WRL-012 OG-WRL-013,Knowledge of vulnerability assessment tools and techniques
+K0721,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-016,Knowledge of risk management principles and practices
+K0728,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-007,"Knowledge of Confidentiality, Integrity and Availability (CIA) principles and practices"
+K0729,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-007,Knowledge of non-repudiation principles and practices
+K0730,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-007,Knowledge of cyber safety principles and practices
+K0734,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-016,Knowledge of Risk Management Framework (RMF) requirements
+K0736,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-006,Knowledge of information technology (IT) security principles and practices
+K0746,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-006,Knowledge of policy-based access controls
+K0747,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-006,Knowledge of Risk Adaptive (Adaptable) Access Controls (RAdAC)
+K0834,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-006,Knowledge of technology procurement principles and practices
+K0838,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-016,Knowledge of supply chain risk management policies and procedures
+K0839,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-007,Knowledge of critical infrastructure systems and software
+K0915,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-008,Knowledge of network architecture principles and practices
+K0918,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-006,Knowledge of Payment Card Industry (PCI) data security standards and best practices
+K0919,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-006,Knowledge of Personal Health Information (PHI) data security standards and best practices
+K0922,knowledge,3,OG-WRL-012 OG-WRL-016 OG-WRL-017,Knowledge of the acquisition life cycle models and frameworks
+K1050,knowledge,3,OG-WRL-012 OG-WRL-013 OG-WRL-006,Knowledge of critical information requirements
+K1137,knowledge,3,OG-WRL-002 OG-WRL-016 OG-WRL-017,Knowledge of cybersecurity requirements
+K1180,knowledge,3,OG-WRL-002 OG-WRL-012 OG-WRL-007,Knowledge of organizational cybersecurity goals and objectives
+S0447,skill,3,OG-WRL-012 OG-WRL-013 OG-WRL-008,Skill in aligning privacy and cybersecurity objectives
+S0462,skill,3,OG-WRL-012 OG-WRL-016 OG-WRL-017,Skill in integrating information security requirements in the acquisitions process
+S0515,skill,3,OG-WRL-002 OG-WRL-012 OG-WRL-013,Skill in identifying partner capabilities
+S0610,skill,3,OG-WRL-008 OG-WRL-007 OG-WRL-006,Skill in communicating effectively
+S0687,skill,3,OG-WRL-002 OG-WRL-012 OG-WRL-008,Skill in performing administrative planning activities
+S0800,skill,3,OG-WRL-012 OG-WRL-017 OG-WRL-007,Skill in analyzing organizational patterns and relationships
+S0807,skill,3,OG-WRL-012 OG-WRL-013 OG-WRL-007,Skill in solving problems
+S0821,skill,3,OG-WRL-002 OG-WRL-008 OG-WRL-007,Skill in collaborating with internal and external stakeholders
+S0878,skill,3,OG-WRL-012 OG-WRL-008 OG-WRL-017,Skill in performing risk analysis
+T1023,task,3,OG-WRL-012 OG-WRL-013 OG-WRL-006,Identify critical technology procurement requirements
+T1036,task,3,OG-WRL-012 OG-WRL-013 OG-WRL-007,Integrate leadership priorities
+T1038,task,3,OG-WRL-012 OG-WRL-013 OG-WRL-007,Integrate organization objectives in intelligence collection
+T1054,task,3,OG-WRL-012 OG-WRL-008 OG-WRL-007,Scope analysis reports to various audiences that accounts for data sharing classification restrictions
+T1189,task,3,OG-WRL-008 OG-WRL-017 OG-WRL-006,"Determine if contracts comply with funding, legal, and program requirements"
+T1335,task,3,OG-WRL-002 OG-WRL-008 OG-WRL-007,Promote cybersecurity awareness to management
+T1336,task,3,OG-WRL-002 OG-WRL-008 OG-WRL-007,Verify the inclusion of sound cybersecurity principles in the organization's vision and goals
+T1358,task,3,OG-WRL-002 OG-WRL-012 OG-WRL-017,Determine the effectiveness of organizational cybersecurity policies and procedures
+T1476,task,3,OG-WRL-002 OG-WRL-008 OG-WRL-007,Promote awareness of cybersecurity policy and strategy among management
+K0659,knowledge,2,OG-WRL-012 OG-WRL-008,Knowledge of information privacy technologies
+K0688,knowledge,2,OG-WRL-012 OG-WRL-007,Knowledge of common application vulnerabilities
+K0689,knowledge,2,OG-WRL-012 OG-WRL-007,Knowledge of network infrastructure principles and practices
+K0696,knowledge,2,OG-WRL-017 OG-WRL-006,Knowledge of digital forensic data principles and practices
+K0698,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of cryptographic key management principles and practices
+K0710,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of enterprise cybersecurity architecture principles and practices
+K0711,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of evaluation and validation principles and practices
+K0718,knowledge,2,OG-WRL-012 OG-WRL-008,Knowledge of network communications principles and practices
+K0720,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of Security Assessment and Authorization (SA&A) processes
+K0723,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of vulnerability data sources
+K0760,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of server diagnostic tools and techniques
+K0761,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of Fault Detection and Diagnostics (FDD) tools and techniques
+K0767,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of structured analysis principles and practices
+K0771,knowledge,2,OG-WRL-016 OG-WRL-017,Knowledge of system life cycle management principles and practices
+K0773,knowledge,2,OG-WRL-002 OG-WRL-008,Knowledge of telecommunications principles and practices
+K0778,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of enterprise information technology (IT) architecture principles and practices
+K0791,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of defense-in-depth principles and practices
+K0818,knowledge,2,OG-WRL-017 OG-WRL-007,Knowledge of new and emerging cybersecurity risks
+K0836,knowledge,2,OG-WRL-016 OG-WRL-017,Knowledge of threat assessment principles and practices
+K0859,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of encryption tools and techniques
+K0868,knowledge,2,OG-WRL-016 OG-WRL-017,Knowledge of process improvement principles and practices
+K0869,knowledge,2,OG-WRL-016 OG-WRL-017,Knowledge of process maturity models and frameworks
+K0870,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of enterprise architecture (EA) reference models and frameworks
+K0871,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of enterprise architecture (EA) principles and practices
+K0877,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of application firewall principles and practices
+K0878,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of network firewall principles and practices
+K0879,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of industry cybersecurity models and frameworks
+K0880,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of access control models and frameworks
+K0881,knowledge,2,OG-WRL-012 OG-WRL-008,Knowledge of learning assessment tools and techniques
+K0885,knowledge,2,OG-WRL-012 OG-WRL-008,Knowledge of instructional design principles and practices
+K0886,knowledge,2,OG-WRL-012 OG-WRL-008,Knowledge of instructional design models and frameworks
+K0917,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of Personally Identifiable Information (PII) data security standards and best practices
+K0942,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of cryptology principles and practices
+K0948,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of embedded systems and software
+K0955,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of penetration testing principles and practices
+K0956,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of penetration testing tools and techniques
+K1070,knowledge,2,OG-WRL-008 OG-WRL-006,Knowledge of privacy disclosure statement laws and regulations
+K1076,knowledge,2,OG-WRL-012 OG-WRL-017,Knowledge of risk scoring principles and practices
+K1077,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of data security controls
+K1084,knowledge,2,OG-WRL-012 OG-WRL-013,Knowledge of data privacy controls
+K1138,knowledge,2,OG-WRL-008 OG-WRL-006,Knowledge of cybersecurity standards and best practices
+K1206,knowledge,2,OG-WRL-002 OG-WRL-016,Knowledge of research and design processes and procedures
+K1212,knowledge,2,OG-WRL-008 OG-WRL-017,Knowledge of security controls
+S0111,skill,2,OG-WRL-012 OG-WRL-007,Skill in interfacing with customers
+S0385,skill,2,OG-WRL-012 OG-WRL-017,Skill in communicating complex concepts
+S0386,skill,2,OG-WRL-012 OG-WRL-017,Skill in communicating verbally
+S0387,skill,2,OG-WRL-012 OG-WRL-017,Skill in communicating in writing
+S0401,skill,2,OG-WRL-012 OG-WRL-017,Skill in collecting data
+S0423,skill,2,OG-WRL-012 OG-WRL-016,Skill in analyzing processes to ensure conformance with procedural requirements
+S0430,skill,2,OG-WRL-012 OG-WRL-013,Skill in collaborating with others
+S0431,skill,2,OG-WRL-012 OG-WRL-007,Skill in applying critical thinking
+S0432,skill,2,OG-WRL-013 OG-WRL-017,Skill in coordinating cybersecurity operations across an organization
+S0439,skill,2,OG-WRL-012 OG-WRL-013,Skill in identifying external partners
+S0463,skill,2,OG-WRL-012 OG-WRL-016,Skill in implementing software quality control processes
+S0465,skill,2,OG-WRL-012 OG-WRL-013,Skill in identifying critical infrastructure systems
+S0466,skill,2,OG-WRL-012 OG-WRL-013,Skill in identifying systems designed without security considerations
+S0497,skill,2,OG-WRL-002 OG-WRL-013,Skill in developing client organization profiles
+S0506,skill,2,OG-WRL-012 OG-WRL-007,Skill in identifying customer information needs
+S0511,skill,2,OG-WRL-012 OG-WRL-007,Skill in establishing priorities
+S0579,skill,2,OG-WRL-012 OG-WRL-017,Skill in preparing reports
+S0580,skill,2,OG-WRL-012 OG-WRL-016,Skill in monitoring system performance
+S0581,skill,2,OG-WRL-012 OG-WRL-016,Skill in configuring systems for performance enhancement
+S0601,skill,2,OG-WRL-012 OG-WRL-008,Skill in developing curricula
+S0602,skill,2,OG-WRL-012 OG-WRL-008,Skill in teaching training programs
+S0712,skill,2,OG-WRL-002 OG-WRL-012,Skill in evaluating data source quality
+S0713,skill,2,OG-WRL-002 OG-WRL-012,Skill in evaluating information quality
+S0729,skill,2,OG-WRL-002 OG-WRL-012,Skill in preparing plans
+S0756,skill,2,OG-WRL-012 OG-WRL-017,Skill in incorporating feedback
+S0790,skill,2,OG-WRL-012 OG-WRL-017,Skill in monitoring status
+S0791,skill,2,OG-WRL-012 OG-WRL-008,Skill in presenting to an audience
+S0797,skill,2,OG-WRL-008 OG-WRL-017,Skill in negotiating vendor agreements
+S0801,skill,2,OG-WRL-012 OG-WRL-013,Skill in assessing partner operations capabilities
+T0006,task,2,OG-WRL-007 OG-WRL-006,Advocate organization's official position in legal and legislative proceedings
+T0495,task,2,OG-WRL-012 OG-WRL-013,"Manage Accreditation Packages (e.g., ISO/IEC 15026-2)"
+T1019,task,2,OG-WRL-012 OG-WRL-013,Determine special needs of cyber-physical systems
+T1022,task,2,OG-WRL-012 OG-WRL-013,Review enterprise information technology (IT) goals and objectives
+T1026,task,2,OG-WRL-012 OG-WRL-016,Determine procurement requirements
+T1055,task,2,OG-WRL-012 OG-WRL-007,Determine if priority information requirements are satisfied
+T1059,task,2,OG-WRL-008 OG-WRL-007,"Perform cost/benefit analyses of cybersecurity programs, policies, processes, systems, and elements"
+T1060,task,2,OG-WRL-008 OG-WRL-007,Advise senior management on organizational cybersecurity efforts
+T1069,task,2,OG-WRL-017 OG-WRL-006,Evaluate organizational cybersecurity policy regulatory compliance
+T1084,task,2,OG-WRL-012 OG-WRL-008,Identify anomalous network activity
+T1107,task,2,OG-WRL-002 OG-WRL-013,Evaluate functional requirements
+T1118,task,2,OG-WRL-012 OG-WRL-008,Identify vulnerabilities
+T1119,task,2,OG-WRL-012 OG-WRL-008,Recommend vulnerability remediation strategies
+T1145,task,2,OG-WRL-008 OG-WRL-007,Develop strategic plans
+T1146,task,2,OG-WRL-008 OG-WRL-007,Maintain strategic plans
+T1232,task,2,OG-WRL-012 OG-WRL-013,Approve accreditation packages
+T1266,task,2,OG-WRL-012 OG-WRL-017,Recommend risk mitigation strategies
+T1279,task,2,OG-WRL-008 OG-WRL-017,Prepare audit reports
+T1305,task,2,OG-WRL-012 OG-WRL-013,"Determine if authorization and assurance documents identify an acceptable level of risk for software applications, systems, and networks"
+T1306,task,2,OG-WRL-002 OG-WRL-016,Conduct technology program and project audits
+T1344,task,2,OG-WRL-016 OG-WRL-017,Determine if procurement activities sufficiently address supply chain risks
+T1355,task,2,OG-WRL-012 OG-WRL-007,Determine if vulnerability remediation plans are in place
+T1356,task,2,OG-WRL-012 OG-WRL-007,Develop vulnerability remediation plans
+T1357,task,2,OG-WRL-002 OG-WRL-012,Determine if cybersecurity requirements have been successfully implemented
+T1369,task,2,OG-WRL-012 OG-WRL-017,"Determine if acquisitions, procurement, and outsourcing efforts address cybersecurity requirements"
+T1394,task,2,OG-WRL-002 OG-WRL-016,"Develop independent cybersecurity audit processes for application software, networks, and systems"
+T1395,task,2,OG-WRL-002 OG-WRL-016,"Implement independent cybersecurity audit processes for application software, networks, and systems"
+T1396,task,2,OG-WRL-002 OG-WRL-016,Oversee independent cybersecurity audits
+T1397,task,2,OG-WRL-002 OG-WRL-016,Determine if research and design processes and procedures are in compliance with cybersecurity requirements
+T1398,task,2,OG-WRL-002 OG-WRL-016,Determine if research and design processes and procedures are accurately followed by cybersecurity staff when performing their day-to-day activities
+T1399,task,2,OG-WRL-016 OG-WRL-017,"Develop supply chain, system, network, and operational security contract language"
+T1489,task,2,OG-WRL-012 OG-WRL-008,Correlate incident data
+T1492,task,2,OG-WRL-002 OG-WRL-008,Integrate laws and regulations into policy
+T1518,task,2,OG-WRL-002 OG-WRL-007,Develop organizational cybersecurity strategy
+T1543,task,2,OG-WRL-002 OG-WRL-007,Develop cybersecurity policies and procedures
+T1549,task,2,OG-WRL-008 OG-WRL-006,"Evaluate the impact of legal, regulatory, policy, standard, or procedural changes"
+T1586,task,2,OG-WRL-017 OG-WRL-007,Conduct cybersecurity risk assessments
+T1862,task,2,OG-WRL-008 OG-WRL-007,Establish cybersecurity risk assessment processes
+T1863,task,2,OG-WRL-008 OG-WRL-017,Develop information sharing strategic plans
+K0476,knowledge,1,OG-WRL-012,Knowledge of language processing tools and techniques
+K0645,knowledge,1,OG-WRL-008,Knowledge of standard operating procedures (SOPs)
+K0647,knowledge,1,OG-WRL-017,Knowledge of data visualization tools and techniques
+K0650,knowledge,1,OG-WRL-017,Knowledge of supplier assessment criteria
+K0653,knowledge,1,OG-WRL-012,Knowledge of cybersecurity practices in the acquisition process
+K0654,knowledge,1,OG-WRL-017,Knowledge of target audience requirements
+K0655,knowledge,1,OG-WRL-012,Knowledge of intelligence fusion
+K0658,knowledge,1,OG-WRL-012,Knowledge of cognitive biases
+K0664,knowledge,1,OG-WRL-017,Knowledge of stakeholder management
+K0667,knowledge,1,OG-WRL-017,Knowledge of contracts
+K0668,knowledge,1,OG-WRL-017,Knowledge of contract management
+K0669,knowledge,1,OG-WRL-017,Knowledge of contractor management
+K0701,knowledge,1,OG-WRL-012,Knowledge of data backup and recovery policies and procedures
+K0702,knowledge,1,OG-WRL-012,Knowledge of data warehousing principles and practices
+K0703,knowledge,1,OG-WRL-012,Knowledge of data mining principles and practices
+K0707,knowledge,1,OG-WRL-012,Knowledge of database systems and software
+K0709,knowledge,1,OG-WRL-012,Knowledge of business continuity and disaster recovery (BCDR) policies and procedures
+K0712,knowledge,1,OG-WRL-012,Knowledge of Local Area Networks (LAN)
+K0713,knowledge,1,OG-WRL-012,Knowledge of Wide Area Networks (WAN)
+K0724,knowledge,1,OG-WRL-017,Knowledge of incident response principles and practices
+K0727,knowledge,1,OG-WRL-016,Knowledge of analysis standards and best practices
+K0731,knowledge,1,OG-WRL-012,Knowledge of systems security engineering (SSE) principles and practices
+K0733,knowledge,1,OG-WRL-016,Knowledge of information technology (IT) architecture models and frameworks
+K0742,knowledge,1,OG-WRL-012,Knowledge of identity and access management (IAM) principles and practices
+K0748,knowledge,1,OG-WRL-008,Knowledge of Privacy Impact Assessment (PIA) principles and practices
+K0749,knowledge,1,OG-WRL-012,Knowledge of process engineering principles and practices
+K0754,knowledge,1,OG-WRL-016,Knowledge of resource management principles and practices
+K0758,knowledge,1,OG-WRL-012,Knowledge of server administration principles and practices
+K0765,knowledge,1,OG-WRL-012,Knowledge of software engineering principles and practices
+K0776,knowledge,1,OG-WRL-012,Knowledge of collaboration tools and techniques
+K0779,knowledge,1,OG-WRL-012,Knowledge of systems engineering processes
+K0783,knowledge,1,OG-WRL-007,Knowledge of network attack characteristics
+K0792,knowledge,1,OG-WRL-008,Knowledge of network configurations
+K0806,knowledge,1,OG-WRL-012,Knowledge of machine virtualization tools and techniques
+K0812,knowledge,1,OG-WRL-002,Knowledge of digital communication systems and software
+K0814,knowledge,1,OG-WRL-012,Knowledge of secure coding tools and techniques
+K0822,knowledge,1,OG-WRL-017,Knowledge of risk tolerance principles and practices
+K0825,knowledge,1,OG-WRL-007,Knowledge of threat vector characteristics
+K0829,knowledge,1,OG-WRL-006,Knowledge of account creation policies and procedures
+K0830,knowledge,1,OG-WRL-006,Knowledge of password policies and procedures
+K0831,knowledge,1,OG-WRL-007,Knowledge of network attack vectors
+K0835,knowledge,1,OG-WRL-016,Knowledge of risk assessment principles and practices
+K0840,knowledge,1,OG-WRL-012,Knowledge of hardware reverse engineering tools and techniques
+K0842,knowledge,1,OG-WRL-012,Knowledge of software reverse engineering tools and techniques
+K0851,knowledge,1,OG-WRL-012,Knowledge of reverse engineering principles and practices
+K0858,knowledge,1,OG-WRL-012,Knowledge of virtual machine detection tools and techniques
+K0865,knowledge,1,OG-WRL-012,Knowledge of data classification standards and best practices
+K0866,knowledge,1,OG-WRL-012,Knowledge of data classification tools and techniques
+K0872,knowledge,1,OG-WRL-016,Knowledge of service management principles and practices
+K0873,knowledge,1,OG-WRL-016,Knowledge of service management standards and best practices
+K0912,knowledge,1,OG-WRL-017,Knowledge of sustainment principles and practices
+K0924,knowledge,1,OG-WRL-012,Knowledge of network analysis tools and techniques
+K0925,knowledge,1,OG-WRL-008,Knowledge of wireless communication tools and techniques
+K0926,knowledge,1,OG-WRL-008,Knowledge of signal jamming tools and techniques
+K0928,knowledge,1,OG-WRL-012,Knowledge of systems engineering principles and practices
+K0934,knowledge,1,OG-WRL-012,Knowledge of data classification policies and procedures
+K0936,knowledge,1,OG-WRL-007,Knowledge of network hardware threats and vulnerabilities
+K0943,knowledge,1,OG-WRL-002,Knowledge of industry indicators
+K0944,knowledge,1,OG-WRL-006,Knowledge of intelligence data gathering principles and practices
+K0945,knowledge,1,OG-WRL-006,Knowledge of intelligence data gathering policies and procedures
+K0947,knowledge,1,OG-WRL-012,Knowledge of computer engineering principles and practices
+K0953,knowledge,1,OG-WRL-012,Knowledge of data mining tools and techniques
+K0954,knowledge,1,OG-WRL-006,Knowledge of foreign disclosure policies and procedures
+K0965,knowledge,1,OG-WRL-012,Knowledge of language analysis tools and techniques
+K0966,knowledge,1,OG-WRL-012,Knowledge of voice analysis tools and techniques
+K0967,knowledge,1,OG-WRL-012,Knowledge of graphic materials analysis tools and techniques
+K0969,knowledge,1,OG-WRL-002,Knowledge of cyber-attack tools and techniques
+K0973,knowledge,1,OG-WRL-008,Knowledge of system persistence tools and techniques
+K0986,knowledge,1,OG-WRL-012,Knowledge of target selection criticality factors
+K0987,knowledge,1,OG-WRL-012,Knowledge of target selection vulnerability factors
+K1019,knowledge,1,OG-WRL-017,Knowledge of operations security (OPSEC) principles and practices
+K1023,knowledge,1,OG-WRL-002,Knowledge of network exploitation tools and techniques
+K1025,knowledge,1,OG-WRL-007,Knowledge of decision-making policies and procedures
+K1030,knowledge,1,OG-WRL-008,Knowledge of operational planning tools and techniques
+K1034,knowledge,1,OG-WRL-012,Knowledge of target language
+K1063,knowledge,1,OG-WRL-012,Knowledge of operation assessment processes
+K1069,knowledge,1,OG-WRL-012,Knowledge of virtual machine tools and technologies
+K1083,knowledge,1,OG-WRL-007,Knowledge of cybersecurity competitions
+K1088,knowledge,1,OG-WRL-012,Knowledge of knowledge management tools and techniques
+K1096,knowledge,1,OG-WRL-012,Knowledge of data analysis tools and techniques
+K1098,knowledge,1,OG-WRL-012,Knowledge of personnel systems and software
+K1099,knowledge,1,OG-WRL-012,Knowledge of code analysis tools and techniques
+K1100,knowledge,1,OG-WRL-012,Knowledge of analytical tools and techniques
+K1101,knowledge,1,OG-WRL-012,Knowledge of analytics
+K1108,knowledge,1,OG-WRL-012,Knowledge of traceroute tools and techniques
+K1109,knowledge,1,OG-WRL-012,Knowledge of virtual collaborative workspace tools and techniques
+K1110,knowledge,1,OG-WRL-017,Knowledge of acquisition cybersecurity requirements
+K1111,knowledge,1,OG-WRL-008,Knowledge of application security design principles and practices
+K1120,knowledge,1,OG-WRL-008,"Knowledge of Confidentiality, Integrity, Availability, Authenticity, and Non-repudiation (CIAAN) principles and practices"
+K1126,knowledge,1,OG-WRL-017,Knowledge of cost constraints
+K1160,knowledge,1,OG-WRL-008,Knowledge of federal and state accreditation standards
+K1172,knowledge,1,OG-WRL-017,Knowledge of mission requirements
+K1173,knowledge,1,OG-WRL-017,Knowledge of multilevel security requirements
+K1182,knowledge,1,OG-WRL-006,Knowledge of organizational cybersecurity policies and configurations
+K1186,knowledge,1,OG-WRL-002,Knowledge of organizational human resource (HR) policies and procedures
+K1188,knowledge,1,OG-WRL-007,Knowledge of organizational policies and procedures
+K1190,knowledge,1,OG-WRL-017,Knowledge of organizational risk levels
+K1192,knowledge,1,OG-WRL-008,Knowledge of organizational privacy policies and procedures
+K1194,knowledge,1,OG-WRL-008,Knowledge of Personally Identifiable Information (PII) attributes
+K1198,knowledge,1,OG-WRL-008,Knowledge of privacy and data security regulators
+K1200,knowledge,1,OG-WRL-008,Knowledge of privacy technologies
+K1208,knowledge,1,OG-WRL-017,Knowledge of risk acceptance and documentation
+K1209,knowledge,1,OG-WRL-007,Knowledge of risk mitigation principles and practices
+K1217,knowledge,1,OG-WRL-017,Knowledge of software and systems engineering life cycle standards
+K1225,knowledge,1,OG-WRL-007,Knowledge of system life cycles
+K1252,knowledge,1,OG-WRL-017,Knowledge of high value asset characteristics
+K1263,knowledge,1,OG-WRL-017,Knowledge of notification policies and procedures
+K1274,knowledge,1,OG-WRL-017,Knowledge of threat modeling tools and techniques
+K1279,knowledge,1,OG-WRL-017,Knowledge of threat-informed defense
+K1287,knowledge,1,OG-WRL-017,Knowledge of change management processes
+K1288,knowledge,1,OG-WRL-017,Knowledge of OT cybersecurity compliance requirements and best practices
+K1307,knowledge,1,OG-WRL-017,Knowledge of OT inventory principles and practices
+K1331,knowledge,1,OG-WRL-017,Knowledge of intellectual property laws and regulations
+K1346,knowledge,1,OG-WRL-017,Knowledge of supply chain fundamentals
+K1347,knowledge,1,OG-WRL-017,Knowledge of supplier data and documentation
+K1348,knowledge,1,OG-WRL-017,Knowledge of risk prioritizations
+K1349,knowledge,1,OG-WRL-017,Knowledge of software bills of materials (SBOMs)
+K1350,knowledge,1,OG-WRL-017,Knowledge of sensitive data handling requirements
+K1351,knowledge,1,OG-WRL-017,Knowledge of anti-tampering policies and procedures
+K1352,knowledge,1,OG-WRL-017,Knowledge of anti-counterfeit policies and procedures
+K1353,knowledge,1,OG-WRL-017,Knowledge of foreign laws that may introduce supply chain risks
+K1354,knowledge,1,OG-WRL-017,Knowledge of hardware bills of materials (HBOMs)
+K1355,knowledge,1,OG-WRL-017,Knowledge of firmware bills of materials
+K1356,knowledge,1,OG-WRL-017,Knowledge of contract manufacturing principles and practices
+S0015,skill,1,OG-WRL-012,Skill in conducting test events
+S0097,skill,1,OG-WRL-012,Skill in applying security controls
+S0136,skill,1,OG-WRL-012,"Skill in network systems management principles, models, methods (e.g., end-to-end systems performance monitoring), and tools"
+S0141,skill,1,OG-WRL-012,Skill in assessing security systems designs
+S0172,skill,1,OG-WRL-012,Skill in applying secure coding techniques
+S0175,skill,1,OG-WRL-012,Skill in performing root cause analysis
+S0177,skill,1,OG-WRL-012,Skill in performing network analysis on targets
+S0248,skill,1,OG-WRL-012,Skill in performing target system analysis
+S0252,skill,1,OG-WRL-012,Skill in processing collected data for follow-on analysis
+S0384,skill,1,OG-WRL-017,Skill in applying standards
+S0388,skill,1,OG-WRL-012,Skill in facilitating small group discussions
+S0389,skill,1,OG-WRL-012,Skill in facilitating group discussions
+S0391,skill,1,OG-WRL-012,Skill in creating technical documentation
+S0393,skill,1,OG-WRL-012,Skill in developing assessments
+S0394,skill,1,OG-WRL-012,Skill in developing security assessments
+S0395,skill,1,OG-WRL-008,Skill in developing instructional materials
+S0396,skill,1,OG-WRL-013,Skill in forecasting requirements
+S0397,skill,1,OG-WRL-013,Skill in assessing requirements
+S0398,skill,1,OG-WRL-013,Skill in analyzing organizational objectives
+S0402,skill,1,OG-WRL-012,Skill in verifying data
+S0403,skill,1,OG-WRL-012,Skill in validating data
+S0404,skill,1,OG-WRL-017,Skill in conducting market research
+S0407,skill,1,OG-WRL-008,Skill in developing standard operating procedures (SOPs)
+S0408,skill,1,OG-WRL-008,Skill in maintaining standard operating procedures (SOPs)
+S0409,skill,1,OG-WRL-012,Skill in deriving evaluative conclusions from data
+S0435,skill,1,OG-WRL-012,Skill in analyzing large data sets
+S0436,skill,1,OG-WRL-012,Skill in creating target intelligence products
+S0437,skill,1,OG-WRL-012,Skill in identifying targets of interest
+S0438,skill,1,OG-WRL-012,"Skill in functioning effectively in a dynamic, fast-paced environment"
+S0440,skill,1,OG-WRL-012,Skill in identifying target vulnerabilities
+S0441,skill,1,OG-WRL-012,Skill in describing target vulnerabilities
+S0443,skill,1,OG-WRL-012,Skill in mitigating cognitive biases
+S0450,skill,1,OG-WRL-008,Skill in authoring privacy disclosure statements
+S0460,skill,1,OG-WRL-017,Skill in verifying contractor compliance with contracts
+S0461,skill,1,OG-WRL-017,Skill in integrating security requirements and contracts
+S0472,skill,1,OG-WRL-012,Skill in developing virtual machines
+S0473,skill,1,OG-WRL-012,Skill in maintaining virtual machines
+S0479,skill,1,OG-WRL-017,Skill in evaluating supplier trustworthiness
+S0480,skill,1,OG-WRL-017,Skill in evaluating product trustworthiness
+S0483,skill,1,OG-WRL-012,Skill in identifying software communications vulnerabilities
+S0503,skill,1,OG-WRL-012,Skill in selecting targets
+S0504,skill,1,OG-WRL-012,Skill in identifying vulnerabilities
+S0519,skill,1,OG-WRL-002,Skill in detecting exploitation activities
+S0531,skill,1,OG-WRL-017,Skill in assessing security hardware and software
+S0532,skill,1,OG-WRL-012,Skill in analyzing software configurations
+S0537,skill,1,OG-WRL-008,Skill in designing wireless communications systems
+S0540,skill,1,OG-WRL-008,Skill in identifying network threats
+S0543,skill,1,OG-WRL-012,Skill in scanning for vulnerabilities
+S0544,skill,1,OG-WRL-012,Skill in recognizing vulnerabilities
+S0558,skill,1,OG-WRL-012,Skill in developing algorithms
+S0559,skill,1,OG-WRL-012,Skill in performing data structure analysis
+S0564,skill,1,OG-WRL-007,Skill in creating system security policies
+S0574,skill,1,OG-WRL-012,Skill in developing security system controls
+S0578,skill,1,OG-WRL-012,Skill in evaluating security designs
+S0614,skill,1,OG-WRL-012,Skill in categorizing types of vulnerabilities
+S0619,skill,1,OG-WRL-016,Skill in auditing technical systems
+S0628,skill,1,OG-WRL-012,Skill in developing learning activities
+S0632,skill,1,OG-WRL-012,Skill in designing Test and Evaluation Strategies (TES)
+S0634,skill,1,OG-WRL-012,Skill in identifying Test and Evaluation Strategies (TES) infrastructure requirements
+S0635,skill,1,OG-WRL-012,Skill in managing test assets
+S0640,skill,1,OG-WRL-017,Skill in performing regression analysis
+S0641,skill,1,OG-WRL-012,Skill in reviewing logs
+S0642,skill,1,OG-WRL-012,Skill in identifying evidence of past intrusions
+S0645,skill,1,OG-WRL-012,Skill in troubleshooting cyber defense infrastructure anomalies
+S0647,skill,1,OG-WRL-012,Skill in managing a workforce
+S0654,skill,1,OG-WRL-012,Skill in conducting system reviews
+S0655,skill,1,OG-WRL-012,Skill in designing secure test plans
+S0656,skill,1,OG-WRL-012,Skill in assessing application vulnerabilities
+S0657,skill,1,OG-WRL-012,Skill in implementing Public Key Infrastructure (PKI) encryption
+S0658,skill,1,OG-WRL-012,Skill in implementing digital signatures
+S0664,skill,1,OG-WRL-012,Skill in applying policies that meet system security objectives
+S0665,skill,1,OG-WRL-017,"Skill in creating policies that reflect legal, regulatory, and organizational requirements"
+S0666,skill,1,OG-WRL-017,Skill in defining performance objectives
+S0667,skill,1,OG-WRL-012,Skill in assessing security controls
+S0673,skill,1,OG-WRL-012,Skill in translating operational requirements into security controls
+S0675,skill,1,OG-WRL-012,Skill in optimizing system performance
+S0688,skill,1,OG-WRL-012,Skill in performing network data analysis
+S0700,skill,1,OG-WRL-012,Skill in mining data
+S0701,skill,1,OG-WRL-012,Skill in performing data mining analysis
+S0704,skill,1,OG-WRL-012,Skill in performing target analysis
+S0707,skill,1,OG-WRL-007,Skill in developing comprehensive cyber operations assessment programs
+S0708,skill,1,OG-WRL-007,Skill in executing comprehensive cyber operations assessment programs
+S0709,skill,1,OG-WRL-012,Skill in developing analytics
+S0711,skill,1,OG-WRL-012,Skill in interpreting metadata
+S0715,skill,1,OG-WRL-012,Skill in generating operation plans
+S0719,skill,1,OG-WRL-012,Skill in identifying intelligence gaps
+S0720,skill,1,OG-WRL-012,Skill in identifying regional languages and dialects
+S0721,skill,1,OG-WRL-012,Skill in prioritizing information
+S0722,skill,1,OG-WRL-012,Skill in interpreting traceroute results
+S0723,skill,1,OG-WRL-012,Skill in interpreting vulnerability scanner results
+S0724,skill,1,OG-WRL-012,Skill in managing client relationships
+S0725,skill,1,OG-WRL-017,Skill in performing network visualization
+S0728,skill,1,OG-WRL-012,Skill in preparing briefings
+S0731,skill,1,OG-WRL-012,Skill in producing after-action reports
+S0739,skill,1,OG-WRL-012,Skill in analyzing intelligence products
+S0743,skill,1,OG-WRL-012,Skill in identifying network anomalies
+S0744,skill,1,OG-WRL-012,Skill in performing technical writing
+S0755,skill,1,OG-WRL-012,Skill in reconstructing a network
+S0758,skill,1,OG-WRL-012,Skill in performing wireless network analysis
+S0760,skill,1,OG-WRL-012,Skill in navigating databases
+S0761,skill,1,OG-WRL-012,Skill in performing strategic guidance analysis
+S0769,skill,1,OG-WRL-017,Skill in defining progress indicators
+S0772,skill,1,OG-WRL-017,Skill in maintaining planning documents
+S0775,skill,1,OG-WRL-012,Skill in developing intelligence collection plans
+S0777,skill,1,OG-WRL-012,Skill in developing collection strategies
+S0780,skill,1,OG-WRL-012,Skill in fulfilling information requests
+S0788,skill,1,OG-WRL-012,Skill in orchestrating planning teams
+S0789,skill,1,OG-WRL-012,Skill in coordinating collection support
+S0796,skill,1,OG-WRL-008,Skill in creating privacy policies
+S0798,skill,1,OG-WRL-008,Skill in evaluating vendor privacy practices
+S0799,skill,1,OG-WRL-007,Skill in anticipating new security threats
+S0809,skill,1,OG-WRL-012,Skill in utilizing cyber defense service provider information
+S0810,skill,1,OG-WRL-017,Skill in responding to threat reports
+S0811,skill,1,OG-WRL-016,Skill in managing intelligence collection requirements
+S0812,skill,1,OG-WRL-017,Skill in performing supply chain analysis
+S0813,skill,1,OG-WRL-012,Skill in identifying cybersecurity issues in external connections
+S0814,skill,1,OG-WRL-012,Skill in identifying privacy issues in partner interconnections
+S0817,skill,1,OG-WRL-017,Skill in building internal and external relationships
+S0818,skill,1,OG-WRL-008,Skill in building internal and external stakeholder relationships
+S0826,skill,1,OG-WRL-007,Skill in communicating with external organizations
+S0827,skill,1,OG-WRL-017,Skill in communicating with internal and external stakeholders
+S0850,skill,1,OG-WRL-008,Skill in performing cost/benefit analysis
+S0854,skill,1,OG-WRL-017,Skill in performing data analysis
+S0858,skill,1,OG-WRL-008,Skill in performing economic analysis
+S0861,skill,1,OG-WRL-017,Skill in performing gap analysis
+S0874,skill,1,OG-WRL-012,Skill in performing network traffic analysis
+S0877,skill,1,OG-WRL-017,Skill in performing quantitative analysis
+S0900,skill,1,OG-WRL-017,Skill in analyzing information from multiple sources
+S0917,skill,1,OG-WRL-017,Skill in forecasting likely impacts on mission or business functions resulting from adversity
+S0930,skill,1,OG-WRL-017,Skill in defining impact tolerance statements 
+S0959,skill,1,OG-WRL-017,Skill in building multidisciplinary teams
+S0960,skill,1,OG-WRL-017,Skill in designing governance structures
+S0961,skill,1,OG-WRL-017,Skill in selecting supply chain controls
+S0962,skill,1,OG-WRL-017,Skill in applying supply chain controls
+S0963,skill,1,OG-WRL-017,Skill in identifying supply chain risks in common business practices
+S0964,skill,1,OG-WRL-017,Skill in supply chain mapping
+S0965,skill,1,OG-WRL-017,Skill in performing geopolitical risk analysis
+T0220,task,1,OG-WRL-006,"Resolve conflicts in laws, regulations, policies, standards, or procedures"
+T0226,task,1,OG-WRL-002,Serve on agency and interagency policy boards
+T0309,task,1,OG-WRL-012,Assess the effectiveness of security controls
+T0412,task,1,OG-WRL-016,Conduct import/export reviews for acquiring systems and software
+T0898,task,1,OG-WRL-008,Establish an internal privacy audit program
+T1012,task,1,OG-WRL-012,Expand network access
+T1013,task,1,OG-WRL-012,Conduct technical exploitation of a target
+T1014,task,1,OG-WRL-008,Determine if security incidents require legal action
+T1021,task,1,OG-WRL-012,Review cyber defense service provider reporting structure
+T1028,task,1,OG-WRL-002,Research new vulnerabilities in emerging technologies
+T1030,task,1,OG-WRL-012,Estimate the impact of collateral damage
+T1041,task,1,OG-WRL-012,Determine impact of software configurations
+T1046,task,1,OG-WRL-012,Assess operation performance
+T1047,task,1,OG-WRL-012,Assess operation impact
+T1056,task,1,OG-WRL-007,Acquire resources to support cybersecurity program goals and objectives
+T1057,task,1,OG-WRL-007,Conduct an effective enterprise continuity of operations program
+T1058,task,1,OG-WRL-008,Advise senior management on risk levels and security posture
+T1067,task,1,OG-WRL-016,Recommend development of new applications or modification of existing applications
+T1068,task,1,OG-WRL-016,Create development plans for new applications or modification of existing applications
+T1070,task,1,OG-WRL-006,Evaluate organizational cybersecurity policy alignment with organizational directives
+T1079,task,1,OG-WRL-012,Develop cybersecurity risk profiles
+T1088,task,1,OG-WRL-007,Communicate the value of cybersecurity to organizational stakeholders
+T1092,task,1,OG-WRL-008,Conduct functional and connectivity testing
+T1096,task,1,OG-WRL-008,Perform privacy impact assessments (PIAs)
+T1154,task,1,OG-WRL-016,"Develop risk, compliance, and assurance monitoring strategies"
+T1155,task,1,OG-WRL-016,"Develop risk, compliance, and assurance measurement strategies"
+T1158,task,1,OG-WRL-002,Develop cybersecurity implementation policies and guidelines
+T1184,task,1,OG-WRL-002,Establish stakeholder communication channels
+T1185,task,1,OG-WRL-002,Maintain stakeholder communication channels
+T1221,task,1,OG-WRL-007,Disseminate incident and other Computer Network Defense (CND) information
+T1224,task,1,OG-WRL-008,Determine impact of noncompliance on organizational risk levels
+T1225,task,1,OG-WRL-008,Determine impact of noncompliance on effectiveness of the enterprise's cybersecurity program
+T1226,task,1,OG-WRL-007,Align cybersecurity priorities with organizational security strategy
+T1227,task,1,OG-WRL-007,"Manage cybersecurity budget, staffing, and contracting"
+T1234,task,1,OG-WRL-007,Develop Computer Network Defense (CND) guidance for organizational stakeholders
+T1238,task,1,OG-WRL-007,Determine the effectiveness of enterprise cybersecurity safeguards
+T1263,task,1,OG-WRL-012,Perform security reviews
+T1264,task,1,OG-WRL-012,Identify gaps in security architecture
+T1265,task,1,OG-WRL-012,Develop a cybersecurity risk management plan
+T1269,task,1,OG-WRL-012,Conduct risk analysis of applications and systems undergoing major changes
+T1270,task,1,OG-WRL-012,Plan security authorization reviews for system and network installations
+T1271,task,1,OG-WRL-012,Conduct security authorization reviews for system and network installations
+T1272,task,1,OG-WRL-012,Develop security assurance cases for system and network installations
+T1294,task,1,OG-WRL-012,Advise on Risk Management Framework process activities and documentation
+T1298,task,1,OG-WRL-017,Communicate situational awareness information to leadership
+T1307,task,1,OG-WRL-007,Develop cybersecurity policy recommendations
+T1308,task,1,OG-WRL-007,Coordinate cybersecurity policy review and approval processes
+T1310,task,1,OG-WRL-007,Implement protective or corrective measures when a cybersecurity incident or vulnerability is discovered
+T1327,task,1,OG-WRL-012,Update security documentation to reflect current application and system security design features
+T1328,task,1,OG-WRL-012,"Verify implementation of software, network, and system cybersecurity postures"
+T1329,task,1,OG-WRL-012,"Document software, network, and system deviations from implemented security postures"
+T1330,task,1,OG-WRL-012,"Recommend required actions to correct software, network, and system deviations from implemented security postures"
+T1334,task,1,OG-WRL-008,Produce cybersecurity instructional materials
+T1339,task,1,OG-WRL-012,Develop cybersecurity compliance processes for external services
+T1340,task,1,OG-WRL-012,Develop cybersecurity audit processes for external services
+T1342,task,1,OG-WRL-007,Oversee policy standards and implementation strategy development
+T1343,task,1,OG-WRL-012,Provide cybersecurity guidance to organizational risk governance processes
+T1345,task,1,OG-WRL-016,Recommend improvements to procurement activities to address cybersecurity requirements
+T1354,task,1,OG-WRL-007,Identify system cybersecurity requirements
+T1361,task,1,OG-WRL-012,Determine the impact of new system and interface implementations on organization's cybersecurity posture
+T1362,task,1,OG-WRL-012,Document impact of new system and interface implementations on organization's cybersecurity posture
+T1365,task,1,OG-WRL-012,Document cybersecurity design and development activities
+T1366,task,1,OG-WRL-017,Identify supply chain risks for critical system elements
+T1368,task,1,OG-WRL-012,Support cybersecurity compliance activities
+T1376,task,1,OG-WRL-007,Develop critical infrastructure protection policies and procedures
+T1377,task,1,OG-WRL-007,Implement critical infrastructure protection policies and procedures
+T1407,task,1,OG-WRL-017,Correlate threat assessment data
+T1436,task,1,OG-WRL-002,Acquire adequate funding for cybersecurity training
+T1437,task,1,OG-WRL-012,Determine effectiveness of configuration management processes
+T1444,task,1,OG-WRL-017,Determine if products comply with cybersecurity requirements
+T1450,task,1,OG-WRL-007,Allocate and distribute human capital assets
+T1464,task,1,OG-WRL-002,Determine if cybersecurity workforce management policies and procedures comply with legal and organizational requirements
+T1480,task,1,OG-WRL-016,Examine service performance reports for issues and variances
+T1481,task,1,OG-WRL-016,Initiate corrective actions to service performance issues and variances
+T1482,task,1,OG-WRL-002,Conduct cybersecurity workforce assessments
+T1497,task,1,OG-WRL-017,Determine supply chain cybersecurity requirements
+T1498,task,1,OG-WRL-016,Determine if cybersecurity requirements included in contracts are delivered
+T1511,task,1,OG-WRL-006,"Identify alleged violations of law, regulations, policy, or guidance"
+T1535,task,1,OG-WRL-006,Develop implementation guidelines
+T1537,task,1,OG-WRL-017,"Determine if cybersecurity training, education, and awareness meet established goals"
+T1546,task,1,OG-WRL-006,"Provide inspectors general, privacy officers, and oversight and compliance with legal analysis and decisions"
+T1572,task,1,OG-WRL-017,Inventory technology resources
+T1599,task,1,OG-WRL-006,Prepare legal documents
+T1602,task,1,OG-WRL-017,Advise stakeholders on supply chain risk management
+T1605,task,1,OG-WRL-002,"Advise management, staff, and users on cybersecurity policy"
+T1621,task,1,OG-WRL-017,Prepare supply chain security reports
+T1623,task,1,OG-WRL-017,Develop cybersecurity supply chain risk management policy
+T1650,task,1,OG-WRL-017,Develop cybersecurity success metrics
+T1779,task,1,OG-WRL-007,Coordinate strategic planning efforts with internal and external partners
+T1829,task,1,OG-WRL-012,Evaluate locally developed tools
+T1853,task,1,OG-WRL-008,Determine if new and existing services comply with privacy and data security obligations
+T1854,task,1,OG-WRL-008,Develop and maintain privacy and confidentiality consent forms
+T1855,task,1,OG-WRL-008,Develop and maintain privacy and confidentiality authorization forms
+T1856,task,1,OG-WRL-008,"Integrate civil rights and civil liberties in organizational programs, policies, and procedures"
+T1857,task,1,OG-WRL-008,"Integrate privacy considerations in organizational programs, policies, and procedures"
+T1858,task,1,OG-WRL-008,Serve as liaison to regulatory and accrediting bodies
+T1859,task,1,OG-WRL-008,Register databases with local privacy and data protection authorities
+T1860,task,1,OG-WRL-008,Promote privacy awareness to management
+T1861,task,1,OG-WRL-008,Establish organizational Privacy Oversight Committee
+T1864,task,1,OG-WRL-008,Develop organizational information infrastructure
+T1865,task,1,OG-WRL-008,Implement organizational information infrastructure
+T1866,task,1,OG-WRL-008,Develop self-disclosure policies and procedures
+T1867,task,1,OG-WRL-008,Oversee consumer information access rights
+T1868,task,1,OG-WRL-008,Serve as information privacy liaison to technology system users
+T1869,task,1,OG-WRL-008,Serve as liaison to information systems department
+T1870,task,1,OG-WRL-008,Create privacy training materials
+T1871,task,1,OG-WRL-008,Prepare privacy awareness communications
+T1872,task,1,OG-WRL-008,Deliver privacy awareness orientations
+T1873,task,1,OG-WRL-008,Deliver privacy awareness trainings
+T1874,task,1,OG-WRL-008,Manage organizational participation in public privacy and cybersecurity events
+T1875,task,1,OG-WRL-008,Prepare privacy program status reports
+T1876,task,1,OG-WRL-008,Respond to press and other public data security inquiries
+T1877,task,1,OG-WRL-008,Develop organizational privacy program
+T1878,task,1,OG-WRL-008,Apply sanctions for failure to comply with privacy policies
+T1879,task,1,OG-WRL-008,Develop sanctions for failure to comply with privacy policies
+T1880,task,1,OG-WRL-008,Resolve allegations of noncompliance with privacy policies and notice of information practices
+T1881,task,1,OG-WRL-008,Develop a risk management and compliance framework for privacy
+T1882,task,1,OG-WRL-008,Determine if projects comply with organizational privacy and data security policies
+T1883,task,1,OG-WRL-008,Develop organizational privacy policies and procedures
+T1884,task,1,OG-WRL-008,Establish complaint processes
+T1885,task,1,OG-WRL-008,Establish mechanisms to track access to protected health information
+T1886,task,1,OG-WRL-008,Maintain the organizational policy program
+T1887,task,1,OG-WRL-008,Conduct privacy impact assessments
+T1888,task,1,OG-WRL-008,Conduct privacy compliance monitoring
+T1889,task,1,OG-WRL-008,Align cybersecurity and privacy practices in system information security plans
+T1890,task,1,OG-WRL-008,Determine if protected information releases comply with organizational policies and procedures
+T1891,task,1,OG-WRL-008,Administer requests for release or disclosure of protected information
+T1892,task,1,OG-WRL-008,Develop vendor review procedures
+T1893,task,1,OG-WRL-008,Develop vendor auditing procedures
+T1894,task,1,OG-WRL-008,Determine if partner and business agreements address privacy requirements and responsibilities
+T1895,task,1,OG-WRL-008,Provide legal advice for business partner contracts
+T1896,task,1,OG-WRL-008,Mitigate Personal Identifiable Information (PII) breaches
+T1897,task,1,OG-WRL-008,Administer action on organizational privacy complaints
+T1898,task,1,OG-WRL-008,Determine if the organization's privacy program complies with federal and state privacy laws and regulations
+T1899,task,1,OG-WRL-008,Identify organizational privacy compliance gaps
+T1900,task,1,OG-WRL-008,Correct organizational privacy compliance gaps
+T1901,task,1,OG-WRL-008,Manage privacy breaches
+T1902,task,1,OG-WRL-008,Implement and maintain organizational privacy policies and procedures
+T1903,task,1,OG-WRL-008,Develop and maintain privacy and confidentiality information notices
+T1905,task,1,OG-WRL-008,Monitor advancements in information privacy technologies
+T1906,task,1,OG-WRL-007,Establish a cybersecurity risk management program
+T1907,task,1,OG-WRL-008,Establish organizational risk management strategies
+T2056,task,1,OG-WRL-017,Conduct supplier risk assessments
+T2057,task,1,OG-WRL-017,Develop organizational C-SCRM plans
+T2058,task,1,OG-WRL-017,Monitor supply chain risk exposure
+T2059,task,1,OG-WRL-017,Develop cybersecurity supply chain risk management policies and procedures
+T2060,task,1,OG-WRL-017,Communicate cybersecurity requirements to suppliers
+T2061,task,1,OG-WRL-017,Integrate C-SCRM activities throughout the software development life cycle (SDLC)
+T2062,task,1,OG-WRL-017,Determine effectiveness of risk mitigation strategies
+T2063,task,1,OG-WRL-017,Develop an acquisition strategy that reduces organizational risk exposure
+T2064,task,1,OG-WRL-017,Integrate C-SCRM into organizational workforce training
+T2065,task,1,OG-WRL-017,Establish enterprise-wide C-SCRM policies
+T2066,task,1,OG-WRL-017,Establish internal checks and balances to ensure compliance with C-SCRM security and quality requirements
+T2067,task,1,OG-WRL-017,Integrate C-SCRM into incident response functions
+T2068,task,1,OG-WRL-017,Protect C-SCRM plans and policies from unauthorized disclosure and modification
+T2069,task,1,OG-WRL-017,Validate that procured systems and system components are genuine and unaltered
+T2070,task,1,OG-WRL-017,"Document supply chain security, resilience, and dependability requirements"
+T2071,task,1,OG-WRL-017,Recommend cost-effective supply chain security controls or control enhancements
+T2072,task,1,OG-WRL-017,Evaluate offers to ensure conformance with C-SCRM requirements

@@ -1,0 +1,69 @@
+{
+ "fecha_corte": "2026-11-12",
+ "semilla": 20261112,
+ "nice": {
+  "version": "2.2.0",
+  "enunciados_union": 609,
+  "en_cuatro_o_mas": 36,
+  "en_dos_o_mas": 189,
+  "en_un_solo_rol": 420,
+  "en_todos": 2,
+  "tks_marco": 2211
+ },
+ "requisitos": {
+  "ens_medidas_leidas": 73,
+  "ens_medidas_compuestas": [],
+  "ens_medidas_anexo": 73
+ },
+ "veris": {
+  "incidentes": 10047,
+  "con_importe": 324,
+  "importes_usd": 174,
+  "importes_excluidos": 1,
+  "usd_mediana": 307500.0,
+  "usd_max": 940000000.0,
+  "lognormal_mu": 12.678,
+  "lognormal_sigma": 3.167,
+  "ks_p_corregido": 0.029,
+  "p95_ic": [
+   3637119.206945279,
+   11972350.13893342
+  ],
+  "p99_ic": [
+   44771906.24324725,
+   244415940.2778583
+  ],
+  "incidentes_anuales_hipotesis": 0.3,
+  "anios_simulados": 100000,
+  "perdida_esperada": 12014755.47589545,
+  "anios_sin_perdida_pct": 74.0,
+  "pct_perdida_top1": 88.9,
+  "pct_perdida_top5": 98.5,
+  "p50": 0.0,
+  "p90": 1114690.1146606754,
+  "p95": 6601408.562064111,
+  "p99": 108791642.53224939,
+  "socio_pct": 3.7,
+  "socio_incidentes": 376
+ },
+ "muestreo": {
+  "socio_tasa_real_pct": 3.74,
+  "error_tasa_real_pct": 26.68,
+  "muestra_estimacion": 301,
+  "cobertura_ic95_pct": 95.0
+ },
+ "proveedores": {
+  "fecha_registro": "2026-10-15",
+  "certificados_categoria": 2967,
+  "vencidos": 6,
+  "vencen_90_dias": 253,
+  "sin_fecha": 0
+ },
+ "privacidad": {
+  "resoluciones": 780,
+  "con_articulo_de_seguridad": 240,
+  "pct_seguridad": 30.8,
+  "importe_seguridad_eur": 44952385.2,
+  "importe_total_eur": 74316945.2
+ }
+}

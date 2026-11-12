@@ -1,0 +1,13 @@
+campo,valor,incidentes,pct
+accion,hacking,3368,33.5
+accion,error,2681,26.7
+accion,misuse,1789,17.8
+accion,malware,1647,16.4
+accion,physical,1626,16.2
+accion,social,647,6.4
+accion,unknown,287,2.9
+accion,environmental,10,0.1
+actor,external,5604,55.8
+actor,internal,4125,41.1
+actor,partner,376,3.7
+actor,unknown,228,2.3

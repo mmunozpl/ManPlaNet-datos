@@ -112,3 +112,9 @@ form of each term, and it is the one `README.md` uses.
 | objetivo / resultado clave / indicador de contexto | objective / key result / context indicator | `sgsi-medido/kpis.csv` |
 | tiempo real de recuperación | actual recovery time | `sgsi-medido/simulacro.csv` |
 | plan director / iniciativa | master plan / initiative | `sgsi-medido/fuentes/plan_director.csv` |
+| rol de trabajo / enunciado (tarea, conocimiento, destreza) | work role / statement (task, knowledge, skill) | `grc-extendido/nice_roles.csv`, `nice_enunciados.csv` |
+| núcleo común / de un solo rol | common core / single role | `grc-extendido/nice_enunciados.csv` |
+| categoría del sistema / línea base | system category / baseline | `grc-extendido/requisitos_categoria.csv`, `ens_medidas_categoria.csv` |
+| curva de excedencia de pérdidas / percentil 95 | loss exceedance curve / 95th percentile | `grc-extendido/perdida_excedencia.csv`, `perdida_sensibilidad.csv` |
+| tasa tolerable / fallos admitidos | tolerable rate / allowed deviations | `grc-extendido/muestras_atributos.csv`, `muestreo_simulado.csv` |
+| certificado vigente / vencido | valid / expired certificate | `grc-extendido/ens_vigencia.csv` |

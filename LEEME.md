@@ -58,6 +58,7 @@ el guion:
 ├── pam-minimo/       # un PAM mínimo en Docker Compose (OpenBao, Warpgate, OpenSSH, PostgreSQL): el laboratorio, las 36 comprobaciones y sus registros
 ├── datamart-wikipedia/ # un DataMart de Kimball en Docker Compose (RustFS, PostgreSQL, Airflow, dbt): el laboratorio, el DAG, el proyecto dbt, el medidor y sus CSV
 ├── sgsi-medido/     # un SGSI sobre los laboratorios publicados: mapa de seis marcos, riesgos, declaración de aplicabilidad, auditoría por código, indicadores, simulacro y plan director
+├── grc-extendido/   # el GRC más allá del SGSI: roles NICE, requisitos por categoría (ENS y SP 800-53B), curva de pérdidas con VERIS, muestreo de controles, vigencia de certificados del ENS y artículos de seguridad en la AEPD
 ├── vigencia-boe/     # manifiesto diario de los 350 códigos electrónicos del BOE
 ├── pyproject.toml    # las versiones exactas con que se dibujaron las figuras
 ├── uv.lock           # el bloqueo: esas versiones y las de todo lo que arrastran
@@ -110,6 +111,7 @@ con la semilla y los parámetros de la simulación.
 | [Un PAM con software libre, puesto a prueba: 36 comprobaciones de acceso, caducidad y auditoría](https://manpla.net/posts/pam-minimo-software-libre/) | `pam-minimo/laboratorio.sh` · `pam-minimo/medidor/medir.py` · `pam-minimo/medidor/registros.py` | `pam-minimo/pruebas.csv`, `certificados.csv`, `credenciales_bd.csv`, `grabaciones.csv`, `sesiones.csv`, `auditoria_openbao.csv`, `sshd_accesos.csv`, `auditoria_bastion.csv`, `esfuerzo.csv`, `configuracion.csv`, `imagenes.csv`, `recursos.csv` |
 | [Aplicación del modelo dimensional de Kimball a un DataMart. Puesto a prueba con Airflow, dbt y PostgreSQL con datos de Wikipedia](https://manpla.net/posts/datamart-kimball-software-libre/) | `datamart-wikipedia/laboratorio.sh` · `datamart-wikipedia/airflow/dags/visualizaciones.py` · `datamart-wikipedia/dbt/` · `datamart-wikipedia/medidor/medir.py` | `datamart-wikipedia/cargas.csv`, `consultas.csv`, `planes.csv`, `estrategias.csv`, `tests_dbt.csv`, `snapshot.csv`, `snapshot_versiones.csv`, `snapshot_ejemplo.csv`, `ranking_oficial.csv`, `runs_airflow.csv`, `tareas_airflow.csv`, `avisos_airflow.csv`, `idempotencia.csv`, `tamanos.csv`, `pruebas.csv`, `esfuerzo.csv`, `configuracion.csv`, `imagenes.csv`, `recursos.csv` |
 | [Un SGSI puesto a prueba. Riesgos, controles, auditoría y continuidad sobre tres laboratorios publicados](https://manpla.net/posts/sgsi-propio-medido/) | `sgsi-medido/generar.py` · `riesgo.py` · `auditoria.py` · `kpis.py` · `simulacro.sh` | `sgsi-medido/mapa_controles.csv`, `cobertura_csf.csv`, `comparativa_pares.csv`, `iso_sin_csf.csv`, `riesgos.csv`, `soa_controles.csv`, `soa_27090_detalle.csv`, `auditoria.csv`, `auditoria_marcos.csv`, `kpis.csv`, `simulacro.csv`, `plan_director_resumen.csv`, `fuentes/` |
+| [Del SGSI al GRC. Cinco experimentos para medir riesgos, auditar controles y tomar decisiones](https://manpla.net/posts/del-sgsi-al-grc/) | `grc-extendido/generar.py` | `grc-extendido/nice_roles.csv`, `nice_solapes.csv`, `nice_enunciados.csv`, `requisitos_categoria.csv`, `ens_medidas_categoria.csv`, `veris_reparto.csv`, `veris_por_anio.csv`, `veris_importes_usd.csv`, `perdida_excedencia.csv`, `perdida_sensibilidad.csv`, `muestras_atributos.csv`, `muestreo_simulado.csv`, `ens_vigencia.csv`, `ens_vencimientos_mes.csv`, `aepd_articulos_seguridad.csv`, `resumen.json` |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 Las cifras de cada artículo corresponden a la instantánea de su fecha, que
@@ -143,6 +145,7 @@ python php2shell/generar.py          # NVD (filtro hasKev), KEV, EUVD, Ubuntu, R
 (cd datamart-wikipedia && ./laboratorio.sh datos && ./laboratorio.sh init && ./laboratorio.sh medir)   # Docker Compose; unos veinte minutos de descarga, quince de relleno y trece de banco
 python sgsi-medido/generar.py        # CPRT del NIST, BOE, EUR-Lex y MAGERIT, más los ficheros de los laboratorios y el repositorio de la demo; un par de minutos
 (cd sgsi-medido && bash simulacro.sh)   # Docker Compose; destruye y reconstruye los laboratorios: unos veinte minutos
+(cd grc-extendido && uv run generar.py)   # NICE, OSCAL, BOE y VERIS (unos 10 MB, con caché), más ens-certificados y aepd-correctivos de este repositorio; unos minutos
 python guardarrailes/ola.py          # la API de modelos de Hugging Face; segundos
 python guardarrailes/generar.py      # necesita GPU NVIDIA y requirements-gpu.txt; unas cuatro horas en una RTX 5090
 python videovigilancia/generar.py    # 37 ficheros de la Plataforma de Contratación (unos 6 GB) y los pliegos a una petición por segundo; varias horas
@@ -187,6 +190,7 @@ para volver a tomar la instantánea está `generar.py`.
 - [`pam-minimo/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=pam-minimo%2Freproducir.ipynb)
 - [`datamart-wikipedia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=datamart-wikipedia%2Freproducir.ipynb)
 - [`sgsi-medido/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=sgsi-medido%2Freproducir.ipynb)
+- [`grc-extendido/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=grc-extendido%2Freproducir.ipynb)
 - [`guardarrailes/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=guardarrailes%2Freproducir.ipynb)
 - [`videovigilancia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=videovigilancia%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)
@@ -294,3 +298,7 @@ Los guiones, bajo [Apache-2.0](LICENSE). Las mediciones propias (`kev`,
   y la cabecera de sus tablas de Kaggle; ninguna tarea del ARC-AGI.
 - **BOE**: metadatos y enlaces de la Biblioteca Jurídica Digital, reutilizables
   en los términos de su aviso legal y de la Ley 37/2007, citando la fuente.
+- **VERIS Community Database**: los agregados de `grc-extendido` que se
+  derivan de ella (`veris_*.csv` y `perdida_*.csv`) se publican con la
+  licencia de su fuente, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es);
+  no se redistribuye ningún registro del fichero original.

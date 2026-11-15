@@ -321,8 +321,10 @@ def sgsi() -> None:
       "kpis.py: cinco objetivos con sus resultados clave; kpis.csv", "cl. 6.2; cl. 9.1", "op.mon.2", "GV.OV-01", "art. 21.2 f)", "art. 6.5", "12")
     c("S09", sis, "la auditoría interna se ha ejecutado y sus resultados están registrados", True, f"auditoria.csv de {HOY}: {len(FILAS) + 1} comprobaciones",
       "cl. 9.2", "art. 31 RD 311/2022", "ID.IM-02", "art. 21.2 f)", "art. 6.6", "12")
-    c("S10", sis, "la dirección revisa el sistema a intervalos planificados y una tercera parte lo ha auditado", False,
-      "sin revisión por la dirección registrada ni auditoría de tercera parte", "cl. 9.3; cl. 9.2", "art. 31 RD 311/2022", "GV.OV-02; GV.OV-03", "art. 21.2 f)", "art. 6.5", "12", tipo="documental")
+    # la revisión por la dirección (cl. 9.3) es un requisito propio; la auditoría
+    # de tercera parte no la exige la 27001 y va como decisión en el plan (PD14)
+    c("S10", sis, "la dirección revisa el sistema a intervalos planificados y deja registradas sus entradas y decisiones", False,
+      "sin revisión por la dirección registrada", "cl. 9.3", "", "GV.OV-02; GV.OV-03", "art. 21.2 f)", "art. 6.5", "12", tipo="documental")
     plan = filas_csv(F, "plan_director.csv")
     c("S11", sis, "cada riesgo sobre el apetito y cada hallazgo tiene una iniciativa en el plan de tratamiento, con prioridad, trimestre y esfuerzo", bool(plan),
       f"fuentes/plan_director.csv: {len(plan)} iniciativas, {sum(int(r['horas_estimadas']) for r in plan)} horas estimadas", "cl. 6.1.3 e); cl. 10.2", "", "ID.IM-04", "art. 21.2 a)", "art. 6", "12")

@@ -1,0 +1,6 @@
+paso,ejecuciones,primera_s,mediana_s,hilos
+DuckDB · consulta sobre el CSV comprimido,3,4.389576365,4.084753836,32
+DuckDB · conversión a Parquet,1,5.737291989,5.737293049,32
+DuckDB · consulta sobre Parquet,5,0.0485015,0.034224861,32
+pandas · lectura del CSV comprimido,1,26.19031412,26.19031412,32
+pandas · agregación en memoria,5,0.477946641,0.483464365,32

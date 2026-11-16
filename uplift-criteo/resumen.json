@@ -1,0 +1,90 @@
+{
+ "fecha": "2026-11-16",
+ "dato": {
+  "url": "https://huggingface.co/datasets/criteo/criteo-uplift/resolve/2424920019e49d52d72c13ac1143ec5d53af276b/criteo-research-uplift-v2.1.csv.gz",
+  "url_oficial": "http://go.criteo.net/criteo-research-uplift-v2.1.csv.gz",
+  "revision_hf": "2424920019e49d52d72c13ac1143ec5d53af276b",
+  "sha256": "2716e1bf0fd157a93b5bf86924d9088419dfbac2022c6cd90030220634f616dc",
+  "bytes": 311422618,
+  "licencia": "CC BY-NC-SA 4.0",
+  "version": "2.1"
+ },
+ "semilla": 2026,
+ "versiones": {
+  "python": "3.11.14",
+  "numpy": "2.3.3",
+  "pandas": "2.3.3",
+  "scipy": "1.17.1",
+  "scikit-learn": "1.9.1",
+  "duckdb": "2.0.0"
+ },
+ "hilos_cpu": 32,
+ "filas": 13979592,
+ "n_tratamiento": 11882655,
+ "n_control": 2096937,
+ "n_expuestos": 428212,
+ "proporcion_tratamiento": 0.8500001287591226,
+ "tasa_visita": 0.046992000911042324,
+ "tasa_conversion": 0.002916680257907384,
+ "tasa_exposicion": 0.03063122299992732,
+ "cifras_clave_criteo": {
+  "filas": 13979592,
+  "visita": 0.046992,
+  "conversion": 0.00292,
+  "tratamiento": 0.85
+ },
+ "dem_max_tratamiento": 0.04883634670362982,
+ "dem_max_expuestos": 1.462935856660743,
+ "diseno": {
+  "visita": {
+   "tasa_tratamiento": 0.048543360048743316,
+   "tasa_control": 0.03820095691954503,
+   "itt": 0.010342403129198284,
+   "ee_itt": 0.00014631642098864926,
+   "relativo_itt": 0.27073675539019615,
+   "tasa_expuestos": 0.4145376589166114,
+   "tasa_no_expuestos": 0.035377872954636354,
+   "tasa_tratados_no_expuestos": 0.034861057844541195,
+   "ingenua": 0.379159785961975,
+   "pi_exposicion": 0.036036727482199896,
+   "efecto_expuestos": 0.28699618005843747,
+   "tasa_expuestos_sin_anuncio": 0.127541478858174,
+   "sesgo_seleccion": 0.09216360590353764,
+   "lin": 0.00773380174608318,
+   "ee_lin": 0.00013125530728635423
+  },
+  "conversion": {
+   "tasa_tratamiento": 0.0030894610674129645,
+   "tasa_control": 0.0019375880152813366,
+   "itt": 0.0011518730521316279,
+   "ee_itt": 3.437168357507502e-05,
+   "relativo_itt": 0.594488117725262,
+   "tasa_expuestos": 0.053784106937685074,
+   "tasa_no_expuestos": 0.0013093131474432862,
+   "tasa_tratados_no_expuestos": 0.0011942963966034839,
+   "ingenua": 0.05247479379024179,
+   "pi_exposicion": 0.036036727482199896,
+   "efecto_expuestos": 0.031963863885825596,
+   "tasa_expuestos_sin_anuncio": 0.021820243051859478,
+   "sesgo_seleccion": 0.020510929904416192,
+   "lin": 0.001001658367125742,
+   "ee_lin": 3.397597170922152e-05
+  }
+ },
+ "c2st": {
+  "tratamiento": 0.5107728649067219,
+  "placebo": 0.49997854704895617
+ },
+ "c2st_ee": 0.0004665599690818125,
+ "modelos": {
+  "n_entrenamiento": 11183673,
+  "n_prueba": 2795919,
+  "mejor": "X · árboles",
+  "itt_prueba": 0.010105779372114147
+ },
+ "escala": {
+  "hilos": 32,
+  "bytes_csv_gz": 311422618,
+  "bytes_parquet": 185781901
+ }
+}

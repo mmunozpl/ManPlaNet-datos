@@ -60,6 +60,7 @@ kept) the script:
 ├── datamart-wikipedia/ # a Kimball data mart on Docker Compose (RustFS, PostgreSQL, Airflow, dbt): the lab, the DAG, the dbt project, the measurer and its CSVs
 ├── sgsi-medido/     # an ISMS over the published labs: map of six frameworks, risks, statement of applicability, audit by code, indicators, drill and master plan
 ├── grc-extendido/   # GRC beyond the ISMS: NICE roles, requirements by category (ENS and SP 800-53B), loss curve with VERIS, control sampling, ENS certificate validity and security articles at the AEPD
+├── uplift-criteo/   # advertising incrementality on Criteo's open data (14 million rows): groups, tests, power, uplift models, segments and SQL
 ├── vigencia-boe/     # daily manifest of the BOE's 350 electronic codes
 ├── pyproject.toml    # the exact versions the figures were drawn with
 ├── uv.lock           # the lock: those versions and those of everything they pull in
@@ -113,6 +114,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [Applying Kimball's dimensional model to a data mart. Put to the test with Airflow, dbt and PostgreSQL on Wikipedia data](https://manpla.net/en/posts/kimball-datamart-free-software/) | `datamart-wikipedia/laboratorio.sh` · `datamart-wikipedia/airflow/dags/visualizaciones.py` · `datamart-wikipedia/dbt/` · `datamart-wikipedia/medidor/medir.py` | `datamart-wikipedia/cargas.csv`, `consultas.csv`, `planes.csv`, `estrategias.csv`, `tests_dbt.csv`, `snapshot.csv`, `snapshot_versiones.csv`, `snapshot_ejemplo.csv`, `ranking_oficial.csv`, `runs_airflow.csv`, `tareas_airflow.csv`, `avisos_airflow.csv`, `idempotencia.csv`, `tamanos.csv`, `pruebas.csv`, `esfuerzo.csv`, `configuracion.csv`, `imagenes.csv`, `recursos.csv` |
 | [An ISMS put to the test. Risks, controls, audit and continuity over three published labs](https://manpla.net/en/posts/own-isms-measured-end-to-end/) | `sgsi-medido/generar.py` · `riesgo.py` · `auditoria.py` · `kpis.py` · `simulacro.sh` | `sgsi-medido/mapa_controles.csv`, `cobertura_csf.csv`, `comparativa_pares.csv`, `iso_sin_csf.csv`, `riesgos.csv`, `soa_controles.csv`, `soa_27090_detalle.csv`, `auditoria.csv`, `auditoria_marcos.csv`, `kpis.csv`, `simulacro.csv`, `plan_director_resumen.csv`, `fuentes/` |
 | [From the ISMS to GRC. Five experiments to measure risks, audit controls and make decisions](https://manpla.net/en/posts/from-isms-to-grc/) | `grc-extendido/generar.py` | `grc-extendido/nice_roles.csv`, `nice_solapes.csv`, `nice_enunciados.csv`, `requisitos_categoria.csv`, `ens_medidas_categoria.csv`, `veris_reparto.csv`, `veris_por_anio.csv`, `veris_importes_usd.csv`, `perdida_excedencia.csv`, `perdida_sensibilidad.csv`, `muestras_atributos.csv`, `muestreo_simulado.csv`, `ens_vigencia.csv`, `ens_vencimientos_mes.csv`, `aepd_articulos_seguridad.csv`, `resumen.json` |
+| [Measuring the effect of advertising. Randomised experiments, statistics and uplift models on Criteo's open data](https://manpla.net/en/posts/measuring-advertising-effects/) | `uplift-criteo/generar.py` | `uplift-criteo/resumen.json`, `grupos.csv`, `balance.csv`, `contrastes.csv`, `potencia.csv`, `tamano_muestra.csv`, `modelos.csv`, `qini_curvas.csv`, `segmentos.csv`, `escala.csv` and the other CSVs in the folder |
 | [Currency of the BOE legal codes](https://manpla.net/en/temas/boe-legal-codes-currency/) | the live page's own, daily | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 The figures in each article correspond to the snapshot of its date, which is
@@ -147,6 +149,7 @@ python php2shell/generar.py          # NVD (hasKev filter), KEV, EUVD, Ubuntu, R
 python sgsi-medido/generar.py        # NIST CPRT, BOE, EUR-Lex and MAGERIT, plus the labs' files and the demo's repository; a couple of minutes
 (cd sgsi-medido && bash simulacro.sh)   # Docker Compose; destroys and rebuilds the labs: about twenty minutes
 (cd grc-extendido && uv run generar.py)   # NICE, OSCAL, BOE and VERIS (about 10 MB, cached), plus ens-certificados and aepd-correctivos from this repository; a few minutes
+(cd uplift-criteo && uv run --group generadores generar.py)   # downloads Criteo's data (311 MB, cached), about 17 minutes and 12 GB of memory
 python guardarrailes/ola.py          # the Hugging Face models API; seconds
 python guardarrailes/generar.py      # needs an NVIDIA GPU and requirements-gpu.txt; about four hours on an RTX 5090
 python videovigilancia/generar.py    # 37 files from the Procurement Platform (about 6 GB) and the specifications at one request per second; several hours
@@ -193,6 +196,7 @@ nothing has to be downloaded and no account is needed) or locally with
 - [`datamart-wikipedia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=datamart-wikipedia%2Freproducir.ipynb)
 - [`sgsi-medido/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=sgsi-medido%2Freproducir.ipynb)
 - [`grc-extendido/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=grc-extendido%2Freproducir.ipynb)
+- [`uplift-criteo/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=uplift-criteo%2Freproducir.ipynb)
 - [`guardarrailes/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=guardarrailes%2Freproducir.ipynb)
 - [`videovigilancia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=videovigilancia%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)
@@ -301,3 +305,7 @@ The scripts, under [Apache-2.0](LICENSE). The own measurements (`kev`,
   it (`veris_*.csv` and `perdida_*.csv`) are published under the licence of
   their source, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/);
   no record of the original file is redistributed.
+- **Criteo Uplift Prediction Dataset 2.1**: the `uplift-criteo` aggregates
+  are results computed on it, attributed to Criteo, and offered under its
+  licence, [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/),
+  for non-commercial use; the original file is not redistributed.

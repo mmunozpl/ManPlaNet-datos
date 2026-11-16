@@ -24,7 +24,9 @@ interactivo = [
 ]
 # lo que piden los generadores que no se bastan con la biblioteca estándar
 generadores = [
+    "duckdb==2.0.0",
     "qdrant-client==1.19.0",
+    "scikit-learn==1.9.1",
     "scipy==1.17.1",
     "tqdm==4.67.3",
 ]

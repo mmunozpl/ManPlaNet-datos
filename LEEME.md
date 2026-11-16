@@ -30,6 +30,7 @@ el guion:
 ```
 .
 ├── kev/              # altas por día en el catálogo KEV de CISA, ventana mensual y entradas con triaje forense
+│   └── instantaneas/ # toma fechada que anclan dos entradas de septiembre (2026-09-08)
 ├── hf-tendencia/     # los 100 repositorios en tendencia del Hub de Hugging Face
 ├── agi-tendencias/   # cuota anual de nueve términos en los resúmenes de arXiv
 │   └── instantaneas/ # tomas fechadas que ancla una entrada concreta (2026-09-10, 2026-09-18)
@@ -86,7 +87,7 @@ con la semilla y los parámetros de la simulación.
 
 | Artículo | Guion | Dato |
 |---|---|---|
-| [CISA marca 58 fallos en los que parchear no basta: en tres días toca buscar al intruso](https://manpla.net/posts/tres-dias-y-un-triaje/) · [Limpio, y ya estaba dentro](https://manpla.net/posts/limpio-y-ya-estaba-dentro/) · [Veinticuatro horas y un formulario](https://manpla.net/posts/veinticuatro-horas-y-un-formulario/) | `kev/generar.py` | `kev/altas.csv`, `ventanas-mensuales.csv`, `triaje-forense.csv`, `resumen.json` |
+| [CISA marca 58 fallos en los que parchear no basta: en tres días toca buscar al intruso](https://manpla.net/posts/tres-dias-y-un-triaje/) · [Limpio, y ya estaba dentro](https://manpla.net/posts/limpio-y-ya-estaba-dentro/) · [Veinticuatro horas y un formulario](https://manpla.net/posts/veinticuatro-horas-y-un-formulario/) | `kev/generar.py` | `kev/altas.csv`, `ventanas-mensuales.csv`, `triaje-forense.csv`, `resumen.json`; «Limpio» y «Veinticuatro horas» leen `kev/instantaneas/2026-09-08/altas.csv` |
 | [El escaparate y el contador](https://manpla.net/posts/el-escaparate-y-el-contador/) | `hf-tendencia/generar.py` | `hf-tendencia/tendencia.csv` |
 | [Hacia dónde mira la investigación en IA, contado en 546.663 resúmenes: cuatro términos bajan y world model sube](https://manpla.net/posts/cuatro-terminos-ya-han-tocado-techo/) | `agi-tendencias/generar.py` | `agi-tendencias/instantaneas/2026-09-10/cuotas.csv`, `comprobaciones.csv` |
 | [I-JEPA predice la imagen sin dibujarla, y su receta de enmascarado deja siempre un borde sin tapar](https://manpla.net/posts/predecir-sin-dibujar/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |

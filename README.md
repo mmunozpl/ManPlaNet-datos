@@ -30,6 +30,7 @@ kept) the script:
 ```
 .
 ├── kev/              # daily additions to CISA's KEV catalogue, monthly window and entries flagged for forensic triage
+│   └── instantaneas/ # dated snapshot anchored by two September entries (2026-09-08)
 ├── hf-tendencia/     # the Hub's 100 trending repositories
 ├── agi-tendencias/   # yearly share of nine terms in arXiv abstracts
 │   └── instantaneas/ # dated snapshots anchored by a specific entry (2026-09-10, 2026-09-18)
@@ -86,7 +87,7 @@ with the origin of each column. In `ijepa/` that role is played by
 
 | Article | Script | Data |
 |---|---|---|
-| [CISA marks 58 flaws where patching is not enough: within three days, look for the intruder](https://manpla.net/en/posts/three-days-and-a-forensic-triage/) · [Clean, and already inside](https://manpla.net/en/posts/clean-and-already-inside/) · [Twenty-four hours and a web form](https://manpla.net/en/posts/twenty-four-hours-and-a-web-form/) | `kev/generar.py` | `kev/altas.csv`, `ventanas-mensuales.csv`, `triaje-forense.csv`, `resumen.json` |
+| [CISA marks 58 flaws where patching is not enough: within three days, look for the intruder](https://manpla.net/en/posts/three-days-and-a-forensic-triage/) · [Clean, and already inside](https://manpla.net/en/posts/clean-and-already-inside/) · [Twenty-four hours and a web form](https://manpla.net/en/posts/twenty-four-hours-and-a-web-form/) | `kev/generar.py` | `kev/altas.csv`, `ventanas-mensuales.csv`, `triaje-forense.csv`, `resumen.json`; «Clean» and «Twenty-four hours» read `kev/instantaneas/2026-09-08/altas.csv` |
 | [The shop window and the counter](https://manpla.net/en/posts/the-shop-window-and-the-counter/) | `hf-tendencia/generar.py` | `hf-tendencia/tendencia.csv` |
 | [Where AI research is looking, counted across 546,663 abstracts: four terms fall and world model rises](https://manpla.net/en/posts/four-terms-have-already-peaked/) | `agi-tendencias/generar.py` | `agi-tendencias/instantaneas/2026-09-10/cuotas.csv`, `comprobaciones.csv` |
 | [I-JEPA predicts the image without drawing it, and its masking recipe always leaves an edge uncovered](https://manpla.net/en/posts/predicting-without-drawing/) | `ijepa/generar.py` | `ijepa/cobertura.csv`, `muestras.csv`, `resumen.json` |

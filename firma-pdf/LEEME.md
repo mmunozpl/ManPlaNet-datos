@@ -75,8 +75,8 @@ Windows se construye en Windows y el de macOS en macOS
 (`.github/workflows/construir.yml` lo hace en los tres). Los ejecutables no van
 firmados con un certificado de firma de código, así que Windows y macOS avisan
 al abrirlos. La lectura de certificados instalados se ha probado en Linux y,
-fuera de la medición, en Windows 11 con un certificado real de la FNMT; la de
-macOS está escrita y sin probar.
+fuera de la medición, en Windows 11 y en macOS con certificados reales de la
+FNMT; en macOS, guardar el firmado en Documentos exige la versión 0.1.1.
 
 `herramienta/` es la copia con la que se hizo la medición. La aplicación publicada, con los ejecutables de Linux, Windows y macOS y sus huellas, vive en [mmunozpl/firma-pdf](https://github.com/mmunozpl/firma-pdf). Se publica tal cual, sin garantía, sin mantenimiento y sin soporte, y su uso corre por cuenta y bajo la responsabilidad de quien la use.
 

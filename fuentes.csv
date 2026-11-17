@@ -37,3 +37,6 @@ componentes del marco NICE v2.2.0 (JSON del CPRT del NIST),grc-extendido,https:/
 "línea base alta de SP 800-53B en OSCAL (usnistgov/oscal-content; también LOW, MODERATE y PRIVACY)",grc-extendido,https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_HIGH-baseline_profile.json
 "VERIS Community Database (vz-risk/VCDB, fichero unido; CC BY-SA 4.0)",grc-extendido,https://github.com/vz-risk/VCDB/raw/master/data/joined/vcdb.json.zip
 "Criteo Uplift Prediction Dataset v2.1 (copia de Criteo en Hugging Face, revisión fijada; CC BY-NC-SA 4.0)",uplift-criteo,https://huggingface.co/datasets/criteo/criteo-uplift/resolve/2424920019e49d52d72c13ac1143ec5d53af276b/criteo-research-uplift-v2.1.csv.gz
+"NIST CSWP 29, The NIST Cybersecurity Framework (CSF) 2.0 (PDF; obra del Gobierno de EE. UU.)",firma-pdf,https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
+lista de confianza española de prestadores de servicios de confianza (TSL),firma-pdf,https://tsl.digital.gob.es/TSL.xml
+"Real Decreto 311/2022 del Esquema Nacional de Seguridad (PDF firmado del BOE)",firma-pdf,https://www.boe.es/boe/dias/2022/05/04/pdfs/BOE-A-2022-7191.pdf

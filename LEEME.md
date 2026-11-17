@@ -61,6 +61,7 @@ el guion:
 ├── sgsi-medido/     # un SGSI sobre los laboratorios publicados: mapa de seis marcos, riesgos, declaración de aplicabilidad, auditoría por código, indicadores, simulacro y plan director
 ├── grc-extendido/   # el GRC más allá del SGSI: roles NICE, requisitos por categoría (ENS y SP 800-53B), curva de pérdidas con VERIS, muestreo de controles, vigencia de certificados del ENS y artículos de seguridad en la AEPD
 ├── uplift-criteo/   # incrementalidad publicitaria sobre el dato abierto de Criteo (14 millones de filas): grupos, contrastes, potencia, modelos de uplift, segmentos y SQL
+├── firma-pdf/       # firma de PDF en PAdES con pie visible y QR: peso del pie, tiempos de firma, legibilidad del QR con ZXing y sellos cualificados de la TSL española; la copia de la aplicación en herramienta/
 ├── vigencia-boe/     # manifiesto diario de los 350 códigos electrónicos del BOE
 ├── pyproject.toml    # las versiones exactas con que se dibujaron las figuras
 ├── uv.lock           # el bloqueo: esas versiones y las de todo lo que arrastran
@@ -115,6 +116,7 @@ con la semilla y los parámetros de la simulación.
 | [Un SGSI puesto a prueba. Riesgos, controles, auditoría y continuidad sobre tres laboratorios publicados](https://manpla.net/posts/sgsi-propio-medido/) | `sgsi-medido/generar.py` · `riesgo.py` · `auditoria.py` · `kpis.py` · `simulacro.sh` | `sgsi-medido/mapa_controles.csv`, `cobertura_csf.csv`, `comparativa_pares.csv`, `iso_sin_csf.csv`, `riesgos.csv`, `soa_controles.csv`, `soa_27090_detalle.csv`, `auditoria.csv`, `auditoria_marcos.csv`, `kpis.csv`, `simulacro.csv`, `plan_director_resumen.csv`, `fuentes/` |
 | [Del SGSI al GRC. Cinco experimentos para medir riesgos, auditar controles y tomar decisiones](https://manpla.net/posts/del-sgsi-al-grc/) | `grc-extendido/generar.py` | `grc-extendido/nice_roles.csv`, `nice_solapes.csv`, `nice_enunciados.csv`, `requisitos_categoria.csv`, `ens_medidas_categoria.csv`, `veris_reparto.csv`, `veris_por_anio.csv`, `veris_importes_usd.csv`, `perdida_excedencia.csv`, `perdida_sensibilidad.csv`, `muestras_atributos.csv`, `muestreo_simulado.csv`, `ens_vigencia.csv`, `ens_vencimientos_mes.csv`, `aepd_articulos_seguridad.csv`, `resumen.json` |
 | [Medir el efecto de la publicidad. Experimentos aleatorios, estadística y modelos de uplift sobre el dato abierto de Criteo](https://manpla.net/posts/medir-efecto-publicidad/) | `uplift-criteo/generar.py` | `uplift-criteo/resumen.json`, `grupos.csv`, `balance.csv`, `contrastes.csv`, `potencia.csv`, `tamano_muestra.csv`, `modelos.csv`, `qini_curvas.csv`, `segmentos.csv`, `escala.csv` y los demás CSV de la carpeta |
+| [Firmar un PDF y dejar constancia visible. Una aplicación PAdES puesta a prueba en Linux](https://manpla.net/posts/firmar-pdf-certificado-fnmt/) | `firma-pdf/generar.py` · `firma-pdf/herramienta/` | `firma-pdf/datos/resumen.json`, `qr_legibilidad.csv`, `tsl_sellado_cualificado.csv`, `firmado-sin-sello.pdf`, `firmado-sello-cualificado.pdf`, `pie.png` |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 Las cifras de cada artículo corresponden a la instantánea de su fecha, que
@@ -150,6 +152,7 @@ python sgsi-medido/generar.py        # CPRT del NIST, BOE, EUR-Lex y MAGERIT, m�
 (cd sgsi-medido && bash simulacro.sh)   # Docker Compose; destruye y reconstruye los laboratorios: unos veinte minutos
 (cd grc-extendido && uv run generar.py)   # NICE, OSCAL, BOE y VERIS (unos 10 MB, con caché), más ens-certificados y aepd-correctivos de este repositorio; unos minutos
 (cd uplift-criteo && uv run --group generadores generar.py)   # descarga el dato de Criteo (311 MB, con caché), unos 17 minutos y 12 GB de memoria
+(cd firma-pdf/herramienta && uv sync --frozen && uv pip install zxing-cpp==3.1.1 tqdm && cd .. && herramienta/.venv/bin/python generar.py)   # el PDF del NIST, la TSL española, el PDF del BOE y tres sellos de Sectigo; alrededor de un minuto, casi todo en pausas
 python guardarrailes/ola.py          # la API de modelos de Hugging Face; segundos
 python guardarrailes/generar.py      # necesita GPU NVIDIA y requirements-gpu.txt; unas cuatro horas en una RTX 5090
 python videovigilancia/generar.py    # 37 ficheros de la Plataforma de Contratación (unos 6 GB) y los pliegos a una petición por segundo; varias horas
@@ -196,6 +199,7 @@ para volver a tomar la instantánea está `generar.py`.
 - [`sgsi-medido/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=sgsi-medido%2Freproducir.ipynb)
 - [`grc-extendido/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=grc-extendido%2Freproducir.ipynb)
 - [`uplift-criteo/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=uplift-criteo%2Freproducir.ipynb)
+- [`firma-pdf/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=firma-pdf%2Freproducir.ipynb)
 - [`guardarrailes/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=guardarrailes%2Freproducir.ipynb)
 - [`videovigilancia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=videovigilancia%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)
@@ -285,7 +289,7 @@ un guion regenera un dato, sus huellas se fijan de nuevo con
 
 Los guiones, bajo [Apache-2.0](LICENSE). Las mediciones propias (`kev`,
 `hf-tendencia`, `agi-tendencias`, `ijepa`, `transformers`, `sigma`,
-`rag-sintetico`, `gauge-cuantizacion` y `vigencia-boe`), bajo
+`rag-sintetico`, `gauge-cuantizacion`, `firma-pdf` y `vigencia-boe`), bajo
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). El material de terceros conserva sus condiciones, y cada ficha las declara:
 
 - **KEV**: el recuento por día se toma del feed que CISA publica con la
@@ -311,3 +315,4 @@ Los guiones, bajo [Apache-2.0](LICENSE). Las mediciones propias (`kev`,
   son resultados calculados sobre él, con atribución a Criteo, y se ofrecen con
   su licencia, [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es),
   para uso no comercial; el fichero original no se redistribuye.
+- **Firma de PDF**: `firma-pdf/datos/documento.pdf` son las tres primeras páginas del NIST CSWP 29 (CSF 2.0), obra del Gobierno de EE. UU., sin derechos de autor en ese país. La autoridad y el firmante de la medición son ficticios, de pruebas, y su clave se publica a propósito para repetir la medición. Del PDF firmado del BOE solo se registra su formato de firma; no se redistribuye. La aplicación de `herramienta/` es la copia con la que se midió; la publicada vive en [mmunozpl/firma-pdf](https://github.com/mmunozpl/firma-pdf), bajo Apache-2.0 y sin mantenimiento ni soporte.

@@ -1,0 +1,10 @@
+# construcción
+/build/
+/dist/
+__pycache__/
+.venv/
+# nunca certificados ni registros con nombres de documentos
+*.p12
+*.pfx
+registro.csv
+/certificados/

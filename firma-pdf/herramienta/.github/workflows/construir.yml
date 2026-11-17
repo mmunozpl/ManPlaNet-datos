@@ -1,0 +1,63 @@
+# construye la aplicación en cada sistema: PyInstaller no compila para otros.
+# con una etiqueta v*, publica además la release con los tres zip y sus huellas
+name: construir
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+jobs:
+  construir:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-22.04, windows-latest, macos-15]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v5
+      - run: uv python install 3.11
+      - run: uv sync --frozen --group construir
+      - run: uv run --frozen python construir.py
+      # autoprueba del ejecutable empaquetado: pie, QR y recursos, sin ventana
+      # bibliotecas gráficas que trae un escritorio y no la máquina de pruebas
+      - name: bibliotecas de qt (linux)
+        if: runner.os == 'Linux'
+        run: sudo apt-get update -q && sudo apt-get install -y -q libegl1 libgl1 libxkbcommon0 libfontconfig1 libdbus-1-3
+      - name: autoprueba (linux)
+        if: runner.os == 'Linux'
+        run: ./dist/FirmaManPla/FirmaManPla --autoprueba
+      - name: autoprueba (macos)
+        if: runner.os == 'macOS'
+        run: ./dist/FirmaManPla.app/Contents/MacOS/FirmaManPla --autoprueba
+      - name: autoprueba (windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $p = Start-Process -FilePath dist\FirmaManPla\FirmaManPla.exe `
+            -ArgumentList '--autoprueba' -Wait -PassThru
+          exit $p.ExitCode
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FirmaManPla-${{ matrix.os }}
+          path: dist/*.zip
+  publicar:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: construir
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          path: zips
+          merge-multiple: true
+      - name: huellas
+        run: cd zips && sha256sum *.zip > SHA256SUMS && cat SHA256SUMS
+      - name: release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >
+          gh release create "$GITHUB_REF_NAME" zips/*.zip zips/SHA256SUMS
+          --title "FirmaManPla $GITHUB_REF_NAME"
+          --notes-file NOTAS_VERSION.md

@@ -1,0 +1,24 @@
+[project]
+name = "firma-pdf"
+version = "0.1.0"
+description = "Firma de PDF con certificado de la FNMT y pie de firma en cada página"
+authors = [{ name = "Manuel Muñoz Plá" }]
+license = "Apache-2.0"
+requires-python = ">=3.11,<3.12"
+# versiones exactas con las que se ha probado
+dependencies = [
+    "asn1crypto==1.5.1",
+    "cryptography==50.0.2",
+    "pyhanko==0.38.1",
+    "pyhanko-certvalidator==0.33.0",
+    "pypdf==7.1.0",
+    "pyside6==6.12.0",
+    "reportlab==5.1.0",
+    "requests==2.34.2",
+]
+
+[dependency-groups]
+construir = ["pyinstaller==6.22.3", "pillow==13.0.0"]
+
+[tool.uv]
+package = false

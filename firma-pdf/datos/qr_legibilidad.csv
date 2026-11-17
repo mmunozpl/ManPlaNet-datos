@@ -1,0 +1,33 @@
+contenido,bytes,modulos,mm_por_modulo,ppp,leido
+enlace a VALIDe,93,37,0.465,60,0
+enlace a VALIDe,93,37,0.465,72,0
+enlace a VALIDe,93,37,0.465,90,1
+enlace a VALIDe,93,37,0.465,100,1
+enlace a VALIDe,93,37,0.465,120,1
+enlace a VALIDe,93,37,0.465,150,1
+enlace a VALIDe,93,37,0.465,200,1
+enlace a VALIDe,93,37,0.465,300,1
+cuatro datos,102,37,0.465,60,0
+cuatro datos,102,37,0.465,72,0
+cuatro datos,102,37,0.465,90,1
+cuatro datos,102,37,0.465,100,1
+cuatro datos,102,37,0.465,120,1
+cuatro datos,102,37,0.465,150,1
+cuatro datos,102,37,0.465,200,1
+cuatro datos,102,37,0.465,300,1
+datos obligatorios,232,57,0.312,60,0
+datos obligatorios,232,57,0.312,72,0
+datos obligatorios,232,57,0.312,90,0
+datos obligatorios,232,57,0.312,100,0
+datos obligatorios,232,57,0.312,120,1
+datos obligatorios,232,57,0.312,150,1
+datos obligatorios,232,57,0.312,200,1
+datos obligatorios,232,57,0.312,300,1
+"todos los datos, motivo de 60",396,69,0.261,60,0
+"todos los datos, motivo de 60",396,69,0.261,72,0
+"todos los datos, motivo de 60",396,69,0.261,90,0
+"todos los datos, motivo de 60",396,69,0.261,100,0
+"todos los datos, motivo de 60",396,69,0.261,120,0
+"todos los datos, motivo de 60",396,69,0.261,150,0
+"todos los datos, motivo de 60",396,69,0.261,200,1
+"todos los datos, motivo de 60",396,69,0.261,300,1

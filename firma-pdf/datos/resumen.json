@@ -1,0 +1,164 @@
+{
+  "fecha": "2026-11-17T09:15:52+01:00",
+  "carga_1_5_15": [
+    1.04,
+    1.14,
+    1.18
+  ],
+  "documento": {
+    "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+    "sha256": "3c31f46fee98cac0c4323453e5109291a213b4de7fef8c058af9bf67f717433c",
+    "paginas_original": 32,
+    "paginas_extracto": 3,
+    "bytes_extracto": 419079
+  },
+  "geometria": {
+    "pagina_pt": [
+      612.0,
+      792.0
+    ],
+    "banda_pt": 102,
+    "banda_mm": 36.0,
+    "lado_qr_pt": 54,
+    "lado_qr_mm": 19.0,
+    "factor_contenido": 0.8712,
+    "reduccion_pct": 12.9,
+    "factor_a4": 0.8788,
+    "bytes_documento": 419079,
+    "bytes_con_pie_sin_firma": 434494,
+    "bytes_con_pie_sin_recomprimir": 610763
+  },
+  "firmas": {
+    "sin_sello": {
+      "repeticiones": 5,
+      "segundos_mediana": 0.74,
+      "segundos": [
+        0.736,
+        0.736,
+        0.742,
+        0.751,
+        0.74
+      ],
+      "bytes": 448701,
+      "validacion": {
+        "intacta": true,
+        "criptografia": true,
+        "cadena": true,
+        "cubre": "ENTIRE_FILE",
+        "sello": null,
+        "subfiltro": "ETSI.CAdES.detached"
+      },
+      "validacion_con_un_byte_alterado": {
+        "intacta": false,
+        "criptografia": true,
+        "cadena": false,
+        "cubre": "ENTIRE_FILE",
+        "sello": null,
+        "subfiltro": "ETSI.CAdES.detached"
+      }
+    },
+    "sello_cualificado": {
+      "repeticiones": 3,
+      "segundos_mediana": 1.392,
+      "segundos": [
+        1.284,
+        1.392,
+        1.824
+      ],
+      "bytes": 463875,
+      "validacion": {
+        "intacta": true,
+        "criptografia": true,
+        "cadena": true,
+        "cubre": "ENTIRE_FILE",
+        "sello": true,
+        "subfiltro": "ETSI.CAdES.detached"
+      },
+      "validacion_con_un_byte_alterado": {
+        "intacta": false,
+        "criptografia": true,
+        "cadena": false,
+        "cubre": "ENTIRE_FILE",
+        "sello": true,
+        "subfiltro": "ETSI.CAdES.detached"
+      }
+    }
+  },
+  "versiones": {
+    "pyhanko": "0.38.1",
+    "pyhanko-certvalidator": "0.33.0",
+    "pypdf": "7.1.0",
+    "reportlab": "5.1.0",
+    "cryptography": "50.0.2",
+    "zxing-cpp": "3.1.1",
+    "pillow": "13.0.0",
+    "python": "3.11.14",
+    "pdftoppm": "pdftoppm version 26.01.0"
+  },
+  "boe": {
+    "url": "https://www.boe.es/boe/dias/2022/05/04/pdfs/BOE-A-2022-7191.pdf",
+    "sha256": "b707a38f1c108a7e61cb297384dd86bd6cd0b5d27cddabbe1d00fc321ba0c53d",
+    "subfiltros": [
+      "adbe.pkcs7.sha1"
+    ],
+    "firmas_que_lee_pyhanko": 0
+  },
+  "aplicacion": {
+    "sistema": "Linux",
+    "arquitectura": "x86_64",
+    "bytes_carpeta": 256159423,
+    "bytes_zip": 144444686,
+    "piezas_mayores": [
+      {
+        "pieza": "PySide6",
+        "bytes": 125684065
+      },
+      {
+        "pieza": "libpython3.11.so.1.0",
+        "bytes": 23819464
+      },
+      {
+        "pieza": "cryptography",
+        "bytes": 14434376
+      },
+      {
+        "pieza": "pillow.libs",
+        "bytes": 11536733
+      },
+      {
+        "pieza": "lxml",
+        "bytes": 9592387
+      },
+      {
+        "pieza": "libgtk-3.so.0",
+        "bytes": 7427616
+      },
+      {
+        "pieza": "libcrypto.so.3",
+        "bytes": 6386528
+      },
+      {
+        "pieza": "aiohttp",
+        "bytes": 6019648
+      }
+    ]
+  },
+  "tsl": {
+    "url": "https://tsl.digital.gob.es/TSL.xml",
+    "sha256": "3657d6efcf9f1b1d926cd4b3b17d6e2de4edb4a50f924577972960929865d0a6",
+    "emision": "2026-11-04T02:00:00Z",
+    "bytes": 3492613,
+    "servicios_qtst": 124,
+    "servicios_qtst_concedidos": 69,
+    "prestadores_con_qtst_concedido": 39,
+    "menciones_freetsa": 0,
+    "sectigo_qtst": [
+      {
+        "prestador": "Sectigo (Europe) SL",
+        "servicio": "Qualified Certificates issued by “Sectigo Qualified Time Stamping CA R35”",
+        "estado": "granted",
+        "desde": "2021-05-05T01:00:00Z"
+      }
+    ]
+  }
+}

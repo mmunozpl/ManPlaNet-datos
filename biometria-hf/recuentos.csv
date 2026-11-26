@@ -1,0 +1,12 @@
+tipo,familia,subtipo,modalidad,repos,descargas_total,me_gusta,spaces_en_marcha,sin_filtros,invita_duplicar
+modelo,detección,deepfake,imagen y vídeo,545,7261172,389,0,0,0
+modelo,detección,deepfake,voz,143,1145540,96,0,0,0
+modelo,detección,presentación y vida,imagen y vídeo,57,29535,26,0,0,0
+modelo,generación,intercambio de caras,imagen y vídeo,379,1543971,3113,0,1,0
+modelo,generación,morphing de caras,imagen y vídeo,1,0,1,0,0,0
+space,detección,deepfake,imagen y vídeo,997,0,396,89,0,0
+space,detección,deepfake,voz,160,0,36,23,0,0
+space,detección,morphing,imagen y vídeo,4,0,2,1,0,0
+space,detección,presentación y vida,imagen y vídeo,91,0,965,12,0,0
+space,generación,intercambio de caras,imagen y vídeo,2581,0,10868,349,82,280
+space,generación,morphing de caras,imagen y vídeo,12,0,29,6,0,0

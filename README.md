@@ -62,6 +62,7 @@ kept) the script:
 ├── grc-extendido/   # GRC beyond the ISMS: NICE roles, requirements by category (ENS and SP 800-53B), loss curve with VERIS, control sampling, ENS certificate validity and security articles at the AEPD
 ├── uplift-criteo/   # advertising incrementality on Criteo's open data (14 million rows): groups, tests, power, uplift models, segments and SQL
 ├── firma-pdf/       # PAdES signing of PDFs with a visible footer and QR: footer weight, signing times, QR legibility with ZXing and the qualified stamps on the Spanish trusted list; the copy of the application in herramienta/
+├── biometria-hf/    # synthetic faces and their detectors on Hugging Face: face-swapping applications and models against detectors, running, downloads and what their model cards mention; snapshot of 26-11-2026
 ├── vigencia-boe/     # daily manifest of the BOE's 350 electronic codes
 ├── pyproject.toml    # the exact versions the figures were drawn with
 ├── uv.lock           # the lock: those versions and those of everything they pull in
@@ -117,6 +118,7 @@ with the origin of each column. In `ijepa/` that role is played by
 | [From the ISMS to GRC. Five experiments to measure risks, audit controls and make decisions](https://manpla.net/en/posts/from-isms-to-grc/) | `grc-extendido/generar.py` | `grc-extendido/nice_roles.csv`, `nice_solapes.csv`, `nice_enunciados.csv`, `requisitos_categoria.csv`, `ens_medidas_categoria.csv`, `veris_reparto.csv`, `veris_por_anio.csv`, `veris_importes_usd.csv`, `perdida_excedencia.csv`, `perdida_sensibilidad.csv`, `muestras_atributos.csv`, `muestreo_simulado.csv`, `ens_vigencia.csv`, `ens_vencimientos_mes.csv`, `aepd_articulos_seguridad.csv`, `resumen.json` |
 | [Measuring the effect of advertising. Randomised experiments, statistics and uplift models on Criteo's open data](https://manpla.net/en/posts/measuring-advertising-effects/) | `uplift-criteo/generar.py` | `uplift-criteo/resumen.json`, `grupos.csv`, `balance.csv`, `contrastes.csv`, `potencia.csv`, `tamano_muestra.csv`, `modelos.csv`, `qini_curvas.csv`, `segmentos.csv`, `escala.csv` and the other CSVs in the folder |
 | [Signing a PDF and leaving a visible record. A PAdES application put to the test on Linux, Windows and macOS](https://manpla.net/en/posts/signing-pdf-fnmt-certificate/) | `firma-pdf/generar.py` · `firma-pdf/herramienta/` | `firma-pdf/datos/resumen.json`, `qr_legibilidad.csv`, `tsl_sellado_cualificado.csv`, `firmado-sin-sello.pdf`, `firmado-sello-cualificado.pdf`, `pie.png` |
+| [The face as a key to European digital identity: can it be forged? How many tools there are to forge it and how many to detect the forgery, measured on Hugging Face](https://manpla.net/en/posts/the-face-as-a-key-to-european-digital-identity/) | `biometria-hf/generar.py` | `biometria-hf/instantaneas/2026-11-26/` (`recuentos.csv`, `fichas_detectores.csv`, `serie_trimestral.csv`, `resumen.json`, `metadatos.json.gz`) |
 | [Currency of the BOE legal codes](https://manpla.net/en/temas/boe-legal-codes-currency/) | the live page's own, daily | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 The figures in each article correspond to the snapshot of its date, which is
@@ -153,6 +155,7 @@ python sgsi-medido/generar.py        # NIST CPRT, BOE, EUR-Lex and MAGERIT, plus
 (cd grc-extendido && uv run generar.py)   # NICE, OSCAL, BOE and VERIS (about 10 MB, cached), plus ens-certificados and aepd-correctivos from this repository; a few minutes
 (cd uplift-criteo && uv run --group generadores generar.py)   # downloads Criteo's data (311 MB, cached), about 17 minutes and 12 GB of memory
 (cd firma-pdf/herramienta && uv sync --frozen && uv pip install zxing-cpp==3.1.1 tqdm && cd .. && herramienta/.venv/bin/python generar.py)   # the NIST PDF, the Spanish trusted list, the BOE PDF and three Sectigo stamps; about a minute, mostly pauses
+python biometria-hf/generar.py todo   # Hugging Face's public API, no credentials or cost; about five minutes
 python guardarrailes/ola.py          # the Hugging Face models API; seconds
 python guardarrailes/generar.py      # needs an NVIDIA GPU and requirements-gpu.txt; about four hours on an RTX 5090
 python videovigilancia/generar.py    # 37 files from the Procurement Platform (about 6 GB) and the specifications at one request per second; several hours
@@ -201,6 +204,7 @@ nothing has to be downloaded and no account is needed) or locally with
 - [`grc-extendido/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=grc-extendido%2Freproducir.ipynb)
 - [`uplift-criteo/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=uplift-criteo%2Freproducir.ipynb)
 - [`firma-pdf/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=firma-pdf%2Freproducir.ipynb)
+- [`biometria-hf/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=biometria-hf%2Freproducir.ipynb)
 - [`guardarrailes/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=guardarrailes%2Freproducir.ipynb)
 - [`videovigilancia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=videovigilancia%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)
@@ -314,3 +318,4 @@ The scripts, under [Apache-2.0](LICENSE). The own measurements (`kev`,
   licence, [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/),
   for non-commercial use; the original file is not redistributed.
 - **PDF signing**: `firma-pdf/datos/documento.pdf` is the first three pages of NIST CSWP 29 (CSF 2.0), a work of the US Government, not subject to copyright in that country. The authority and the signer of the measurement are fictitious test ones, and their key is published on purpose so the measurement can be repeated. Of the signed BOE PDF only its signature format is recorded; it is not redistributed. The application in `herramienta/` is the copy the measurement was made with; the published one lives at [mmunozpl/firma-pdf](https://github.com/mmunozpl/firma-pdf), under Apache-2.0 and without maintenance or support.
+- **Hugging Face (synthetic faces and detectors)**: `biometria-hf` publishes the identifiers, metadata and counts returned by the public API, without weights, code or images; the names of the face-swapping tools are only in its CSV files.

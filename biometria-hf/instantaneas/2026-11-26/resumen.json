@@ -1,0 +1,238 @@
+{
+ "fecha_consulta": "2026-11-26",
+ "terminos": [
+  "faceswap",
+  "face-swap",
+  "face swap",
+  "swapface",
+  "swap-face",
+  "inswapper",
+  "roop",
+  "facefusion",
+  "deepfacelab",
+  "deep-live-cam",
+  "head-swap",
+  "deepfake",
+  "deep-fake",
+  "deepfake-detection",
+  "fake-face",
+  "face-forgery",
+  "forgery-detection",
+  "anti-spoofing",
+  "antispoofing",
+  "anti-spoof",
+  "face-spoof",
+  "liveness",
+  "face-morph",
+  "morphing-attack",
+  "morph-detection"
+ ],
+ "apartados": {
+  "modelo|detección": 745,
+  "modelo|generación": 380,
+  "modelo|otro": 97,
+  "modelo|ambiguo": 280,
+  "space|generación": 2593,
+  "space|detección": 1252,
+  "space|ambiguo": 392,
+  "space|otro": 96
+ },
+ "recuentos": [
+  {
+   "tipo": "modelo",
+   "familia": "detección",
+   "subtipo": "deepfake",
+   "modalidad": "imagen y vídeo",
+   "repos": 545,
+   "descargas_total": 7261172,
+   "me_gusta": 389,
+   "spaces_en_marcha": 0,
+   "sin_filtros": 0,
+   "invita_duplicar": 0
+  },
+  {
+   "tipo": "modelo",
+   "familia": "detección",
+   "subtipo": "deepfake",
+   "modalidad": "voz",
+   "repos": 143,
+   "descargas_total": 1145540,
+   "me_gusta": 96,
+   "spaces_en_marcha": 0,
+   "sin_filtros": 0,
+   "invita_duplicar": 0
+  },
+  {
+   "tipo": "modelo",
+   "familia": "detección",
+   "subtipo": "presentación y vida",
+   "modalidad": "imagen y vídeo",
+   "repos": 57,
+   "descargas_total": 29535,
+   "me_gusta": 26,
+   "spaces_en_marcha": 0,
+   "sin_filtros": 0,
+   "invita_duplicar": 0
+  },
+  {
+   "tipo": "modelo",
+   "familia": "generación",
+   "subtipo": "intercambio de caras",
+   "modalidad": "imagen y vídeo",
+   "repos": 379,
+   "descargas_total": 1543971,
+   "me_gusta": 3113,
+   "spaces_en_marcha": 0,
+   "sin_filtros": 1,
+   "invita_duplicar": 0
+  },
+  {
+   "tipo": "modelo",
+   "familia": "generación",
+   "subtipo": "morphing de caras",
+   "modalidad": "imagen y vídeo",
+   "repos": 1,
+   "descargas_total": 0,
+   "me_gusta": 1,
+   "spaces_en_marcha": 0,
+   "sin_filtros": 0,
+   "invita_duplicar": 0
+  },
+  {
+   "tipo": "space",
+   "familia": "detección",
+   "subtipo": "deepfake",
+   "modalidad": "imagen y vídeo",
+   "repos": 997,
+   "descargas_total": 0,
+   "me_gusta": 396,
+   "spaces_en_marcha": 89,
+   "sin_filtros": 0,
+   "invita_duplicar": 0
+  },
+  {
+   "tipo": "space",
+   "familia": "detección",
+   "subtipo": "deepfake",
+   "modalidad": "voz",
+   "repos": 160,
+   "descargas_total": 0,
+   "me_gusta": 36,
+   "spaces_en_marcha": 23,
+   "sin_filtros": 0,
+   "invita_duplicar": 0
+  },
+  {
+   "tipo": "space",
+   "familia": "detección",
+   "subtipo": "morphing",
+   "modalidad": "imagen y vídeo",
+   "repos": 4,
+   "descargas_total": 0,
+   "me_gusta": 2,
+   "spaces_en_marcha": 1,
+   "sin_filtros": 0,
+   "invita_duplicar": 0
+  },
+  {
+   "tipo": "space",
+   "familia": "detección",
+   "subtipo": "presentación y vida",
+   "modalidad": "imagen y vídeo",
+   "repos": 91,
+   "descargas_total": 0,
+   "me_gusta": 965,
+   "spaces_en_marcha": 12,
+   "sin_filtros": 0,
+   "invita_duplicar": 0
+  },
+  {
+   "tipo": "space",
+   "familia": "generación",
+   "subtipo": "intercambio de caras",
+   "modalidad": "imagen y vídeo",
+   "repos": 2581,
+   "descargas_total": 0,
+   "me_gusta": 10868,
+   "spaces_en_marcha": 349,
+   "sin_filtros": 82,
+   "invita_duplicar": 280
+  },
+  {
+   "tipo": "space",
+   "familia": "generación",
+   "subtipo": "morphing de caras",
+   "modalidad": "imagen y vídeo",
+   "repos": 12,
+   "descargas_total": 0,
+   "me_gusta": 29,
+   "spaces_en_marcha": 6,
+   "sin_filtros": 0,
+   "invita_duplicar": 0
+  }
+ ],
+ "concentracion": {
+  "generación": {
+   "modelos": 380,
+   "descargas": 1543971,
+   "cuota_top10": 0.9745370865126353
+  },
+  "detección": {
+   "modelos": 745,
+   "descargas": 8436247,
+   "cuota_top10": 0.8490820622013556
+  }
+ },
+ "spaces_en_marcha": {
+  "generación|cpu-basic": 196,
+  "detección|": 66,
+  "generación|zero-a10g": 59,
+  "generación|": 100,
+  "detección|cpu-basic": 41,
+  "detección|zero-a10g": 18
+ },
+ "fichas": {
+  "ficha": {
+   "n": 745,
+   "si": 475
+  },
+  "plantilla_vacia": {
+   "n": 745,
+   "si": 111
+  },
+  "model_index": {
+   "n": 745,
+   "si": 80
+  },
+  "metricas": {
+   "n": 745,
+   "si": 292
+  },
+  "conjunto_prueba": {
+   "n": 745,
+   "si": 179
+  },
+  "presentacion": {
+   "n": 745,
+   "si": 73
+  },
+  "inyeccion": {
+   "n": 745,
+   "si": 3
+  }
+ },
+ "fichas_vida": {
+  "metricas": {
+   "n": 57,
+   "si": 25
+  },
+  "conjunto_prueba": {
+   "n": 57,
+   "si": 21
+  },
+  "inyeccion": {
+   "n": 57,
+   "si": 1
+  }
+ }
+}

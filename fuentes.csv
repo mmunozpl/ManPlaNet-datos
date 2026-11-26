@@ -2,7 +2,7 @@ fuente,mediciones,url
 catálogo KEV de CISA,kev euvd-kev nvd-fichas parque-instalado netscaler php2shell,https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
 API de la EUVD de ENISA,euvd-kev netscaler php2shell,https://euvdservices.enisa.europa.eu/api/search?exploited=true&page=0&size=1
 API 2.0 del NVD,nvd-fichas netscaler php2shell,https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=1
-API de modelos de Hugging Face,hf-tendencia hf-activos guardarrailes,https://huggingface.co/api/models?limit=1
+API de modelos de Hugging Face,hf-tendencia hf-activos guardarrailes biometria-hf,https://huggingface.co/api/models?limit=1
 configuración pública de un modelo en Hugging Face,deepseek-kv,https://huggingface.co/deepseek-ai/DeepSeek-V3/raw/main/config.json
 conjunto de resultados en Hugging Face,gauge-cuantizacion,https://huggingface.co/api/datasets/ManPla/gauge-orbit-quantization-results
 API de arXiv,agi-tendencias,https://export.arxiv.org/api/query?search_query=all:%22world%20model%22&max_results=1
@@ -40,3 +40,4 @@ componentes del marco NICE v2.2.0 (JSON del CPRT del NIST),grc-extendido,https:/
 "NIST CSWP 29, The NIST Cybersecurity Framework (CSF) 2.0 (PDF; obra del Gobierno de EE. UU.)",firma-pdf,https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
 lista de confianza española de prestadores de servicios de confianza (TSL),firma-pdf,https://tsl.digital.gob.es/TSL.xml
 "Real Decreto 311/2022 del Esquema Nacional de Seguridad (PDF firmado del BOE)",firma-pdf,https://www.boe.es/boe/dias/2022/05/04/pdfs/BOE-A-2022-7191.pdf
+API de aplicaciones (Spaces) de Hugging Face,biometria-hf,https://huggingface.co/api/spaces?limit=1

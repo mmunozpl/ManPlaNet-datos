@@ -1,0 +1,746 @@
+id,subtipo,modalidad,descargas_total,ficha,palabras,plantilla_vacia,model_index,metricas,conjunto_prueba,presentacion,inyeccion
+01Yassine/AudioLLM-Deepfake-Detection,deepfake,voz,0,True,557,False,False,True,True,True,False
+0xmola/wavlm-deepfake-audio-forensics,deepfake,voz,0,True,288,False,False,True,True,True,False
+123-jay/deepfake-detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+AC100/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+AC100/deepfake-detector-biomarkers,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+AM014/forgery_detection_model,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+ANANDAPADMANABHANANS/deepfake-audio-detector-v3,deepfake,voz,117,True,255,True,True,True,True,False,False
+ANANDAPADMANABHANANS/deepfake-audio-detector-v4,deepfake,voz,158,True,255,True,True,True,True,False,False
+ANANDAPADMANABHANANS/deepfake-audio-detector-v5,deepfake,voz,26,False,0,False,False,False,False,False,False
+ANANDAPADMANABHANANS/deepfake-audio-detector-v8,deepfake,voz,47,True,253,True,True,True,True,False,False
+ANANDAPADMANABHANANS/deepfake-audio-detector-v9,deepfake,voz,713,True,253,True,True,True,True,False,False
+ANANDAPADMANABHANANS/deepfake-audio-detector_V2,deepfake,voz,0,False,0,False,False,False,False,False,False
+ANANDAPADMANABHANANS/deepfake-image-detector-v1,deepfake,imagen y vídeo,55,True,0,False,False,False,False,False,False
+AUA27/deepfake-multimodal-weights,deepfake,voz,0,True,207,False,False,True,True,False,False
+Aaditech9055/Deepfake-audio-detection-cnn,deepfake,voz,0,False,0,False,False,False,False,False,False
+Abdelrahman10101/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Abedin02/Deepfake_Detection_Model,deepfake,imagen y vídeo,41,True,113,False,False,False,False,False,False
+Adieee5/Deepfake-Detection-cross,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Adieee5/deepfake-detection-ViT-CrossTraining,deepfake,imagen y vídeo,1127,True,96,False,False,True,True,False,False
+Aditya11031/deepfake-detector-models,deepfake,imagen y vídeo,0,True,1120,False,False,True,True,False,False
+AdityaManojShinde/deepfake-detector,deepfake,imagen y vídeo,0,True,330,False,False,True,False,False,False
+AkhilaPathlavath/Deepfake_Detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Akshay-Sai/whisper-deepfake-detector,deepfake,voz,104,True,374,False,False,True,False,False,False
+AlphaYuno/deepfake-detector-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Ammar2k/videomae-base-finetuned-deepfake-subset,deepfake,imagen y vídeo,4773,False,0,False,False,False,False,False,False
+Anson-Saju-George/deepfake-model-weights,deepfake,imagen y vídeo,0,True,143,False,False,False,False,False,False
+Anthuni/ViT_DeepfakeClassification,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Arafathmsm/fake_face_detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+ArissBandoss/deepfake-image-classifier,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+ArissBandoss/deepfake-video-classifier,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+ArissBandoss/wav2vec2-base-deepfake-detection,deepfake,voz,63,False,0,False,False,False,False,False,False
+Aritra2005/DeepFakeDetection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Arko007/deepfake-detector-checkpoints,deepfake,imagen y vídeo,0,True,1897,False,False,True,True,False,True
+Arko007/deepfake-detector-dfd-sota,deepfake,imagen y vídeo,542,True,1966,False,False,True,True,False,False
+Arko007/deepfake-image-detector,deepfake,imagen y vídeo,830,True,701,False,False,True,False,False,False
+ArmanSandhu1729/voiceshield-hindi-english-deepfake,deepfake,voz,56,True,665,True,False,True,False,False,False
+ArmanSandhu1729/voiceshield-hindi-english-deepfake-v2,deepfake,voz,59,True,665,True,False,True,False,False,False
+ArmanSandhu1729/voiceshield-hindi-english-deepfake-v3-hardened,deepfake,voz,110,True,665,True,False,True,False,False,False
+AryakumarMishra/deepfake-detector-models,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Aryanpatra56/Face-detection-Deepfake,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Asmaad/DeepFakeDetection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Begrudging/deepfake-detector-dfd-sota,deepfake,imagen y vídeo,113,True,1966,False,False,True,True,False,False
+Bgeorge/deepfake-audio-detector-wav2vec2,deepfake,voz,144,True,683,False,False,True,True,False,False
+Bharathpriyan04/deepfake-detector-model,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Bisher/wav2vec2-deepfake-detection-1,deepfake,voz,0,False,0,False,False,False,False,False,False
+Bisher/wav2vec2-deepfake-detection-2,deepfake,voz,70,False,0,False,False,False,False,False,False
+Bisher/wav2vec2-deepfake-detection-test_1,deepfake,voz,28,False,0,False,False,False,False,False,False
+Bisher/wav2vec2_ASV_deepfake_audio_detection,deepfake,voz,2912,True,999,True,True,True,True,False,False
+Bisher/wav2vec2_ASV_deepfake_audio_detection_DF_finetune,deepfake,voz,39,False,0,False,False,False,False,False,False
+Bisher/wav2vec2_ASV_deepfake_audio_detection_DF_finetune_frozen,deepfake,voz,76,True,443,True,True,True,True,False,False
+Bisher/wav2vec2_ASV_deepfake_audio_detection_DF_finetune_frozen_chngd_classifier,deepfake,voz,51,True,893,True,True,True,True,False,False
+Bisher/wav2vec2_ASV_deepfake_audio_detection_DF_finetune_frozen_chngd_classifier_kaggle_8freeze_64bs_2e,deepfake,voz,31,True,365,True,True,True,True,False,False
+Bisher/wav2vec2_ASV_deepfake_audio_detection_DF_finetune_frozen_further,deepfake,voz,29,True,293,True,True,True,True,False,False
+Bisher/wav2vec2_ASV_deepfake_audio_detection_DF_finetune_modified_test_1,deepfake,voz,33,True,181,True,True,False,True,False,False
+Bisher/wav2vec2_ASV_deepfake_audio_detection_DF_finetune_modified_test_new,deepfake,voz,37,True,185,True,True,False,True,False,False
+Bisher/wav2vec2_ASV_deepfake_audio_detection_DF_finetune_test2,deepfake,voz,0,False,0,False,False,False,False,False,False
+Bisher/wav2vec2_ASV_deepfake_audio_detection_DF_finetune_test2_out,deepfake,voz,29,False,0,False,False,False,False,False,False
+Bisher/wav2vec2_ASV_deepfake_audio_detection_FINETUNED_ON_DF,deepfake,voz,0,False,0,False,False,False,False,False,False
+Blackson91/hakikisha-deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+BuburEncer/vit-fake-face-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+BuseUzun/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,44,False,0,False,False,False,False,False,False
+Ceendi/deepfake-audio-detector,deepfake,voz,0,True,185,False,False,True,True,True,False
+Ceendi/deepfake-video-detector,deepfake,imagen y vídeo,0,True,186,False,False,False,True,False,False
+CemRoot/deepfake-detection-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Chirag-P-Rao/deepfakeDetection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+ChrisBeischl/LoRA-deepfake-detection,deepfake,imagen y vídeo,0,True,396,False,False,True,True,False,False
+ChristianDW15/deepfake-deit,deepfake,imagen y vídeo,151,True,133,False,False,False,False,False,False
+CodeRafay/deepfake-detect,deepfake,imagen y vídeo,0,True,218,False,False,True,True,False,False
+Codesmith-23/deepfake-detector-v1,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+CodyNeo/fined_tuned_deepfake_detection,deepfake,imagen y vídeo,235,True,6,False,False,False,False,False,False
+CodyNeo/glass_fine_tuned_deepfake_detection,deepfake,imagen y vídeo,7455,True,10,False,False,False,False,False,False
+CodyNeo/supercell_fine_tuned_deepfake_detection,deepfake,imagen y vídeo,354,True,13,False,False,False,False,False,False
+DaMsTaR/Detecto-DeepFake_Image_Detector,deepfake,imagen y vídeo,1299,False,0,False,False,False,False,False,False
+DaMsTaR/Detecto-DeepFake_Video_Detector,deepfake,imagen y vídeo,0,True,114,False,False,False,False,False,False
+DarkVision/Deepfake_Detection,deepfake,imagen y vídeo,7,False,0,False,False,False,False,False,False
+DarkVision/Deepfake_detection_image,deepfake,imagen y vídeo,1366,False,0,False,False,False,False,False,False
+DarkVision/Deepfake_detection_video,deepfake,imagen y vídeo,0,True,114,False,False,False,False,False,False
+DavidCombei/deepfake-detection,deepfake,imagen y vídeo,0,True,666,False,False,False,False,False,False
+DavidCombei/wav2vec2-xls-r-1b-DeepFake-AI4TRUST,deepfake,voz,1173,True,196,True,True,True,True,False,False
+DavidCombei/wavLM-base-Deepfake_V1,deepfake,voz,2955,True,200,True,True,True,True,False,False
+DavidCombei/wavLM-base-Deepfake_V2,deepfake,voz,40061,True,205,True,True,True,True,False,False
+DavidCombei/wavLM-base-Deepfake_V3,deepfake,voz,4247,True,200,True,True,True,True,False,False
+Dax99993/deepfake-spanish-wav2vec2-linear-augmented,deepfake,voz,59,True,348,True,True,True,True,False,False
+Dax99993/deepfake-spanish-wav2vec2-linear-noaugmented,deepfake,voz,65,True,291,True,True,True,True,False,False
+DeepFake-Audio-Rangers/DeepfakeDetect_wav2vec2,deepfake,voz,508,True,824,True,True,True,True,False,False
+DeepFakeDetector/cnn-transfer-final,deepfake,imagen y vídeo,184,True,43,False,False,False,False,False,False
+DeepFakeDetector/deit-distilled-final,deepfake,imagen y vídeo,91,True,57,False,False,False,False,False,False
+DeepFakeDetector/deit-distilled-retrained,deepfake,imagen y vídeo,49,True,57,False,False,False,False,False,False
+DeepFakeDetector/fm-probe-clip-dinov3,deepfake,imagen y vídeo,0,True,1029,False,False,True,True,False,False
+DeepFakeDetector/fusion-meta-classifier-v2,deepfake,imagen y vídeo,38,False,0,False,False,False,False,False,False
+DeepeshDesu/deepfake_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Devanshu2025/Deepfake-video-detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Devendra174/deepfake-detection-xception-vit,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Dheeraj07/DeepFake_Detector_AI_Truth_Seeking_Eye,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Dhruv61202/vit-deepfake-forensics-ibm-hackathon,deepfake,imagen y vídeo,23,False,0,False,False,False,False,False,False
+DhruvJariwala/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,10560,True,106,False,False,False,False,False,False
+Dnyanesh-Gavali07/XCEPTIONNET-DeepFake-Detector,deepfake,imagen y vídeo,129,False,0,False,False,False,False,False,False
+Eddie05/Detection_deepfake,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Eincasia/deepfake_detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+EtiTarun/deepfake-detector-IT,deepfake,imagen y vídeo,120,True,665,True,False,True,False,False,False
+FDL1234/deepfake-detector-model,deepfake,imagen y vídeo,29,False,0,False,False,False,False,False,False
+Felipe2231/UDFD-Universal-DeepFake-Detector,deepfake,imagen y vídeo,0,True,545,False,False,False,False,False,False
+Fluuvys/Deep_fake_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+FrankRin/deepfakedetect,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Freka22/Deepfake_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Gagan47/Deepfake-detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Ganesh16/DeepFake_Detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+GauravShah81/deepfake-vs-real-image-detection,deepfake,imagen y vídeo,49,True,0,False,False,False,False,False,False
+Gautam20/mlops_deepfake,deepfake,imagen y vídeo,103,True,245,True,True,True,True,False,False
+Gustking/wav2vec2-large-xlsr-deepfake-audio-classification,deepfake,voz,310221,True,64,False,False,True,True,True,False
+Haarsh2240/Deepfake-Detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Hamza142/urdu-deepfake-svm,deepfake,voz,0,True,42,False,False,False,False,False,False
+Harivamsi17/deepfake-detector-weights,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Harshasnade/Deepfake_Detection_System_V1,deepfake,imagen y vídeo,0,True,495,False,False,True,True,False,False
+Hemg/Deepfake-Detection,deepfake,imagen y vídeo,4315,True,198,True,True,True,True,False,False
+Hemg/Deepfake-Imageclassifier,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Hemg/Deepfake-image,deepfake,imagen y vídeo,1850,True,231,True,True,True,True,False,False
+Hemg/small-deepfake,deepfake,voz,562,True,190,True,True,True,True,False,False
+Hemgg/Deepfake-audio-detection,deepfake,voz,26231,True,127,False,True,True,True,False,False
+Hemgg/deepfake-video-detection,deepfake,imagen y vídeo,139,False,0,False,False,False,False,False,False
+Hemgg/deepfake-vs-real-video-detection,deepfake,imagen y vídeo,208,False,0,False,False,False,False,False,False
+Hemgg/deepfake_model_Video-MAE,deepfake,imagen y vídeo,215,True,173,True,True,True,True,False,False
+Hemgg/deepfake_model_Video-MAE-1,deepfake,imagen y vídeo,285,True,174,True,True,True,True,False,False
+Hemgg/kfold-deepfake-video-detect,deepfake,imagen y vídeo,85,False,0,False,False,False,False,False,False
+Hemgg/videomae-base-finetuned-deepfake-detection,deepfake,imagen y vídeo,392,True,164,True,True,True,True,False,False
+Himanshu90761/deepfake-detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+HoopitAI/video-deepfake-detection-GenD_CLIP_L_14_FF,deepfake,imagen y vídeo,411,True,354,False,False,True,True,False,False
+HoopitAI/video-deepfake-detection-GenD_CLIP_L_336_FF,deepfake,imagen y vídeo,157,True,356,False,False,True,True,False,False
+HoopitAI/video-deepfake-detection-GenD_DINOv3_L_FF,deepfake,imagen y vídeo,177,True,354,False,False,True,True,False,False
+HridyaVerma/DeepfakeDetector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+HrutikAdsare/deepfake-detector-faceforensics,deepfake,imagen y vídeo,1000,False,0,False,False,False,False,False,False
+HyperMoon/wav2vec2-base-960h-finetuned-deepfake,deepfake,voz,9678,True,204,True,True,True,True,True,False
+HyperMoon/wav2vec2-base-finetuned-deepfake-0919,deepfake,voz,1358,True,202,True,True,True,True,True,False
+Ikhlas125/sachai-check-urdu-audio-deepfake,deepfake,voz,0,True,289,False,False,True,False,True,False
+Ikrimaidk/Fakeface,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Iloriayomide/Deepfakedetection-models,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+IsmayilMasimov36/Deepfake_detection,deepfake,imagen y vídeo,0,True,675,True,False,True,False,False,False
+Jabrave/deepfake-detector,deepfake,imagen y vídeo,399,False,0,False,False,False,False,False,False
+Jasirdeen/efficientnet-b3-image-forgery-detection,deepfake,imagen y vídeo,0,True,738,False,False,True,True,False,False
+Jasleen11/deepfake-detection-cbam,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Jeonghwanny/deepfakedetection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+JunYoungLee/deepfake-detection-dk,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+JuniKhan123/urdu-deepfake-detector-unified_for_gradio_app,deepfake,voz,264,True,665,True,False,True,False,False,False
+JuniKhan123/urdu-deepfake-mms-augmented,deepfake,voz,47,True,665,True,False,True,False,False,False
+JuniKhan123/urdu-deepfake-mms-baseline,deepfake,voz,54,True,665,True,False,True,False,False,False
+JuniKhan123/urdu-deepfake-mms-extended,deepfake,voz,52,True,665,True,False,True,False,False,False
+JuniKhan123/urdu-deepfake-w2v-bert-extended-elevenlabs,deepfake,voz,55,True,665,True,False,True,False,False,False
+JuniKhan123/urdu-deepfake-wav2vec2bert-augmented,deepfake,voz,55,True,665,True,False,True,False,False,False
+JuniKhan123/urdu-deepfake-wav2vec2bert-baseline,deepfake,voz,66,True,665,True,False,True,False,False,False
+JuniKhan123/urdu-deepfake-wav2vec2bert-extended,deepfake,voz,76,True,665,True,False,True,False,False,False
+JuniKhan123/urdu-deepfake-wav2vec2bert-trackb-finetuned,deepfake,voz,62,True,665,True,False,True,False,False,False
+K0SMIX/verix-deepfake-detection-model,deepfake,imagen y vídeo,45,False,0,False,False,False,False,False,False
+Keerthana-0a/my-finetuned-deepfake-model,deepfake,imagen y vídeo,149,True,665,True,False,True,False,False,False
+KhadijaRanaNawaz/DeepFakeChecker,deepfake,imagen y vídeo,3,False,0,False,False,False,False,False,False
+Khon198/indictts-deepfake-detector,deepfake,imagen y vídeo,321,True,619,False,False,True,True,False,False
+Kklv/Deep-Fake-Detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+KoreaPeter/ms-eff-gcvit-deepfake-b0-celeb-df-v2,deepfake,imagen y vídeo,107836,False,0,False,False,False,False,False,False
+KoreaPeter/ms-eff-gcvit-deepfake-b0-ff-plus-plus,deepfake,imagen y vídeo,111892,False,0,False,False,False,False,False,False
+KoreaPeter/ms-eff-gcvit-deepfake-b0-kodf,deepfake,imagen y vídeo,130749,False,0,False,False,False,False,False,False
+KoreaPeter/ms-eff-gcvit-deepfake-b5-celeb-df-v2,deepfake,imagen y vídeo,116305,False,0,False,False,False,False,False,False
+KoreaPeter/ms-eff-gcvit-deepfake-b5-ff-plus-plus,deepfake,imagen y vídeo,109344,False,0,False,False,False,False,False,False
+KoreaPeter/ms-eff-gcvit-deepfake-b5-kodf,deepfake,imagen y vídeo,107198,False,0,False,False,False,False,False,False
+Kurkur99/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,40,False,0,False,False,False,False,False,False
+Kushagra07/vit-base-patch16-224-finetuned-deepfake_emp_celeb_youtube,deepfake,imagen y vídeo,679,False,0,False,False,False,False,False,False
+LAWSA07/Image_DeepFake_detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+LPX55/deepfake_detectors-onnx,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+LaabhGupta/Text-Anti-Spoofing,presentación y vida,imagen y vídeo,74,True,0,False,False,False,False,False,False
+LaabhGupta/image-antispoofing,presentación y vida,imagen y vídeo,0,True,428,False,False,True,True,True,False
+LaabhGupta/voice-antispoofing,deepfake,voz,0,True,1079,False,False,True,True,True,False
+Limitless-8/spectra-aasist3-int8-audio-deepfake,deepfake,voz,0,True,725,False,False,True,True,True,False
+M-UsamaNaeem/voice-deepfake-detector,deepfake,voz,28,False,0,False,False,False,False,False,False
+MEETJAIN6091/deepfake-detector-weights,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+MUmairAB/deepfake-detection-ff-cn-transformer,deepfake,imagen y vídeo,0,True,938,False,True,True,True,False,False
+MaanVad3r/DeepFake-Detector,deepfake,imagen y vídeo,0,True,393,False,False,True,True,False,False
+Maddy21/deepfake-detection-api,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Maddy2911/DeepfakeDetectionModel,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Maddy2911/deepfake-detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Manav8/DEEPFAKE_DETECTION,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+ManhQuangAI/anti-deepfake-dinov3-coursework,presentación y vida,imagen y vídeo,0,True,678,False,False,True,False,True,False
+ManhQuangAI/dinov3-deepfake-detection,deepfake,imagen y vídeo,0,True,200,False,False,False,False,False,False
+Manish18/deepfake-detection-model,deepfake,imagen y vídeo,111,True,665,True,False,True,False,False,False
+Marcus4411/Deepfake_detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+MelodyMachine/Deepfake-audio-detection,deepfake,voz,7022,True,636,True,True,True,True,False,False
+MelodyMachine/Deepfake-audio-detection-V2,deepfake,voz,116776,True,202,True,True,True,True,False,False
+MlKiller/Deepfake_Detector,deepfake,imagen y vídeo,0,True,7,False,False,True,False,False,False
+ModernoTech/FaceSwap-Models,deepfake,imagen y vídeo,113,True,1804,False,False,True,False,False,False
+MohammedAH/DeepFake-Detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+MohiniMuskan/DeepfakeDetector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Molkaatb/Liveness_Vit,presentación y vida,imagen y vídeo,4973,True,11,False,False,True,False,False,False
+MuhammadQasimShabbir3/deepfake-image-detectector,deepfake,imagen y vídeo,0,True,247,False,False,True,False,False,False
+Mxa/Vit_Deepfake_Binary_Image_Classifier,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Naman712/Deep-fake-detection,deepfake,imagen y vídeo,1162,False,0,False,False,False,False,False,False
+Naveedr/deepfake-audio-stage1-aasist,deepfake,voz,0,True,103,False,False,True,True,True,False
+Navxx/DEEPFAKE-DETECTION,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Navxx/DEEPFAKE-DETECTION1,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Navxx/DEEPFAKE-DETECTOR,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Nelsygraham/deepfake-detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+NeuroShield/xceptionnet-deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Niteshgujjar2612/deepfake-detector,deepfake,imagen y vídeo,0,True,440,False,False,False,False,False,False
+Nithyashreel/DeepFakeDetection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Nithyashreel/DeepFakeDetector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Noor-Khan/face-swap,deepfake,imagen y vídeo,0,True,882,False,False,True,False,False,False
+Notyoursjaxkarth/deepfake_detection_model2,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+OBITO03/Deepfakewav2vec2,deepfake,voz,112,True,64,False,False,True,True,True,False
+OhMyYuwan/face-forgery-detection,deepfake,imagen y vídeo,0,True,116,False,False,False,False,False,False
+Om-Parab/distilhubert-finetuned-audio-deepfake-in-the-wild,deepfake,voz,1850,True,665,True,False,True,False,False,False
+Omar280X/id_antispoof_segmentation,presentación y vida,imagen y vídeo,113,True,177,True,True,False,True,True,False
+Omar280X/id_antispoof_segmentation_segformer_b0,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Oprockyvai/Silent-Face-Anti-Spoofing-LiteRT,presentación y vida,imagen y vídeo,38,True,1260,False,False,True,False,True,False
+Ozoin/LivenessTestModel,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Pallabi29/forgery_detection_app,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Paras-tripathi/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Parimal/deepfake_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Penny1507288/deepfake_detection,deepfake,imagen y vídeo,24,True,0,False,False,False,False,False,False
+Pikachu771/truthlens-deepfake-detector,deepfake,imagen y vídeo,0,True,23,False,False,False,False,False,False
+Pinchu05/DeepFake_Detection,deepfake,imagen y vídeo,19,True,81,True,False,False,True,False,False
+PiyushGPT/deepfake-detection-model,deepfake,imagen y vídeo,1,False,0,False,False,False,False,False,False
+PlummetSpace/deepfake-detector-weights,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+PlummetSpace/deepfakeDetector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Ponaalagar/deepfake-detection-model,deepfake,imagen y vídeo,31,False,0,False,False,False,False,False,False
+Pranaavv05/deepfake-detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+PranjalSeluriyal/Deepfake_Detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+PritamSaha154/Deepfake_detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Purnachander-Konda/deepfake-detection-swin,deepfake,imagen y vídeo,1649,True,229,True,True,True,True,False,False
+Pushkarrrr15151/PolyVL-deepfake-lora,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+RamadhanZome/deepfake-xception,deepfake,imagen y vídeo,0,True,734,False,False,True,True,False,False
+RanganathTY/deepfake-detector-vit,deepfake,imagen y vídeo,131,True,0,False,False,False,False,False,False
+Ravurijeetendra12/YoloV8-face-liveness-model,presentación y vida,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Red-had1911/deepfake-detector-onnx,deepfake,imagen y vídeo,0,True,151,False,False,False,False,False,False
+Redgerd/FYP-GenD-Deepfake-Detection,deepfake,imagen y vídeo,70,True,0,False,False,False,False,False,False
+RishiRaj22/deepfake-detector-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Rohith42/deep-fake-detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Rohith42/deepfake-image-detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+RoopamR/my_bert_model,deepfake,imagen y vídeo,27,True,663,True,False,True,False,False,False
+RoopeK/distilbert-imdb-sentiment,deepfake,imagen y vídeo,34,True,665,True,False,True,False,False,False
+RoopeK/distilbert-imdb-sentiment-small-sample,deepfake,imagen y vídeo,20,True,665,True,False,True,False,False,False
+RoopeshDuvvi/distilbert-imdb-sentiment,deepfake,imagen y vídeo,168,True,219,True,True,True,True,False,False
+Roopeshnbrn/finetuning-sentiment-model-3000-samples,deepfake,imagen y vídeo,23,True,151,True,True,True,True,False,False
+Rosh2004/deepfake-lip-audio-detection,deepfake,voz,0,False,0,False,False,False,False,False,False
+RudraMachhindraKanase/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+RuiRuihigh/hyperion-baseline-deepfake-detector,deepfake,voz,36,True,652,False,False,False,False,True,False
+RuiRuihigh/hyperion-grl-deepfake-detector,deepfake,voz,50,True,636,False,False,False,False,True,False
+RuiRuihigh/hyperion-mt-deepfake-detector,deepfake,voz,100,True,638,False,False,False,False,True,False
+SG-17/Deep-fake-detection-model,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Sabrimd/deepfake-detection-menaml-2026,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Sadanie/pellav2-audio-deepfake-detector,deepfake,voz,7581,True,75,False,False,False,False,True,False
+Sadanie/pellav3-audio-deepfake-detector,deepfake,voz,4872,True,159,False,False,False,False,True,False
+SadraCoding/SDXL-Deepfake-Detector,deepfake,imagen y vídeo,3016,True,1681,False,False,True,True,False,False
+SaiCharitha1710/generalized-synthetic-deepfake-detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+SaifOnFire/ai-voiceshield-deepfake-detector,deepfake,voz,33,False,0,False,False,False,False,False,False
+Samson5827/deepfakeguard-v2,deepfake,imagen y vídeo,44,True,582,False,False,True,True,False,False
+SanthoshPrabhu/Deepfake_audio_detection,deepfake,voz,0,False,0,False,False,False,False,False,False
+Saqib772/CNN_VIT_DeepFake,deepfake,imagen y vídeo,0,True,539,False,True,True,True,False,False
+Sara1708/deepfake-audio-wav2vec2,deepfake,voz,0,True,511,False,False,True,True,True,False
+Sayantan090/deepfake-audio-detector,deepfake,voz,71,True,665,True,False,True,False,False,False
+Sayantan090/wav2vec2-deepfake-voice-detector,deepfake,voz,207,True,665,True,False,True,False,False,False
+Scaledge/DeepFakeDetectorModels,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Seth43215678/seth-bot-deepfake-detector-model,deepfake,imagen y vídeo,82,False,0,False,False,False,False,False,False
+Shabbir1/robust-deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Shahd1812/DeepFake-Detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Shahzaib-Arshad/deepfake_audio_detection,deepfake,voz,414,True,166,True,True,False,True,False,False
+Shakeel401/Deepfake-Detector,deepfake,imagen y vídeo,237,False,0,False,False,False,False,False,False
+Shakeel401/Deepfake-Video-Detector,deepfake,imagen y vídeo,30,False,0,False,False,False,False,False,False
+ShalinR/DeepFakeDetection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Shaurya012/Video_Deepfake_Detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Sherz0/deepfake-image-detector-v2,deepfake,imagen y vídeo,32,True,59,False,False,True,False,False,False
+ShivaBalan-k/deepfake-detector-b4,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Shivam49/Deepfake_detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Shlok0829/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Shyazam7/deepfake-speech-detection-models,deepfake,voz,0,False,0,False,False,False,False,False,False
+Sik0213/shield-v-rtfs-faceswap-baseline,deepfake,imagen y vídeo,0,True,2134,False,False,True,True,False,False
+Siku788/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,45,False,0,False,False,False,False,False,False
+Simma7/deepfake_model,deepfake,imagen y vídeo,81,True,0,False,False,False,False,False,False
+SivaMallikarjun/deepfake-recognition,deepfake,imagen y vídeo,122,True,0,False,False,False,False,False,False
+Skullly/DeepFake-EN-B6,deepfake,imagen y vídeo,1394,True,185,True,True,True,True,False,False
+Skullly/DeepFake-image-detection-ViT-384,deepfake,imagen y vídeo,1187,True,191,True,True,True,True,False,False
+SmallBrain7206/DeepFakeDetection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+SongjuNah/Deep-Fake-Detector-v2-Model,deepfake,imagen y vídeo,22,False,0,False,False,False,False,False,False
+SongjuNah/Deep-Fake-Detector-v2-Model_2,deepfake,imagen y vídeo,40,False,0,False,False,False,False,False,False
+SoumilPatria/deepfake_audio_detection,deepfake,voz,0,True,0,False,False,False,False,False,False
+Spr123/real-fake-face-detect,deepfake,imagen y vídeo,13,False,0,False,False,False,False,False,False
+Suhani1126/deepfake-detector-weights,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Susovan85/deepfake-detection-efficientnet-vit,deepfake,imagen y vídeo,102,True,339,False,True,True,True,False,False
+Sxhni/deepfake-detector-vit,deepfake,imagen y vídeo,428,True,0,False,False,False,False,False,False
+Tahmid5879/Qwen3-VL-Face-Verification-DeepFake-Detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Tamarillo/voice-deepfake-guard-base,deepfake,voz,0,True,3034,False,False,True,True,True,False
+Tamarillo/voice-deepfake-guard-small-en,deepfake,voz,0,True,2954,False,False,True,True,True,False
+Tamarillo/voice-deepfake-guard-tiny-en,deepfake,voz,0,True,3243,False,False,True,True,True,False
+TarikaHedaoo/indic-deepfake-voice-detection,deepfake,voz,0,True,702,False,False,True,True,True,False
+TheJeetBhardwaj/DeepFakeDetector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Thein777/DeepFake_Images_Detection,deepfake,imagen y vídeo,0,True,712,False,False,True,False,False,False
+Thien0103/DeepFake_Detection_GenConVit,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+ThinothW/DFDS-EfficientNet-B2-Deepfake-Detection-Engine,presentación y vida,imagen y vídeo,0,True,624,False,False,True,True,True,False
+Tsunami-The-Coder/deepfake-image-detector-model,deepfake,imagen y vídeo,300,False,0,False,False,False,False,False,False
+Uzef/Deepfake-Image,deepfake,imagen y vídeo,184,True,11,False,False,False,False,False,False
+VK05/Document-Forgery-Detection-Models,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Vansh180/VideoMae-ffc23-deepfake-detector,deepfake,imagen y vídeo,3072,True,635,False,False,True,True,False,False
+Vansh180/deepfake-audio-wav2vec2,deepfake,voz,7283,True,316,False,True,True,True,True,False
+Vanshm07/verifake-deepfake-detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Vcode7/deepfake-checkpoints,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Vijay-2107/deepfake-text-detector,deepfake,imagen y vídeo,36,False,0,False,False,False,False,False,False
+VinayYadav2004/deepfake-detector,deepfake,imagen y vídeo,0,True,531,False,False,True,True,False,False
+Vrunda113/deepfake-detector-onnx,deepfake,imagen y vídeo,0,True,99,False,False,False,False,False,False
+Wee394/deepfake-detector-model,deepfake,imagen y vídeo,29,False,0,False,False,False,False,False,False
+WpythonW/dinoV2-deepfake-detector,deepfake,imagen y vídeo,1391,True,74,False,False,False,False,False,False
+Wvolf/ViT_Deepfake_Detection,deepfake,imagen y vídeo,105624,True,70,False,False,True,True,False,False
+YASHxK1/deepfake-detector-Model,deepfake,imagen y vídeo,0,True,2,False,False,False,False,False,False
+Yashexe/Deep-Fake_detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Yashexe/Deep_fake_detection-Xception,deepfake,imagen y vídeo,0,True,9,False,False,False,False,False,False
+YongZhan/deepfake-detection-model-b7,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+Zeyadd-Mostaffa/Deepfake-Audio-Detection-v1,deepfake,voz,2808,True,211,True,True,True,True,False,False
+Zeyadd-Mostaffa/deepfake-image-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+Zeyadd-Mostaffa/deepfake-image-detector_final,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+aag111/deepfakedetector,deepfake,imagen y vídeo,0,True,5,False,False,False,False,False,False
+aaronespasa/deepfake-detection-resnetinceptionv1,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+ab-i/ai-deepfake-detector-model,deepfake,imagen y vídeo,27,False,0,False,False,False,False,False,False
+abdulqahir/urdu-deepfake-detector,deepfake,voz,57,False,0,False,False,False,False,False,False
+abdulrehman77/deepfakedetection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+abhinavmattam/deepfake-detection-models,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+abhipika9/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+abhishtagatya/hubert-base-960h-asv19-deepfake,deepfake,voz,1999,True,246,True,True,True,True,True,False
+abhishtagatya/hubert-base-960h-itw-deepfake,deepfake,voz,151515,True,290,True,True,True,True,True,False
+abhishtagatya/wav2vec2-base-960h-asv19-deepfake,deepfake,voz,801,True,246,True,True,True,True,True,False
+abhishtagatya/wav2vec2-base-960h-itw-deepfake,deepfake,voz,6823,True,290,True,True,True,True,True,False
+abhishtagatya/wavlm-base-960h-asv19-deepfake,deepfake,voz,803,True,244,True,True,True,True,True,False
+abhishtagatya/wavlm-base-960h-itw-deepfake,deepfake,voz,4579,True,288,True,True,True,True,True,False
+abraraltaf92/deepfake-detection-models,deepfake,imagen y vídeo,0,True,1089,False,False,True,True,False,False
+acroitoru/image_deepfake_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+adarsh09singh/wav2vec2-xlsr-deepfake-detection,deepfake,voz,31,True,665,True,False,True,False,False,False
+adarsh09singh/wav2vec2-xlsr-deepfake-detection-v2,deepfake,voz,45,True,665,True,False,True,False,False,False
+adarsh09singh/wav2vec2-xlsr-deepfake-detection-v3,deepfake,voz,40,True,665,True,False,True,False,False,False
+adarsh09singh/wav2vec2-xlsr-deepfake-detection-v4,deepfake,voz,88,True,665,True,False,True,False,False,False
+adarshraj7/deepfake-detect,deepfake,imagen y vídeo,0,True,135,False,False,True,True,False,False
+affankaz/deepfake-detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+afnan2004/deepfake-detector-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+ai8shiro/deepfake-audio-wav2vec2-ONNX,deepfake,voz,552,True,378,False,True,True,True,True,False
+aitf-komdigi/KomdigiITS-86M-DFK-DeepfakeAudioClassification,deepfake,voz,47,True,86,False,False,False,False,False,False
+akhyarrasyid/app-findit-face-spoofing-model,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+albertmoran21/Deepfake_Checkpoints,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+ali1167/dino-liveness-model,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+alianassmaaa/multimodal-deepfake-detector,deepfake,imagen y vídeo,243,True,202,False,False,False,False,False,False
+alkatraz445/deepfake_detection,deepfake,imagen y vídeo,2544,True,16,False,False,True,False,False,False
+aminul11/deepfake-detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+ammar61/Deepfake-Defect-Detector-Models,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+anandamadani29/deepfake-detector-resnet,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+anandanraju/DL_Model_for_DeepFakeDetection_In_Images_and_Videos,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+anjalid1s3pvq/wav2vec2-base-960h-asv19-deepfake,deepfake,voz,83,True,246,True,True,True,True,True,False
+anonymous-researcher-3407/Deepfake-Detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+anrhi/deepfake_Detector,deepfake,imagen y vídeo,19,False,0,False,False,False,False,False,False
+anushavyas/deepfake-detector-vision-kan-lstm,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+apv2025/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+ariyul/deepfake-detection-cnn_v2,deepfake,imagen y vídeo,247,True,413,False,False,True,True,False,False
+arkid-mondal/vit-deepfake-video-detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+arsath-sm/real-fake-face-detection-model1,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+arsath-sm/real-fake-face-detection-model2,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+as1605/Deepfake-audio-detection-V2,deepfake,voz,1725,True,202,True,True,True,True,False,False
+ash12321/deep-svdd-deepfake-detector1,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+ash12321/deepfake-detector-timesformer,deepfake,imagen y vídeo,42,True,596,False,False,True,False,False,False
+ash12321/deepfake-detector-v10,deepfake,imagen y vídeo,17,True,63,False,False,True,False,False,False
+ash12321/deepfake-detector-v11,deepfake,imagen y vídeo,30,True,778,False,False,True,True,False,False
+ash12321/deepfake-detector-v12,deepfake,imagen y vídeo,25,True,449,False,False,True,True,False,False
+ash12321/deepfake-detector-v13,deepfake,imagen y vídeo,211,True,1076,False,False,True,False,False,False
+ash12321/deepfake-detector-v13-optimised,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+ash12321/deepfake-detector-v13-optimized,deepfake,imagen y vídeo,0,True,45,False,False,False,False,False,False
+ash12321/deepfake-detector-v14,deepfake,imagen y vídeo,25,True,184,False,False,True,False,False,False
+ash12321/deepfake-detector-v15,deepfake,imagen y vídeo,31,True,369,False,False,True,False,False,False
+ash12321/deepfake-detector-v8,deepfake,imagen y vídeo,21,True,1030,False,False,True,True,False,False
+ash12321/deepfake-detector-v9,deepfake,imagen y vídeo,30,True,0,False,False,False,False,False,False
+ash12321/deepfake-ensemble-detector,deepfake,imagen y vídeo,0,True,394,False,False,True,False,False,False
+ashish-001/deepfake-detection-using-ViT,deepfake,imagen y vídeo,7536,True,228,False,False,True,True,False,False
+ashwin-raikar/vit-deepfake-detector-celebdfv2,deepfake,imagen y vídeo,255,True,22,False,False,False,True,False,False
+assassinwizz/DeepFake-Images-Detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+auradesignm/deepfake-detection-keras,deepfake,imagen y vídeo,56,False,0,False,False,False,False,False,False
+ayaani12/deepfake_siglip_vitb16_Finetuned_HIDF,deepfake,imagen y vídeo,0,True,16,False,False,False,False,False,False
+ayush2635/Dhwani-Multilingual-Deepfake-Audio-Detection-Model,deepfake,voz,0,True,489,False,False,False,False,True,True
+ayushkumarOP/deepfake-audio-classifier,deepfake,voz,0,False,0,False,False,False,False,False,False
+azharhussaincs/deepfake-detection-using-deep-learning,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+banyapon/Inswapper,deepfake,imagen y vídeo,0,True,27,False,False,False,False,False,False
+bappaiitj/deepfake_detection_audio,deepfake,voz,0,True,7,False,False,False,False,False,False
+bhaskari/deepfake-detector-weights,deepfake,imagen y vídeo,28,False,0,False,False,False,False,False,False
+bilalkhawar22/deepfake-detect-resnet,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+biometric-ai-lab/Antispoofing,presentación y vida,imagen y vídeo,125,True,1401,False,False,True,True,True,False
+bitmind/deepfake-detector-base,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+breadgon/fake_face,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+brilianputra09/Deepfake-Detection-EfficientNet-Model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+brmk/deepfake-detection,deepfake,imagen y vídeo,79,False,0,False,False,False,False,False,False
+brmk/deepfake-detection-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+brxerq/anti_spoofing,presentación y vida,imagen y vídeo,0,True,83,False,False,False,False,True,False
+bsgcasa/deepfake-face-classifier,deepfake,imagen y vídeo,373,True,372,False,False,True,True,False,False
+buggaticat/deepfake_image_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+buildborderless/CommunityForensics-DeepfakeDet-ViT,deepfake,imagen y vídeo,4497451,True,1274,False,False,True,False,False,False
+buildborderless/CommunityForensics-DeepfakeDet-ViT-ONNX,deepfake,imagen y vídeo,242,True,57,False,False,False,False,False,False
+byh711/FLODA-deepfake,deepfake,imagen y vídeo,1751,True,554,False,False,True,True,False,False
+chiragkt/audio_deepfake_detector,deepfake,voz,0,False,0,False,False,False,False,False,False
+codegoat667/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+danishjaved/deepfake_detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+data-ject/DeepFakeDetection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+deepak002p/fake-news-detector,deepfake,imagen y vídeo,35,False,0,False,False,False,False,False,False
+deepanshubhalia/fakespotter-deepfake-detection,deepfake,imagen y vídeo,0,True,74,False,False,True,False,False,False
+demonicdeoxys/deepfake_vs_real_image_detection-v2,deepfake,imagen y vídeo,58,False,0,False,False,False,False,False,False
+deshnadey/deepfake-detector-web-models,deepfake,imagen y vídeo,0,True,165,False,False,True,True,False,False
+desireemcv/vit-face-real-vs-fake,deepfake,imagen y vídeo,363,True,400,True,True,True,True,False,False
+dhaal2025/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+dhruv2712/deepfake-detector-weights,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+dhruvbansalup/deepfake-image-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+dima806/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,884944,True,184,False,False,True,False,False,False
+ditt-a/Face-Spoofing,presentación y vida,imagen y vídeo,0,True,0,False,False,False,False,False,False
+divyanshu-chauhan-7786/deepfake_image,deepfake,imagen y vídeo,0,True,344,False,False,True,True,False,False
+dlrbcks/deepfake-vit,deepfake,imagen y vídeo,80,True,665,True,False,True,False,False,False
+dntuongvy/Deepfake_Detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+drager333/Deepfake_Mobile,deepfake,imagen y vídeo,65,True,573,False,True,True,False,False,False
+dragonhat/deepfake_detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+dsabljic/deepfake-detection,deepfake,imagen y vídeo,233,True,3,False,False,False,False,False,False
+dsabljic/deepfake_faces_vit,deepfake,imagen y vídeo,295,True,3,False,False,False,False,False,False
+dsatev/deepfake-detection-api,deepfake,imagen y vídeo,36,False,0,False,False,False,False,False,False
+ducbao210/video-deepfake-detection,deepfake,imagen y vídeo,0,True,1704,False,False,True,True,False,False
+dugoalberto/DeepFakeDetectionSeamless128_32,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+dugoalberto/DeepFakeDetectionWav2Vec128_32,deepfake,voz,0,False,0,False,False,False,False,False,False
+dugoalberto/DeepFakeDetectionWav2Vec128_32_new,deepfake,voz,0,False,0,False,False,False,False,False,False
+dugoalberto/DeepFakeDetectionWhisper128_32,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+dugoalberto/HuBERT_DeepFakeDetection128_32,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+dugoalberto/HuBERT_DeepFakeDetection128_32_new,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+dugoalberto/HuBERT_DeepFakeDetectionWav2Vec128_32,deepfake,voz,0,False,0,False,False,False,False,False,False
+eftt/VideoMae-ffc23-deepfake-detector,deepfake,imagen y vídeo,966,True,523,False,False,True,True,False,False
+einrafh/verichain-deepfake-models,deepfake,imagen y vídeo,0,True,404,False,False,True,True,False,False
+eliasmarts/ConvNeXt-FineTune-deepfake-audio-detection,deepfake,voz,0,True,0,False,False,False,False,False,False
+eliya/forensics_0.3B_base_deepfake_classifier,deepfake,voz,870,True,781,False,False,True,True,True,False
+eliya/forensics_0.3B_v2_deepfake_age_gender_classifier,deepfake,voz,3,False,0,False,False,False,False,False,False
+eliya/forensics_0.3B_wavlm_oc_softmax_deepfake_classifier,deepfake,voz,161,True,698,False,False,True,True,True,False
+eliya/forensics_0.3B_xlsr_wild_deepfake_classifier,deepfake,voz,296,True,696,False,False,True,True,True,False
+elnemer7/ElNeMeR-GAN-FaceSwap-Artifact-ONNX,deepfake,imagen y vídeo,3,True,101,False,False,False,False,False,False
+elnemer7/ElNeMeR-Image-Deepfake-Diffusion-ONNX,deepfake,imagen y vídeo,12,True,114,False,False,False,False,False,False
+elnemer7/ElNeMeR-Video-Temporal-Deepfake-ONNX,deepfake,imagen y vídeo,12,True,107,False,False,False,False,False,False
+emobobas/celebrity_deepfake_detection,deepfake,imagen y vídeo,1078,True,671,True,False,True,False,False,False
+enricogott/DeepFake_Detection,deepfake,voz,0,False,0,False,False,False,False,False,False
+erlangram/deepfake-detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+eslamaly/fake-face-xception-model,deepfake,imagen y vídeo,64,True,0,False,False,False,False,False,False
+f233053/audio-deepfake-detection,deepfake,voz,0,True,190,False,False,True,False,False,False
+fabar1/vit-detection-celebdf-deepfake,deepfake,imagen y vídeo,567,False,0,False,False,False,False,False,False
+faisalishfaq2005/deepfake-detection-efficientnet-vit,deepfake,imagen y vídeo,501,True,1169,False,True,True,True,False,False
+faridans27/vsft-llava-1.5-7b-hf-liveness,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+fatimatabarry/deepfake-detector-cnn-capsnet,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+feqhwjBBA/Deepfake-CLIP,deepfake,imagen y vídeo,0,True,1011,False,False,True,True,False,False
+gaetanbrison/deepfake-detector-resnet50-t2v-sora-veo2,deepfake,imagen y vídeo,59,True,271,False,False,True,True,False,False
+garciafido/minifasnet-v2-anti-spoofing-onnx,presentación y vida,imagen y vídeo,0,True,398,False,False,False,True,True,False
+garystafford/wav2vec2-deepfake-voice-detector,deepfake,voz,51231,True,1349,False,False,True,True,False,False
+gautamtata/videomae-base-finetuned-kinetics-deepfake-face2face-subset,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+ghostprasamsha/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,314,False,0,False,False,False,False,False,False
+gowthamloki/Image_forgery_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+grace-cap/grace-deepfake-models,deepfake,imagen y vídeo,0,True,319,False,False,True,True,False,False
+griseldans/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,81,True,159,True,True,False,True,False,False
+griseldans/deepfake_vs_real_image_detection_v2,deepfake,imagen y vídeo,96,True,162,True,True,False,True,False,False
+griseldans/deepfake_vs_real_image_detection_v4,deepfake,imagen y vídeo,816,True,192,True,True,True,True,False,False
+griseldans/yermandy-deepfake-detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+hamzenium/ViT-Deepfake-Classifier,deepfake,imagen y vídeo,1498,True,980,False,False,True,True,False,False
+hansliao2015/keystroke-liveness,presentación y vida,imagen y vídeo,0,True,150,False,False,True,False,True,False
+haroonx02/face-antispoofing-resnet18,presentación y vida,imagen y vídeo,0,True,629,False,False,True,True,True,False
+harsh-1345/deepfake-detection-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+harsshrathod1928/Deepfake_video_detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+harsshrathod1928/deepfake_image_detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+heidyscs/ViT-deepfake-vs-real,deepfake,imagen y vídeo,0,True,12,False,False,False,False,False,False
+hiyanachnani/deepfake-voice-detector-sota,deepfake,voz,153,True,1069,False,False,True,True,True,False
+hoangnguyenduc3009/face-liveness-vit,presentación y vida,imagen y vídeo,93,True,337,False,False,True,True,True,False
+hoanmyTran/dissimilarity_deepfake_detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+honi05/deepfake-detection,deepfake,imagen y vídeo,0,True,904,False,True,True,True,False,False
+huanthuytnhh/liveness,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+huyquangthai/AntiSpoofing,presentación y vida,imagen y vídeo,0,True,0,False,False,False,False,False,False
+huzaifanasirrr/ai-music-deepfake-detector,deepfake,voz,75,True,677,False,False,True,True,False,False
+i-kashi/deepfake-detection-ensembled,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+iamkrishna57/gemma4-deepfake-forensic-v1,deepfake,imagen y vídeo,0,True,56,False,False,False,False,False,False
+ideepankarsharma2003/finv-deepfake-detection-2,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+ideepankarsharma2003/finv-deepfake-detection-3,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+imsoumya18/audio-deepfake-detector,deepfake,voz,0,False,0,False,False,False,False,False,False
+inzamamalii/image_forgery_detection,deepfake,imagen y vídeo,163,True,0,False,False,False,False,False,False
+iridescentClown/DeepfakeDetection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+irisxue/deepfake-video-detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+iron04/deepfake_efficientnet,deepfake,imagen y vídeo,33,True,166,False,False,False,False,False,False
+ishiki-labs/ishiki-deepfake-0.5,deepfake,voz,144,True,1255,False,False,True,True,True,False
+itsviv1433/deepfake_detection_model,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+j-komal-jangid/deepfake-detection-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+jarjarfinder/AI-vs-Deepfake-vs-Real-v2.0,deepfake,imagen y vídeo,35,True,398,False,False,False,False,False,False
+jatinsabari/Gemma-3n-deepfake_detector,deepfake,imagen y vídeo,26,True,648,True,False,True,False,False,False
+javeria2103/Multimodal-Deepfake-Detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+jdp8/dinov2_Liveness_detection_v2.2.3,presentación y vida,imagen y vídeo,1617,True,69,False,False,False,False,True,False
+jdp8/vit_Liveness_detection_v1.0,presentación y vida,imagen y vídeo,391,True,68,False,False,False,False,True,False
+jeysonsawan/ai-image-forgery-detection-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+jiaqikunyang/meso-inception4-deepfake-detector,deepfake,imagen y vídeo,49,True,22,False,False,True,False,False,False
+jiaqikunyang/meso4-deepfake-detector,deepfake,imagen y vídeo,37,True,21,False,False,True,False,False,False
+jiaqikunyang/my-vit-deepfake-detector,deepfake,imagen y vídeo,553,True,172,False,True,True,False,False,False
+joka13/deepfakeaudio,deepfake,voz,0,True,26,False,False,True,False,False,False
+jonathansuru/videomae-base-finetuned-anti-spoofing,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+josephgitau/ekyc-liveness-rtfs,presentación y vida,imagen y vídeo,0,True,575,False,False,True,True,True,True
+joyc360/deepfakes,deepfake,imagen y vídeo,1482,True,61,False,True,True,False,False,False
+juandaram/deepfake-detector,deepfake,imagen y vídeo,192,True,281,False,False,True,False,False,False
+k-aisi-anti-deepfake/dear-checkpoints,deepfake,imagen y vídeo,0,True,429,False,False,False,False,False,False
+kabir-mathur-999/anti_spoofing,presentación y vida,imagen y vídeo,0,True,0,False,False,False,False,False,False
+kairavaclfe/deepfake-verifier-model,deepfake,imagen y vídeo,446,True,665,True,False,True,False,False,False
+kalpesh885/deepfake_detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+kanmiade/deepfake-detector-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+karolprando/deepfake-detector-v1,deepfake,imagen y vídeo,361,True,154,True,False,False,False,False,False
+karolprando/deepfake-detector-v2,deepfake,imagen y vídeo,209,True,59,False,False,False,False,False,False
+katherinecurro/finetuned-deepfake-5,deepfake,imagen y vídeo,193,True,194,True,True,True,True,False,False
+kaz17/ASV_Deepfake_Detection_Project,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+kby-ai/face-liveness-detection,presentación y vida,imagen y vídeo,0,True,459,False,False,False,False,True,False
+kby-ai/id-document-liveness-detection,presentación y vida,imagen y vídeo,0,True,546,False,False,False,False,True,False
+kevenldm/Deep-Fake-Detector-v2-Model,deepfake,imagen y vídeo,242,True,705,False,False,True,True,False,False
+khr007adarsh/deepfake-detector,deepfake,imagen y vídeo,713,True,0,False,False,False,False,False,False
+kikebarco/mel-deepfake-detection,deepfake,voz,4,False,0,False,False,False,False,False,False
+kikebarco/mel-deepfake-detection-v3.1,deepfake,voz,17,False,0,False,False,False,False,False,False
+king1oo1/deepfake-model,deepfake,imagen y vídeo,2541,True,635,False,False,True,True,False,False
+knmrfr/deepfake-detector,deepfake,imagen y vídeo,53,True,224,False,False,True,False,False,False
+kontgo/merge-conflict-antispoofing,presentación y vida,imagen y vídeo,0,True,0,False,False,False,False,False,False
+koyelog/deepfake-voice-detector-sota,deepfake,voz,387,True,1069,False,False,True,True,True,False
+kpeng-05/fake-and-ai-faces-classification-lite,deepfake,imagen y vídeo,22,False,0,False,False,False,False,False,False
+kpeng-05/fake-face-classification-lite,deepfake,imagen y vídeo,24,False,0,False,False,False,False,False,False
+krimson1/Resnet50_deepfake_detection,deepfake,imagen y vídeo,134,False,0,False,False,False,False,False,False
+krishnagupta365/deepfake-detection-resnet50-model,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+krishnagupta365/deepfake_detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+krishnak2c/Deepfake_Image_Detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+kubinooo/convnext-tiny-224-audio-deepfake-classification,deepfake,voz,2980,True,777,False,False,True,True,False,False
+kurob1993/liveness-detection-models,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+kxhOR/deepfake-detection-model,deepfake,imagen y vídeo,58,False,0,False,False,False,False,False,False
+lakshitgupta/forgery_detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+lakshmisrujana/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+litert-community/Silent-Face-Anti-Spoofing-LiteRT,presentación y vida,imagen y vídeo,2819,True,1260,False,False,True,False,True,False
+lsvalov/voice-deepfake-replay-head,deepfake,voz,0,True,374,False,False,True,True,True,False
+lsvalov/voice-deepfake-synthesis-detector,deepfake,voz,0,True,332,False,False,False,True,True,False
+lumicero/audio-deepfake-classification,deepfake,voz,58,True,0,False,False,False,False,False,False
+maddy08/deepfake-video-detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+mahedi420/deepfake-vit-detector,deepfake,imagen y vídeo,0,True,289,False,False,True,True,False,False
+maheer24/xceptionnet-deepfake-detector-finetuned,deepfake,imagen y vídeo,269,False,0,False,False,False,False,False,False
+maheer24/xceptionnet-finetuned-140k-real-and-fake-faces,deepfake,imagen y vídeo,362,False,0,False,False,False,False,False,False
+manar54/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+manh08/Manh_deepfake_vs_real_image_detection_Manh,deepfake,imagen y vídeo,318,True,27,False,False,True,False,False,False
+mariam-ahmed15/deepfake_audio_detector,deepfake,voz,0,True,0,False,False,False,False,False,False
+mark11257/Deepfake-Audio-Detection,deepfake,voz,0,False,0,False,False,False,False,False,False
+masdar/Fake_Face_Classification,deepfake,imagen y vídeo,0,True,346,False,False,True,False,False,False
+mbkhambhalia/deepfake_detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+mhamza-007/cvit_deepfake_detection,deepfake,imagen y vídeo,0,True,381,False,False,True,True,False,False
+mhamza-007/timesformer-deepfake-detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+mnauf/eval-deepfakeface-DINO-non-linear-classification-head,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+mnauf/eval-deepfakeface-dinov2-large-5-epochs-nov_19-bs_32-finetune-linear-probe-trueface,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+mnauf/eval-deepfakeface-dinov2-large-5-epochs-nov_19-complete_finetune-trueface,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+mnauf/eval-deepfakeface-nocentercrop-dinov2-large-5-epochs-nov_19-bs_32-finetune-linear-probe-trueface,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+mnauf/eval-deepfakeface-without-centercrop-dinov2-large-5-epochs-nov_19-complete_finetune-trueface,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+mo-thecreator/Deepfake-audio-detection,deepfake,voz,366048,True,208,True,True,True,True,False,False
+mohamed517/Deep-Fake-Detection,deepfake,imagen y vídeo,135,False,0,False,False,False,False,False,False
+mohamed517/deepfake-detect-video,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+mohamedahmed2003/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+mohitbharti1530/deepfake-detection-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+mohitbharti1530/deepfake-detector-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+morhadi/deepfake-detection,deepfake,imagen y vídeo,0,True,525,False,False,True,True,False,False
+muneebnadeem1870/deepfake-detection-swin,deepfake,imagen y vídeo,0,True,367,False,True,True,False,False,False
+nandha456/DeepFake-Detection-Model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+nduong/vit-deepfake-finetuned,deepfake,imagen y vídeo,279,True,665,True,False,True,False,False,False
+necrosyth/deepfake_detection_using_resnet,deepfake,imagen y vídeo,0,True,327,False,False,False,False,False,False
+nguyenkhoa/dinov2_Liveness_detection_v2.1.1,presentación y vida,imagen y vídeo,271,True,283,True,True,True,True,True,False
+nguyenkhoa/dinov2_Liveness_detection_v2.1.2,presentación y vida,imagen y vídeo,310,True,322,True,True,True,True,True,False
+nguyenkhoa/dinov2_Liveness_detection_v2.1.3,presentación y vida,imagen y vídeo,373,True,427,True,True,True,True,True,False
+nguyenkhoa/dinov2_Liveness_detection_v2.1.4,presentación y vida,imagen y vídeo,1107,True,345,True,True,True,True,True,False
+nguyenkhoa/dinov2_Liveness_detection_v2.2,presentación y vida,imagen y vídeo,450,True,575,True,True,True,True,True,False
+nguyenkhoa/dinov2_Liveness_detection_v2.2.1,presentación y vida,imagen y vídeo,195,True,450,True,True,True,True,True,False
+nguyenkhoa/dinov2_Liveness_detection_v2.2.2,presentación y vida,imagen y vídeo,4991,True,465,True,True,True,True,True,False
+nguyenkhoa/dinov2_Liveness_detection_v2.2.3,presentación y vida,imagen y vídeo,4579,True,345,True,True,True,True,True,False
+nguyenkhoa/dinov2_LoRA_Liveness_detection_v1.0,presentación y vida,imagen y vídeo,202,True,301,True,True,True,True,True,False
+nguyenkhoa/dinov2_LoRA_Liveness_detection_v1.1,presentación y vida,imagen y vídeo,49,True,301,True,True,True,True,True,False
+nguyenkhoa/mobilevitv2_Liveness_detection_v1.0,presentación y vida,imagen y vídeo,3360,True,408,True,True,True,True,True,False
+nguyenkhoa/vit_Liveness_detection_v1.0,presentación y vida,imagen y vídeo,3220,True,556,True,True,True,True,True,False
+nhatkhangnguyen/resnet-50-real-fake-face-detection,deepfake,imagen y vídeo,0,True,11,False,False,False,False,False,False
+nicolasrl/deepfake_vs_real_ViTlarge,deepfake,imagen y vídeo,3,False,0,False,False,False,False,False,False
+nicolasrl/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,46,True,7,False,False,False,False,False,False
+nihal4/Deep_Fake_Hybrid_Model,deepfake,imagen y vídeo,0,True,1062,False,False,True,True,False,False
+nii-yamagishilab/whisper-deepfake-word-detection,deepfake,imagen y vídeo,0,True,242,False,False,False,False,False,False
+nikitalakkoju6/Deepfake_video_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+nikokons/contrastive-deepfake-detector,deepfake,imagen y vídeo,0,True,569,False,False,True,True,False,False
+nneal/deep-fake-detector-model,deepfake,imagen y vídeo,33,False,0,False,False,False,False,False,False
+not-lain/deepfake,deepfake,imagen y vídeo,6458,True,73,False,False,False,False,False,False
+ompathak/DeepFakeDetection,deepfake,imagen y vídeo,1043,True,116,False,False,True,False,False,False
+ompathak/DeepFakeDetectionModel,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+onnx-community/CommunityForensics-DeepfakeDet-ViT-ONNX,deepfake,imagen y vídeo,2646,True,400,False,False,True,False,False,False
+onnx-community/Deep-Fake-Detector-v2-Model-ONNX,deepfake,imagen y vídeo,4782,True,773,False,False,True,True,False,False
+onnx-community/deepfake_vs_real_image_detection-ONNX,deepfake,imagen y vídeo,615,False,0,False,False,False,False,False,False
+oo01/deepfake-video-classifier,deepfake,imagen y vídeo,0,True,105,False,False,True,True,False,False
+pauliano22/deepfake-audio-detector,deepfake,voz,0,True,0,False,False,False,False,False,False
+phamchicuong19042003/Yolo_v8_face_auto_spoofing,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+pmaheshai/real_fake_faces_model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+poisonedchicken/deepfake-adversarial-transfer-models,deepfake,imagen y vídeo,0,True,1500,False,False,True,True,False,False
+popeye777/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+prameth1/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+pranjal-pravesh/prithivML-deepfake-detector-model-v1,deepfake,imagen y vídeo,0,True,288,False,False,True,False,False,False
+pranjal-pravesh/wav2vec2-large-xlsr-deepfake-audio-classification,deepfake,voz,0,True,751,False,False,True,True,True,False
+prathamrajbhar/smart-attendance-liveness-detection,presentación y vida,imagen y vídeo,44,True,478,False,False,True,False,True,False
+prem678/deepfake-detection-model,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+prerana1007/audio-deepfake-detector,deepfake,voz,0,False,0,False,False,False,False,False,False
+princejha-dev/deepfake-audio-detection,deepfake,voz,0,True,0,False,False,False,False,False,False
+prithivMLmods/AI-vs-Deepfake-vs-Real,deepfake,imagen y vídeo,28560,True,576,False,False,True,False,False,False
+prithivMLmods/AI-vs-Deepfake-vs-Real-9999,deepfake,imagen y vídeo,4500,True,408,False,False,True,False,False,False
+prithivMLmods/AI-vs-Deepfake-vs-Real-ONNX,deepfake,imagen y vídeo,5160,True,577,False,False,True,False,False,False
+prithivMLmods/AI-vs-Deepfake-vs-Real-Siglip2,deepfake,imagen y vídeo,87561,True,410,False,False,True,False,False,False
+prithivMLmods/AI-vs-Deepfake-vs-Real-v2.0,deepfake,imagen y vídeo,21669,True,398,False,False,False,False,False,False
+prithivMLmods/Deep-Fake-Detector-v2-Model,deepfake,imagen y vídeo,302898,True,705,False,False,True,True,False,False
+prithivMLmods/Deepfake-Detect-Siglip2,deepfake,imagen y vídeo,26155,True,310,False,False,False,False,False,False
+prithivMLmods/Deepfake-Detection-Exp-02-21,deepfake,imagen y vídeo,4887,True,450,False,False,True,False,False,False
+prithivMLmods/Deepfake-Detection-Exp-02-21-ONNX,deepfake,imagen y vídeo,692,True,451,False,False,True,False,False,False
+prithivMLmods/Deepfake-Detection-Exp-02-22,deepfake,imagen y vídeo,17988,True,450,False,False,True,False,False,False
+prithivMLmods/Deepfake-Detection-Exp-02-22-ONNX,deepfake,imagen y vídeo,477,True,451,False,False,True,False,False,False
+prithivMLmods/Deepfake-Quality-Assess-Siglip2,deepfake,imagen y vídeo,851,True,337,False,False,False,False,False,False
+prithivMLmods/Deepfake-Quality-Classifier-SigLIP2,deepfake,imagen y vídeo,582,True,392,False,False,True,False,False,False
+prithivMLmods/Deepfake-Quality-Classifier2-SigLIP2,deepfake,imagen y vídeo,2522,True,393,False,False,True,False,False,False
+prithivMLmods/Deepfake-QualityAssess-85M,deepfake,imagen y vídeo,20686,True,543,False,False,True,False,False,False
+prithivMLmods/Deepfake-QualityAssess-85M-ONNX,deepfake,imagen y vídeo,325,True,544,False,False,True,False,False,False
+prithivMLmods/Deepfake-QualityAssess-88M,deepfake,imagen y vídeo,660,True,543,False,False,True,False,False,False
+prithivMLmods/Deepfake-QualityAssess-88M-ONNX,deepfake,imagen y vídeo,318,True,544,False,False,True,False,False,False
+prithivMLmods/Deepfake-QualityAssess2.0-85M,deepfake,imagen y vídeo,571,True,550,False,False,True,False,False,False
+prithivMLmods/Deepfake-QualityAssess2.0-85M-ONNX,deepfake,imagen y vídeo,314,True,501,False,False,True,False,False,False
+prithivMLmods/Deepfake-QualityAssess2.1-85M,deepfake,imagen y vídeo,443,True,550,False,False,True,False,False,False
+prithivMLmods/Deepfake-QualityAssess2.1-85M-ONNX,deepfake,imagen y vídeo,317,True,501,False,False,True,False,False,False
+prithivMLmods/Deepfake-Real-Class-Siglip2,deepfake,imagen y vídeo,4463,True,296,False,False,False,False,False,False
+prithivMLmods/Deepfake-vs-Real-8000,deepfake,imagen y vídeo,1156,True,370,False,False,True,False,False,False
+prithivMLmods/deepfake-detector-model-v1,deepfake,imagen y vídeo,286159,True,347,False,False,True,False,False,False
+prithivMLmods/open-deepfake-detection,deepfake,imagen y vídeo,108835,True,479,False,False,True,False,False,False
+priyagurrram1455/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,50,False,0,False,False,False,False,False,False
+pwg930/deepfake_classifier,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+raau1/deepfake-detection-model,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+rahulshendre/deepfake-detector-model-v1,deepfake,imagen y vídeo,438,True,347,False,False,True,False,False,False
+rajeeev/deepfake-audio-detector,deepfake,voz,0,False,0,False,False,False,False,False,False
+razaali313/deepfake-video-classifier,deepfake,imagen y vídeo,0,True,105,False,False,True,True,False,False
+recognito/ID-Document-Liveness-Detection-Models,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+rety2722/deepfake-detector-models,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+rijal028/vit-deepfake-detector-modern75,deepfake,imagen y vídeo,40,False,0,False,False,False,False,False,False
+rikku18/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,38,False,0,False,False,False,False,False,False
+rohanbhopale91/deepfake-detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+rohitkhaire/deepfake-detection-colab,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+rohitkumarai/deepfake_audio_classifier,deepfake,voz,0,True,836,False,False,True,True,False,False
+romitbarua/autotrain-deepfakeface-94074145984,deepfake,imagen y vídeo,549,True,102,False,False,True,False,False,False
+romitbarua/autotrain-deepfakeface_only_faces-94737146192,deepfake,imagen y vídeo,656,True,102,False,False,True,False,False,False
+romitbarua/autotrain-deepfakeface_only_faces_insightface-94902146221,deepfake,imagen y vídeo,950,True,87,False,False,True,False,False,False
+roopalv/FakeNewsDetection,deepfake,imagen y vídeo,503,False,0,False,False,False,False,False,False
+roopchand/bert-smoking-classifier,deepfake,imagen y vídeo,20,False,0,False,False,False,False,False,False
+roopeshperla/distilbert-base-uncased-lora-text-classification,deepfake,imagen y vídeo,15,True,264,True,True,True,True,False,False
+roxann3/sentinestai-deepfake-detector,deepfake,imagen y vídeo,66,True,665,True,False,True,False,False,False
+roxann3/sentinestai-voice-deepfake-detector,deepfake,voz,72,True,665,True,False,True,False,False,False
+rpeddu/enhanced-rawnet2-antispoofing,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+rudranshiverma/audio-deepfake-detection-model,deepfake,voz,0,True,0,False,False,False,False,False,False
+saakshigupta/deepfake-explainer-llama32,deepfake,imagen y vídeo,0,True,310,False,False,False,False,False,False
+safar7/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,8,False,0,False,False,False,False,False,False
+saivarun098/deepfake_detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+sakshamkr1/deepfake_vit,deepfake,imagen y vídeo,2298,True,35,False,False,True,False,False,False
+salmanzaman777/digital-image-forgery-detection-model,deepfake,imagen y vídeo,0,True,413,False,False,True,True,False,False
+samibelyo/deepfake_vs_real_image_detection,deepfake,imagen y vídeo,488,True,2,False,False,True,False,False,False
+samibelyo/deepfake_vs_real_image_detection_Beit,deepfake,imagen y vídeo,0,True,13,False,False,True,False,False,False
+samomepustiunutra/deepfake-detection-coreml,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+sandesh2233/Deepfakes_detection,deepfake,imagen y vídeo,225,True,238,True,True,True,True,False,False
+sarthakcnn/deepfake-xception-detector,deepfake,imagen y vídeo,108,True,0,False,False,False,False,False,False
+saskiadwiulfah1810/vgg16-face-anti-spoofing,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+saskiasss/deepfake-detection-quiz-model,deepfake,imagen y vídeo,100,False,0,False,False,False,False,False,False
+scarlettss/NTIRE2026_deepfake,deepfake,imagen y vídeo,0,True,102,False,False,False,False,False,False
+seifbouziane/mena-ml-deepfake-detection,deepfake,imagen y vídeo,29,True,204,False,False,False,False,False,False
+semir-b/deepfake-detection-cifake,deepfake,imagen y vídeo,0,True,143,False,False,True,False,False,False
+sempertemper/ssl-antispoofing-weights,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+shashi16/deepfake_detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+shimu-i/deepfake-detector-model,deepfake,imagen y vídeo,37,False,0,False,False,False,False,False,False
+shivam-smraj/Deepfake-audio-detection,deepfake,voz,67,True,208,True,True,True,True,False,False
+shivani1511/deepfake-image-detector,deepfake,imagen y vídeo,1173,True,153,False,False,True,False,False,False
+shivani1511/deepfake-image-detector-celebdf-v1-v3,deepfake,imagen y vídeo,315,True,100,False,False,True,True,False,False
+shivani1511/deepfake-image-detector-celebdf-v1-v4,deepfake,imagen y vídeo,527,True,100,False,False,True,True,False,False
+shivani1511/deepfake-image-detector-new-latest,deepfake,imagen y vídeo,586,True,131,False,False,True,False,False,False
+shivani1511/deepfake-image-detector-new-latest-v2,deepfake,imagen y vídeo,1462,True,137,False,False,True,False,False,False
+shivani1511/deepfake-image-detector-new-latest-v3,deepfake,imagen y vídeo,42,False,0,False,False,False,False,False,False
+shivani1511/deepfake-image-detector-new-v2,deepfake,imagen y vídeo,442,True,95,False,False,True,False,False,False
+shivani1511/deepfake-image-detector-v2,deepfake,imagen y vídeo,797,True,59,False,False,True,False,False,False
+shohei113/keystroke-liveness,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+shrianshvuta1/deepfakedetector-model,deepfake,imagen y vídeo,53,False,0,False,False,False,False,False,False
+shunda012/siglip-deepfake-detector,deepfake,imagen y vídeo,750,True,868,False,False,True,True,False,False
+shunda012/vit-deepfake-detector,deepfake,imagen y vídeo,457,True,892,False,False,True,False,False,False
+shylhy/cnn-keras-deepfake-subset,deepfake,imagen y vídeo,0,True,3,False,False,False,False,False,False
+shylhy/resnet-keras-deepfake-subset,deepfake,imagen y vídeo,170,True,3,False,False,False,False,False,False
+shylhy/videomae-large-finetuned-deepfake-subset,deepfake,imagen y vídeo,5005,True,204,True,True,True,True,False,False
+sohaib2004/deepforge-detection-system-deepfake,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+sonuprasad23/DeepFake_Detector,deepfake,imagen y vídeo,0,True,675,True,False,True,False,False,False
+sparshsinghal/deepfakeguard-finetuned,deepfake,voz,163,True,665,True,False,True,False,False,False
+srilshukla/deepfake-detector-models,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+srushti12/deepfake_detector,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+steveaugustine9/Deepfakedetectinator,deepfake,imagen y vídeo,0,True,7,False,False,True,False,False,False
+strangerguardhf/vit_deepfake_detection,deepfake,imagen y vídeo,996,True,443,False,False,True,False,False,False
+subhan1501/fake-face-cnn-ensemble,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+sukhdeveyash/XLS-R-SLS-Deepfake-Detection,deepfake,voz,0,True,603,False,False,True,True,True,False
+sungyi654/DeepfakeDetector0,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+tahin18t/deepfakeDetector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+tahsin000/deepfake_detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+tayyabimam/Deepfake,deepfake,imagen y vídeo,202,False,0,False,False,False,False,False,False
+tayyabimam/deepfake-detector,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+tejassatya9/my-deepfake-detector-model,deepfake,imagen y vídeo,40,True,184,False,False,True,False,False,False
+thembululwa/deepfake_detection,deepfake,imagen y vídeo,608,False,0,False,False,False,False,False,False
+thugCodeNinja/DeepFakeDetect,deepfake,imagen y vídeo,0,True,5,False,False,False,False,False,False
+thusinh1969/BrightoSV_AntiSpoof_V1.5-SE_iPROD,deepfake,voz,0,False,0,False,False,False,False,False,False
+tienminhtran/face-antispoof-onnx,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+tmq90/liveness-dinov2-20250819-1533,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+tmq90/liveness-dinov2-20250819-1556,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+toney02/cmpe258-deepfake-detector-models,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+tuananh15/AI_deepfake_check,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+tuananh15/Silent-Face-Anti-Spoofing-master,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+uchihamadara1816/Multi-Learned-Deepfake-Det,deepfake,imagen y vídeo,567,True,278,False,False,True,True,False,False
+usamaalam/image-forgery-detection-model,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+userMuu/Deep-Fake-Detector-Model,deepfake,imagen y vídeo,30,False,0,False,False,False,False,False,False
+userMuu/Deep-Fake-Detector-v2-Model,deepfake,imagen y vídeo,28,False,0,False,False,False,False,False,False
+usmiva/bert-deepfake-bg,deepfake,imagen y vídeo,2735,True,664,True,False,True,False,False,False
+usmiva/bert-deepfake-bg-multiclass,deepfake,imagen y vídeo,53,True,671,True,False,True,False,False,False
+utsavNagar/deepFakeDetectionModel,deepfake,imagen y vídeo,41,False,0,False,False,False,False,False,False
+vaibhavshiroorkar/deepfake-detection,deepfake,imagen y vídeo,0,True,357,False,False,True,True,False,False
+viet2004kb/efficientnetb1-fake-face,deepfake,imagen y vídeo,0,True,6,False,False,False,False,False,False
+viet2004kb/efficientnetb1-fromscratch-fake-face,deepfake,imagen y vídeo,0,True,8,False,False,False,False,False,False
+viet2004kb/efficientnetb1-fromscratch-fake-face-v2,deepfake,imagen y vídeo,0,True,8,False,False,False,False,False,False
+vijithsai/cvit-deepfake-detector,deepfake,imagen y vídeo,100,True,4,False,False,False,False,False,False
+vijithsai/my-vit-deep-fake-detection-finetuned,deepfake,imagen y vídeo,372,True,665,True,False,True,False,False,False
+vikramrajpurohit944/DeepFake-Detection,deepfake,imagen y vídeo,0,True,3,False,False,False,False,False,False
+viktorahnstrom/xade-deepfake-detector,deepfake,imagen y vídeo,0,True,285,False,False,True,True,False,False
+vimarshgurkha/DEEPFAKE_DETECTION_USING_DL,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+vinaybr-0718/Temporal-Face-Liveness-Detection-INT8,presentación y vida,imagen y vídeo,141,True,1931,False,False,True,True,True,False
+vipulbhattt/deepfake-detection-models,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+vivi3n789/deepfake-custom,deepfake,imagen y vídeo,231,True,75,False,False,True,False,False,False
+vokra/deepfake-audio-detection-v2,deepfake,voz,60,True,230,False,False,False,False,False,False
+vvdharani57/sentinel-deepfake-detector,deepfake,imagen y vídeo,42,True,12,False,False,False,False,False,False
+waaaaaaheeeeeeeeeeeed/deepfake_audio_detection,deepfake,voz,203,True,665,True,False,True,False,False,False
+waleeyd/deepfake-detector,deepfake,imagen y vídeo,211,False,0,False,False,False,False,False,False
+waleeyd/deepfake-detector-image,deepfake,imagen y vídeo,238,True,0,False,False,False,False,False,False
+waleeyd/deepfake_detect,deepfake,imagen y vídeo,127,False,0,False,False,False,False,False,False
+wolfcatzzzzz/yangying_fake-face-angel-for-sdxl,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+xixizy/deepfakedetection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+yaswanth169/deepfake-detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+yaya36095/deepfake-detector,deepfake,imagen y vídeo,879,True,370,False,False,True,False,False,False
+yermandy/deepfake-detection,deepfake,imagen y vídeo,0,True,525,False,False,True,True,False,False
+yithh/ViT-DeepfakeDetection,deepfake,imagen y vídeo,660,True,665,True,False,True,False,False,False
+yyouretoast/deepfake-detection,deepfake,imagen y vídeo,50,True,0,False,False,False,False,False,False
+yyouretoast/deepfake-detector,deepfake,imagen y vídeo,0,True,530,False,True,True,True,False,False
+zaid1232/Urdu-Deepfake-Detection-Models,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False
+zehralx/deepfake_audio_wav2vec,deepfake,voz,56,True,113,False,False,True,False,True,False
+zell-dev/ITI110-Face-Forgery-Detection,deepfake,imagen y vídeo,0,False,0,False,False,False,False,False,False
+zodumair/sifta-deepfake-detector,deepfake,imagen y vídeo,0,True,227,False,False,True,True,False,False
+zodumair/wav2vec2-deepfake-voice-detector,deepfake,voz,1280,True,1349,False,False,True,True,False,False
+zonn-ai/Deep-Fake-Detector-v2-Model-ONNX,deepfake,imagen y vídeo,141,True,773,False,False,True,True,False,False
+zotac-pc/verilens-deepfake-detector,deepfake,imagen y vídeo,16900,True,665,True,False,True,False,False,False
+zotac-pc/verilens-deepfake-detector-v2,deepfake,imagen y vídeo,15706,True,665,True,False,True,False,False,False
+zulfaarsyandhi/liveness-detection-resnet18,presentación y vida,imagen y vídeo,0,False,0,False,False,False,False,False,False
+zzesshhaann/deepfake-detection,deepfake,imagen y vídeo,0,True,0,False,False,False,False,False,False

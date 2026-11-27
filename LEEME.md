@@ -63,6 +63,7 @@ el guion:
 ├── uplift-criteo/   # incrementalidad publicitaria sobre el dato abierto de Criteo (14 millones de filas): grupos, contrastes, potencia, modelos de uplift, segmentos y SQL
 ├── firma-pdf/       # firma de PDF en PAdES con pie visible y QR: peso del pie, tiempos de firma, legibilidad del QR con ZXing y sellos cualificados de la TSL española; la copia de la aplicación en herramienta/
 ├── biometria-hf/    # caras sintéticas y sus detectores en Hugging Face: aplicaciones y modelos de intercambio de caras frente a detectores, en marcha, descargas y qué mencionan sus fichas; instantánea del 26-11-2026
+├── smaug-nemotron/  # leer un modelo de pesos abiertos sin ejecutarlo: censo de los tensores por rangos de bytes, rango de la diferencia, historial de la ficha, ruido de los bancos y código remoto de Smaug-Nemotron frente a su base; contraste con dos derivados e inventario de pares; evaluación del comportamiento de cinco modelos Qwen con XSTest y WildGuard
 ├── vigencia-boe/     # manifiesto diario de los 350 códigos electrónicos del BOE
 ├── pyproject.toml    # las versiones exactas con que se dibujaron las figuras
 ├── uv.lock           # el bloqueo: esas versiones y las de todo lo que arrastran
@@ -119,6 +120,7 @@ con la semilla y los parámetros de la simulación.
 | [Medir el efecto de la publicidad. Experimentos aleatorios, estadística y modelos de uplift sobre el dato abierto de Criteo](https://manpla.net/posts/medir-efecto-publicidad/) | `uplift-criteo/generar.py` | `uplift-criteo/resumen.json`, `grupos.csv`, `balance.csv`, `contrastes.csv`, `potencia.csv`, `tamano_muestra.csv`, `modelos.csv`, `qini_curvas.csv`, `segmentos.csv`, `escala.csv` y los demás CSV de la carpeta |
 | [Firmar un PDF y dejar constancia visible. Una aplicación PAdES puesta a prueba en Linux, Windows y macOS](https://manpla.net/posts/firmar-pdf-certificado-fnmt/) | `firma-pdf/generar.py` · `firma-pdf/herramienta/` | `firma-pdf/datos/resumen.json`, `qr_legibilidad.csv`, `tsl_sellado_cualificado.csv`, `firmado-sin-sello.pdf`, `firmado-sello-cualificado.pdf`, `pie.png` |
 | [La cara como llave de la identidad digital europea, ¿se puede falsificar? Cuántas herramientas hay para falsificarla y cuántas para detectarlo, medido en Hugging Face](https://manpla.net/posts/cara-identidad-digital/) | `biometria-hf/generar.py` | `biometria-hf/instantaneas/2026-11-26/` (`recuentos.csv`, `fichas_detectores.csv`, `serie_trimestral.csv`, `resumen.json`, `metadatos.json.gz`) |
+| [Qué podemos saber de un modelo de pesos abiertos antes de desplegarlo](https://manpla.net/posts/leer-un-modelo-abierto/) | `smaug-nemotron/generar.py` · `smaug-nemotron/conducta.py` | `smaug-nemotron/resumen.json`, `censo_componentes.csv`, `rango.csv`, `ficha_versiones.csv`, `ruido.csv`, `codigo.csv`, `contraste_*.csv`, `inventario.csv`, `conducta_resumen.csv`, `conducta_pares.csv`, `conducta_revision.csv` y los demás de la carpeta |
 | [Vigencia de los códigos normativos del BOE](https://manpla.net/temas/vigencia-codigos-normativos-boe/) | el de la página viva, diario | `vigencia-boe/manifiesto.csv`, `resumen-fichas.json` |
 
 Las cifras de cada artículo corresponden a la instantánea de su fecha, que
@@ -156,6 +158,7 @@ python sgsi-medido/generar.py        # CPRT del NIST, BOE, EUR-Lex y MAGERIT, m�
 (cd uplift-criteo && uv run --group generadores generar.py)   # descarga el dato de Criteo (311 MB, con caché), unos 17 minutos y 12 GB de memoria
 (cd firma-pdf/herramienta && uv sync --frozen && uv pip install zxing-cpp==3.1.1 tqdm && cd .. && herramienta/.venv/bin/python generar.py)   # el PDF del NIST, la TSL española, el PDF del BOE y tres sellos de Sectigo; alrededor de un minuto, casi todo en pausas
 python biometria-hf/generar.py todo   # API pública de Hugging Face, sin credenciales ni coste; unos cinco minutos
+python smaug-nemotron/generar.py        # API pública y rangos de bytes de Hugging Face, sin GPU ni credenciales; alrededor de una hora
 python guardarrailes/ola.py          # la API de modelos de Hugging Face; segundos
 python guardarrailes/generar.py      # necesita GPU NVIDIA y requirements-gpu.txt; unas cuatro horas en una RTX 5090
 python videovigilancia/generar.py    # 37 ficheros de la Plataforma de Contratación (unos 6 GB) y los pliegos a una petición por segundo; varias horas
@@ -204,6 +207,7 @@ para volver a tomar la instantánea está `generar.py`.
 - [`uplift-criteo/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=uplift-criteo%2Freproducir.ipynb)
 - [`firma-pdf/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=firma-pdf%2Freproducir.ipynb)
 - [`biometria-hf/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=biometria-hf%2Freproducir.ipynb)
+- [`smaug-nemotron/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=smaug-nemotron%2Freproducir.ipynb)
 - [`guardarrailes/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=guardarrailes%2Freproducir.ipynb)
 - [`videovigilancia/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=videovigilancia%2Freproducir.ipynb)
 - [`hf-activos/reproducir.ipynb`](https://mybinder.org/v2/gh/mmunozpl/ManPlaNet-datos/main?labpath=hf-activos%2Freproducir.ipynb)
@@ -321,3 +325,4 @@ Los guiones, bajo [Apache-2.0](LICENSE). Las mediciones propias (`kev`,
   para uso no comercial; el fichero original no se redistribuye.
 - **Firma de PDF**: `firma-pdf/datos/documento.pdf` son las tres primeras páginas del NIST CSWP 29 (CSF 2.0), obra del Gobierno de EE. UU., sin derechos de autor en ese país. La autoridad y el firmante de la medición son ficticios, de pruebas, y su clave se publica a propósito para repetir la medición. Del PDF firmado del BOE solo se registra su formato de firma; no se redistribuye. La aplicación de `herramienta/` es la copia con la que se midió; la publicada vive en [mmunozpl/firma-pdf](https://github.com/mmunozpl/firma-pdf), bajo Apache-2.0 y sin mantenimiento ni soporte.
 - **Hugging Face (caras sintéticas y detectores)**: `biometria-hf` publica los identificadores, metadatos y recuentos que devuelve la API pública, sin pesos, código ni imágenes; los nombres de las herramientas de intercambio de caras solo están en sus CSV.
+- **Modelos de pesos abiertos y XSTest**: `smaug-nemotron` publica recuentos, cabeceras, diferencias por ventanas y cifras transcritas de las fichas, sin pesos; las respuestas de los modelos a XSTest no se publican, solo sus recuentos y las etiquetas de la revisión a mano. XSTest es CC BY 4.0 y WildGuard, Apache-2.0.

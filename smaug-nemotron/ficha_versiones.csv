@@ -1,0 +1,400 @@
+fecha,commit,titulo,banco,derivado,base,diferencia
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,GPQA Diamond,89.9,89.5,0.4
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,IFBench,70.5,70.9,-0.4
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,LiveCodeBench v6,89.2,88.2,1.0
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,SWE-bench Multilingual,69.2,67.7,1.5
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,SWE-bench Verified,72.3,71.1,1.2
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,SciCode (subtask),47.4,47.1,0.3
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,Terminal-Bench 2.1,70.2,66.7,3.5
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-18T04:06:11.000Z,e747612eb1,Initial model card: Smaug-Agentic-Nemotron,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,GPQA Diamond,89.9,89.5,0.4
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,IFBench,70.5,70.9,-0.4
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,LiveCodeBench v6,89.2,88.2,1.0
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,SWE-bench Multilingual,69.2,67.7,1.5
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,SWE-bench Verified,72.3,71.1,1.2
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,SciCode (subtask),47.4,47.1,0.3
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,Terminal-Bench 2.1,70.2,66.7,3.5
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-18T04:08:07.000Z,ed19887987,Card: drop the multimodal re-evaluation note,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),AA-LCR v1.1,68.8,68.6,0.2
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),GPQA Diamond,89.9,89.5,0.4
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),IFBench,70.5,70.9,-0.4
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),LiveCodeBench v6,89.2,88.2,1.0
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),SWE-bench Multilingual,69.2,67.7,1.5
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),SWE-bench Verified,72.3,71.1,1.2
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),SciCode (subtask),47.4,47.1,0.3
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),Terminal-Bench 2.1,70.2,66.7,3.5
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),τ²-bench Airline,76.0,76.5,-0.5
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),τ²-bench Retail,68.0,69.2,-1.2
+2026-10-18T04:19:04.000Z,2a97a816e1,Add model weights (BF16),τ²-bench Telecom,75.0,73.2,1.8
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,GPQA Diamond,89.9,89.5,0.4
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,IFBench,70.5,70.9,-0.4
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,LiveCodeBench v6,89.2,88.2,1.0
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,SWE-bench Multilingual,69.2,67.7,1.5
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,SWE-bench Verified,72.3,71.1,1.2
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,SciCode (subtask),47.4,47.1,0.3
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,Terminal-Bench 2.1,70.2,66.7,3.5
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-18T09:35:48.000Z,a268655498,Card: shorten the parity sentence in the introduction,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,GPQA Diamond,89.9,89.5,0.4
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,IFBench,70.5,70.9,-0.4
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,LiveCodeBench v6,89.2,88.2,1.0
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,SWE-bench Multilingual,69.2,67.7,1.5
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,SWE-bench Verified,72.3,71.1,1.2
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,SciCode (subtask),47.4,47.1,0.3
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,Terminal-Bench 2.1,70.2,60.7,9.5
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-18T09:42:38.000Z,338eb600ed,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,GPQA Diamond,89.9,89.5,0.4
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,IFBench,70.5,70.9,-0.4
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,LiveCodeBench v6,89.2,88.2,1.0
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,SWE-bench Multilingual,69.2,67.7,1.5
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,SWE-bench Verified,72.3,71.1,1.2
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,SciCode (subtask),47.4,47.1,0.3
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,Terminal-Bench 2.1,70.2,60.7,9.5
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-18T09:45:45.000Z,4904e5f7f0,Card: remove the delta column from the evaluation table,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",AA-LCR v1.1,68.8,68.6,0.2
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",GPQA Diamond,89.9,89.5,0.4
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",IFBench,70.5,70.9,-0.4
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",LiveCodeBench v6,89.2,88.2,1.0
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",SWE-bench Multilingual,69.2,67.7,1.5
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",SWE-bench Verified,72.3,71.1,1.2
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",SciCode (subtask),47.4,47.1,0.3
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",Terminal-Bench 2.1,70.2,60.7,9.5
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",τ²-bench Airline,76.0,76.5,-0.5
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",τ²-bench Retail,68.0,69.2,-1.2
+2026-10-18T09:47:07.000Z,d45bc06655,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)",τ²-bench Telecom,75.0,73.2,1.8
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,GPQA Diamond,89.9,89.5,0.4
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,IFBench,70.5,70.9,-0.4
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,LiveCodeBench v6,89.2,88.2,1.0
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,SWE-bench Multilingual,69.2,67.7,1.5
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,SWE-bench Verified,72.3,71.1,1.2
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,SciCode (subtask),47.4,47.1,0.3
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,Terminal-Bench 2.1,70.2,60.7,9.5
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-18T09:56:12.000Z,7177de94a2,Card: shorten the Terminal-Bench 2.1 note,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",AA-LCR v1.1,68.8,68.6,0.2
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",DeepSWE,27.4,24.7,2.7
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",GPQA Diamond,89.9,89.5,0.4
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",IFBench,70.5,70.9,-0.4
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",LiveCodeBench v6,89.2,88.2,1.0
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",SWE-bench Multilingual,69.2,67.7,1.5
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",SWE-bench Verified,72.3,71.1,1.2
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",SciCode (subtask),47.4,47.1,0.3
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",Terminal-Bench 2.1,70.2,60.7,9.5
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",τ²-bench Airline,76.0,76.5,-0.5
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",τ²-bench Retail,68.0,69.2,-1.2
+2026-10-18T12:22:44.000Z,9116c53593,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)",τ²-bench Telecom,75.0,73.2,1.8
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",AA-LCR v1.1,68.8,68.6,0.2
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",DeepSWE [offline],27.4,24.7,2.7
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",GPQA Diamond,89.9,89.5,0.4
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",IFBench,70.5,70.9,-0.4
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",LiveCodeBench v6,89.2,88.2,1.0
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",SWE-bench Multilingual,69.2,67.7,1.5
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",SWE-bench Verified,72.3,71.1,1.2
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",SciCode (subtask),47.4,47.1,0.3
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",Terminal-Bench 2.1,70.2,60.7,9.5
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",τ²-bench Airline,76.0,76.5,-0.5
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",τ²-bench Retail,68.0,69.2,-1.2
+2026-10-18T13:14:05.000Z,932207d99f,"Label the DeepSWE row as DeepSWE [offline], matching the base card",τ²-bench Telecom,75.0,73.2,1.8
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,GPQA Diamond,89.9,89.5,0.4
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,IFBench,70.5,70.9,-0.4
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,SWE-bench Multilingual,69.2,67.7,1.5
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,Terminal-Bench 2.1,70.2,60.7,9.5
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-19T04:38:11.000Z,23c1a58d67,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",GPQA Diamond,89.9,89.5,0.4
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",IFBench,70.5,70.9,-0.4
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",SciCode (subtask),47.7,47.1,0.6
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",Terminal-Bench 2.1,70.2,60.7,9.5
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",τ²-bench Airline,76.0,76.5,-0.5
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",τ²-bench Retail,68.0,69.2,-1.2
+2026-10-19T04:40:43.000Z,cc8d418fce,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)",τ²-bench Telecom,75.0,73.2,1.8
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,GPQA Diamond,89.9,89.5,0.4
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,IFBench,70.5,70.9,-0.4
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,Terminal-Bench 2.1,70.2,60.7,9.5
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-19T04:42:59.000Z,5659761fcb,Card: Agentic Coding first in the evaluation table,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",GPQA Diamond,89.9,89.5,0.4
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",IFBench,70.5,70.9,-0.4
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",SciCode (subtask),47.7,47.1,0.6
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",τ²-bench Airline,76.0,76.5,-0.5
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",τ²-bench Retail,68.0,69.2,-1.2
+2026-10-19T04:47:08.000Z,863fbe1ad6,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)",τ²-bench Telecom,75.0,73.2,1.8
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,GPQA Diamond,89.9,89.5,0.4
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,IFBench,70.5,70.9,-0.4
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,V*,85.2,85.6,-0.4
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-19T06:25:55.000Z,76f1b773ee,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),GPQA Diamond,90.7,89.5,1.2
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),IFBench,72.0,70.9,1.1
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),SciCode (subtask),47.7,47.1,0.6
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),V*,85.2,85.6,-0.4
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),τ²-bench Airline,76.0,76.5,-0.5
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),τ²-bench Retail,68.0,69.2,-1.2
+2026-10-19T08:36:00.000Z,62f930016a,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8),τ²-bench Telecom,75.0,73.2,1.8
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,GPQA Diamond,90.7,89.5,1.2
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,IFBench,72.0,70.9,1.1
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,V*,85.2,85.6,-0.4
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-19T09:02:00.000Z,85c380fc60,Card: cite the Smaug model line only,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,GPQA Diamond,90.7,89.5,1.2
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,IFBench,72.0,70.9,1.1
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,V*,85.2,85.6,-0.4
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-19T09:06:22.000Z,107e610578,Card: note that evaluations ran without MTP speculative decoding,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,GPQA Diamond,90.7,89.5,1.2
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,IFBench,72.0,70.9,1.1
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,V*,85.2,85.6,-0.4
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-19T09:09:40.000Z,e8457df986,Card: FP8 KV cache in the vLLM command and deployment note; citation colon,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,GPQA Diamond,90.7,89.5,1.2
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,IFBench,72.0,70.9,1.1
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,V*,85.2,85.6,-0.4
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,τ²-bench Airline,76.0,76.5,-0.5
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,τ²-bench Retail,68.0,69.2,-1.2
+2026-10-19T09:28:24.000Z,1a067f8241,Card: drop the timeout sentence from the Terminal-Bench 2.1 note,τ²-bench Telecom,75.0,73.2,1.8
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,GPQA Diamond,90.7,89.5,1.2
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,IFBench,72.0,70.9,1.1
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T16:24:07.000Z,dddfe462c6,Card: remove tau2-bench results,V*,85.2,85.6,-0.4
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,GPQA Diamond,90.7,89.5,1.2
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,IFBench,72.0,70.9,1.1
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T16:28:39.000Z,a7ad382a05,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group,V*,85.2,85.6,-0.4
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",GPQA Diamond,90.7,89.5,1.2
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",IFBench,72.0,70.9,1.1
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",SciCode (subtask),47.7,47.1,0.6
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T16:36:06.000Z,2821f91769,"Card: intro lists every agentic coding gain, biggest first",V*,85.2,85.6,-0.4
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",GPQA Diamond,90.7,89.5,1.2
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",IFBench,72.0,70.9,1.1
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",SciCode (subtask),47.7,47.1,0.6
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T16:43:11.000Z,d91140a325,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)",V*,85.2,85.6,-0.4
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,GPQA Diamond,90.7,89.5,1.2
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,IFBench,72.0,70.9,1.1
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T16:48:00.000Z,1310d464af,Card: shorten the NVIDIA disclaimer in Section 8,V*,85.2,85.6,-0.4
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,GPQA Diamond,90.7,89.5,1.2
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,IFBench,72.0,70.9,1.1
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T16:58:12.000Z,f657ac4e9f,Card: state LiveBench 2.0 rows are official leaderboard entries,V*,85.2,85.6,-0.4
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,GPQA Diamond,90.7,89.5,1.2
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,IFBench,72.0,70.9,1.1
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T20:44:34.000Z,7306809abc,Update README.md,V*,85.2,85.6,-0.4
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,GPQA Diamond,90.7,89.5,1.2
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,IFBench,72.0,70.9,1.1
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T20:47:46.000Z,204c07c86f,Update README.md,V*,85.2,85.6,-0.4
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,AA-LCR v1.1,68.8,68.6,0.2
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,DeepSWE [offline],27.4,24.7,2.7
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,GPQA Diamond,90.7,89.5,1.2
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,IFBench,72.0,70.9,1.1
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,LiveCodeBench v6,88.7,88.2,0.5
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,SWE-bench Verified,72.3,71.1,1.2
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,SciCode (subtask),47.7,47.1,0.6
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-19T20:49:07.000Z,2b7e0e40ea,Update README.md,V*,85.2,85.6,-0.4
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",AA-LCR v1.1,68.8,68.6,0.2
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",DeepSWE [offline],27.4,24.7,2.7
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",GPQA Diamond,90.7,89.5,1.2
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",IFBench,72.0,70.9,1.1
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",LiveBench 2.0 (Agentic),18.1,15.8,2.3
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",LiveBench 2.0 (Coding),66.2,65.5,0.7
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",LiveCodeBench v6,88.7,88.2,0.5
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",NL2RepoBench,32.2,30.2,2.0
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",SWE-bench Multilingual,68.9,67.7,1.2
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",SWE-bench Verified,72.3,71.1,1.2
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",SciCode (subtask),47.7,47.1,0.6
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",Terminal-Bench 2.1,69.1,60.7,8.4
+2026-10-20T07:17:32.000Z,3c8ce0116f,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",V*,85.2,85.6,-0.4

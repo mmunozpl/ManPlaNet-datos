@@ -1,0 +1,36 @@
+pareja,componente,tensores,identicos,valores,cambiados,cambio_rel_l2_mediana
+Heretic,"Mamba-2, proyección de entrada",40,40,245760,0,0.0
+Heretic,"Mamba-2, resto",280,274,998400,35312,0.0
+Heretic,atención,32,31,196608,5690,0.0
+Heretic,cabeza MTP,1040,1040,2181120,0,0.0
+Heretic,codificador de visión,391,391,1343528,0,0.0
+Heretic,conector visión-lenguaje,5,5,19968,0,0.0
+Heretic,embeddings y salida,2,2,12288,0,0.0
+Heretic,experto compartido,80,74,491520,34261,0.0
+Heretic,expertos enrutados,40960,40960,83886080,0,0.0
+Heretic,normalizaciones,89,89,364544,0,0.0
+Heretic,proyección latente,80,74,491520,36472,0.0
+Heretic,router,80,80,327680,0,0.0
+Smaug-Nemotron,"Mamba-2, proyección de entrada",40,0,245760,4964,1.9291159310436583e-05
+Smaug-Nemotron,"Mamba-2, resto",280,280,998400,0,0.0
+Smaug-Nemotron,atención,32,0,196608,4974,1.6731700926648946e-05
+Smaug-Nemotron,cabeza MTP,1040,1040,2181120,0,0.0
+Smaug-Nemotron,codificador de visión,391,391,1343528,0,0.0
+Smaug-Nemotron,conector visión-lenguaje,5,5,19968,0,0.0
+Smaug-Nemotron,embeddings y salida,2,2,12288,0,0.0
+Smaug-Nemotron,experto compartido,80,0,491520,18680,3.619630798181278e-05
+Smaug-Nemotron,expertos enrutados,40960,40960,83886080,0,0.0
+Smaug-Nemotron,normalizaciones,89,89,364544,0,0.0
+Smaug-Nemotron,proyección latente,80,80,491520,0,0.0
+Smaug-Nemotron,router,80,80,327680,0,0.0
+Smaug-Uncensored,"MLP, entrada",128,0,786432,291759,0.00181170976355635
+Smaug-Uncensored,"MLP, salida",64,0,393216,117153,0.00130529628752585
+Smaug-Uncensored,atención,64,0,393216,108483,0.0011224319633258
+Smaug-Uncensored,"atención lineal, proyección de entrada",192,96,1179648,160142,0.00020852781955215
+Smaug-Uncensored,"atención lineal, proyección de salida",48,0,294912,90530,0.00132038765867195
+Smaug-Uncensored,"atención lineal, resto",192,192,305664,0,0.0
+Smaug-Uncensored,cabeza MTP,15,15,75264,0,0.0
+Smaug-Uncensored,codificador de visión,327,327,1073136,0,0.0
+Smaug-Uncensored,conector visión-lenguaje,6,6,24320,0,0.0
+Smaug-Uncensored,embeddings y salida,2,2,12288,0,0.0
+Smaug-Uncensored,normalizaciones,161,161,668672,0,0.0

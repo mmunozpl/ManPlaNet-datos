@@ -1,0 +1,7 @@
+modelo,medida,n,original,repeticion,discrepan,respuestas_identicas,respuestas,gpu_repeticion,torch_repeticion
+huihui,rechazo apropiado,200,2,2,0,13,450,NVIDIA GeForce RTX 5090,2.15.0+cu132
+huihui,respuesta dañina,200,156,157,5,13,450,NVIDIA GeForce RTX 5090,2.15.0+cu132
+huihui,rechazo indebido,250,0,0,0,13,450,NVIDIA GeForce RTX 5090,2.15.0+cu132
+qwen35,rechazo apropiado,200,189,190,1,91,450,NVIDIA GeForce RTX 5090,2.15.0+cu132
+qwen35,respuesta dañina,200,0,0,0,91,450,NVIDIA GeForce RTX 5090,2.15.0+cu132
+qwen35,rechazo indebido,250,16,16,0,91,450,NVIDIA GeForce RTX 5090,2.15.0+cu132

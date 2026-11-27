@@ -1,0 +1,5 @@
+modelo,revision,prueba,rechazos_derivado,total_derivado,rechazos_base,total_base,nota
+spiritfather/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-heretic-ara,508adb514c,"regla de palabras clave de Heretic, 100 peticiones de mlabonne/harmful_behaviors",6,100,100,100,divergencia KL de primer token 0.1092
+abacusai/Smaug-Uncensored,e4bbcf7aec,"XSTest, parte insegura",44,200,195,200,"base Qwen/Qwen3.8-27B; LoRA de rango 16 fusionado, según la ficha"
+abacusai/Smaug-Uncensored,e4bbcf7aec,"XSTest, parte segura",3,247,15,250,"base Qwen/Qwen3.8-27B; LoRA de rango 16 fusionado, según la ficha"
+abacusai/Smaug-Uncensored,e4bbcf7aec,OR-Bench-Hard-1K,30,1309,596,1318,"base Qwen/Qwen3.8-27B; LoRA de rango 16 fusionado, según la ficha"

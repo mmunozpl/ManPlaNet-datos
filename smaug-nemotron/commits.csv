@@ -1,0 +1,78 @@
+repo,fecha,commit,titulo
+abacusai/Smaug-Nemotron-3.5,2026-10-20T07:17:32.000Z,3c8ce0116f0f33846d3677392ea9a69aae21519c,"Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note"
+abacusai/Smaug-Nemotron-3.5,2026-10-19T20:49:07.000Z,2b7e0e40ea6d22b7c83408d28b08d4e27d3e72c1,Update README.md
+abacusai/Smaug-Nemotron-3.5,2026-10-19T20:47:46.000Z,204c07c86f59cd74428ef18cf4749abd86626866,Update README.md
+abacusai/Smaug-Nemotron-3.5,2026-10-19T20:44:34.000Z,7306809abc85eb3f44230e9623cdccc697b89706,Update README.md
+abacusai/Smaug-Nemotron-3.5,2026-10-19T16:58:12.000Z,f657ac4e9f0db0aa23dd4822fe4e9bd46249710c,Card: state LiveBench 2.0 rows are official leaderboard entries
+abacusai/Smaug-Nemotron-3.5,2026-10-19T16:48:00.000Z,1310d464aff6c9f2259b03e4132496afe7888cc2,Card: shorten the NVIDIA disclaimer in Section 8
+abacusai/Smaug-Nemotron-3.5,2026-10-19T16:43:11.000Z,d91140a325ea291270264a05108527c517da6f4e,"Add LICENSE (OpenMDW-1.1 text with NVIDIA's copyright notice, as in NVIDIA's Lightning release)"
+abacusai/Smaug-Nemotron-3.5,2026-10-19T16:36:06.000Z,2821f91769e2e31d3982cb6ff7a56246eedabdab,"Card: intro lists every agentic coding gain, biggest first"
+abacusai/Smaug-Nemotron-3.5,2026-10-19T16:28:39.000Z,a7ad382a05f2b7ad7535886f66e4fdf336493cc6,Card: LiveBench 2.0 (Coding) back in the Agentic Coding group
+abacusai/Smaug-Nemotron-3.5,2026-10-19T16:24:07.000Z,dddfe462c6b24d73a5f20eeb68a4139a2e235871,Card: remove tau2-bench results
+abacusai/Smaug-Nemotron-3.5,2026-10-19T09:28:24.000Z,1a067f82414c9199e90bc35b349d71a176a37c0f,Card: drop the timeout sentence from the Terminal-Bench 2.1 note
+abacusai/Smaug-Nemotron-3.5,2026-10-19T09:09:40.000Z,e8457df986ed47bb9ea6fb54e9b423445d8534c5,Card: FP8 KV cache in the vLLM command and deployment note; citation colon
+abacusai/Smaug-Nemotron-3.5,2026-10-19T09:06:22.000Z,107e6105781ffd5774a85fbb68370501899298d7,Card: note that evaluations ran without MTP speculative decoding
+abacusai/Smaug-Nemotron-3.5,2026-10-19T09:02:00.000Z,85c380fc60d6609fb009d85307bbdfecdb953b28,Card: cite the Smaug model line only
+abacusai/Smaug-Nemotron-3.5,2026-10-19T08:36:00.000Z,62f930016af3f505876f244c7a765bc80de0c9e3,Card: GPQA Diamond 90.66 and IFBench 72.00 from official-recipe runs (x8)
+abacusai/Smaug-Nemotron-3.5,2026-10-19T06:25:55.000Z,76f1b773ee83b4ebb197f6624decf86078199471,Card: add V* (Vision); move LiveBench 2.0 (Coding) to the Coding group
+abacusai/Smaug-Nemotron-3.5,2026-10-19T04:47:08.000Z,863fbe1ad6eafe35d636b39cf87a4d8bcaa4864b,"Card: Terminal-Bench 2.1 69.10 (timeouts counted as failures, not re-run)"
+abacusai/Smaug-Nemotron-3.5,2026-10-19T04:42:59.000Z,5659761fcb1b9583e91af55c036240da6e61fbcb,Card: Agentic Coding first in the evaluation table
+abacusai/Smaug-Nemotron-3.5,2026-10-19T04:40:43.000Z,cc8d418fcef7825e6bcd96538c7e0be630608e64,"Card: SWE-bench Multilingual updated to the 6-run mean (68.94, NVIDIA grader as-is)"
+abacusai/Smaug-Nemotron-3.5,2026-10-19T04:38:11.000Z,23c1a58d67adce3a1d870f56293301836109b36e,Card: LiveCodeBench v6 (4 runs) and SciCode (3 runs) updated to latest averages
+abacusai/Smaug-Nemotron-3.5,2026-10-18T13:14:05.000Z,932207d99fc5a1eabc3b29e4fa6a7be2231b0972,"Label the DeepSWE row as DeepSWE [offline], matching the base card"
+abacusai/Smaug-Nemotron-3.5,2026-10-18T12:22:44.000Z,9116c53593d830b767c1c2b26c72d58cc0e7c728,"Add DeepSWE row (NVIDIA NeMo Gym OpenCode harness, single run)"
+abacusai/Smaug-Nemotron-3.5,2026-10-18T09:56:12.000Z,7177de94a2277f86af86cbc254c7af911d93b63a,Card: shorten the Terminal-Bench 2.1 note
+abacusai/Smaug-Nemotron-3.5,2026-10-18T09:47:07.000Z,d45bc066552b8e1b034b5f76ee9d641d8cae1e6b,"Card: add Nemotron 3 Ultra LiveBench 2.0 scores (Agentic 11.2, Coding 43.6)"
+abacusai/Smaug-Nemotron-3.5,2026-10-18T09:45:45.000Z,4904e5f7f069c5f5337f8813234e2007310cf04c,Card: remove the delta column from the evaluation table
+abacusai/Smaug-Nemotron-3.5,2026-10-18T09:42:38.000Z,338eb600edf3fa1cee9a13d662afe28deb3cde54,Card: add Nemotron 3 Ultra column; base Terminal-Bench 2.1 60.67 per NVIDIA's corrected card
+abacusai/Smaug-Nemotron-3.5,2026-10-18T09:35:48.000Z,a2686554980c772c83694e12f5763932cd87858a,Card: shorten the parity sentence in the introduction
+abacusai/Smaug-Nemotron-3.5,2026-10-18T04:19:04.000Z,2a97a816e1210560f1d6a6ec6f0a0e891a962d1c,Add model weights (BF16)
+abacusai/Smaug-Nemotron-3.5,2026-10-18T04:08:07.000Z,ed198879877ba40d960f2d84882d499cf56db7dd,Card: drop the multimodal re-evaluation note
+abacusai/Smaug-Nemotron-3.5,2026-10-18T04:06:11.000Z,e747612eb10700453f92f0fa36c4a1be1000b405,Initial model card: Smaug-Agentic-Nemotron
+abacusai/Smaug-Nemotron-3.5,2026-10-18T04:06:09.000Z,4caeda9d310dee8ea1e4e2e0776813443d351d25,initial commit
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-22T17:24:14.000Z,fb0ee0bc6b3f70342afd8d84cb80dbadbaa8a1fe,Update processor config and video forward (#4)
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-16T23:39:54.000Z,1f8953f7f0935358e3605150d22bc15df062061c,Update SGLang instructions (#2)
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T21:37:18.000Z,97e009758ae21747ee3752d2e43b005fb1e23a61,Update README.md
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T21:30:26.000Z,76a5324cbb4e3767e941260292ef909d2ad36c4e,Update README.md
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T17:04:11.000Z,a1ccf94d69377bf82c4db39798aac28447d9c16f,Update README.md
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T15:19:56.000Z,fc067b34f6b514014d2f8bddba855d2e4bfdfba6,Update README.md
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T14:33:32.000Z,533d66230b6e75518bf32d2d7a7b95a24c3dd517,Update README.md
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T14:30:16.000Z,ec5a70bcf955270fe52bd131419686d5b125cc5d,Update README.md
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T14:24:51.000Z,c4c2aed948cd567c8f034c812f6575d36dba3962,Rename harness_comparisons.png.png to harness_comparisons.png
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T14:23:50.000Z,c2f72abc379f55980a54a71abf920d43c0d6b9d8,Update README.md
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T14:20:55.000Z,9317fe3989c580059e1751931c583826a46d6138,Upload 2 files
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T14:20:35.000Z,8350289dda26a68b7d7f5c8b8ee7f815b5d1bca9,Final MC
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T04:50:35.000Z,d9c560af86547797344a16b894111b196dee5d87,Delete Nemotron_3.5_Super_VL_EU_Training_Content_Summary.pdf
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-15T04:49:30.000Z,3b8bb8a20629d677babb069ef90f6eca592d7c1a,Upload Nemotron_3.5_Super_VL_EU_Training_Content_Summary.pdf
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-13T19:06:48.000Z,4704f509dcf705eef1354bdb754728a12f42b97f,Upload 4 files
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-13T19:06:28.000Z,d68ce79ed337d6a44f0ce78e72bc0c64a8705907,Update README.md
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-13T04:59:08.000Z,629edd244897ed76d48caf6772c00afb58853961,Add files using upload-large-folder tool
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-13T04:59:04.000Z,29dc69da86089034c9e6e89d547af1be8f69b94a,Add files using upload-large-folder tool
+nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16,2026-10-12T15:32:06.000Z,4cc4c241f9aecb8444e592e3563fae90c97919d9,initial commit
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-25T21:57:03.000Z,bfaba74d60559641e9d44f320a63691a2ec3263f,"LiveBench 2.0 release 2026-10-14: Overall re-measured (Browser on the coordinate grid) for all three rows: 58.1 / 52.9 / 56.0, +5.2 overall; last updated 2026-10-25"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-23T23:51:36.000Z,f5b1cbbc0aa7aa83db2d02b6595420234d1e681e,"Card: LiveBench 2.0 Overall, Agentic and Coding (release 2026-10-14) in the table, intro, notes and the improvements figure"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T22:34:09.000Z,48acee5f11bc508f08a29db7fb7f0f60f2f7f84f,Card: training hardware (one 8x B300 node) in the summary table and the training section
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T21:49:29.000Z,ba922669ab688c7c4742a07057817c966b601041,"Card: training figures (served-weights flow, rounding-boundary staircase in the introduction, actions-vs-thinking loss)"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T21:42:44.000Z,1f34db4af8946b9936abc98a8c2b2f8efe1a8b9f,Card: Agentic Coding Improvements figure above the evaluation table
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T18:22:35.000Z,cb18920b7d865290840625bf849e35155c50335a,Card: explicit multiplication dot in the low-rank path
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T18:10:41.000Z,588ec5782a996117853b219e6783ccc093a703d0,Card: state that the FP8 per-tensor scale is kept frozen
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T18:05:55.000Z,6279ef048472411eaf4db57039fd3f28a9291ec1,"Card: simpler loss explanation (one equation, two bullets); all symbols named in the text"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T17:58:04.000Z,9fc9dbbf898c4b5486f1e136cf0eb5dbdc31e4fe,"Card: served-weights step with the straight-through equation; symbols defined consistently (h, theta, s, x, y_t)"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T17:49:25.000Z,bf19ed12a6360fb985e142dc6b446716a95c96f2,Card: fix inline math after a parenthesis so it renders
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T17:46:36.000Z,575e4ea76ac2f98a38c302b9832e722783bbf642,"Card: training section precision (NVFP4 release heading, define pi_theta, R_r is an average, FP8 and NVFP4 activations)"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T17:42:11.000Z,a9bad8d40d9e966be7b61b40ae70f1b254a242a4,Card: inline math in the Hub's \\(...\\) syntax so it renders
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T17:38:43.000Z,9c669c3a538caed2de96ed52ea83e7e0e24f9275,Card: NVFP4 motivation in the introduction; training section explains the loss built for 4-bit weights
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T17:16:10.000Z,c827dc105e38909c8d84fa7520e4b028948f14b8,Card: introduction second paragraph explains the approach
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T17:02:26.000Z,fd83c3f13ec3aa21829cefcba626600d3e5827cf,Card: training approach without the exact size-of-change figure
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T17:01:02.000Z,423682eea4d32c7273827c679163bb527c64e3d8,Card: training approach (merge-aware training) and a line on it in the introduction
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T16:07:46.000Z,81fbd29fb5584ac2c37198a5c5b8ad3002e0bb80,Card: restore Terminal-Bench 2.1 (64.0) and the introduction on top of the DeepSWE/NL2RepoBench update; intro lists all agentic gains
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T16:04:58.000Z,1c84d835e0e1bd9557e59d564957309589496a2b,Add DeepSWE and NL2RepoBench scores
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T16:00:16.000Z,f766a793d9c18f5a641ad6728c763840a1a70a1f,Card: introduction states agentic gains and parity
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T15:55:03.000Z,8be1e9f7640b95b500b5415461ea4ae7a0b0c31c,"Card: add Terminal-Bench 2.1 (64.0, mean of 3 runs at 262k context, unfinished counted as failures)"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T13:48:26.000Z,c338b32900052e22e477411df2fa75387a2bb50a,"Card: add IFBench (Instruction Following, 300 x 8, single run)"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T09:58:01.000Z,06575a856d8c55f4c2e536c467681168553c1230,"Card: add SWE-bench Multilingual (69.0, mean of 2 runs)"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T09:39:09.000Z,9f318b9cc2bf19eba9389aba285360202a742bbf,"Card: add SWE-bench Verified, GPQA Diamond and V*; parity wording in General Capabilities"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T09:20:30.000Z,31fd5cb8b54ccb0396ef7aff98cf842cab9ea082,"Card: add AA-LCR v1.1 (Long Context, mean of 4 runs) and name it in General Capabilities"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T07:57:27.000Z,8990c451f93256a8ce5169d1b935353c20edb351,Card: drop the results sentence from the introduction
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T07:44:08.000Z,050829233bbf57a6628fe6a1017c6c623ec0d57c,"Release Smaug-Nemotron-3.5-NVFP4: model card, LICENSE and NVFP4 weights"
+abacusai/Smaug-Nemotron-3.5-NVFP4,2026-10-22T07:43:42.000Z,697034b44ee321884c3c1462a6720e61e459a304,initial commit

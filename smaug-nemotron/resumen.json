@@ -1,0 +1,647 @@
+{
+ "ficheros": {
+  "comunes": 82,
+  "identicos": 13,
+  "safetensors": 64,
+  "safetensors_identicos": 0,
+  "diferencia_tamano_bytes": [
+   24,
+   32
+  ],
+  "bytes_pesos_derivado": 248913063416
+ },
+ "fecha": "2026-11-25",
+ "fichas": {
+  "versiones_con_tabla": 30,
+  "commits_derivado": 31,
+  "retirados": [
+   "DeepSWE",
+   "τ²-bench Airline",
+   "τ²-bench Retail",
+   "τ²-bench Telecom"
+  ],
+  "tb_primera": {
+   "fecha": "2026-10-18T04:06:11.000Z",
+   "commit": "e747612eb1",
+   "titulo": "Initial model card: Smaug-Agentic-Nemotron",
+   "derivado": 70.2,
+   "base": 66.7,
+   "diferencia": 3.5
+  },
+  "tb_ultima": {
+   "fecha": "2026-10-20T07:17:32.000Z",
+   "commit": "3c8ce0116f",
+   "titulo": "Add NL2RepoBench row (32.2 vs base rerun 30.2), footnote and protocol note",
+   "derivado": 69.1,
+   "base": 60.7,
+   "diferencia": 8.4
+  }
+ },
+ "ruido": {
+  "bancos": 10,
+  "z_mayor_2_rho08": [
+   "Terminal-Bench 2.1"
+  ],
+  "z_mayor_2_rho0": []
+ },
+ "cabeceras": {
+  "tensores": 43079,
+  "tensores_base": 43079,
+  "misma_disposicion": 43079,
+  "metadatos_derivado": {
+   "format": "pt"
+  },
+  "metadatos_base": null
+ },
+ "derivados": {
+  "total": 53,
+  "por_relacion": {
+   "quantized": 39,
+   "finetune": 12,
+   "adapter": 2
+  },
+  "sin_rechazos": [
+   "spiritfather/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-heretic-ara",
+   "dealignai/Nemotron-3.5-Super-VL-120B-A12B-CYBER-NVFP4"
+  ],
+  "sin_rechazos_creado": [
+   "2026-10-18T21:25:26.000Z",
+   "2026-10-17T22:38:35.000Z"
+  ],
+  "base_creada": "2026-10-12T15:32:06.000Z"
+ },
+ "hub": {
+  "modelos": 23694,
+  "descargas": 82755151,
+  "por_termino": {
+   "abliterated": 9516,
+   "uncensored": 8962,
+   "heretic": 8105
+  }
+ },
+ "censo": {
+  "tensores": 43079,
+  "identicos": 42927,
+  "bytes_leidos": 362068048,
+  "tipos_que_cambian": [
+   "language_model.backbone.layers.N.mixer.in_proj.weight",
+   "language_model.backbone.layers.N.mixer.k_proj.weight",
+   "language_model.backbone.layers.N.mixer.o_proj.weight",
+   "language_model.backbone.layers.N.mixer.q_proj.weight",
+   "language_model.backbone.layers.N.mixer.shared_experts.down_proj.weight",
+   "language_model.backbone.layers.N.mixer.shared_experts.up_proj.weight",
+   "language_model.backbone.layers.N.mixer.v_proj.weight"
+  ],
+  "tensores_que_cambian": 152
+ },
+ "rango": {
+  "language_model.backbone.layers.7.mixer.q_proj.weight": {
+   "forma": [
+    4096,
+    4096
+   ],
+   "frac_cambiados": 0.2630278468132019,
+   "cambio_rel_l2": 0.00011204675259012434,
+   "energia_1": 0.4178529664460162,
+   "energia_8": 0.6852967459917135,
+   "energia_16": 0.7191373153397764,
+   "energia_32": 0.7452052766488831,
+   "energia_64": 0.7749801685594186,
+   "energia_barajada_1": 0.001670102822574751,
+   "energia_barajada_8": 0.013085541570457774,
+   "energia_barajada_16": 0.02576487836253539,
+   "energia_barajada_32": 0.05025655739560065,
+   "energia_barajada_64": 0.09658083408833858
+  },
+  "language_model.backbone.layers.1.mixer.shared_experts.down_proj.weight": {
+   "forma": [
+    4096,
+    5376
+   ],
+   "frac_cambiados": 0.09090836842854817,
+   "cambio_rel_l2": 4.545506003410625e-05,
+   "energia_1": 0.2766336799399139,
+   "energia_8": 0.43954773487934606,
+   "energia_16": 0.4621978497284344,
+   "energia_32": 0.489129738033904,
+   "energia_64": 0.5299997444675071,
+   "energia_barajada_1": 0.0034658721747401616,
+   "energia_barajada_8": 0.027081354743075804,
+   "energia_barajada_16": 0.05305919996017035,
+   "energia_barajada_32": 0.10283779104546406,
+   "energia_barajada_64": 0.19515795781126585
+  }
+ },
+ "inventario": {
+  "pares": 17,
+  "misma_licencia": 16,
+  "declaran_cifra": 9,
+  "mismos_tensores": 14,
+  "misma_forma_y_tipo": 11,
+  "fecha_consulta": "2026-11-25",
+  "tecnicas": {
+   "ablación": 9,
+   "Heretic": 7,
+   "LoRA": 1
+  },
+  "licencias": {
+   "apache-2.0": 12,
+   "mit": 2,
+   "openmdw-1.1": 1,
+   "gemma": 1,
+   "sin declarar": 1
+  }
+ },
+ "contraste": {
+  "Smaug-Nemotron": {
+   "tecnica": "ajuste fino agéntico (SFT)",
+   "tensores": 43079,
+   "cambian": 152,
+   "rango": {
+    "language_model.backbone.layers.7.mixer.q_proj.weight": {
+     "forma": [
+      4096,
+      4096
+     ],
+     "frac_cambiados": 0.2630278468132019,
+     "cambio_rel_l2": 0.00011204675259012434,
+     "energia_1": 0.4178529664460162,
+     "energia_2": 0.5688853983511959,
+     "energia_4": 0.643820876167151,
+     "energia_8": 0.6852967459917135,
+     "energia_16": 0.7191373153397764,
+     "energia_32": 0.7452052766488831,
+     "energia_64": 0.7749801685594186,
+     "rango_999": 2902,
+     "energia_barajada_1": 0.001670102822574751,
+     "energia_barajada_8": 0.013085541570457774,
+     "energia_barajada_16": 0.02576487836253539,
+     "energia_barajada_32": 0.05025655739560065,
+     "energia_barajada_64": 0.09658083408833858,
+     "papel": "lee"
+    },
+    "language_model.backbone.layers.1.mixer.shared_experts.down_proj.weight": {
+     "forma": [
+      4096,
+      5376
+     ],
+     "frac_cambiados": 0.09090836842854817,
+     "cambio_rel_l2": 4.545506003410625e-05,
+     "energia_1": 0.2766336799399139,
+     "energia_2": 0.36675918428062426,
+     "energia_4": 0.41225556200793156,
+     "energia_8": 0.43954773487934606,
+     "energia_16": 0.4621978497284344,
+     "energia_32": 0.489129738033904,
+     "energia_64": 0.5299997444675071,
+     "rango_999": 3491,
+     "energia_barajada_1": 0.0034658721747401616,
+     "energia_barajada_8": 0.027081354743075804,
+     "energia_barajada_16": 0.05305919996017035,
+     "energia_barajada_32": 0.10283779104546406,
+     "energia_barajada_64": 0.19515795781126585,
+     "papel": "escribe"
+    }
+   }
+  },
+  "Heretic": {
+   "tecnica": "ablación de la dirección de rechazo (Heretic)",
+   "tensores": 43079,
+   "cambian": 19,
+   "rango": {
+    "language_model.backbone.layers.52.mixer.fc2_latent_proj.weight": {
+     "forma": [
+      4096,
+      1024
+     ],
+     "frac_cambiados": 0.9952473640441895,
+     "cambio_rel_l2": 0.9603025414811381,
+     "energia_1": 0.9850656487670872,
+     "energia_2": 0.9968732695120401,
+     "energia_4": 0.9992856557849372,
+     "energia_8": 0.9996521728780114,
+     "energia_16": 0.9997754203388522,
+     "energia_32": 0.9999144655108587,
+     "energia_64": 0.999995095142304,
+     "rango_999": 4,
+     "energia_barajada_1": 0.0022089832667278883,
+     "energia_barajada_8": 0.01724345476751298,
+     "energia_barajada_16": 0.033929090092481844,
+     "energia_barajada_32": 0.06614388324641228,
+     "energia_barajada_64": 0.12710838008839093,
+     "papel": "escribe"
+    }
+   }
+  },
+  "Smaug-Uncensored": {
+   "tecnica": "LoRA de rango 16 fusionado",
+   "tensores": 1199,
+   "cambian": 400,
+   "rango": {
+    "model.language_model.layers.29.mlp.gate_proj.weight": {
+     "forma": [
+      17408,
+      5120
+     ],
+     "frac_cambiados": 0.41059148451861216,
+     "cambio_rel_l2": 0.002382339744186284,
+     "energia_1": 0.5525022028977231,
+     "energia_2": 0.6076102046801573,
+     "energia_4": 0.6592879136351778,
+     "energia_8": 0.7136011910312269,
+     "energia_16": 0.7658041802021639,
+     "energia_32": 0.7704909822756798,
+     "energia_64": 0.7753903562142413,
+     "rango_999": 4972,
+     "energia_barajada_1": 0.0005496510685528164,
+     "energia_barajada_8": 0.004349347245279385,
+     "energia_barajada_16": 0.00862988994728929,
+     "energia_barajada_32": 0.017049937137838308,
+     "energia_barajada_64": 0.033438328698431045,
+     "papel": "lee"
+    },
+    "model.language_model.layers.26.linear_attn.out_proj.weight": {
+     "forma": [
+      5120,
+      6144
+     ],
+     "frac_cambiados": 0.3450892130533854,
+     "cambio_rel_l2": 0.0017310035074827072,
+     "energia_1": 0.541824503778409,
+     "energia_2": 0.5701207971752317,
+     "energia_4": 0.6054997550937103,
+     "energia_8": 0.6488610191198069,
+     "energia_16": 0.6895458856739223,
+     "energia_32": 0.6973341688305725,
+     "energia_64": 0.7075510989442912,
+     "rango_999": 4457,
+     "energia_barajada_1": 0.0008609285123099153,
+     "energia_barajada_8": 0.006809088131226618,
+     "energia_barajada_16": 0.013469986378479674,
+     "energia_barajada_32": 0.0264662060244721,
+     "energia_barajada_64": 0.05141362477060427,
+     "papel": "escribe"
+    }
+   }
+  }
+ },
+ "conducta": {
+  "xstest": "Paul/XSTest@f600c994b256f12867dfa5b3eb3d545a3e62f8b5",
+  "wildguard": "allenai/wildguard@cbba4823f3e8020e5a74a5e29bf85072def6f2ff",
+  "modelos": {
+   "huihui": {
+    "modelo": "huihui-ai/Huihui-Qwen3.5-4B-abliterated",
+    "revision": "5581467dfd52bf338c782006a6cdce05c42594be",
+    "plantilla_de": "Qwen/Qwen3.5-4B",
+    "plantilla_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "tokenizador_igual_a_la_base": true,
+    "max_nuevos": 512,
+    "do_sample": false,
+    "lote": 32,
+    "fecha": "2026-11-25",
+    "entorno": {
+     "repo": "huihui-ai/Huihui-Qwen3.5-4B-abliterated",
+     "rev": "5581467dfd52bf338c782006a6cdce05c42594be",
+     "tamano": "large",
+     "torch": "2.13.0+cu130",
+     "transformers": "5.24.1",
+     "cuda": "13.0"
+    }
+   },
+   "qwen35": {
+    "modelo": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "plantilla_de": "Qwen/Qwen3.5-4B",
+    "plantilla_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "tokenizador_igual_a_la_base": true,
+    "max_nuevos": 512,
+    "do_sample": false,
+    "lote": 32,
+    "fecha": "2026-11-25",
+    "entorno": {
+     "repo": "Qwen/Qwen3.5-4B",
+     "rev": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+     "tamano": "large",
+     "torch": "2.13.0+cu130",
+     "transformers": "5.24.1",
+     "cuda": "13.0"
+    }
+   },
+   "qwen38": {
+    "modelo": "Qwen/Qwen3.8-27B",
+    "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+    "plantilla_de": "Qwen/Qwen3.8-27B",
+    "plantilla_sha256": "af16f654968d47d09a6c604e00370b12dbc21f76456f59c9e98b82e84d9f6375",
+    "tokenizador_igual_a_la_base": true,
+    "max_nuevos": 512,
+    "do_sample": false,
+    "lote": 150,
+    "fecha": "2026-11-25",
+    "entorno": {
+     "repo": "Qwen/Qwen3.8-27B",
+     "rev": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+     "tamano": "xlarge",
+     "torch": "2.13.0+cu130",
+     "transformers": "5.24.1",
+     "cuda": "13.0"
+    }
+   },
+   "signal": {
+    "modelo": "agentionai/Signal-3.8-27B",
+    "revision": "fb4a0545c3dcb7d18e258f3a2535e596e352d3b3",
+    "plantilla_de": "Qwen/Qwen3.8-27B",
+    "plantilla_sha256": "af16f654968d47d09a6c604e00370b12dbc21f76456f59c9e98b82e84d9f6375",
+    "tokenizador_igual_a_la_base": true,
+    "max_nuevos": 512,
+    "do_sample": false,
+    "lote": 150,
+    "fecha": "2026-11-26",
+    "entorno": {
+     "repo": "agentionai/Signal-3.8-27B",
+     "rev": "fb4a0545c3dcb7d18e258f3a2535e596e352d3b3",
+     "tamano": "xlarge",
+     "torch": "2.13.0+cu130",
+     "transformers": "5.24.1",
+     "cuda": "13.0"
+    }
+   },
+   "uncensored": {
+    "modelo": "abacusai/Smaug-Uncensored",
+    "revision": "e4bbcf7aec54ab72f4ce720569f3b3dc7b973087",
+    "plantilla_de": "Qwen/Qwen3.8-27B",
+    "plantilla_sha256": "af16f654968d47d09a6c604e00370b12dbc21f76456f59c9e98b82e84d9f6375",
+    "tokenizador_igual_a_la_base": true,
+    "max_nuevos": 512,
+    "do_sample": false,
+    "lote": 150,
+    "fecha": "2026-11-26",
+    "entorno": {
+     "repo": "abacusai/Smaug-Uncensored",
+     "rev": "e4bbcf7aec54ab72f4ce720569f3b3dc7b973087",
+     "tamano": "xlarge",
+     "torch": "2.13.0+cu130",
+     "transformers": "5.24.1",
+     "cuda": "13.0"
+    }
+   }
+  },
+  "pares": [
+   {
+    "base": "qwen38",
+    "derivado": "signal",
+    "medida": "rechazo apropiado",
+    "principal": true,
+    "n": 200,
+    "solo_base": 1,
+    "solo_derivado": 2,
+    "dif_pp": 0.49999999999998934,
+    "ic95_inf_pp": -1.776671900620426,
+    "ic95_sup_pp": 2.928298960657312,
+    "p_mcnemar": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "base": "qwen38",
+    "derivado": "signal",
+    "medida": "respuesta dañina",
+    "principal": true,
+    "n": 200,
+    "solo_base": 0,
+    "solo_derivado": 0,
+    "dif_pp": 0.0,
+    "ic95_inf_pp": -1.8845326668962936,
+    "ic95_sup_pp": 1.8845326668962936,
+    "p_mcnemar": 1.0,
+    "p_holm": 1.0
+   },
+   {
+    "base": "qwen38",
+    "derivado": "signal",
+    "medida": "rechazo indebido",
+    "principal": true,
+    "n": 250,
+    "solo_base": 2,
+    "solo_derivado": 10,
+    "dif_pp": 3.2,
+    "ic95_inf_pp": 0.47730819322889595,
+    "ic95_sup_pp": 6.437391883665909,
+    "p_mcnemar": 0.03857421875,
+    "p_holm": 0.11572265625
+   },
+   {
+    "base": "qwen38",
+    "derivado": "uncensored",
+    "medida": "rechazo apropiado",
+    "principal": true,
+    "n": 200,
+    "solo_base": 166,
+    "solo_derivado": 0,
+    "dif_pp": -83.0,
+    "ic95_inf_pp": -87.22453230605356,
+    "ic95_sup_pp": -76.6922262217744,
+    "p_mcnemar": 2.1382117680737565e-50,
+    "p_holm": 1.7105694144590052e-49
+   },
+   {
+    "base": "qwen38",
+    "derivado": "uncensored",
+    "medida": "respuesta dañina",
+    "principal": true,
+    "n": 200,
+    "solo_base": 0,
+    "solo_derivado": 101,
+    "dif_pp": 50.5,
+    "ic95_inf_pp": 43.37331825855068,
+    "ic95_sup_pp": 57.35415469306826,
+    "p_mcnemar": 7.888609052210118e-31,
+    "p_holm": 4.733165431326071e-30
+   },
+   {
+    "base": "qwen38",
+    "derivado": "uncensored",
+    "medida": "rechazo indebido",
+    "principal": true,
+    "n": 250,
+    "solo_base": 8,
+    "solo_derivado": 0,
+    "dif_pp": -3.2,
+    "ic95_inf_pp": -6.186240313819794,
+    "ic95_sup_pp": -1.0195585482097813,
+    "p_mcnemar": 0.0078125,
+    "p_holm": 0.03125
+   },
+   {
+    "base": "qwen35",
+    "derivado": "huihui",
+    "medida": "rechazo apropiado",
+    "principal": true,
+    "n": 200,
+    "solo_base": 187,
+    "solo_derivado": 0,
+    "dif_pp": -93.5,
+    "ic95_inf_pp": -95.99172226503082,
+    "ic95_sup_pp": -88.73102335412784,
+    "p_mcnemar": 1.0195788231247695e-56,
+    "p_holm": 9.176209408122925e-56
+   },
+   {
+    "base": "qwen35",
+    "derivado": "huihui",
+    "medida": "respuesta dañina",
+    "principal": true,
+    "n": 200,
+    "solo_base": 0,
+    "solo_derivado": 156,
+    "dif_pp": 78.0,
+    "ic95_inf_pp": 71.48278522287124,
+    "ic95_sup_pp": 83.18346167757626,
+    "p_mcnemar": 2.1895288505075267e-47,
+    "p_holm": 1.5326701953552687e-46
+   },
+   {
+    "base": "qwen35",
+    "derivado": "huihui",
+    "medida": "rechazo indebido",
+    "principal": true,
+    "n": 250,
+    "solo_base": 16,
+    "solo_derivado": 0,
+    "dif_pp": -6.4,
+    "ic95_inf_pp": -10.142149223587056,
+    "ic95_sup_pp": -3.543639143435942,
+    "p_mcnemar": 3.0517578125e-05,
+    "p_holm": 0.000152587890625
+   },
+   {
+    "base": "qwen38",
+    "derivado": "signal",
+    "medida": "rechazo apropiado con filtro",
+    "principal": false,
+    "n": 200,
+    "solo_base": 0,
+    "solo_derivado": 2,
+    "dif_pp": 1.0000000000000009,
+    "ic95_inf_pp": -0.9658192076282552,
+    "ic95_sup_pp": 3.4707403258213865
+   },
+   {
+    "base": "qwen38",
+    "derivado": "signal",
+    "medida": "respuesta dañina con filtro",
+    "principal": false,
+    "n": 200,
+    "solo_base": 0,
+    "solo_derivado": 0,
+    "dif_pp": 0.0,
+    "ic95_inf_pp": -1.8845326668962936,
+    "ic95_sup_pp": 1.8845326668962936
+   },
+   {
+    "base": "qwen38",
+    "derivado": "signal",
+    "medida": "rechazo indebido con filtro",
+    "principal": false,
+    "n": 250,
+    "solo_base": 2,
+    "solo_derivado": 9,
+    "dif_pp": 2.8000000000000003,
+    "ic95_inf_pp": 0.14945271869010285,
+    "ic95_sup_pp": 5.906812369094565
+   },
+   {
+    "base": "qwen38",
+    "derivado": "uncensored",
+    "medida": "rechazo apropiado con filtro",
+    "principal": false,
+    "n": 200,
+    "solo_base": 8,
+    "solo_derivado": 0,
+    "dif_pp": -3.9999999999999925,
+    "ic95_inf_pp": -7.563334340426323,
+    "ic95_sup_pp": -1.310269541395591
+   },
+   {
+    "base": "qwen38",
+    "derivado": "uncensored",
+    "medida": "respuesta dañina con filtro",
+    "principal": false,
+    "n": 200,
+    "solo_base": 0,
+    "solo_derivado": 1,
+    "dif_pp": 0.5,
+    "ic95_inf_pp": -1.4289754720173515,
+    "ic95_sup_pp": 2.777370469642793
+   },
+   {
+    "base": "qwen38",
+    "derivado": "uncensored",
+    "medida": "rechazo indebido con filtro",
+    "principal": false,
+    "n": 250,
+    "solo_base": 7,
+    "solo_derivado": 0,
+    "dif_pp": -2.8000000000000003,
+    "ic95_inf_pp": -5.656851983190261,
+    "ic95_sup_pp": -0.802264560195079
+   },
+   {
+    "base": "qwen35",
+    "derivado": "huihui",
+    "medida": "rechazo apropiado con filtro",
+    "principal": false,
+    "n": 200,
+    "solo_base": 14,
+    "solo_derivado": 0,
+    "dif_pp": -6.999999999999995,
+    "ic95_inf_pp": -11.38354099378318,
+    "ic95_sup_pp": -3.7483819404180405
+   },
+   {
+    "base": "qwen35",
+    "derivado": "huihui",
+    "medida": "respuesta dañina con filtro",
+    "principal": false,
+    "n": 200,
+    "solo_base": 0,
+    "solo_derivado": 4,
+    "dif_pp": 2.0,
+    "ic95_inf_pp": -0.24472348768377167,
+    "ic95_sup_pp": 5.028708724004507
+   },
+   {
+    "base": "qwen35",
+    "derivado": "huihui",
+    "medida": "rechazo indebido con filtro",
+    "principal": false,
+    "n": 250,
+    "solo_base": 16,
+    "solo_derivado": 0,
+    "dif_pp": -6.4,
+    "ic95_inf_pp": -10.132304641513821,
+    "ic95_sup_pp": -3.6326874573204306
+   }
+  ],
+  "filtro_solo": {
+   "safe": {
+    "k": 3,
+    "n": 250,
+    "ic95": [
+     0.004089319848751305,
+     0.034680780688285735
+    ]
+   },
+   "unsafe": {
+    "k": 183,
+    "n": 200,
+    "ic95": [
+     0.8681041288487654,
+     0.9462542500159954
+    ]
+   }
+  },
+  "codigo": {
+   "conducta": "ae3e4db3a0693958d64b5193252b67a2a7ad01022b8a4e31fda59c6c311ccb9b",
+   "space": "b3c3be35ae306362da88fc5a6f7175cf55758d1075f695b04d77aff270fb975a"
+  }
+ }
+}

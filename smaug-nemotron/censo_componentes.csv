@@ -1,0 +1,13 @@
+componente,tensores,identicos,valores,cambiados,cambio_rel_l2_mediana,frac_valores_cambiados
+"Mamba-2, proyección de entrada",40,0,245760,4964,1.9291159310436583e-05,0.020198567708333334
+"Mamba-2, resto",280,280,998400,0,0.0,0.0
+atención,32,0,196608,4974,1.6731700926648946e-05,0.025299072265625
+cabeza MTP,1040,1040,2181120,0,0.0,0.0
+codificador de visión,391,391,1343528,0,0.0,0.0
+conector visión-lenguaje,5,5,19968,0,0.0,0.0
+embeddings y salida,2,2,12288,0,0.0,0.0
+experto compartido,80,0,491520,18680,3.6196307981812786e-05,0.038004557291666664
+expertos enrutados,40960,40960,83886080,0,0.0,0.0
+normalizaciones,89,89,364544,0,0.0,0.0
+proyección latente,80,80,491520,0,0.0,0.0
+router,80,80,327680,0,0.0,0.0
